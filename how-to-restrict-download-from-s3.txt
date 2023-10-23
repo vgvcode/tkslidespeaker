@@ -1,0 +1,22 @@
+Store the output in s3 bucket b / folder f
+Set bucket policy to allow access to a specific role r
+In the config file create profile p to assume role r
+    # In ~/.aws/credentials:
+    [development]
+    aws_access_key_id=foo
+    aws_access_key_id=bar
+
+    # In ~/.aws/config
+    [profile p]
+    role_arn=arn:aws:iam:...r
+    source_profile=development
+
+In python
+    set the session to the specific profile
+    import boto3
+
+    session = boto3.Session(profile_name='p')
+    #set a time limit for the session
+    dev_s3_client = session.client('s3')
+
+    write a function to download files recursively from s3 to local folder
