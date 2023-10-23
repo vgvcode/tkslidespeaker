@@ -9,6 +9,8 @@ import config as cfg
 import readData as rd
 import ui as ui
 from tkinter.ttk import Combobox
+from tkinter import Checkbutton
+from tkinter import IntVar
 
 cfg.baseFolder = os.path.join('C:\\', 'Users', 'vgvnv', 'Documents', "tkinter-apps", cfg.baseFolderTail)
 
@@ -78,6 +80,13 @@ fillerLabel.pack(side = LEFT, fill=BOTH, expand=True)
 
 gotoPageFrame = Frame(cfg.rootWin)
 gotoPageFrame.grid(row = 5, column = 0)
+
+#Auto Advance checkbox
+cfg.autoAdvance = IntVar()
+autoAdvanceCheckBox = Checkbutton(gotoPageFrame, variable = cfg.autoAdvance, text="Auto advance", onvalue=1, offvalue=0, command=ui.toggleAutoAdvance)
+autoAdvanceCheckBox.pack(side = LEFT, fill=BOTH, expand=True)
+
+# Label creation
 goToPageLabel = Label(gotoPageFrame, text = "Go to page:")
 goToPageLabel.pack(side = LEFT, fill=BOTH, expand=True)
 

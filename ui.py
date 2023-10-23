@@ -3,7 +3,6 @@ from tkinter.font import Font
 import os
 from PIL import ImageTk, Image
 import json
-from playsound import playsound
 from threading import Timer
 import config as cfg
 import readData as rd
@@ -11,9 +10,9 @@ import readData as rd
 def readImage(path):
     return PhotoImage(file=path)
 
-def playCallback():
-    cfg.txtWidget.config(state=DISABLED)
-    rd.readPresentation()
+# def playCallback():
+#     cfg.txtWidget.config(state=DISABLED)
+#     rd.readPresentation()
 
 def show():
     #print("Opening {}".format(cfg.presentation["pages"][cfg.pageNum]["pic0.PNG"]))
@@ -30,7 +29,7 @@ def show():
     #set the highlight timers
     highlightTimers = setTimersForSentenceHighlighting()
     #start the sound timer
-    soundTimer = Timer(0.1, rd.readSound, [sound])
+    soundTimer = Timer(0, rd.readSound, [sound])
     soundTimer.start()
     #start the highlight timers
     for timer in highlightTimers:
@@ -110,6 +109,7 @@ def setTimersForSentenceHighlighting():
     speechmarks.pop()
     timers = []
     ix = 0
+    lastix = len(speechmarks)-1
     pSpeechmark = {}
     for speechmarkStr in speechmarks:
         speechmark = json.loads(speechmarkStr)
@@ -122,7 +122,7 @@ def setTimersForSentenceHighlighting():
             pStartTime = (speechmark["time"] - offset) / 1000  #convert msec to sec - note this is offset 500 ms before the time of current speechmark
             pValue = pSpeechmark["value"]
             pTag = "sentence-" + str(ix-1) + "-off"
-            pt = Timer(pStartTime, unHighlightText, [cfg.txtNotes, pTag, pStart, pEnd, pValue])
+            pt = Timer(pStartTime, unHighlightText, [cfg.txtNotes, pTag, pStart, pEnd, pValue, False])
             timers.append(pt)
 
         start = speechmark["start"]-1  #offset starts at 0
@@ -130,13 +130,19 @@ def setTimersForSentenceHighlighting():
         value = speechmark["value"]
         startTime = speechmark["time"] / 1000  #convert msec to sec
         tag = "sentence-" + str(ix) + "-on"
-        t = Timer(startTime, highlightText, [cfg.txtNotes, tag, start, end, value])
+
+        #on the last ix, set the flag to True
+        if ix == lastix:
+            t = Timer(startTime, highlightText, [cfg.txtNotes, tag, start, end, value, True])
+        else:
+            t = Timer(startTime, highlightText, [cfg.txtNotes, tag, start, end, value, False])
+
         timers.append(t)
         pSpeechmark = speechmark
         ix = ix + 1
     return timers
 
-def highlightText(textWidget, tag, start, end, value):
+def highlightText(textWidget, tag, start, end, value, isLastSentence):
     hStart = "1." + str(start)
     hEnd = "1." + str(end)
 
@@ -144,7 +150,11 @@ def highlightText(textWidget, tag, start, end, value):
     textWidget.tag_add(tag, hStart, hEnd)
     textWidget.tag_configure(tag, background=cfg.textHightlightColor, foreground="black")
 
-def unHighlightText(textWidget, tag, start, end, value):
+    if isLastSentence:
+        #print("At last sentence")
+        pass
+
+def unHighlightText(textWidget, tag, start, end, value, isLastSentence):
     hStart = "1." + str(start)
     hEnd = "1." + str(end)
 
@@ -164,3 +174,7 @@ def goToPage(event):
     cfg.pageNum = int(event.widget.get())
     #print("Selected page: {}".format(cfg.pageNum))
     show()
+
+def toggleAutoAdvance():
+    #print("Auto advance toggled: {}".format(cfg.autoAdvance.get()))
+    pass

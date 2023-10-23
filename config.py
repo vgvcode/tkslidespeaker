@@ -15,6 +15,7 @@ outerButtonBgColor = "#004d00"
 innerButtonBgColor = "green"
 errorButtonBgColor = "darkred"
 textHightlightColor = "OliveDrab1"
+autoAdvanceDelay = 3    #3 second delay before advancing to next page
 
 baseFolder = None
 rootFolder = None
@@ -25,4 +26,5 @@ presentation = {"pages" : []}
 can = None
 can_image_container = None
 txtNotes = None
+autoAdvance = 0
 goToPageCombo = None

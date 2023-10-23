@@ -4,6 +4,7 @@ from playsound import playsound
 import config as cfg
 import ui as ui
 import s3 as s3util
+from threading import Timer
 
 def readFile(path):
     f = open(path, "r")
@@ -12,7 +13,15 @@ def readFile(path):
     return txt
 
 def readSound(path):
+    #prevent goto page selection
+    cfg.goToPageCombo.config(state = "disabled")
     playsound(path)
+    #print("Finished playing sound")
+    cfg.goToPageCombo.config(state = "readonly")
+    if cfg.autoAdvance.get() == 1:
+        #print("Auto advance is on")
+        timerShowNext = Timer(cfg.autoAdvanceDelay, ui.showNext)
+        timerShowNext.start()
 
 def getText(preso, pg):
     if "presentation.txt" in preso["pages"][pg]:
