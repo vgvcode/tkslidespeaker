@@ -15,7 +15,9 @@ def readFile(path):
 def readSound(path):
     #prevent goto page selection
     cfg.goToPageCombo.config(state = "disabled")
+    cfg.isPlaying = True
     playsound(path)
+    cfg.isPlaying = False
     #print("Finished playing sound")
     cfg.goToPageCombo.config(state = "readonly")
     if cfg.autoAdvance.get() == 1:

@@ -52,18 +52,22 @@ canvasFrame.grid(row = 2, column = 0)
 
 cfg.can = Canvas(canvasFrame, width=cfg.canvasWidth, height=cfg.canvasHeight) 
 cfg.can.pack(padx = cfg.canvasPadX) 
-
 cfg.can_image_container = cfg.can.create_image(0,0, anchor="nw",image=None)
-#print("Rendered 1st image")
+
+pageNumFrame = Frame(cfg.rootWin)
+pageNumFrame.grid(row = 3, column = 0)
+cfg.lblPageNum = Label(pageNumFrame, text = "", font=Font(size=cfg.pageNumFontSize))
+cfg.lblPageNum.pack(side = LEFT, fill=BOTH, expand=True)
 
 buttonsFrame = Frame(cfg.rootWin) 
 #buttonsFrame.pack( side = BOTTOM ) 
-buttonsFrame.grid(row = 3, column = 0)
+buttonsFrame.grid(row = 4, column = 0)
 
 fontObj = Font(size=cfg.notesFontSize)
 cfg.txtNotes = Text(buttonsFrame, height=cfg.notesHeight, width=cfg.notesWidth, wrap='word', padx = cfg.notesPadX, font=fontObj)
 cfg.txtNotes.config(state=DISABLED)
 cfg.txtNotes.pack( side = TOP)
+
 firstButton = Button(buttonsFrame, text ='First', fg ='white', bg = cfg.outerButtonBgColor, command=lambda:ui.showFirst()) 
 firstButton.pack( side = LEFT, fill = BOTH, expand = True) 
 previousButton = Button(buttonsFrame, text = 'Previous', fg ='white', bg = cfg.innerButtonBgColor, command=lambda:ui.showPrevious()) 
@@ -74,12 +78,12 @@ lastButton = Button(buttonsFrame, text ='Last', fg ='white', bg = cfg.outerButto
 lastButton.pack( side = LEFT, fill = BOTH, expand = True)
 
 fillerFrame = Frame(cfg.rootWin)
-fillerFrame.grid(row = 4, column = 0)
+fillerFrame.grid(row = 5, column = 0)
 fillerLabel = Label(fillerFrame, text = " ", font=Font(size=cfg.fillerFontSize))
 fillerLabel.pack(side = LEFT, fill=BOTH, expand=True)
 
 gotoPageFrame = Frame(cfg.rootWin)
-gotoPageFrame.grid(row = 5, column = 0)
+gotoPageFrame.grid(row = 6, column = 0)
 
 #Auto Advance checkbox
 cfg.autoAdvance = IntVar()
@@ -99,8 +103,10 @@ cfg.goToPageCombo.current()
 cfg.goToPageCombo.bind("<<ComboboxSelected>>", ui.goToPage)
 
 copyrightFrame = Frame(cfg.rootWin)
-copyrightFrame.grid(row = 6, column = 0)
+copyrightFrame.grid(row = 7, column = 0)
 copyrightLab = Label(copyrightFrame, text = cfg.copyrightText, fg=cfg.copyrightFgColor, pady = cfg.copyrightPadY)
 copyrightLab.pack( side = TOP, fill = BOTH, expand = True)
+
+cfg.rootWin.protocol("WM_DELETE_WINDOW", ui.onClosing)
 
 cfg.rootWin.mainloop() 

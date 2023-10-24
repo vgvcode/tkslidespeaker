@@ -10,16 +10,14 @@ import readData as rd
 def readImage(path):
     return PhotoImage(file=path)
 
-# def playCallback():
-#     cfg.txtWidget.config(state=DISABLED)
-#     rd.readPresentation()
-
 def show():
     #print("Opening {}".format(cfg.presentation["pages"][cfg.pageNum]["pic0.PNG"]))
+    lg = len(cfg.presentation["pages"])-1 #example: a 5 page book will have pages 0,1,2,3,4,5. So len = 6. 0th page is not counted
     img2 = cfg.presentation["pages"][cfg.pageNum]["pic0.PNG"]
     cfg.can.itemconfig(cfg.can_image_container, image=img2)
     #print("Rendered image") 
     text2 = rd.getText(cfg.presentation, cfg.pageNum)
+    cfg.lblPageNum.config(text="Page {} of {}".format(cfg.pageNum, lg))
     cfg.txtNotes.config(state=NORMAL)
     cfg.txtNotes.delete("1.0", END)
     cfg.txtNotes.insert(END, text2.replace("\n", " "))
@@ -36,26 +34,30 @@ def show():
         timer.start()
 
 def showNext():
-    #print("ShowNext: PageNum: {}, Presentation Length:{}".format(cfg.pageNum, len(cfg.presentation["pages"])))
-    if cfg.pageNum < len(cfg.presentation["pages"])-1:
-        cfg.pageNum = cfg.pageNum + 1
-        show()
+    if not cfg.isPlaying:
+        #print("ShowNext: PageNum: {}, Presentation Length:{}".format(cfg.pageNum, len(cfg.presentation["pages"])))
+        if cfg.pageNum < len(cfg.presentation["pages"])-1:
+            cfg.pageNum = cfg.pageNum + 1
+            show()
 
 def showPrevious():
-    #print("ShowPrevious: PageNum: {}, Presentation Length:{}".format(cfg.pageNum, len(cfg.presentation["pages"])))
-    if cfg.pageNum > 1:
-        cfg.pageNum = cfg.pageNum - 1
-        show()
+    if not cfg.isPlaying:
+        #print("ShowPrevious: PageNum: {}, Presentation Length:{}".format(cfg.pageNum, len(cfg.presentation["pages"])))
+        if cfg.pageNum > 1:
+            cfg.pageNum = cfg.pageNum - 1
+            show()
         
 def showFirst():
-    cfg.pageNum = 1
-    #print("ShowFirst: PageNum: {}, Presentation Length:{}".format(cfg.pageNum, len(cfg.presentation["pages"])))
-    show()
+    if not cfg.isPlaying:
+        cfg.pageNum = 1
+        #print("ShowFirst: PageNum: {}, Presentation Length:{}".format(cfg.pageNum, len(cfg.presentation["pages"])))
+        show()
 
 def showLast():
-    cfg.pageNum = len(cfg.presentation["pages"]) - 1
-    #print("ShowLast: PageNum: {}, Presentation Length:{}".format(cfg.pageNum, len(cfg.presentation["pages"])))
-    show()
+    if not cfg.isPlaying:
+        cfg.pageNum = len(cfg.presentation["pages"]) - 1
+        #print("ShowLast: PageNum: {}, Presentation Length:{}".format(cfg.pageNum, len(cfg.presentation["pages"])))
+        show()
 
 def choiceYesNo(pop, option, path, yesCallback, noCallback):
    pop.destroy()
@@ -84,10 +86,11 @@ def modalWithYesNo(win, path, message, yesCallback, noCallback):
 def modalWithOk(win, message, okCallback):
    pop = Toplevel(win)
    pop.title("Confirmation")
-   pop.geometry("300x150")
+   geom = str(cfg.modalWidth) + "x" + str(cfg.modalHeight)
+   pop.geometry(geom)
    pop.config(bg="white")
    # Create a Label Text
-   label = Label(pop, text=message, font=('Aerial', 12), bg="white")
+   label = Label(pop, text=message, font=('Aerial', cfg.modalFontSize), bg="white")
    label.pack(pady=20)
    # Add a Frame
    frame = Frame(pop, bg="white")
@@ -178,3 +181,10 @@ def goToPage(event):
 def toggleAutoAdvance():
     #print("Auto advance toggled: {}".format(cfg.autoAdvance.get()))
     pass
+
+def onClosing():
+    if cfg.isPlaying:
+        modalWithOk(cfg.rootWin, "Please wait for the current sound to finish playing", okCallback)
+    else:
+        cfg.rootWin.destroy()
+
