@@ -1,0 +1,1 @@
+[["Generative AI is actually a subset of Deep Learning.", "pic0.PNG"]]

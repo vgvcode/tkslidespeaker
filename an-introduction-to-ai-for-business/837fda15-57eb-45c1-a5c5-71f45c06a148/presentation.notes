@@ -1,0 +1,17 @@
+This lecture will not be complete without highlighting the risks of AI
+
+While Machines are doing a phenomenal job of understanding language, speaking, writing etc. they are still not perfect. They can make mistakes.
+
+Here are some risks you should be aware of.
+
+AI is only as good as the data it was trained on. Garbage in, Garbage Out!
+
+Data can introduce bias (e.g. data from social networks may be biased).
+
+AI can occasionally make incorrect predictions (e.g. no tumor when there's tumor).
+
+Chat GPT can hallucinate! (e.g. say something that is untrue).
+
+AI can occasionally cause harm (e.g. driverless car misreading a road sign).
+
+AI can be programmed to cause harm by bad actors.

@@ -1,0 +1,3 @@
+{"time":0,"type":"sentence","start":0,"end":59,"value":"Next, I ask Chat GPT to analyze the sentiment in a passage."}
+{"time":5305,"type":"sentence","start":61,"end":166,"value":"Notice that in the example above, the initial sentiment is positive, and the later sentiment is negative."}
+{"time":12735,"type":"sentence","start":168,"end":233,"value":"Chat GPT accurately captures the mixed sentiment in the sentence."}

@@ -1,0 +1,1 @@
+{"time":0,"type":"sentence","start":0,"end":72,"value":"Finally, let me close with how you can get started with this technology."}

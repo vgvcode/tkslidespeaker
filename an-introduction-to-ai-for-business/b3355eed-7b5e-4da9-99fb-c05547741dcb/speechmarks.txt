@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":75,"value":"The subject of my talk today is what is AI and how can it help my business."}
+{"time":5555,"type":"sentence","start":77,"end":190,"value":"I will give you a brief history of AI and then go into some of the technology trends that drive the growth of AI."}
+{"time":12735,"type":"sentence","start":192,"end":309,"value":"Then I will talk briefly about different types of AI and introduce you to Generative AI, the newest kid in the block."}
+{"time":20665,"type":"sentence","start":311,"end":406,"value":"Next I will look at how AI can help businesses, and spend some time on HR related applications."}
+{"time":28032,"type":"sentence","start":408,"end":458,"value":"The main message of my presentation today is this:"}
+{"time":32337,"type":"sentence","start":460,"end":504,"value":"We have an exciting world ahead of us in AI."}
+{"time":36204,"type":"sentence","start":507,"end":612,"value":"If we use it wisely, we have a tremendous opportunity ahead of us to create good for humanity as a whole."}

@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":38,"value":"Before I go on, let me ask a question."}
+{"time":3617,"type":"sentence","start":39,"end":74,"value":"How many of you have used Chat GPT?"}
+{"time":6735,"type":"sentence","start":74,"end":135,"value":"How many of you have used a tool to generate image from text?"}
+{"time":11227,"type":"sentence","start":137,"end":215,"value":"Here I'm asking Chat GPT to explain the Theory of Relativity to a 10 year old."}
+{"time":17470,"type":"sentence","start":217,"end":333,"value":"See how Chat GPT uses kid friendly language like spaceships and other simple explanations that a kid can understand."}

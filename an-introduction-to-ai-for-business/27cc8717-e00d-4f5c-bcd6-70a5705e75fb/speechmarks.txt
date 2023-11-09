@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":0,"end":78,"value":"And here's an example of converting text to an image (using Stable Diffusion)."}
+{"time":5742,"type":"sentence","start":80,"end":179,"value":"I ask Stable Diffusion to generate a picture of Shah Jahan giving Mumtaz the gift of the Taj Mahal."}
+{"time":12922,"type":"sentence","start":180,"end":211,"value":"This did not happen, of course."}
+{"time":15977,"type":"sentence","start":212,"end":321,"value":"In reality, Mumtaz was not alive when Taj Mahal was built, but this is an example of how creative you can get"}

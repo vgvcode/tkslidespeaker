@@ -1,0 +1,16 @@
+{"time":0,"type":"sentence","start":0,"end":66,"value":"Let me start with a brief history tour of the last 75 years of AI."}
+{"time":5305,"type":"sentence","start":68,"end":202,"value":"Research in the field of AI has been going on for years, but for the purposes of our discussion today, I started my journey from 1950."}
+{"time":14235,"type":"sentence","start":203,"end":295,"value":"This is when most of us will agree that work in the field of AI started in a meaningful way."}
+{"time":20414,"type":"sentence","start":297,"end":346,"value":"From 1950 - 2000, AI work was mostly theoretical."}
+{"time":25719,"type":"sentence","start":347,"end":468,"value":"A lot of papers were published, research was carried out, but there were not many industrial applications built using AI."}
+{"time":33587,"type":"sentence","start":469,"end":546,"value":"A notable application was MYCIN which was a Decision Making tool for Doctors."}
+{"time":39267,"type":"sentence","start":547,"end":639,"value":"Progress was slow because funding for research stopped at some points (known as AI winters)."}
+{"time":45947,"type":"sentence","start":640,"end":707,"value":"People were skeptical whether AI will truly live up to its promise."}
+{"time":50564,"type":"sentence","start":708,"end":812,"value":"In the late 90's there was an important breakthrough when IBM's Deep Blue beat the world chess champion."}
+{"time":57869,"type":"sentence","start":814,"end":905,"value":"Then from 2000 - 2023 (that is the present), we see a lot of important breakthroughs in AI."}
+{"time":65549,"type":"sentence","start":906,"end":942,"value":"Most of this came from the industry."}
+{"time":68667,"type":"sentence","start":943,"end":1027,"value":"Many practical applications were built using the theory developed several years ago."}
+{"time":74347,"type":"sentence","start":1028,"end":1061,"value":"We will see some of them shortly."}
+{"time":77277,"type":"sentence","start":1063,"end":1124,"value":"And finally, I want to look at 2023 and beyond in particular."}
+{"time":82894,"type":"sentence","start":1125,"end":1167,"value":"I see 2023 as the Inflection Point for AI."}
+{"time":87199,"type":"sentence","start":1168,"end":1200,"value":"This is the year when Generative"}

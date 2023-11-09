@@ -1,0 +1,1 @@
+{"time":0,"type":"sentence","start":0,"end":71,"value":"No presentation is complete without highlighting the risks posed by AI."}

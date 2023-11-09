@@ -1,0 +1,1 @@
+{"time":0,"type":"sentence","start":0,"end":35,"value":"Let's dive into Generative AI next."}

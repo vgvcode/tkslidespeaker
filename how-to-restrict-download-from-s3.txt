@@ -1,5 +1,20 @@
 Store the output in s3 bucket b / folder f
-Set bucket policy to allow access to a specific role r
+
+1. Using IAM Policy on a group and adding users to the group  
+This approach is simple and straightforward
+Create a user u
+Create a policy p to restrict access only to bucket b
+Create a group g and attach policy p to it
+Add user u to the group g
+This way add as many users as needed to this group
+
+In aws cli add a --profile user to get access to the bucket
+
+
+2. Using bucket policy and adding a role to it to allow access to the bucket
+This approach will create a role that will be applied to all users who access this bucket
+So we may need to add a condition that checks for specific principals
+
 In the config file create profile p to assume role r
     # In ~/.aws/credentials:
     [development]
@@ -10,6 +25,7 @@ In the config file create profile p to assume role r
     [profile p]
     role_arn=arn:aws:iam:...r
     source_profile=development
+Ref: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-role.html
 
 In python
     set the session to the specific profile
@@ -20,3 +36,5 @@ In python
     dev_s3_client = session.client('s3')
 
     write a function to download files recursively from s3 to local folder
+
+

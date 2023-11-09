@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":67,"value":"Here are some intelligent machines you may have seen in the market."}
+{"time":3792,"type":"sentence","start":69,"end":144,"value":"In 2005, we had a vacuum cleaner that could automatically clean the floors."}
+{"time":8947,"type":"sentence","start":145,"end":229,"value":"It used the AI technology developed earlier to navigate through mazes and obstacles."}
+{"time":14314,"type":"sentence","start":232,"end":286,"value":"In 2009, we had the first driver-less car from Google."}
+{"time":18407,"type":"sentence","start":287,"end":401,"value":"Today, the technology has improved a lot, and we see lots of driver-less cars being manufactured in US and Europe."}
+{"time":25362,"type":"sentence","start":403,"end":457,"value":"In 2014, we had the Voice Assistant Alexa from Amazon."}
+{"time":29767,"type":"sentence","start":458,"end":569,"value":"In fact, from 2011 onwards, various voice assistants started emerging from Apple, Google, Microsoft and Amazon."}
+{"time":37697,"type":"sentence","start":570,"end":659,"value":"These had the capability to listen, understand and talk back in a natural sounding voice."}

@@ -1,0 +1,1 @@
+{"time":0,"type":"sentence","start":0,"end":120,"value":"First, let us look at the period from 2000 - 2023 when important breakthroughs and practical applications of AI emerged."}
