@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":66,"value":"Shortly after this, Linda made the next prize catch for the C O E."}
+{"time":4217,"type":"sentence","start":67,"end":126,"value":"She proudly introduced the new hire to the Leadership team."}
+{"time":7697,"type":"sentence","start":128,"end":186,"value":"I'm happy to introduce Qing, as our new VP of Engineering."}
+{"time":11714,"type":"sentence","start":188,"end":262,"value":"Qing will help us setup the necessary controls and monitoring for our A I."}
+{"time":16207,"type":"sentence","start":263,"end":368,"value":"He comes with a strong background in building such operational systems for a large manufacturing company."}
+{"time":22262,"type":"sentence","start":373,"end":411,"value":"Welcome to Cozmo\", Sonya greeted Qing."}
+{"time":25354,"type":"sentence","start":414,"end":505,"value":"Now we can all sleep well at night, knowing that our A I systems are in your capable hands!"}

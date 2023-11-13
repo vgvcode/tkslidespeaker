@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":103,"value":"If you need an example of how to convert a crisis to an opportunity, look no further than Kesav Murthy."}
+{"time":6492,"type":"sentence","start":105,"end":230,"value":"An insurance agent turned event manager, Kesav had a thriving business in the city planning weddings, ceremonies and parties."}
+{"time":13959,"type":"sentence","start":232,"end":304,"value":"He was in this business for over two decades, and had a loyal clientele."}
+{"time":18777,"type":"sentence","start":306,"end":501,"value":"No website, no advertisements, no Facebook pages just old-fashioned business that JeeVa \"Girlfriend\" and other short stories Page of 37 120 was built brick by brick using word-of-mouth referrals."}
+{"time":29994,"type":"sentence","start":505,"end":582,"value":"His friends use to joke that he was the 'Google Search' for Wedding Planning."}
+{"time":34424,"type":"sentence","start":584,"end":770,"value":"Armed with only a trusty old diary and a prodigious memory, he built a massive network of service providers all over the city from wedding halls, to priests, food caterers and much more."}
+{"time":44567,"type":"sentence","start":772,"end":856,"value":"In short, he was the 'one stop shop' for all types of weddings, religious or social."}

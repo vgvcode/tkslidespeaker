@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":114,"value":"A few minutes earlier, I got a call from the Head of Operations at my company, for an 'All Hands On Deck' meeting."}
+{"time":6367,"type":"sentence","start":116,"end":144,"value":"There was a security breach."}
+{"time":8847,"type":"sentence","start":148,"end":195,"value":"I'm the head of Technology at CyberCard Global."}
+{"time":12239,"type":"sentence","start":197,"end":280,"value":"We are a multinational credit card company with over 10 million customers globally."}
+{"time":17144,"type":"sentence","start":282,"end":404,"value":"We offer credit cards with no annual fees and several high tech security features that make us the leader in the industry."}
+{"time":23899,"type":"sentence","start":408,"end":534,"value":"Upon reaching the CEO's office, I was greeted with a curt 'Good Morning' by the secretary and ushered to a large meeting room."}
+{"time":30579,"type":"sentence","start":536,"end":649,"value":"I took my place in silence and glanced around the room to find everyone from my company's top management present."}
+{"time":36822,"type":"sentence","start":651,"end":752,"value":"CyberCard Global's Head of Operations, Nikhil, was already into his second slide of the presentation."}

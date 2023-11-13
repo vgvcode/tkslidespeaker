@@ -1,0 +1,7 @@
+A common trait you will see in all machine learning approaches above, is that programmers do not explicitly code the rules. 
+
+By going through the millions of data samples, computers actually 'learn' to write the rules themselves. 
+Machines are very good at writing these rules. 
+Imagine how many rules one has to write to recognize a person's face - rules for the shape of eyes, length of nose, color of skin and so on. Humanly impossible! 
+But machines can do this very easily, if properly trained!", said Swami.
+

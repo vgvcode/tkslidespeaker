@@ -1,0 +1,10 @@
+{"time":0,"type":"sentence","start":0,"end":60,"value":"Phil discussed his experience with the leadership committee."}
+{"time":3192,"type":"sentence","start":62,"end":87,"value":"Many in the board agreed."}
+{"time":4910,"type":"sentence","start":89,"end":113,"value":"We are not cool anymore."}
+{"time":6765,"type":"sentence","start":115,"end":216,"value":"Our technology and systems were designed for a different era and are not appropriate for the present."}
+{"time":11832,"type":"sentence","start":218,"end":283,"value":"We are too slow to adapt to changing trends or market conditions."}
+{"time":15637,"type":"sentence","start":285,"end":340,"value":"Every business decision takes an agonizingly long time."}
+{"time":19230,"type":"sentence","start":342,"end":398,"value":"Honestly, we don't seem to know what our customers want."}
+{"time":22572,"type":"sentence","start":401,"end":413,"value":"Phil nodded."}
+{"time":23765,"type":"sentence","start":416,"end":452,"value":"I think we all know what ails Cozmo."}
+{"time":26257,"type":"sentence","start":454,"end":500,"value":"The question is, how do we go about fixing it?"}

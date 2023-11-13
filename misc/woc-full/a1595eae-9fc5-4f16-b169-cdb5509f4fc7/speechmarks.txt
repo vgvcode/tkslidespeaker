@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":28,"value":"Linda answered the question."}
+{"time":1867,"type":"sentence","start":31,"end":54,"value":"There are no deadlines."}
+{"time":3672,"type":"sentence","start":56,"end":127,"value":"We are introducing several courses for business managers and operators."}
+{"time":7865,"type":"sentence","start":129,"end":247,"value":"You can work with your manager to design a path for yourself to get trained and decide on a time frame to complete it."}
+{"time":13732,"type":"sentence","start":249,"end":385,"value":"You can decide on what areas you would like to specialize in, choose your courses, learn at your own pace and do this from home or work."}
+{"time":20837,"type":"sentence","start":387,"end":438,"value":"There are so many wonderful options to choose from."}
+{"time":23792,"type":"sentence","start":440,"end":468,"value":"And best of all, it is free!"}
+{"time":25997,"type":"sentence","start":469,"end":561,"value":"Our company is making an investment to provide this training free of cost, to all employees."}

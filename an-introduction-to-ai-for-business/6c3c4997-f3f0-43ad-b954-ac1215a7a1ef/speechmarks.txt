@@ -1,8 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":52,"value":"Generative AI is actually a subset of Deep Learning."}
-{"time":4242,"type":"sentence","start":53,"end":101,"value":"Remember the venn diagram that I showed earlier."}
-{"time":8047,"type":"sentence","start":103,"end":158,"value":"It refers to the ability of AI to generate new content."}
-{"time":12477,"type":"sentence","start":159,"end":211,"value":"This content could be text, audio, images, or video."}
-{"time":17657,"type":"sentence","start":214,"end":283,"value":"The models used for text generation are called Large Language Models."}
-{"time":22774,"type":"sentence","start":284,"end":334,"value":"They have the ability to perform simple reasoning."}
-{"time":26267,"type":"sentence","start":335,"end":448,"value":"It is based on a breakthrough called Transformer Architecture, which I will not get into in today's presentation."}
-{"time":33822,"type":"sentence","start":450,"end":510,"value":"Now let's see some examples of Generative AI, from Chat GPT."}

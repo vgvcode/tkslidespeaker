@@ -1,0 +1,3 @@
+{"time":0,"type":"sentence","start":0,"end":96,"value":"There was a tepid applause (and some cat calls and boos as well) when Sonya finished her speech."}
+{"time":5417,"type":"sentence","start":98,"end":164,"value":"Instinctively, she knew she had a long and challenging road ahead!"}
+{"time":9310,"type":"sentence","start":166,"end":213,"value":"The road to hell is paved with good intentions."}

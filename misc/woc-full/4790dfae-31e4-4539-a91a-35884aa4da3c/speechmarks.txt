@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":39,"value":"Then along comes a fledgling new comer."}
+{"time":2505,"type":"sentence","start":41,"end":86,"value":"Initially, they are just a blip in our radar."}
+{"time":5360,"type":"sentence","start":87,"end":177,"value":"They enter in a market that we don't even think would be important, which is Home Fitness."}
+{"time":9965,"type":"sentence","start":179,"end":193,"value":"What do we do?"}
+{"time":11345,"type":"sentence","start":194,"end":220,"value":"We ignore them, of course."}

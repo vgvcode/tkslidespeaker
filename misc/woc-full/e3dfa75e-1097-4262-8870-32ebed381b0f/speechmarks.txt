@@ -1,0 +1,3 @@
+{"time":0,"type":"sentence","start":0,"end":86,"value":"The story, all names, characters, and incidents portrayed in this book are fictitious."}
+{"time":5230,"type":"sentence","start":87,"end":213,"value":"No identification with actual persons (living or deceased), places, buildings, and products is intended or should be inferred."}
+{"time":12635,"type":"sentence","start":214,"end":271,"value":"All opinions expressed in this book are the author's own."}

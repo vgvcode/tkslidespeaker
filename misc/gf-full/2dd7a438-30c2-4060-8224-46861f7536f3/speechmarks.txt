@@ -1,0 +1,19 @@
+{"time":0,"type":"sentence","start":1,"end":74,"value":"Aha, now I see the connection\", said Krish who was a computer programmer."}
+{"time":4730,"type":"sentence","start":76,"end":170,"value":"We have CR (Carriage Return '\\r') and LF (Line Feed = '\\n') in programming languages of today."}
+{"time":12135,"type":"sentence","start":172,"end":207,"value":"I never understood what they meant."}
+{"time":14602,"type":"sentence","start":209,"end":239,"value":"They make much more sense now!"}
+{"time":16770,"type":"sentence","start":243,"end":266,"value":"I started to reminisce."}
+{"time":18750,"type":"sentence","start":269,"end":344,"value":"My dad had a typist named Rajendra to help him prepare all his manuscripts."}
+{"time":23630,"type":"sentence","start":346,"end":440,"value":"Rajendra was an accomplished typist who had completed his 'Lower' and 'Higher' certifications."}
+{"time":29022,"type":"sentence","start":442,"end":507,"value":"Somewhat like the software certifications you acquire these days."}
+{"time":33102,"type":"sentence","start":509,"end":546,"value":"But, I have to leave it here for now."}
+{"time":35720,"type":"sentence","start":548,"end":590,"value":"This typewriter needs some major overhaul."}
+{"time":38700,"type":"sentence","start":592,"end":619,"value":"I don't have time for this."}
+{"time":41104,"type":"sentence","start":624,"end":639,"value":"Thank you, Dad."}
+{"time":42847,"type":"sentence","start":641,"end":743,"value":"We can pick it up again when you are free,\" I could see Krish searching for something on the keyboard."}
+{"time":47914,"type":"sentence","start":746,"end":835,"value":"By the way, Krish, if you are looking for the Save button, you are not going to find one!"}
+{"time":52969,"type":"sentence","start":837,"end":874,"value":"We never 'saved' our work those days."}
+{"time":55612,"type":"sentence","start":876,"end":953,"value":"Whatever we typed on paper, would remain for posterity, unless we tore it up."}
+{"time":60517,"type":"sentence","start":955,"end":993,"value":"No hard drives, and no SSD technology."}
+{"time":63797,"type":"sentence","start":995,"end":1063,"value":"This was our tried and true WHAT YOU SEE IS WHAT YOU GET technology!"}
+{"time":67702,"type":"sentence","start":1066,"end":1151,"value":"I left the typewriter and the pile of papers on the table as is, and rushed for work."}

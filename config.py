@@ -1,6 +1,5 @@
 canvasWidth = 650
 canvasHeight = 400
-baseFolderTail = "tkslidespeaker"
 canvasPadX = 15
 notesFontSize = 10
 pageNumFontSize = 10
@@ -23,8 +22,12 @@ autoAdvanceDelay = 3    #3 second delay before advancing to next page
 isPlaying = False
 
 #widgets
-baseFolder = None
-rootFolder = None
+home = None
+appName = "tkslidespeaker"
+appFolder = None
+stagingFolder = None
+tmpFolder = None
+outputFolder = None
 rootWin = None
 txtPresoName = None
 pageNum = 1
@@ -35,3 +38,4 @@ txtNotes = None
 lblPageNum = None
 autoAdvance = 0
 goToPageCombo = None
+speakerList = ["Joanna", "Amy", "Kajal", "Stephen", "Brian"]

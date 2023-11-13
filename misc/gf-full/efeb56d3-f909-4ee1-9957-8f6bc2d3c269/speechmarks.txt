@@ -1,0 +1,11 @@
+{"time":0,"type":"sentence","start":0,"end":87,"value":"Is humanity ready for a miracle drug that can extend lifespan by say, another 50 years?"}
+{"time":5667,"type":"sentence","start":89,"end":185,"value":"What are the social and financial implications if people can live past 100, to 125 or 150 years?"}
+{"time":13160,"type":"sentence","start":186,"end":293,"value":"Many current day medicines might become unnecessary, forcing some drug manufacturers to go out of business."}
+{"time":19340,"type":"sentence","start":295,"end":336,"value":"Demand for health insurance will plummet."}
+{"time":22082,"type":"sentence","start":338,"end":363,"value":"Wills may get re-written."}
+{"time":24062,"type":"sentence","start":365,"end":451,"value":"Businesses catering to senior citizens and professions like geriatrics might flourish."}
+{"time":29292,"type":"sentence","start":453,"end":497,"value":"Medicines for old people might be in demand."}
+{"time":32272,"type":"sentence","start":498,"end":556,"value":"The science is probably not far away from delivering this."}
+{"time":36015,"type":"sentence","start":558,"end":618,"value":"Research is already underway to develop a universal vaccine."}
+{"time":40145,"type":"sentence","start":619,"end":675,"value":"But would businesses and people be ready for the change?"}
+{"time":43500,"type":"sentence","start":677,"end":724,"value":"Would human greed get the better of human need?"}

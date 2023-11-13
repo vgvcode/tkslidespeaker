@@ -1,0 +1,8 @@
+Day 2 Afternoon, Stopping the Carnage.
+
+Over the next few hours, several calls were made by HR to locate Alex. 
+A police complaint was filed as well. 
+Meanwhile, the software team came back with a few items that were deployed to production since summer. 
+One of them had a strange name, generative_adversarial_network dot py and was deployed on Aug 15. 
+This code was reviewed and found to be suspicious. 
+It was promptly removed by the Fraud Detection team.

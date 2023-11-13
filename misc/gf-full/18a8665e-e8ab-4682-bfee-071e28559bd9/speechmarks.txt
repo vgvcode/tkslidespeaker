@@ -1,0 +1,10 @@
+{"time":0,"type":"sentence","start":0,"end":27,"value":"Oct 1, 2120: Pale Blue Dot."}
+{"time":3967,"type":"sentence","start":28,"end":188,"value":"Email received by Planet Earth from the SS Utopia To my dear Sara, Sam and Shiela: By the time you read this email, several years might have passed by on Earth."}
+{"time":12972,"type":"sentence","start":190,"end":263,"value":"Sara, you might be in the sixties, and Manny and Sammy in their thirties."}
+{"time":17802,"type":"sentence","start":265,"end":325,"value":"May all your dreams and aspirations come true in your lives."}
+{"time":21807,"type":"sentence","start":327,"end":498,"value":"Meanwhile, the SS Utopia has left the solar system and is on a long journey towards a distant planet I can see our Mother Earth, a pale blue dot in the blackness of space."}
+{"time":31099,"type":"sentence","start":500,"end":530,"value":"In the immortal words of Dr. \n"}
+{"time":33704,"type":"sentence","start":530,"end":554,"value":"Carl Sagan, That's home."}
+{"time":36147,"type":"sentence","start":556,"end":566,"value":"That's us."}
+{"time":37727,"type":"sentence","start":568,"end":694,"value":"On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives."}
+{"time":45169,"type":"sentence","start":696,"end":1200,"value":"The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every superstar, every supreme leader, every saint and sinner in the history of our species lived there-on a mote of dust suspended in"}

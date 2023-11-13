@@ -1,0 +1,9 @@
+{"time":0,"type":"sentence","start":0,"end":108,"value":"As he walked back to the bus stand, he could hear Swami Seva Nanda's voice following him on the loudspeaker."}
+{"time":5992,"type":"sentence","start":110,"end":193,"value":"He was waxing eloquent on the greatness of Sri Ramanuja and his Vedanta philosophy."}
+{"time":11272,"type":"sentence","start":195,"end":246,"value":"As his voice faded, the devotional hymns took over."}
+{"time":14740,"type":"sentence","start":247,"end":302,"value":"It was all too much for Kittu to absorb in one evening."}
+{"time":18345,"type":"sentence","start":303,"end":382,"value":"On the bus ride back to Chennai, Kittu was still shaking his head in disbelief."}
+{"time":23075,"type":"sentence","start":384,"end":429,"value":"Was Mani really happy with what he was doing?"}
+{"time":26067,"type":"sentence","start":431,"end":466,"value":"Was Nanda's transformation genuine?"}
+{"time":28710,"type":"sentence","start":467,"end":555,"value":"Yet both seemed to be making a difference in society and finding purpose in their lives."}
+{"time":33677,"type":"sentence","start":557,"end":608,"value":"Life, the final arbiter, was having her last laugh!"}

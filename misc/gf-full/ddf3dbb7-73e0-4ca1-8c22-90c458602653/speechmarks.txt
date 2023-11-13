@@ -1,0 +1,16 @@
+{"time":0,"type":"sentence","start":0,"end":51,"value":"Ron mentioned this to Lynda, his colleague at work."}
+{"time":3355,"type":"sentence","start":54,"end":108,"value":"76 is an extremely high average age for any community."}
+{"time":7660,"type":"sentence","start":110,"end":171,"value":"That is twice the national average of the country as a whole."}
+{"time":11340,"type":"sentence","start":173,"end":206,"value":"What makes this place so special?"}
+{"time":13707,"type":"sentence","start":208,"end":222,"value":", Lynda asked."}
+{"time":15575,"type":"sentence","start":223,"end":304,"value":"'Perhaps the fresh air, natural surroundings, and the peaceful, stress free life?"}
+{"time":20617,"type":"sentence","start":306,"end":321,"value":", Ron wondered."}
+{"time":22435,"type":"sentence","start":322,"end":341,"value":"'I'm not convinced."}
+{"time":24177,"type":"sentence","start":343,"end":382,"value":"Let me accompany you in your next trip."}
+{"time":26895,"type":"sentence","start":384,"end":436,"value":"I definitely like to see this place', Lynda replied."}
+{"time":30512,"type":"sentence","start":437,"end":556,"value":"As Ron and Lynda pulled up their car near the Village Town Center, they noticed a celebration was going on in the lawn."}
+{"time":36867,"type":"sentence","start":557,"end":600,"value":"Alice from the village had just turned 100!"}
+{"time":40022,"type":"sentence","start":602,"end":728,"value":"The lawn was filled with Alice's grand kids, great great grandkids and fellow nonagenarians and centenarians from the village."}
+{"time":46990,"type":"sentence","start":730,"end":769,"value":"An amateur band was playing soft music."}
+{"time":49970,"type":"sentence","start":771,"end":860,"value":"There were at least a hundred people gathered there, most of them over the age of eighty!"}
+{"time":54837,"type":"sentence","start":862,"end":902,"value":"It was an extraordinary sight to behold!"}

@@ -1,0 +1,21 @@
+{"time":0,"type":"sentence","start":0,"end":82,"value":"Lynda took this opportunity to greet Alice and take a selfie with the centenarian."}
+{"time":4842,"type":"sentence","start":83,"end":134,"value":"'Congratulations and many happy returns of the day!"}
+{"time":8185,"type":"sentence","start":136,"end":158,"value":"How do you feel today?"}
+{"time":10227,"type":"sentence","start":161,"end":172,"value":"'Thank you."}
+{"time":11457,"type":"sentence","start":174,"end":187,"value":"I feel great."}
+{"time":12999,"type":"sentence","start":189,"end":247,"value":"Please help yourself with the b'day cake and refreshments."}
+{"time":16554,"type":"sentence","start":249,"end":262,"value":", Alice said."}
+{"time":18272,"type":"sentence","start":264,"end":353,"value":"She was in a wheelchair, but in very high spirits and dressed elegantly for the occasion."}
+{"time":23289,"type":"sentence","start":354,"end":411,"value":"'So what is the secret of making it to 100, if I may ask?"}
+{"time":27594,"type":"sentence","start":413,"end":433,"value":", Lynda asked Alice."}
+{"time":29874,"type":"sentence","start":434,"end":491,"value":"'I like to think it is just the air, water and fine wine."}
+{"time":33742,"type":"sentence","start":493,"end":514,"value":"We feel blessed here."}
+{"time":35509,"type":"sentence","start":516,"end":532,"value":", Alice replied."}
+{"time":37427,"type":"sentence","start":533,"end":596,"value":"'I think it is more than that', Alice's friend nearby remarked."}
+{"time":41219,"type":"sentence","start":598,"end":682,"value":"'Ancient native American folklore refers to a hidden source of energy in the valley."}
+{"time":45862,"type":"sentence","start":684,"end":755,"value":"A vortex that draws the positive vibrations from the surrounding hills."}
+{"time":50179,"type":"sentence","start":757,"end":800,"value":"We are in the middle of this energy source."}
+{"time":52909,"type":"sentence","start":802,"end":836,"value":"But check with Geraldo over there."}
+{"time":55402,"type":"sentence","start":838,"end":883,"value":"He has an interesting story about this place."}
+{"time":58482,"type":"sentence","start":885,"end":912,"value":"No one believes him though."}
+{"time":60399,"type":"sentence","start":914,"end":965,"value":"We think he has gone senile', she says with a wink."}

@@ -1,0 +1,11 @@
+{"time":0,"type":"sentence","start":0,"end":36,"value":"Everyone was looking back at Nikhil."}
+{"time":2617,"type":"sentence","start":39,"end":130,"value":"What is of concern is that these attacks have been steadily increasing over the last month."}
+{"time":7660,"type":"sentence","start":132,"end":227,"value":"In the last 24 hours alone, we have had 25% more attacks than during the same time a month ago."}
+{"time":14052,"type":"sentence","start":229,"end":284,"value":"Our call centers are getting flooded with these calls\"."}
+{"time":17495,"type":"sentence","start":286,"end":328,"value":"Jordan started getting a little defensive."}
+{"time":20462,"type":"sentence","start":331,"end":387,"value":"Our security systems are among the best in the industry."}
+{"time":24255,"type":"sentence","start":389,"end":478,"value":"Our software has been audited and certified to meet all industry compliance requirements."}
+{"time":29547,"type":"sentence","start":480,"end":516,"value":"I think there is no cause for alarm."}
+{"time":32002,"type":"sentence","start":518,"end":639,"value":"It might be a new pattern of attack and our fraud detection systems can be trained to spot this over the course of time\"."}
+{"time":38107,"type":"sentence","start":641,"end":762,"value":"Jordan was referring to CyberCard Global's fraud detection software which identified and blocked suspicious transactions."}
+{"time":44875,"type":"sentence","start":764,"end":809,"value":"It was based on Artificial Intelligence (AI)."}

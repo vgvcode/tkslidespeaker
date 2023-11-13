@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":55,"value":"Meet the hero of our story, Devendra, or Dev for short."}
+{"time":3905,"type":"sentence","start":57,"end":117,"value":"Dev was doing his PhD in Artificial Intelligence in the USA."}
+{"time":8247,"type":"sentence","start":119,"end":162,"value":"He was also a brilliant software developer."}
+{"time":11252,"type":"sentence","start":164,"end":269,"value":"Dev seemed like an apt short form for his name; not sure if his buddies gave him this name intentionally."}
+{"time":17307,"type":"sentence","start":273,"end":346,"value":"Dev was bringing his friend Mira that morning to introduce to the family."}
+{"time":21549,"type":"sentence","start":348,"end":452,"value":"A few weeks back, Dev had mentioned about this to his Dad and Mom and they wanted to meet her in person."}
+{"time":27342,"type":"sentence","start":454,"end":521,"value":"Dad was a little concerned however, about the rapid turn of events."}
+{"time":31709,"type":"sentence","start":523,"end":605,"value":"It seemed only like yesterday that Dev had stepped out of the house to do his PhD."}

@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":47,"value":"July 4, 2084: Draft begins on Independence Day."}
+{"time":4155,"type":"sentence","start":49,"end":108,"value":"Today is first day for the roll call for Space Ship Utopia."}
+{"time":7935,"type":"sentence","start":110,"end":214,"value":"The date for the draft was symbolically set on US Independence Day, to denote the liberation of mankind."}
+{"time":14102,"type":"sentence","start":216,"end":339,"value":"The plan is to fill up the space ship with able bodied men and women mostly under the age of fifty, from all walks of life."}
+{"time":20970,"type":"sentence","start":341,"end":415,"value":"There will be doctors, farmers, engineers and various other professionals."}
+{"time":25725,"type":"sentence","start":417,"end":452,"value":"The list will include children too."}
+{"time":28142,"type":"sentence","start":454,"end":493,"value":"And various plants and animals as well."}
+{"time":30947,"type":"sentence","start":495,"end":545,"value":"A 21st century version of Noah's ark, if you will."}

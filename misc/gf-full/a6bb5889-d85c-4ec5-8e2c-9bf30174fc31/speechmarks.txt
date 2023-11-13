@@ -1,0 +1,16 @@
+{"time":0,"type":"sentence","start":1,"end":26,"value":"Dad, who is a typewriter?"}
+{"time":2205,"type":"sentence","start":29,"end":41,"value":"Krish asked."}
+{"time":3672,"type":"sentence","start":43,"end":95,"value":"That was a question from a Gen Z son to a Gen X dad."}
+{"time":7390,"type":"sentence","start":98,"end":136,"value":"A typewriter, my son, is not a person."}
+{"time":10645,"type":"sentence","start":138,"end":179,"value":"It was a machine used to print documents."}
+{"time":13562,"type":"sentence","start":181,"end":262,"value":"The person who operated a typewriter was called a typist,\" I explained to my son."}
+{"time":18555,"type":"sentence","start":265,"end":324,"value":"The typist profession was a popular one 30 to 40 years ago."}
+{"time":22672,"type":"sentence","start":326,"end":357,"value":"Every office had a few typists."}
+{"time":25290,"type":"sentence","start":359,"end":412,"value":"Gradually, typists and typewriters went out of vogue."}
+{"time":29057,"type":"sentence","start":414,"end":503,"value":"We now have secretaries who use Microsoft Word, Google Docs and Wi Fi printers,\" I added."}
+{"time":34900,"type":"sentence","start":506,"end":543,"value":"Oh, I would love to see a typewriter."}
+{"time":37642,"type":"sentence","start":545,"end":573,"value":"Would they have one on sale?"}
+{"time":39622,"type":"sentence","start":576,"end":589,"value":"my son asked."}
+{"time":41240,"type":"sentence","start":592,"end":604,"value":"Not anymore."}
+{"time":42782,"type":"sentence","start":606,"end":668,"value":"Perhaps on ebay, someone might be selling vintage typewriters."}
+{"time":47025,"type":"sentence","start":670,"end":704,"value":"It might cost quite a fortune now."}

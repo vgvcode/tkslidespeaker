@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":35,"value":"Mystique Valley: Incorporated 1904."}
+{"time":3529,"type":"sentence","start":37,"end":52,"value":"Population 3781"}
+{"time":7072,"type":"sentence","start":53,"end":213,"value":"Nestled in the foothills of the California coast mountains, about an hour from Los Angeles, is a quiet and peaceful village, largely disconnected from humanity."}
+{"time":16214,"type":"sentence","start":215,"end":382,"value":"If you drove along the scenic route hugging the Pacific coastline, this city would show up like a blip in the radar, appearing and disappearing in a matter of seconds."}
+{"time":24519,"type":"sentence","start":383,"end":520,"value":"The lush green valley, the breathtaking view of the mountains, the ocean and the tranquil existence made this place a haven for retirees."}
+{"time":32024,"type":"sentence","start":522,"end":557,"value":"A picture postcard city by the sea."}
+{"time":34892,"type":"sentence","start":559,"end":613,"value":"Apart from this, the city had no pretensions of glory."}
+{"time":38659,"type":"sentence","start":614,"end":624,"value":"Until now."}

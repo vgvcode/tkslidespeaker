@@ -1,0 +1,9 @@
+{"time":0,"type":"sentence","start":0,"end":32,"value":"July 11, 2084: A one-way ticket."}
+{"time":3530,"type":"sentence","start":34,"end":90,"value":"We don't need to remind anyone this is a one-way ticket."}
+{"time":7035,"type":"sentence","start":92,"end":205,"value":"The Utopia is expected to travel several hundred years before it can find a habitable home, if ever there is one."}
+{"time":13640,"type":"sentence","start":207,"end":303,"value":"And if it doesn't find one, The Utopia might end up as an orbiting asteroid of a distant planet."}
+{"time":19395,"type":"sentence","start":305,"end":363,"value":"Under no circumstances, is it expected to return to Earth."}
+{"time":23400,"type":"sentence","start":365,"end":384,"value":"Let me repeat that."}
+{"time":25105,"type":"sentence","start":386,"end":488,"value":"The SS Utopia is on a ONE-WAY TRIP TO A FAR AWAY PLANET, with a 1% chance of reaching its destination."}
+{"time":31622,"type":"sentence","start":490,"end":567,"value":"After it travels a few million miles, it will no longer be able to call home."}
+{"time":36365,"type":"sentence","start":569,"end":660,"value":"It will take several years for the messages to reach Earth and come back to the space ship."}

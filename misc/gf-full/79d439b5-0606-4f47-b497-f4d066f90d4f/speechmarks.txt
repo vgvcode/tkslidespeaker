@@ -1,0 +1,10 @@
+{"time":0,"type":"sentence","start":0,"end":95,"value":"On my last visit about a year back, Periyasamy had expressed a passing interest in getting one."}
+{"time":5929,"type":"sentence","start":97,"end":180,"value":"He felt it would help him stay connected with his students from all over the world."}
+{"time":10734,"type":"sentence","start":182,"end":298,"value":"I knew he would never ask his students personally, so I made a note of surprising him with an iPad on my next visit."}
+{"time":17464,"type":"sentence","start":300,"end":355,"value":"As usual, the traffic in Chennai that evening was high."}
+{"time":21444,"type":"sentence","start":357,"end":455,"value":"With just over three hours left, I was not sure how long I could stay and chat with him this time."}
+{"time":27374,"type":"sentence","start":457,"end":546,"value":"Still, I felt I should at least drop by for a quick hello and surprise him with the iPad."}
+{"time":32842,"type":"sentence","start":548,"end":602,"value":"I reached his apartment and rang the bell a few times."}
+{"time":36597,"type":"sentence","start":604,"end":623,"value":"There was no reply."}
+{"time":38589,"type":"sentence","start":625,"end":644,"value":"It seemed deserted."}
+{"time":40569,"type":"sentence","start":646,"end":789,"value":"After about ten minutes when I was getting ready to leave, a person from the neighboring apartment peeped out from behind a slightly ajar door."}

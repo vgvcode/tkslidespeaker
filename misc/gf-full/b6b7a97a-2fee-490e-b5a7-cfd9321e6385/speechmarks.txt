@@ -1,0 +1,20 @@
+{"time":0,"type":"sentence","start":0,"end":44,"value":"Dr Ricardo smiled and shook his head slowly."}
+{"time":3492,"type":"sentence","start":46,"end":89,"value":"'Sometimes, truth is stranger than fiction."}
+{"time":6847,"type":"sentence","start":91,"end":153,"value":"The pharmaceutical companies did not want a universal vaccine."}
+{"time":11152,"type":"sentence","start":155,"end":225,"value":"They felt it would hurt their profits on the flu and allergy vaccines."}
+{"time":15769,"type":"sentence","start":227,"end":308,"value":"The insurance companies felt fewer people would go for health insurance coverage."}
+{"time":20799,"type":"sentence","start":310,"end":403,"value":"It was an elixir for humanity, but sadly, not a financially viable proposition for investors."}
+{"time":27192,"type":"sentence","start":405,"end":413,"value":"So Dr. \n"}
+{"time":28809,"type":"sentence","start":413,"end":475,"value":"Chu faced stiff resistance in bringing his drug to the market."}
+{"time":32852,"type":"sentence","start":478,"end":534,"value":"'This is your conjecture, of course', Lynda interjected."}
+{"time":36532,"type":"sentence","start":535,"end":565,"value":"'It is more than a conjecture."}
+{"time":38962,"type":"sentence","start":567,"end":579,"value":"Wait', Dr. \n"}
+{"time":40817,"type":"sentence","start":579,"end":641,"value":"Ricardo went inside the house and came back with some letters."}
+{"time":44972,"type":"sentence","start":643,"end":680,"value":"'I had some correspondence with Dr. \n"}
+{"time":47827,"type":"sentence","start":680,"end":699,"value":"Chu over the years."}
+{"time":49869,"type":"sentence","start":701,"end":854,"value":"Here are some letters he wrote, describing how successful his trials were and how he was facing an uphill battle with the Pharma and Insurance companies."}
+{"time":58149,"type":"sentence","start":856,"end":891,"value":"Over 500 investors turned him down!"}
+{"time":61491,"type":"sentence","start":894,"end":917,"value":"'What happened to Dr. \n"}
+{"time":63621,"type":"sentence","start":917,"end":921,"value":"Chu?"}
+{"time":64876,"type":"sentence","start":923,"end":941,"value":"Is he still alive?"}
+{"time":66189,"type":"sentence","start":945,"end":973,"value":"Lynda repeated the question."}

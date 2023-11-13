@@ -1,0 +1,9 @@
+{"time":0,"type":"sentence","start":0,"end":62,"value":"And last but not the least, we did not forget the photographs."}
+{"time":4304,"type":"sentence","start":64,"end":85,"value":"Our patent-pending A."}
+{"time":6234,"type":"sentence","start":86,"end":226,"value":"I app will click pictures at various points throughout the function, prepare a beautiful album for posterity and share it with our customer."}
+{"time":13327,"type":"sentence","start":229,"end":297,"value":"I got the feeling that Kesav Murthy had really something going here."}
+{"time":17494,"type":"sentence","start":299,"end":366,"value":"Online weddings may have finally arrived with a bang with COVID-19."}
+{"time":21962,"type":"sentence","start":368,"end":462,"value":"In fact, COVID might be the best viral marketing strategy for his business, no pun intended!\n!"}
+{"time":27754,"type":"sentence","start":463,"end":534,"value":"As I walked out, I entered my comments on the visitor book: 'Brilliant."}
+{"time":32584,"type":"sentence","start":536,"end":614,"value":"Marriages may be made in heaven, but now they can be conducted in the \"Cloud\"."}
+{"time":37302,"type":"sentence","start":616,"end":646,"value":"Wish your venture all success!"}

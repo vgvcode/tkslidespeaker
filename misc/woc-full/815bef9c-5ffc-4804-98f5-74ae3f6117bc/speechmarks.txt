@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":28,"value":"Chairman of the Board, Phil."}
+{"time":2317,"type":"sentence","start":31,"end":82,"value":"Phil was the former CEO of Cozmo for over 20 years."}
+{"time":6034,"type":"sentence","start":84,"end":118,"value":"He is the son of the founder, Sam."}
+{"time":8564,"type":"sentence","start":120,"end":216,"value":"He led the initiative to change Cozmo from an OEM to a company with a brand identity of its own."}
+{"time":13957,"type":"sentence","start":218,"end":260,"value":"Recently, he became chairman of the board."}

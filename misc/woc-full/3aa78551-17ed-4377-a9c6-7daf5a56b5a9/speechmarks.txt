@@ -1,0 +1,9 @@
+{"time":0,"type":"sentence","start":1,"end":7,"value":"I see."}
+{"time":1142,"type":"sentence","start":8,"end":56,"value":"But why do we need to make this a diverse group?"}
+{"time":3810,"type":"sentence","start":57,"end":134,"value":"Wouldn't it be better if they are all leaders of business units inside Cozmo?"}
+{"time":7940,"type":"sentence","start":137,"end":149,"value":"Linda asked."}
+{"time":9507,"type":"sentence","start":152,"end":207,"value":"I'm a firm believer that diversity brings in new ideas."}
+{"time":13174,"type":"sentence","start":209,"end":292,"value":"People with different experiences - managers, scientists, artists, poets and so on."}
+{"time":19142,"type":"sentence","start":294,"end":386,"value":"Having insiders lead the C O E could make it difficult for bubbling up new ideas to the top."}
+{"time":24572,"type":"sentence","start":388,"end":454,"value":"And we need people from different cultural and ethnic backgrounds."}
+{"time":28114,"type":"sentence","start":455,"end":509,"value":"All these steps will act as a catalyst for innovation."}

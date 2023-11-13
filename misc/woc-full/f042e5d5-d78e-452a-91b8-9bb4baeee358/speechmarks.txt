@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":44,"value":"Sonya quickly took control of the situation."}
+{"time":2955,"type":"sentence","start":46,"end":130,"value":"She, along with the leadership team, assured everyone that it was business as usual."}
+{"time":7685,"type":"sentence","start":133,"end":154,"value":"Phil has not left us."}
+{"time":9452,"type":"sentence","start":156,"end":214,"value":"He will continue to guide us as the Chairman of the board."}
+{"time":12557,"type":"sentence","start":216,"end":309,"value":"He has moved on to take an advisory role, after guiding Cozmo as the CEO for almost 20 years."}
+{"time":18637,"type":"sentence","start":311,"end":370,"value":"Phil's shoes are difficult to fill, but I will try my best."}
+{"time":22180,"type":"sentence","start":371,"end":429,"value":"From today, \nI will be taking charge of Cozmo as your CEO."}

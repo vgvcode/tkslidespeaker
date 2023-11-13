@@ -1,0 +1,11 @@
+{"time":0,"type":"sentence","start":0,"end":29,"value":"So we had come a full circle."}
+{"time":2267,"type":"sentence","start":31,"end":86,"value":"What happened to Periyasamy and where was his son Balu?"}
+{"time":5722,"type":"sentence","start":88,"end":141,"value":"Nothing was known in our social media circles either."}
+{"time":9090,"type":"sentence","start":143,"end":212,"value":"Unlike Periyasamy's calculus theorems, this one did not end with QED."}
+{"time":13545,"type":"sentence","start":214,"end":292,"value":"Perhaps I was indulging in suspension of disbelief thinking that all was well."}
+{"time":18275,"type":"sentence","start":294,"end":404,"value":"Perhaps Balu moved to a new city with his parents and forgot to update the address with the management office."}
+{"time":24205,"type":"sentence","start":406,"end":414,"value":"Perhaps."}
+{"time":25447,"type":"sentence","start":416,"end":469,"value":"Sometimes it is better not to seek closure on events."}
+{"time":29077,"type":"sentence","start":471,"end":552,"value":"It may be a blessing in disguise to leave unanswered questions remain unanswered."}
+{"time":33720,"type":"sentence","start":554,"end":678,"value":"I still learn a thing or two from Periyasamy's autographed book 'Calculus is Fun', which is a permanent fixture on my shelf."}
+{"time":40450,"type":"sentence","start":680,"end":767,"value":"On the back cover is a beaming Mr Periyasamy, forever my friend, philosopher and guide!"}

@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":0,"end":23,"value":"Multi-lingual chatbots!"}
+{"time":1917,"type":"sentence","start":25,"end":196,"value":"Instead of operating multiple call centers in different regions, use one call center and have AI translate customer queries in the local language to the agents in English."}
+{"time":11222,"type":"sentence","start":198,"end":292,"value":"And use AI again, to translate the agent's reply back to the customer in their local language."}
+{"time":16889,"type":"sentence","start":294,"end":366,"value":"Bi-directional translation would save us a ton of money on call centers."}

@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":0,"end":39,"value":"April: A I will not take away our jobs."}
+{"time":2917,"type":"sentence","start":40,"end":105,"value":"But humans with A I skills will replace those without A I skills."}

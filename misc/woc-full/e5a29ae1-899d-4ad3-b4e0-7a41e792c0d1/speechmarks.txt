@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":0,"end":140,"value":"For instance, if the bike met with an accident or got stolen, it was able to communicate with the owner or their family members immediately."}
+{"time":7342,"type":"sentence","start":142,"end":188,"value":"They called it the Cozmo's phone home feature."}
+{"time":10109,"type":"sentence","start":189,"end":297,"value":"Various sensors on board monitored the bike's performance and relayed this information to a central station."}
+{"time":15964,"type":"sentence","start":299,"end":398,"value":"If the bike needed service or maintenance, Cozmo could detect this and inform the owner in advance."}
+{"time":21544,"type":"sentence","start":400,"end":481,"value":"Behind the scenes, it was built using an A I based Predictive Maintenance system."}
+{"time":26287,"type":"sentence","start":483,"end":615,"value":"A GPS device on the bike would be able to provide turn by turn directions and alert bike riders of road accidents and other hazards."}

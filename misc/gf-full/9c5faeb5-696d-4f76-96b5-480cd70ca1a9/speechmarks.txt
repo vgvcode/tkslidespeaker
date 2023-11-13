@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":72,"value":"For me, no visit to Chennai would be complete without seeing Periyasamy."}
+{"time":4392,"type":"sentence","start":74,"end":160,"value":"In fact, I could not recall a single trip in the last ten years when I had skipped it."}
+{"time":9360,"type":"sentence","start":162,"end":238,"value":"This time, it was a very rushed trip and I had put it off till the last day."}
+{"time":13740,"type":"sentence","start":240,"end":325,"value":"When my cab arrived, I checked with my driver if I still had the time for this visit."}
+{"time":18795,"type":"sentence","start":327,"end":371,"value":"And then I decided to spring him a surprise."}
+{"time":21900,"type":"sentence","start":373,"end":408,"value":"Periyasamy was in his mid eighties."}
+{"time":24592,"type":"sentence","start":410,"end":544,"value":"He retired as a high school Math teacher from my alma mater about thirty years ago, and lived in the suburbs of Chennai with his wife."}

@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":0,"end":90,"value":"At that time, Rob, the CMO, brought up an important objection to the leadership committee."}
+{"time":5480,"type":"sentence","start":93,"end":162,"value":"You know, we are making a lot of pretty radical changes to our brand."}
+{"time":9460,"type":"sentence","start":164,"end":183,"value":"Don't get me wrong."}
+{"time":10990,"type":"sentence","start":185,"end":274,"value":"I'm very impressed with these changes and I'm all in for the Connected Bike.\", he paused."}

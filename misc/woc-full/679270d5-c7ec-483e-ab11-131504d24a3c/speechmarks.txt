@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":32,"value":"Sonya was cautiously optimistic."}
+{"time":2455,"type":"sentence","start":34,"end":64,"value":"There is a lot to unpack here."}
+{"time":4809,"type":"sentence","start":66,"end":163,"value":"While Ray is correct in his observation, it appears that the errors can be significantly reduced."}
+{"time":10314,"type":"sentence","start":165,"end":259,"value":"So I propose we go back to the drawing board, and retrain the model to produce better results."}
+{"time":15469,"type":"sentence","start":260,"end":360,"value":"And while we are at it, let us also introduce the augmentation by humans to aid our decision making."}

@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":28,"value":"Ray was still not convinced."}
+{"time":1917,"type":"sentence","start":30,"end":73,"value":"What recommendations are you talking about?"}
+{"time":4522,"type":"sentence","start":74,"end":177,"value":"Give me some examples from Manufacturing and Supply Chain (my area of expertise) that I can understand."}
+{"time":11077,"type":"sentence","start":180,"end":215,"value":"The partner went through his notes."}
+{"time":13432,"type":"sentence","start":218,"end":403,"value":"In our interviews with your line managers, we observed the following: Many quality control checks are manual and slow down the release of bicycle parts from a few hours to several days."}
+{"time":23337,"type":"sentence","start":405,"end":452,"value":"This is the leading cause of production delays."}
+{"time":26479,"type":"sentence","start":454,"end":566,"value":"Customers are dissatisfied because many products listed on your website (or at retail outlets) are NOT IN STOCK."}

@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":1,"end":32,"value":"Good question.\", Swami replied."}
+{"time":2430,"type":"sentence","start":35,"end":133,"value":"Machine learning is a branch of A I that makes machines learn without being explicitly programmed."}

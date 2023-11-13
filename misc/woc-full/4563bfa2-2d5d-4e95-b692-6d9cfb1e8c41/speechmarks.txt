@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":0,"end":14,"value":"Chapter Seven."}
+{"time":1417,"type":"sentence","start":15,"end":42,"value":"The fourth industrial what?"}

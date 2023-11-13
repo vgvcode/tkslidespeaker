@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":0,"end":73,"value":"In the past, engineers had to code the rules for machines using software."}
+{"time":4542,"type":"sentence","start":75,"end":204,"value":"For example a rule could be like, Before crossing the road, look to your left and right to see if there are vehicles approaching."}
+{"time":10947,"type":"sentence","start":206,"end":246,"value":"If there are vehicles approaching, stop."}
+{"time":13565,"type":"sentence","start":248,"end":285,"value":"Otherwise, proceed to cross the road."}
+{"time":16270,"type":"sentence","start":287,"end":362,"value":"Today, computers can learn these rules without being explicitly programmed."}
+{"time":20750,"type":"sentence","start":363,"end":391,"value":"I will come to this shortly."}

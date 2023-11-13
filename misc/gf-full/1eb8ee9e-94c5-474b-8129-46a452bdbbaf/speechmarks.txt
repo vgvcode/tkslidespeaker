@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":214,"value":"Our video conferencing app will provide a very realistic, and totally immersive experience, complete with virtual reality shows for kasi yatra, oonjal, and so on, appropriate for different cultures and preferences."}
+{"time":11480,"type":"sentence","start":217,"end":244,"value":"Sounds interesting, I feel."}
+{"time":14097,"type":"sentence","start":247,"end":266,"value":"And that's not all."}
+{"time":16052,"type":"sentence","start":268,"end":355,"value":"When the function is over, the wedding guests will have food waiting at their doorstep."}
+{"time":21032,"type":"sentence","start":357,"end":536,"value":"Through our catering service partners and food delivery agents located throughout the city, we will get wedding lunches \/ dinners delivered to all our guests anywhere in the city."}
+{"time":29762,"type":"sentence","start":538,"end":597,"value":"And likewise, we took care of the wedding presents as well."}
+{"time":33804,"type":"sentence","start":599,"end":659,"value":"Our bride and groom will get them once the function is over."}
+{"time":37672,"type":"sentence","start":661,"end":714,"value":"Delivered to their home by courtesy of Weddings-R-Us."}

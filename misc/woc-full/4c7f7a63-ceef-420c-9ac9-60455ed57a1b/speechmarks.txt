@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":1,"end":52,"value":"We should be careful not to overreact\", said Swami."}
+{"time":3292,"type":"sentence","start":55,"end":83,"value":"A I is still in its infancy."}
+{"time":5472,"type":"sentence","start":84,"end":174,"value":"It is not foolproof, but it has shown to improve by leaps and bounds with better training."}
+{"time":10439,"type":"sentence","start":179,"end":278,"value":"The biggest benefits for us with AI are the to make better predictions and the ability to automate."}
+{"time":15794,"type":"sentence","start":280,"end":332,"value":"These have direct impact on our top and bottom line."}
+{"time":18874,"type":"sentence","start":333,"end":453,"value":"So while Ray's concerns are valid, we should make sure we don't throw away the baby with the bathwater\", Sonya observed."}
+{"time":25429,"type":"sentence","start":457,"end":506,"value":"But, it's going to be a long journey\", Phil said."}

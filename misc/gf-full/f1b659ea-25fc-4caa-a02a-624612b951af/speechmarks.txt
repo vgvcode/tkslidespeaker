@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":0,"end":8,"value":"Story 7."}
+{"time":1530,"type":"sentence","start":9,"end":28,"value":"Twenty Eighty-Four."}

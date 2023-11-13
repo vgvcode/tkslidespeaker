@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":91,"value":"Ron and Lynda slowed down when they saw the signs for the city and exited into a dirt road."}
+{"time":5604,"type":"sentence","start":93,"end":122,"value":"The city was mostly deserted."}
+{"time":8384,"type":"sentence","start":124,"end":193,"value":"It looked like yet another nondescript city in the middle of nowhere."}
+{"time":12552,"type":"sentence","start":194,"end":244,"value":"But Ron was drawn to Mystique Valley for a reason."}
+{"time":15794,"type":"sentence","start":245,"end":400,"value":"As a Professor of Gerontology at the University of Southern California, Ron had noticed something unusual about the city from the research and census data."}
+{"time":24337,"type":"sentence","start":401,"end":416,"value":"Average age: 76"}
+{"time":27204,"type":"sentence","start":417,"end":491,"value":"For Ron, this city was a godsend to do research work on aging populations."}
+{"time":32472,"type":"sentence","start":493,"end":594,"value":"Over the last few weeks, he made multiple trips to the city to observe and interview the inhabitants."}

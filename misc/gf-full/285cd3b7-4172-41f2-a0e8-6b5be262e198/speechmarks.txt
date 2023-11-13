@@ -1,0 +1,15 @@
+{"time":0,"type":"sentence","start":1,"end":116,"value":"The bitter animosity endured for thirty years, and over time, the families had drifted apart into their own worlds."}
+{"time":6755,"type":"sentence","start":118,"end":163,"value":"Vani never visited her family again in India."}
+{"time":10035,"type":"sentence","start":165,"end":236,"value":"And likewise, her family in India never wanted to visit her in the USA."}
+{"time":14840,"type":"sentence","start":238,"end":331,"value":"Ragav tried to contact his sister several times after that, but he never heard back from her."}
+{"time":20357,"type":"sentence","start":333,"end":360,"value":"Soon, all contact was lost."}
+{"time":22925,"type":"sentence","start":362,"end":439,"value":"Ragav's guess was she lived somewhere in Boston, but he was not sure anymore."}
+{"time":27567,"type":"sentence","start":441,"end":473,"value":"The flight took off on schedule."}
+{"time":29797,"type":"sentence","start":475,"end":576,"value":"After a few minutes, the flight attendant was serving drinks to everyone in the business class cabin."}
+{"time":35352,"type":"sentence","start":578,"end":641,"value":"Ragav settled down to a long flight and promptly went to sleep."}
+{"time":39245,"type":"sentence","start":643,"end":728,"value":"About five hours later, he woke up with a slight chest pain and went to the restroom."}
+{"time":44549,"type":"sentence","start":730,"end":801,"value":"He felt very nauseated and asked the flight attendant for medical help."}
+{"time":49279,"type":"sentence","start":803,"end":960,"value":"A little later, an announcement was made over the flight announcement system, 'Ladies and gentlemen, we have a medical emergency in the business class cabin."}
+{"time":57897,"type":"sentence","start":962,"end":1093,"value":"If there's a doctor on board, kindly present yourself to the flight attendants immediately' The passengers looked around anxiously."}
+{"time":65052,"type":"sentence","start":1095,"end":1191,"value":"Soon, a couple of people were seen being escorted by the attendants to the business class cabin."}
+{"time":70707,"type":"sentence","start":1193,"end":1200,"value":"The scr"}

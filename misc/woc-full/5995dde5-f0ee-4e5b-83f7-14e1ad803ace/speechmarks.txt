@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":56,"value":"Cozmo Bicycles was established in 1945, by Sam Davidson."}
+{"time":4792,"type":"sentence","start":57,"end":216,"value":"Initially they started manufacturing bicycles as an OEM (Original Equipment Manufacturer) and sold them exclusively under other brand names as a private label."}
+{"time":14084,"type":"sentence","start":219,"end":326,"value":"After about 40 years of doing business this way, Sam passed over the reins of the business to his son Phil."}
+{"time":19964,"type":"sentence","start":327,"end":416,"value":"Phil was a bicycle aficionado in his own right, and boldly took the company to a new era."}
+{"time":25132,"type":"sentence","start":417,"end":562,"value":"Under his leadership, Cozmo decided to establish its own brand of bicycles and go directly to consumers in North America and countries in Europe."}

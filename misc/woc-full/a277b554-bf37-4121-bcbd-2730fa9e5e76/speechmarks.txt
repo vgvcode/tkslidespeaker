@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":0,"end":111,"value":"Equipped with an array of electronic gadgets, the Connected Bike was Cozmo's salvo aimed at New Horizon Sports."}
+{"time":6105,"type":"sentence","start":112,"end":273,"value":"They had multiple variations of the Connected Bike, that would appeal to the sports aficionado, the sophisticated urban traveller and the tech savvy Gen Z biker."}

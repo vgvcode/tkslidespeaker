@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":27,"value":"Rob got a little defensive."}
+{"time":1980,"type":"sentence","start":30,"end":113,"value":"Well, we face a lot of competition in the mountain and race bikes segment nowadays."}
+{"time":6885,"type":"sentence","start":115,"end":204,"value":"The new kid in the block, New Horizon Sports has many features that appeal to youngsters."}
+{"time":11852,"type":"sentence","start":206,"end":276,"value":"Secondly, we closed our manufacturing plants in China a few years ago."}
+{"time":16245,"type":"sentence","start":278,"end":337,"value":"This resulted in our manufacturing becoming more expensive."}
+{"time":19937,"type":"sentence","start":339,"end":398,"value":"We have tried to compensate for this by raising our prices."}
+{"time":23355,"type":"sentence","start":400,"end":412,"value":"And thirdly,"}

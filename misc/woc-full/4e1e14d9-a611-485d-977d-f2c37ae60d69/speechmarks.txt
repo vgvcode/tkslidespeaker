@@ -1,0 +1,1 @@
+{"time":0,"type":"sentence","start":0,"end":124,"value":"Seated across the table from Cozmo Bicycles' C suite were a group of management consultants from a top tier consulting firm."}

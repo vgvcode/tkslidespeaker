@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":0,"end":87,"value":"Shanthi Vilas had a rather sleepy existence for the first few months after its opening."}
+{"time":5055,"type":"sentence","start":89,"end":121,"value":"Membership was slow to take off."}
+{"time":7472,"type":"sentence","start":123,"end":184,"value":"There was very little social interaction among the residents."}
+{"time":11302,"type":"sentence","start":186,"end":223,"value":"Nobody knew who their neighbors were."}
+{"time":13720,"type":"sentence","start":225,"end":316,"value":"Perhaps it was too serene and too isolated from everything and that was working against it."}
+{"time":19137,"type":"sentence","start":318,"end":408,"value":"But all this changed very soon, with the arrival of Srinivasa Rao, a.\nk.\na WhatsApp Vasan."}

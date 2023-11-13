@@ -1,0 +1,13 @@
+{"time":0,"type":"sentence","start":0,"end":11,"value":"'Fantastic."}
+{"time":1467,"type":"sentence","start":13,"end":70,"value":"Are you looking for any venture funding for your company?"}
+{"time":4772,"type":"sentence","start":72,"end":84,"value":", Som asked."}
+{"time":6565,"type":"sentence","start":86,"end":116,"value":"'We are definitely interested."}
+{"time":8795,"type":"sentence","start":118,"end":183,"value":"We feel this idea has great potential across multiple industries."}
+{"time":13162,"type":"sentence","start":185,"end":219,"value":"I will get in touch with you soon."}
+{"time":15480,"type":"sentence","start":221,"end":355,"value":"At this time, we have a couple of private investors who are backing us with some of their bitcoin fortunes', the man winks as he says."}
+{"time":22747,"type":"sentence","start":357,"end":366,"value":"'Anytime."}
+{"time":24052,"type":"sentence","start":368,"end":445,"value":"You have the information to contact me on the card', Som smiled triumphantly."}
+{"time":28732,"type":"sentence","start":447,"end":508,"value":"By them, people started forming a line at the departure gate."}
+{"time":32575,"type":"sentence","start":510,"end":534,"value":"The man got up to leave."}
+{"time":34555,"type":"sentence","start":536,"end":591,"value":"'Before you go, can I try out your product on my phone?"}
+{"time":38135,"type":"sentence","start":593,"end":605,"value":", Som asked."}

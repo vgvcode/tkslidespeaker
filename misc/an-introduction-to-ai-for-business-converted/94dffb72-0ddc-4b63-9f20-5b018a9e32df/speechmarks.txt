@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":0,"end":30,"value":"Now let us come to the present"}
+{"time":2592,"type":"sentence","start":32,"end":104,"value":"We had a major breakthrough in 2022 \/ 2023 in the form of Generative AI."}

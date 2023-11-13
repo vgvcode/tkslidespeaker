@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":30,"value":"There was no mistake about it."}
+{"time":2230,"type":"sentence","start":32,"end":76,"value":"My Dad's typewriter had sprung back to life."}
+{"time":5410,"type":"sentence","start":78,"end":140,"value":"It was talking back to me in its familiar old typewriter font."}
+{"time":9440,"type":"sentence","start":142,"end":247,"value":"The letters I used to love (and miss so much) leaped out of the paper and started dancing in front of me."}
+{"time":15395,"type":"sentence","start":249,"end":324,"value":"Some were smudged a little, others felt like they could use some extra ink."}
+{"time":19812,"type":"sentence","start":326,"end":417,"value":"And there was that familiar 'm' that seemed tantalizingly similar to the 'n' on some lines."}
+{"time":24880,"type":"sentence","start":419,"end":479,"value":"It was my dad's Brother Valiant, no doubt, back in business!"}
+{"time":28985,"type":"sentence","start":481,"end":498,"value":"But who fixed it?"}

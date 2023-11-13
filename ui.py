@@ -6,6 +6,9 @@ import json
 from threading import Timer
 import config as cfg
 import readData as rd
+from tkinter import simpledialog
+from tkinter import ttk
+from tkinter import messagebox
 
 def readImage(path):
     return PhotoImage(file=path)
@@ -65,43 +68,6 @@ def choiceYesNo(pop, option, path, yesCallback, noCallback):
        yesCallback(path)
    else:
        noCallback()
-
-def modalWithYesNo(win, path, message, yesCallback, noCallback):
-   pop = Toplevel(win)
-   pop.title("Confirmation")
-   pop.geometry("300x150")
-   pop.config(bg="white")
-   # Create a Label Text
-   label = Label(pop, text=message, font=('Aerial', 12))
-   label.pack(pady=20)
-   # Add a Frame
-   frame = Frame(pop, bg="white")
-   frame.pack(pady=10)
-   # Add Button for making selection
-   button1 = Button(frame, text="Yes", command=lambda: choiceYesNo(pop, "yes", path, yesCallback, noCallback), bg="blue", fg="white")
-   button1.grid(row=0, column=1)
-   button2 = Button(frame, text="No", command=lambda: choiceYesNo(pop, "no", path, yesCallback, noCallback), bg="blue", fg="white")
-   button2.grid(row=0, column=2)
-
-def modalWithOk(win, message, okCallback):
-   pop = Toplevel(win)
-   pop.title("Confirmation")
-   geom = str(cfg.modalWidth) + "x" + str(cfg.modalHeight)
-   pop.geometry(geom)
-   pop.config(bg="white")
-   # Create a Label Text
-   label = Label(pop, text=message, font=('Aerial', cfg.modalFontSize), bg="white")
-   label.pack(pady=20)
-   # Add a Frame
-   frame = Frame(pop, bg="white")
-   frame.pack(pady=10)
-   # Add Button for making selection
-   button1 = Button(frame, text="OK", command=lambda: okCallback(pop), bg=cfg.errorButtonBgColor, fg="white")
-   button1.grid(row=0, column=1)
-
-def okCallback(pop):
-    pop.destroy()
-    cfg.txtPresoName.delete(0, END)
 
 def setTimersForSentenceHighlighting():
     #loop through speechmarks, set timers to highlight sentences
@@ -184,7 +150,80 @@ def toggleAutoAdvance():
 
 def onClosing():
     if cfg.isPlaying:
-        modalWithOk(cfg.rootWin, "Please wait for the current sound to finish playing", okCallback)
+        messagebox.showwarning("Warning", "Please wait for the current sound to finish playing")
     else:
         cfg.rootWin.destroy()
 
+class LoginDialog(simpledialog.Dialog):
+    def body(self, master):
+        Label(master, text="Username:").grid(row=0)
+        Label(master, text="Password:").grid(row=1)
+
+        self.username_entry = Entry(master)
+        self.password_entry = Entry(master, show="*")
+
+        self.username_entry.grid(row=0, column=1)
+        self.password_entry.grid(row=1, column=1)
+
+        return self.username_entry  # Focus on the username entry initially
+
+    def apply(self):
+        username = self.username_entry.get()
+        password = self.password_entry.get()
+        self.result = (username, password)
+
+def show_login_dialog():
+    dialog = LoginDialog(cfg.rootWin, title="Login")
+    return dialog.result
+
+class ComboBoxModalBox(simpledialog.Dialog):
+    def body(self, master):
+        self.combo_var = StringVar()
+        self.combo_box = ttk.Combobox(master, textvariable=self.combo_var, values=cfg.speakerList)
+        self.combo_box.grid(row=0, column=0, padx=10, pady=10)
+
+        return self.combo_box  # Focus on the combo box initially
+
+    def apply(self):
+        self.result = self.combo_var.get()
+
+def show_speaker_dialog():
+    dialog = ComboBoxModalBox(cfg.rootWin, title="Select your speaker")
+    return dialog.result
+
+# def modalWithYesNo(win, path, message, yesCallback, noCallback):
+#    pop = Toplevel(win)
+#    pop.title("Confirmation")
+#    pop.geometry("300x150")
+#    pop.config(bg="white")
+#    # Create a Label Text
+#    label = Label(pop, text=message, font=('Aerial', 12))
+#    label.pack(pady=20)
+#    # Add a Frame
+#    frame = Frame(pop, bg="white")
+#    frame.pack(pady=10)
+#    # Add Button for making selection
+#    button1 = Button(frame, text="Yes", command=lambda: choiceYesNo(pop, "yes", path, yesCallback, noCallback), bg="blue", fg="white")
+#    button1.grid(row=0, column=1)
+#    button2 = Button(frame, text="No", command=lambda: choiceYesNo(pop, "no", path, yesCallback, noCallback), bg="blue", fg="white")
+#    button2.grid(row=0, column=2)
+
+# def modalWithOk(win, message, okCallback):
+#    pop = Toplevel(win)
+#    pop.title("Confirmation")
+#    geom = str(cfg.modalWidth) + "x" + str(cfg.modalHeight)
+#    pop.geometry(geom)
+#    pop.config(bg="white")
+#    # Create a Label Text
+#    label = Label(pop, text=message, font=('Aerial', cfg.modalFontSize), bg="white")
+#    label.pack(pady=20)
+#    # Add a Frame
+#    frame = Frame(pop, bg="white")
+#    frame.pack(pady=10)
+#    # Add Button for making selection
+#    button1 = Button(frame, text="OK", command=lambda: okCallback(pop), bg=cfg.errorButtonBgColor, fg="white")
+#    button1.grid(row=0, column=1)
+
+# def okCallback(pop):
+#     pop.destroy()
+#     cfg.txtPresoName.delete(0, END)

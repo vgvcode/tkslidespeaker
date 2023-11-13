@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":0,"end":77,"value":"Our company has over 50 patents, a number that is growing rapidly every year."}
+{"time":4980,"type":"sentence","start":79,"end":179,"value":"When our employees come up with new product designs, I always ask them to make sure it is their own."}
+{"time":10660,"type":"sentence","start":181,"end":291,"value":"This practice has given us a stellar track record and helped us lead the industry with truly innovative ideas."}
+{"time":17040,"type":"sentence","start":293,"end":463,"value":"Years ago, I learnt a lesson about Honesty and Ethics from Mr. \nRaghuram's father, Sri Srinivasa Shastry, the principal of Srinivasa Matriculation High School in Chennai."}
+{"time":26470,"type":"sentence","start":465,"end":508,"value":"It is a memory that I will cherish forever."}
+{"time":29462,"type":"sentence","start":510,"end":621,"value":"Hence, as a gesture of gratitude to his father, I have decided to offer this position to Mr. \nRaghuram Shastry."}

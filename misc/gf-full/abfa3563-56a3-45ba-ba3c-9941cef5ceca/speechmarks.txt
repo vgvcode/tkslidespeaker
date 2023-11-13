@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":54,"value":"Som liked to describe himself as a venture capitalist."}
+{"time":3805,"type":"sentence","start":56,"end":134,"value":"He always bragged about how he could spot a great idea from a merely good one."}
+{"time":8535,"type":"sentence","start":136,"end":198,"value":"He was an early investor in many startup technology companies."}
+{"time":12752,"type":"sentence","start":200,"end":280,"value":"Some of them, truth be told, did quite well and helped Som make quite a fortune."}
+{"time":17645,"type":"sentence","start":282,"end":318,"value":"Yet, Som was far from failure proof."}
+{"time":20612,"type":"sentence","start":320,"end":423,"value":"Once in a while, his ventures backfired spectacularly, earning him the nickname 'Adventure Capitalist'."}
+{"time":26580,"type":"sentence","start":425,"end":533,"value":"But perhaps what Som was best known for, was his 'misadventure' that happened during a recent business trip."}

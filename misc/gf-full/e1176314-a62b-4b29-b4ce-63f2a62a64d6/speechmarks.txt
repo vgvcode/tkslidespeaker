@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":1,"end":163,"value":"Over the last 24 hours, our call center agents are getting a flurry of calls from customers around the world saying that their credit cards have been compromised."}
+{"time":8817,"type":"sentence","start":165,"end":264,"value":"All of them are Card Not Present (CNP) frauds where the physical card was not used by the customer."}
+{"time":15172,"type":"sentence","start":266,"end":286,"value":"Online transactions."}
+{"time":17464,"type":"sentence","start":291,"end":383,"value":"At this point, Jordan, our Chief Financial Officer interrupted, sounding somewhat skeptical."}
+{"time":23494,"type":"sentence","start":386,"end":416,"value":"These attacks are nothing new."}
+{"time":25899,"type":"sentence","start":418,"end":505,"value":"Last year, eCommerce CNP fraud accounted for over $4 Billion in losses in the US alone."}
+{"time":32017,"type":"sentence","start":507,"end":577,"value":"This is the fastest growing type of fraud in the credit card industry."}
+{"time":36447,"type":"sentence","start":579,"end":661,"value":"I do not see why we had to have an All Hands Meeting for this so early in the day!"}

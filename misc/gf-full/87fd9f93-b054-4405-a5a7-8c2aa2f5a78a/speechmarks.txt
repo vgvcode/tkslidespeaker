@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":1,"end":14,"value":"July 9, 2023."}
+{"time":2530,"type":"sentence","start":16,"end":45,"value":"It was a warm Sunday morning."}
+{"time":4735,"type":"sentence","start":47,"end":104,"value":"Dev's parents' house was bustling with activity that day."}
+{"time":8315,"type":"sentence","start":106,"end":173,"value":"Dev's mom was up earlier than usual, preparing food in the kitchen."}
+{"time":12532,"type":"sentence","start":175,"end":252,"value":"Dad was checking his wardrobe for the proper attire to wear for the occasion."}
+{"time":16937,"type":"sentence","start":254,"end":310,"value":"Dev's sister Aparna was in charge of cleaning the house."}
+{"time":20455,"type":"sentence","start":312,"end":397,"value":"Grandmother was wondering what all the fuss was about, until Aparna explained to her."}
+{"time":25347,"type":"sentence","start":399,"end":465,"value":"Dev was going to bring his girlfriend to their house that morning."}

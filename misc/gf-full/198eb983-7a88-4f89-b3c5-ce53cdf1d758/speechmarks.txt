@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":0,"end":9,"value":"Epilogue."}
+{"time":1155,"type":"sentence","start":10,"end":71,"value":"Alex was found guilty, but he got away with a light sentence."}
+{"time":5247,"type":"sentence","start":73,"end":178,"value":"The fictitious company names were traced to overseas bank accounts, but they could not be pinned to Alex."}
+{"time":11052,"type":"sentence","start":180,"end":269,"value":"There was no concrete proof that Alex actually instructed the machine to carry out fraud."}

@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":0,"end":44,"value":"Ray nodded, but seemed a little unconvinced."}
+{"time":2855,"type":"sentence","start":47,"end":74,"value":"I need to see it in action."}
+{"time":4747,"type":"sentence","start":76,"end":204,"value":"I have been in this business for over three decades and you are telling me that robots can do quality checks better than humans?"}
+{"time":11015,"type":"sentence","start":206,"end":224,"value":"This I got to see!"}

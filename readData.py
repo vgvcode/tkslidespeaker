@@ -3,7 +3,6 @@ import json
 from playsound import playsound
 import config as cfg
 import ui as ui
-import s3 as s3util
 from threading import Timer
 
 def readFile(path):
@@ -126,3 +125,14 @@ def readPresentation(path):
                 preso["pages"][pg][f] = readWrapper(os.path.join(cfg.root_folder, root, f))
     #print("{} preso read".format(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
     cfg.presentation = preso
+
+def validatePresentationName(presoName):
+    #if name contains any non alphanumeric character return false
+    if not presoName.isalnum():
+        return False
+    
+    #if name contains any uppercase character return false
+    res = any(c.isupper() for c in presoName)
+    if res == True:
+        return False
+

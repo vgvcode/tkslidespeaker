@@ -1,4 +1,6 @@
 boto3==1.28.47
 Pillow==10.1.0
-Pillow==10.1.0
 playsound==1.2.2
+python_pptx==0.6.22
+python_pptx_interface==0.0.12
+Requests==2.31.0

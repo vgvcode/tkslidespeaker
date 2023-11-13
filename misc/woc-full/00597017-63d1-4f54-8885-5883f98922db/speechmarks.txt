@@ -1,0 +1,3 @@
+{"time":0,"type":"sentence","start":1,"end":55,"value":"How are you measuring the success of your initiatives?"}
+{"time":2917,"type":"sentence","start":56,"end":106,"value":"Are you seeing the ROI on your investments in A I?"}
+{"time":6360,"type":"sentence","start":109,"end":133,"value":"asked another executive."}

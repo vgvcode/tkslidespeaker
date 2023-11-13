@@ -1,0 +1,5 @@
+You may remember from college days, that using calculus you can find the lowest point of a curve. 
+In Machine learning that curve is the error function (the difference between the actual result and what the computer predicts, expressed as a function of the input). 
+During training, the computer uses the principles of calculus to arrive at the lowest point of an error function. 
+Think of this like tuning the various knobs in a device, to find the best adjustment. When a computer 'learns' and 'writes the rules' it is actually solving a giant problem which has hundreds of variables, or knobs. 
+Training refers to the tuning of the knobs to find the solution with the lowest error (stochastic gradient descent)."

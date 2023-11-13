@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":0,"end":133,"value":"In addition, AI can analyze the sentiment of a customer in real time and come up with proactive suggestions to the call center agent."}
+{"time":7454,"type":"sentence","start":135,"end":278,"value":"For instance, it can tell when an angry customer is on the line and route the call to senior agents, who can resolve the complaint on the spot."}
+{"time":15047,"type":"sentence","start":280,"end":377,"value":"And waive the service fee, offer a discount or a gift card for being a loyal customer, and so on."}
+{"time":21089,"type":"sentence","start":379,"end":523,"value":"For now, we could start with these, but I have a lot of such interesting enhancements I can think of\", Jay paused, waiting for Sonya's comments."}

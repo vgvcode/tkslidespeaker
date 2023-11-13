@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":93,"value":"If used responsibly, A I and Machine Learning can provide great benefits, as we saw at Cozmo."}
+{"time":5655,"type":"sentence","start":94,"end":150,"value":"Many of these are applicable to other companies as well."}
+{"time":9197,"type":"sentence","start":153,"end":326,"value":"Like many, the optimist in me sees great opportunities for human civilization, through the use of A I. Many people envision a golden age, where humans will coexist with A I."}
+{"time":18639,"type":"sentence","start":327,"end":381,"value":"So it might not be humans vs A I, but humans with A I."}
+{"time":23019,"type":"sentence","start":384,"end":414,"value":"Good luck in your A I journey!"}

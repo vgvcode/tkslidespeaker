@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":0,"end":95,"value":"The Product Manager asked one of the members of the leadership team to participate in the demo."}
+{"time":5079,"type":"sentence","start":98,"end":160,"value":"We would like one of you to pretend you are an angry customer."}
+{"time":8422,"type":"sentence","start":162,"end":306,"value":"Please send an email to customersupport@cozmo dot com right now, from your mobile phone, telling us how bad you feel about your recent purchase."}
+{"time":16289,"type":"sentence","start":310,"end":378,"value":"The members of the leadership team exchanged glances at one another."}
+{"time":20344,"type":"sentence","start":380,"end":403,"value":"No one stepped forward."}
+{"time":22387,"type":"sentence","start":405,"end":497,"value":"After all, they were the proud architects of Cozmo and felt uncomfortable to play this role."}

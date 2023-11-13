@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":1,"end":41,"value":"Are applications like Chat GPT sentient?"}
+{"time":2992,"type":"sentence","start":44,"end":66,"value":"another manager asked."}
+{"time":5097,"type":"sentence","start":69,"end":88,"value":"No, that is a myth."}
+{"time":6914,"type":"sentence","start":89,"end":119,"value":"Machines do not have feelings."}
+{"time":9332,"type":"sentence","start":121,"end":237,"value":"Chat GPT is trained on a vast body of knowledge, so it 'appears' like it is capable of thinking and having feelings."}
+{"time":15912,"type":"sentence","start":238,"end":382,"value":"At its core is a Large Language Model, that knows how to respond well to any question, or what is the best thing to say, based on probabilities."}
+{"time":23992,"type":"sentence","start":384,"end":403,"value":"It is not sentient."}
+{"time":25559,"type":"sentence","start":404,"end":434,"value":"Just a smart piece of software"}

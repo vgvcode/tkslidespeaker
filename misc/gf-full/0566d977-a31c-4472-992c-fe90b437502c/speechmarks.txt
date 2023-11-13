@@ -1,0 +1,9 @@
+{"time":0,"type":"sentence","start":0,"end":29,"value":"June 10, 2084: The SS Utopia."}
+{"time":3729,"type":"sentence","start":32,"end":57,"value":"However, all is not lost."}
+{"time":6147,"type":"sentence","start":59,"end":95,"value":"There is a lot of room for optimism."}
+{"time":8827,"type":"sentence","start":97,"end":127,"value":"The SS Utopia is finally here!"}
+{"time":11557,"type":"sentence","start":129,"end":200,"value":"Call it a crusade to save humanity and all forms of life as we know it."}
+{"time":16037,"type":"sentence","start":202,"end":268,"value":"A mission to propagate our peaceful way of existence beyond Earth."}
+{"time":19954,"type":"sentence","start":270,"end":353,"value":"An exploratory voyage that can pave the way for humans to set up colonies in space."}
+{"time":24934,"type":"sentence","start":355,"end":408,"value":"Space ship Utopia is our answer for all of the above."}
+{"time":28652,"type":"sentence","start":410,"end":431,"value":"Hope springs eternal!"}

@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":110,"value":"The consultants interviewed several leaders, line managers and blue collar workers in Cozmo for several weeks."}
+{"time":6517,"type":"sentence","start":112,"end":178,"value":"They studied existing processes to identify areas for improvement."}
+{"time":10909,"type":"sentence","start":180,"end":310,"value":"The final report was a thorough compilation of their findings and recommendations interspersed with statistics, graphs and charts."}
+{"time":18077,"type":"sentence","start":312,"end":424,"value":"An overarching theme in the report was that Cozmo needed to transform themselves in order to remain competitive."}
+{"time":24419,"type":"sentence","start":426,"end":579,"value":"It said that the world was in the midst of a Fourth Industrial Revolution that will fundamentally alter the way we live, work, and relate to one another."}

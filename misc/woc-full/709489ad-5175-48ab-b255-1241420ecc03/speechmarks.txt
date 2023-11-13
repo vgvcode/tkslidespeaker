@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":1,"end":23,"value":"But how do we do this?"}
+{"time":1705,"type":"sentence","start":26,"end":36,"value":"Phil asked"}

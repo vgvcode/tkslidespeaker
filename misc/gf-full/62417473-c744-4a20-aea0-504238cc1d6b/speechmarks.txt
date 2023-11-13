@@ -1,0 +1,12 @@
+{"time":0,"type":"sentence","start":0,"end":62,"value":"This time, I could see some faint letters appear on the paper."}
+{"time":4054,"type":"sentence","start":65,"end":96,"value":"That's an interesting sentence."}
+{"time":6672,"type":"sentence","start":98,"end":128,"value":"How did you come up with that?"}
+{"time":8702,"type":"sentence","start":131,"end":143,"value":"Krish asked."}
+{"time":10419,"type":"sentence","start":146,"end":171,"value":"It is no accident, Krish."}
+{"time":12974,"type":"sentence","start":173,"end":245,"value":"This is one of those sentences that has ALL the letters of the alphabet."}
+{"time":17454,"type":"sentence","start":247,"end":307,"value":"It was used by typists for practicing their keyboard skills."}
+{"time":21384,"type":"sentence","start":310,"end":483,"value":"As I went to the end of the line on the page, my hand reflexively went to the handle on the left and yanked it to move the paper to the next line and to the leftmost column."}
+{"time":30252,"type":"sentence","start":488,"end":509,"value":"What did you just do?"}
+{"time":31982,"type":"sentence","start":512,"end":536,"value":"Krish asked in surprise."}
+{"time":34349,"type":"sentence","start":539,"end":594,"value":"That's how we moved the typewriter to start a new line."}
+{"time":38067,"type":"sentence","start":596,"end":626,"value":"Carriage Return and Line Feed."}

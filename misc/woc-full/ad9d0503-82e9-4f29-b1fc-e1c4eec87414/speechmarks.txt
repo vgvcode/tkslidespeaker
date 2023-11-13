@@ -1,0 +1,9 @@
+{"time":0,"type":"sentence","start":1,"end":109,"value":"Within seconds after the email was sent, a notification was received by the customer support agent on stage."}
+{"time":6367,"type":"sentence","start":112,"end":147,"value":"Received: Negative Customer Review."}
+{"time":9110,"type":"sentence","start":149,"end":170,"value":"Severity Level: High."}
+{"time":11190,"type":"sentence","start":172,"end":194,"value":"Confidence Score: 99%."}
+{"time":13982,"type":"sentence","start":196,"end":208,"value":"From: Swami."}
+{"time":15650,"type":"sentence","start":210,"end":246,"value":"Product: The Road Warrior Model 365."}
+{"time":19367,"type":"sentence","start":248,"end":279,"value":"Summary: Uncomfortable to ride."}
+{"time":21797,"type":"sentence","start":281,"end":300,"value":"Shoddy workmanship."}
+{"time":23427,"type":"sentence","start":302,"end":340,"value":"Customer would like to return product."}

@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":28,"value":"Chief Product Officer Swami."}
+{"time":2479,"type":"sentence","start":31,"end":65,"value":"Swami is a very strategic thinker."}
+{"time":5047,"type":"sentence","start":67,"end":98,"value":"He is nick named as 'The Prof'."}
+{"time":7214,"type":"sentence","start":100,"end":207,"value":"He brings a wealth of experience in manufacturing, and in launching very successful products in the market."}
+{"time":12907,"type":"sentence","start":209,"end":294,"value":"As you will see, he is a very important leader in Cozmo's A I Transformation Journey."}

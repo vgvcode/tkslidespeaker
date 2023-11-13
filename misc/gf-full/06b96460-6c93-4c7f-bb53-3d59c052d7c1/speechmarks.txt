@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":38,"value":"Day 2 Afternoon, Stopping the Carnage."}
+{"time":2992,"type":"sentence","start":40,"end":110,"value":"Over the next few hours, several calls were made by HR to locate Alex."}
+{"time":7960,"type":"sentence","start":112,"end":149,"value":"A police complaint was filed as well."}
+{"time":10677,"type":"sentence","start":151,"end":253,"value":"Meanwhile, the software team came back with a few items that were deployed to production since summer."}
+{"time":16232,"type":"sentence","start":255,"end":352,"value":"One of them had a strange name, generative_adversarial_network dot py and was deployed on Aug 15."}
+{"time":23462,"type":"sentence","start":354,"end":404,"value":"This code was reviewed and found to be suspicious."}
+{"time":26717,"type":"sentence","start":406,"end":458,"value":"It was promptly removed by the Fraud Detection team."}

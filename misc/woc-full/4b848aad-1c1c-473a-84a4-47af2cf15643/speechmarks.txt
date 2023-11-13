@@ -1,0 +1,9 @@
+{"time":0,"type":"sentence","start":1,"end":48,"value":"That brings me to my next objection\", Ray said."}
+{"time":3279,"type":"sentence","start":51,"end":104,"value":"Sometimes, people's preferences may change over time."}
+{"time":6822,"type":"sentence","start":105,"end":217,"value":"In the case of bicycles, what was popular with men once might get more popular with women over a period of time."}
+{"time":13302,"type":"sentence","start":219,"end":264,"value":"How can your A I possibly detect this change?"}
+{"time":16219,"type":"sentence","start":267,"end":277,"value":"Ray asked."}
+{"time":17699,"type":"sentence","start":281,"end":299,"value":"A valid objection."}
+{"time":19354,"type":"sentence","start":300,"end":324,"value":"We call this data drift."}
+{"time":21197,"type":"sentence","start":325,"end":354,"value":"We have tools to detect this."}
+{"time":23464,"type":"sentence","start":356,"end":480,"value":"The solution is to set up a system of continuous monitoring and training on fresh data, to eliminate any drift\", Olga added."}

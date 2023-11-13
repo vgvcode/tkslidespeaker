@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":61,"value":"Now let's switch topics and look into the field of AI itself."}
-{"time":4617,"type":"sentence","start":63,"end":174,"value":"AI or Artificial Intelligence was defined as the science of making intelligent machines a definition from 1956."}
-{"time":12797,"type":"sentence","start":176,"end":306,"value":"Then came a subset of AI called Machine Learning, which is about making computers learn from the data by building their own rules."}
-{"time":21102,"type":"sentence","start":308,"end":384,"value":"Then we have another subset called Deep Learning which uses neural networks."}
-{"time":26595,"type":"sentence","start":385,"end":454,"value":"This concept has its origin to the way the brain works using neurons."}
-{"time":31899,"type":"sentence","start":456,"end":563,"value":"And now we have Generative AI, which takes AI to a whole new level, as we will see in the examples shortly."}
-{"time":39954,"type":"sentence","start":564,"end":653,"value":"It is based on something called Transformer Architecture which I will not get into today."}

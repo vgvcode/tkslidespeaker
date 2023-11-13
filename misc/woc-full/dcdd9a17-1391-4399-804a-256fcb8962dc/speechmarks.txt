@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":1,"end":17,"value":"Very impressive."}
+{"time":1480,"type":"sentence","start":19,"end":77,"value":"Thank you for bringing this to my attention.\", said Sonya."}
+{"time":4772,"type":"sentence","start":79,"end":140,"value":"It seems we are due for quite a big revamp of our technology."}
+{"time":8327,"type":"sentence","start":143,"end":200,"value":"Jay was happy he found a champion in Sonya for his ideas."}
+{"time":12020,"type":"sentence","start":203,"end":211,"value":"You bet."}
+{"time":13075,"type":"sentence","start":212,"end":232,"value":"Data is the new oil."}
+{"time":14905,"type":"sentence","start":233,"end":271,"value":"AI Technology could be our life saver."}

@@ -1,0 +1,17 @@
+{"time":0,"type":"sentence","start":0,"end":82,"value":"Aug 27: Dr. \nAnjala Williams was getting off a flight at the Boston Logan airport."}
+{"time":5730,"type":"sentence","start":84,"end":194,"value":"She had just returned after her three-week visit to Mumbai, where she had gone to attend a medical conference."}
+{"time":11647,"type":"sentence","start":196,"end":215,"value":"'How was your trip?"}
+{"time":13252,"type":"sentence","start":217,"end":259,"value":", her mom asked her when she reached home."}
+{"time":16145,"type":"sentence","start":261,"end":275,"value":"'It was great."}
+{"time":17525,"type":"sentence","start":277,"end":328,"value":"I had a wonderful time at the conference in Mumbai."}
+{"time":20830,"type":"sentence","start":330,"end":370,"value":"I made a lot of interesting connections."}
+{"time":23710,"type":"sentence","start":372,"end":458,"value":"And, oh, by the way, a strange thing happened a few weeks back, on my flight to India."}
+{"time":29127,"type":"sentence","start":460,"end":564,"value":"A passenger on the flight from Boston to Mumbai had a heart attack in mid-flight and lost consciousness."}
+{"time":34957,"type":"sentence","start":566,"end":593,"value":"He was in his late fifties."}
+{"time":37237,"type":"sentence","start":595,"end":666,"value":"I happened to be the only doctor on board, and I was glad I could help."}
+{"time":41592,"type":"sentence","start":668,"end":731,"value":"I had to perform emergency treatment on him and administer CPR."}
+{"time":45935,"type":"sentence","start":733,"end":786,"value":"Another nurse on board helped with the defibrillator."}
+{"time":49302,"type":"sentence","start":788,"end":866,"value":"We made an emergency landing at London and rushed him to the nearest hospital."}
+{"time":54032,"type":"sentence","start":868,"end":901,"value":"I left after admitting him there."}
+{"time":56512,"type":"sentence","start":904,"end":908,"value":"'Oh!"}
+{"time":57580,"type":"sentence","start":910,"end":984,"value":"I hope he made it out OK', her mother remarked, not paying much attention."}

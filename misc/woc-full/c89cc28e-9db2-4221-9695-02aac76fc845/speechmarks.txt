@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":49,"value":"Sonya Davis was one of the rising stars at Cozmo."}
+{"time":3667,"type":"sentence","start":51,"end":169,"value":"Although a relative newcomer, she had captured the attention of everyone in Senior Leadership in a short span of time."}
+{"time":10247,"type":"sentence","start":171,"end":317,"value":"As Global Head of Sales, she was instrumental in setting up a new line of business at Cozmo, by leading their foray into the home fitness segment."}
+{"time":18152,"type":"sentence","start":319,"end":490,"value":"The sudden departure of Phil as CEO, a veteran in the industry, and the elevation of Sonya, a rookie (according to some), caused a lot of ripples inside and outside Cozmo."}
+{"time":28244,"type":"sentence","start":492,"end":563,"value":"Employees had a lot of questions for Sonya Davis at the next town hall."}

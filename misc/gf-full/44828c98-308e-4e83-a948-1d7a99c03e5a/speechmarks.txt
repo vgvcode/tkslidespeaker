@@ -1,0 +1,10 @@
+{"time":0,"type":"sentence","start":0,"end":115,"value":"Periyasamy's math classes in high school were a great inspiration for many to pursue higher studies in engineering."}
+{"time":6542,"type":"sentence","start":117,"end":139,"value":"Yours truly, included."}
+{"time":8972,"type":"sentence","start":141,"end":243,"value":"His unique methods to teach Calculus to high school students were worthy of a management school study."}
+{"time":14964,"type":"sentence","start":245,"end":366,"value":"He had the uncanny knack to descend to the level of the students and talk to them more like a friend than like a teacher."}
+{"time":21332,"type":"sentence","start":368,"end":454,"value":"He was not a big fan of trying to discipline students through fear, terror or insults."}
+{"time":26674,"type":"sentence","start":456,"end":499,"value":"He was a gentle, yet strict disciplinarian."}
+{"time":30154,"type":"sentence","start":501,"end":655,"value":"With a self effacing humor, he used to feign ignorance when confronted with a question, often to kindle the curiosity of students to think for themselves."}
+{"time":38697,"type":"sentence","start":657,"end":728,"value":"Needless to say, this stimulated the students' interest in the subject."}
+{"time":43339,"type":"sentence","start":730,"end":839,"value":"Year after year, our school used to break all records in competitive entrance tests and national board exams."}
+{"time":49869,"type":"sentence","start":841,"end":987,"value":"Today, he has a very loyal following of former students all over the world, many of whom are renowned scientists, engineers and financial wizards!"}

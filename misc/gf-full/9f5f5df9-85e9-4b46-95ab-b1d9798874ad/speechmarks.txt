@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":92,"value":"A true teacher is one who can lift up the weakest students as well as inspire the strongest."}
+{"time":5504,"type":"sentence","start":94,"end":217,"value":"I often take more pleasure in making the last guy succeed in the exam rather than get the best guy achieve a perfect score."}
+{"time":12284,"type":"sentence","start":219,"end":371,"value":"Yet my classes will have something for everyone, from the smartest to the weakest, Periyasamy's inspiring words still resonate in me after thirty years."}
+{"time":20689,"type":"sentence","start":373,"end":450,"value":"After reaching the US, I couldn't find the address that the neighbor gave me."}
+{"time":25369,"type":"sentence","start":452,"end":486,"value":"I must have lost it on the flight."}
+{"time":28162,"type":"sentence","start":488,"end":513,"value":"Soon, I got busy at work."}
+{"time":30829,"type":"sentence","start":515,"end":697,"value":"About a month later, I got an email from the management office saying they could not deliver my package to the intended recipient and I could pick it up from their office at anytime."}

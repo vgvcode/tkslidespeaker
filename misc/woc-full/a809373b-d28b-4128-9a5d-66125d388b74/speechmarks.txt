@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":0,"end":29,"value":"Chief Financial Officer, Ted."}
+{"time":2617,"type":"sentence","start":32,"end":86,"value":"Ted is very detail oriented and highly cost conscious."}
+{"time":6234,"type":"sentence","start":88,"end":130,"value":"He is generally skeptical of any new idea."}
+{"time":9202,"type":"sentence","start":132,"end":215,"value":"He is always razor focused on the numbers and return on investment for any venture."}

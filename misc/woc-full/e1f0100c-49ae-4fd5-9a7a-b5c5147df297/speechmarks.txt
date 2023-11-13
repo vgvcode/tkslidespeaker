@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":89,"value":"So, to make the long story short, we need to collect data at every stage of our business."}
+{"time":4955,"type":"sentence","start":91,"end":181,"value":"This data has to be stored, cleansed and transformed, so that computers can understand it."}
+{"time":10122,"type":"sentence","start":183,"end":259,"value":"Companies are realizing that their competitive advantage lies in their data."}
+{"time":14315,"type":"sentence","start":261,"end":315,"value":"Data drives machine learning, which drives automation."}
+{"time":17732,"type":"sentence","start":317,"end":387,"value":"This is what we mean by being data driven\", Olga finished her lecture."}

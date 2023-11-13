@@ -1,0 +1,10 @@
+{"time":0,"type":"sentence","start":0,"end":66,"value":"A few nervous minutes later, the pilot again made an announcement."}
+{"time":4217,"type":"sentence","start":68,"end":168,"value":"'We are making an emergency landing at London Heathrow to have doctors attend to the sick passenger."}
+{"time":9647,"type":"sentence","start":170,"end":227,"value":"We request all passengers to remain seated when we land'."}
+{"time":13327,"type":"sentence","start":229,"end":328,"value":"When the flight landed, the passengers eagerly looked out of the windows to see what was happening."}
+{"time":18695,"type":"sentence","start":330,"end":414,"value":"Outside on the tarmac, they could see a few Ambulance vehicles swarm near the plane."}
+{"time":23487,"type":"sentence","start":416,"end":458,"value":"Someone was being escorted in a stretcher."}
+{"time":26342,"type":"sentence","start":460,"end":510,"value":"After about thirty minutes, the pilot spoke again."}
+{"time":29760,"type":"sentence","start":512,"end":585,"value":"'Folks, the passenger has been handed over to the medical emergency team."}
+{"time":34415,"type":"sentence","start":587,"end":624,"value":"We wish the person a speedy recovery."}
+{"time":37032,"type":"sentence","start":626,"end":692,"value":"Please stay in your seats while we continue our flight to Mumbai'."}

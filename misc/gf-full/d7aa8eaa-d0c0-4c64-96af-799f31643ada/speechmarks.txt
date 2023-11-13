@@ -1,0 +1,9 @@
+{"time":0,"type":"sentence","start":0,"end":56,"value":"Nobody seemed to have noticed Vasan's prolonged absence."}
+{"time":3755,"type":"sentence","start":58,"end":100,"value":"It was business as usual at Shanthi Vilas."}
+{"time":6872,"type":"sentence","start":102,"end":145,"value":"Generative AI had seamlessly filled a void!"}
+{"time":10339,"type":"sentence","start":149,"end":237,"value":"The reporters stepped out of the colony in a state of wonderment and pleasant disbelief."}
+{"time":15182,"type":"sentence","start":239,"end":312,"value":"Outside the gate, the morning walker group was actively doing its rounds."}
+{"time":19662,"type":"sentence","start":314,"end":421,"value":"It seemed to have more participants than a year ago, and many of them had wearable devices on their wrists!"}
+{"time":25704,"type":"sentence","start":425,"end":446,"value":"6:30am: Good Morning!"}
+{"time":28347,"type":"sentence","start":448,"end":552,"value":"There's nothing more beautiful than someone who goes out of their way to make life beautiful for others."}
+{"time":34002,"type":"sentence","start":556,"end":581,"value":"Welcome to Digital India!"}

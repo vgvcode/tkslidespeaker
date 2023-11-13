@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":1,"end":97,"value":"And if a customer has a negative review, our app can sense it and trigger workflows based on it."}
+{"time":5292,"type":"sentence","start":99,"end":158,"value":"Like notify customer service or inform the product manager."}
+{"time":9022,"type":"sentence","start":161,"end":216,"value":"And the data can be aggregated to see trends over time."}
+{"time":12377,"type":"sentence","start":218,"end":311,"value":"For example, here's a chart that shows how our Road Warrior bike is trending in social media."}
+{"time":17557,"type":"sentence","start":313,"end":422,"value":"Based on the last four weeks of data, it has 30% positive reviews, 55% negative reviews and the rest neutral."}
+{"time":24900,"type":"sentence","start":424,"end":516,"value":"And most of these reviews are from millennials and Gen Z riders\", the Product Manager added."}

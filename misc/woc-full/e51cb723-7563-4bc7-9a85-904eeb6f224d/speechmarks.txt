@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":0,"end":14,"value":"March 1, 2022."}
+{"time":2417,"type":"sentence","start":17,"end":91,"value":"When CFO Ted ended his speech, the usual applause and cheers were missing."}
+{"time":6859,"type":"sentence","start":92,"end":187,"value":"He had just presented the quarterly financial results of Cozmo Bicycles to the leadership team."}
+{"time":12139,"type":"sentence","start":188,"end":247,"value":"There was a sobering silence as he walked back to his seat."}

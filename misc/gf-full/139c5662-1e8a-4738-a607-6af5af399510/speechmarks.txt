@@ -1,0 +1,9 @@
+{"time":0,"type":"sentence","start":1,"end":6,"value":"'Wow."}
+{"time":1292,"type":"sentence","start":8,"end":37,"value":"That sounds deep', mused Dad."}
+{"time":3959,"type":"sentence","start":39,"end":87,"value":"'She is wondering if machines can have emotions."}
+{"time":7452,"type":"sentence","start":89,"end":236,"value":"And by the way, she seems to be a video game freak who knows her way around those AR \/ VR (augmented reality \/ virtual reality) games and gadgets'."}
+{"time":16232,"type":"sentence","start":240,"end":348,"value":"You see, Dad was sort of a tech junkie himself and was quick to grasp the subtle message in that short poem."}
+{"time":22612,"type":"sentence","start":350,"end":379,"value":"'She can draw and paint too'."}
+{"time":24967,"type":"sentence","start":381,"end":462,"value":"Aparna shared with her family one of Mira's doodles she had on her Facebook page."}
+{"time":30072,"type":"sentence","start":464,"end":545,"value":"It was a strange and beautiful picture that looked like an orchestra performance."}
+{"time":34939,"type":"sentence","start":547,"end":620,"value":"Except there were no people, only musical instruments playing themselves!"}

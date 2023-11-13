@@ -1,0 +1,13 @@
+{"time":0,"type":"sentence","start":0,"end":33,"value":"On their drive back, Lynda spoke."}
+{"time":2854,"type":"sentence","start":35,"end":99,"value":"'We should write an article about this and send it to the press."}
+{"time":6797,"type":"sentence","start":101,"end":203,"value":"Perhaps this will create more awareness in the country and help people find out what really happened'."}
+{"time":12027,"type":"sentence","start":204,"end":231,"value":"'I agree, let us write one."}
+{"time":14707,"type":"sentence","start":233,"end":274,"value":"I hope this will help us trace down Dr. \n"}
+{"time":17837,"type":"sentence","start":274,"end":312,"value":"Chu, and rediscover the lost medicine."}
+{"time":21004,"type":"sentence","start":314,"end":373,"value":"And hopefully someone will take it to production this time."}
+{"time":24784,"type":"sentence","start":375,"end":411,"value":"That is, if we believe in what Dr. \n"}
+{"time":27739,"type":"sentence","start":411,"end":436,"value":"Ricardo said', Ron added."}
+{"time":30257,"type":"sentence","start":437,"end":515,"value":"The next week, 'The mystery of Mystique Valley' made the local news headlines."}
+{"time":35187,"type":"sentence","start":517,"end":614,"value":"Needless to say, the city shot into prominence as a national tourist spot following this article."}
+{"time":40667,"type":"sentence","start":615,"end":740,"value":"After about six months, Ron decided to make another visit to Mystique Valley, to see if any of the press coverage had helped."}
+{"time":47834,"type":"sentence","start":741,"end":910,"value":"As he approached the village, he was greeted by highway signs for 'Majestic Mystique Spa and Resorts Rejuvenate your soul by bathing in the pristine waters of Mystique'."}

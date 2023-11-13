@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":109,"value":"'Yes, I later found out from the hospital that they had done angioplasty for him and he is now back in India."}
+{"time":6105,"type":"sentence","start":111,"end":141,"value":"I was told his name was Ragav."}
+{"time":8522,"type":"sentence","start":143,"end":208,"value":"He was a scientist who had come to Boston to attend a conference."}
+{"time":12577,"type":"sentence","start":210,"end":295,"value":"But just this week before I left Mumbai, I found this news clip in a local newspaper."}
+{"time":17695,"type":"sentence","start":298,"end":378,"value":"She showed a clip that she had cut out from newspaper in India just one day ago."}
+{"time":22437,"type":"sentence","start":380,"end":466,"value":"Mr. \nVenkata Ragavulu, Senior Scientist, thanks the Angel On Board who saved his life."}
+{"time":28130,"type":"sentence","start":469,"end":556,"value":"Article included a brief description of the incident with a photograph of the scientist"}

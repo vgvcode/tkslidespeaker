@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":0,"end":112,"value":"The mobile phone you have in your hand is more powerful than the first computer used in the Apollo moon landing."}
+{"time":5754,"type":"sentence","start":115,"end":151,"value":"Computer storage has become cheaper."}
+{"time":8197,"type":"sentence","start":152,"end":237,"value":"Data collection processes have improved, allowing us to collect lots of digital data."}
+{"time":13114,"type":"sentence","start":239,"end":313,"value":"By the way, machines need millions of data samples to learn by themselves."}

@@ -1,0 +1,3 @@
+{"time":0,"type":"sentence","start":0,"end":25,"value":"We still have work to do."}
+{"time":2042,"type":"sentence","start":27,"end":185,"value":"Our C O E is putting finishing touches to a sentiment analysis app, that can help our Marketing department know what our customers are saying about our brand."}
+{"time":10284,"type":"sentence","start":187,"end":310,"value":"We are exploring the use of Generative A I to create our marketing campaigns and ads targeting different customer segments."}

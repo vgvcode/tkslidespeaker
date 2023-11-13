@@ -1,0 +1,3 @@
+{"time":0,"type":"sentence","start":0,"end":34,"value":"Who is the audience for this book?"}
+{"time":2105,"type":"sentence","start":35,"end":83,"value":"It is an entry level book for people new to A I."}
+{"time":5297,"type":"sentence","start":84,"end":332,"value":"It highlights the people, process and technology challenges an organization will face as it reimagines itself for the Age of A I. Managers and non technical people who are embarking on an A I initiative in their company would find this book useful."}

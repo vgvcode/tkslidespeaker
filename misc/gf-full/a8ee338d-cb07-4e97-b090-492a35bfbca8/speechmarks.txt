@@ -1,0 +1,12 @@
+{"time":0,"type":"sentence","start":0,"end":107,"value":"Ragav was admitted in critical condition to the Hillingdon Hospital in Uxbridge, near the Heathrow airport."}
+{"time":6067,"type":"sentence","start":109,"end":200,"value":"The doctors who attended to him had to perform emergency surgery to get him back to normal."}
+{"time":11622,"type":"sentence","start":204,"end":261,"value":"Aug 8: Forty-eight hours later, Ragav was out of the ICU."}
+{"time":16364,"type":"sentence","start":263,"end":360,"value":"He was resting in his hospital room and having a video call with his family and friends in India."}
+{"time":21744,"type":"sentence","start":362,"end":450,"value":"The doctors who treated him at the hospital told him he was very lucky to have survived."}
+{"time":26799,"type":"sentence","start":452,"end":552,"value":"If he had come to the hospital a few minutes later, it would have been very difficult to revive him."}
+{"time":32317,"type":"sentence","start":554,"end":579,"value":"'You were very fortunate."}
+{"time":34247,"type":"sentence","start":581,"end":627,"value":", said the Chief Cardiologist at the hospital."}
+{"time":37714,"type":"sentence","start":629,"end":669,"value":"'You experienced a massive heart attack."}
+{"time":40382,"type":"sentence","start":671,"end":774,"value":"In your case, due to your high blood pressure and other comorbidities, it was a rather risky situation."}
+{"time":46449,"type":"sentence","start":776,"end":853,"value":"We had to perform coronary angioplasty to widen some of the blocked arteries."}
+{"time":51229,"type":"sentence","start":856,"end":941,"value":"He showed him the reports of the ECG, the angiogram and explained what they had done."}

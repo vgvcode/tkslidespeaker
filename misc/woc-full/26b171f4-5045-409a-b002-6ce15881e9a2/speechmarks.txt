@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":1,"end":66,"value":"Second, we are planning to set up a Center Of Excellence (C O E)."}
+{"time":4417,"type":"sentence","start":68,"end":157,"value":"This is going to be a think tank group of experts who will lay the foundation for change."}
+{"time":9209,"type":"sentence","start":159,"end":229,"value":"75% of the C O E will be drawn from professionals outside the company."}
+{"time":14402,"type":"sentence","start":231,"end":394,"value":"They will be technologists, data scientists, experts in the field of Artificial Intelligence, leaders with background in modern manufacturing techniques and so on."}
+{"time":23494,"type":"sentence","start":396,"end":478,"value":"About 25% of the C O E will drawn from managers and leaders inside Cozmo Bicycles."}
+{"time":29524,"type":"sentence","start":480,"end":550,"value":"This will be a diverse group of individuals with eclectic backgrounds."}

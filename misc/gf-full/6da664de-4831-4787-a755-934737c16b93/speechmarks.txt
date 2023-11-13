@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":0,"end":35,"value":"June 25, 2084: Destination unknown?"}
+{"time":3979,"type":"sentence","start":39,"end":69,"value":"But where is SS Utopia headed?"}
+{"time":6872,"type":"sentence","start":71,"end":102,"value":"This is classified information."}
+{"time":9552,"type":"sentence","start":104,"end":211,"value":"Its onboard computers are preprogrammed to reach one or more distant planets most conducive for human life."}
+{"time":15844,"type":"sentence","start":213,"end":356,"value":"One such planet could be TOI 700 d, an exoplanet about 100 light years away that is in the habitable zone of a dying star known as a red dwarf."}
+{"time":24612,"type":"sentence","start":358,"end":434,"value":"It supports an earth like atmosphere and is about 20% bigger than our Earth."}

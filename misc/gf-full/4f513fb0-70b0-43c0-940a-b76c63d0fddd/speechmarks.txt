@@ -1,0 +1,9 @@
+{"time":0,"type":"sentence","start":0,"end":39,"value":"By now, Som was sufficiently intrigued."}
+{"time":3005,"type":"sentence","start":41,"end":136,"value":"'That seemed like a rather stressful call, I presume', he said, trying to build a conversation."}
+{"time":8660,"type":"sentence","start":138,"end":206,"value":"The man appeared to be taken by surprise, but replied tersely, 'Yes."}
+{"time":13215,"type":"sentence","start":208,"end":216,"value":"It was'."}
+{"time":14445,"type":"sentence","start":218,"end":247,"value":"'Excuse me for being curious."}
+{"time":16887,"type":"sentence","start":249,"end":314,"value":"It looked like you are trying to build some innovative software'."}
+{"time":20530,"type":"sentence","start":316,"end":357,"value":"The man looked up somewhat disinterested."}
+{"time":23297,"type":"sentence","start":359,"end":454,"value":"'I'm Som, venture capitalist who works with software startups', Som said, holding out his card."}
+{"time":29277,"type":"sentence","start":456,"end":492,"value":"The man leaned forward to accept it."}

@@ -1,0 +1,10 @@
+Olga, the head of Data Analytics, spoke. 
+"Our data scientists need to do a much better job of eliminating bias from creeping in with our data. 
+Bias can occur when our data sample is not well distributed to represent the population fairly. 
+
+Or, as Swami said, our A I may be inferring gender incorrectly based on the features in the training data. 
+For example, 'Sports played' might be highly correlated with 'Gender'. 
+We need to review our training data to see if the A I is picking up unintended correlations like this and making wrong inferences.
+
+Secondly, AI provides us with a lot of tools and metrics to detect bias. 
+We should incorporate these and track how well our A I is doing on a continuous basis", Olga said.

@@ -1,0 +1,9 @@
+{"time":0,"type":"sentence","start":0,"end":81,"value":"Still not convinced that this would work, I decided to talk to the owner himself."}
+{"time":4792,"type":"sentence","start":84,"end":109,"value":"No this is not a gimmick."}
+{"time":6772,"type":"sentence","start":111,"end":176,"value":"We did a study to see how comfortable people were with this idea."}
+{"time":10690,"type":"sentence","start":178,"end":240,"value":"The reality is, COVID or no COVID, people want to get married."}
+{"time":15095,"type":"sentence","start":242,"end":260,"value":"Life has to go on."}
+{"time":17025,"type":"sentence","start":262,"end":368,"value":"We just need to figure out how to do it without compromising our traditions, religious values and customs."}
+{"time":23155,"type":"sentence","start":370,"end":422,"value":"And at the same time, in a socially responsible way."}
+{"time":26697,"type":"sentence","start":424,"end":482,"value":"This is where we come in with our virtual wedding package."}
+{"time":30127,"type":"sentence","start":484,"end":591,"value":"It is built using the power of video conferencing, with added bells and whistles for a memorable experience"}

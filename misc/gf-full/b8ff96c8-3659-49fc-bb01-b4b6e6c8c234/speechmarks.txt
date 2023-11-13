@@ -1,0 +1,11 @@
+{"time":0,"type":"sentence","start":0,"end":18,"value":"My wife explained."}
+{"time":2054,"type":"sentence","start":20,"end":131,"value":"After I left for work that day three weeks ago, my son Krish had taken the typewriter to show it to his friend."}
+{"time":8459,"type":"sentence","start":133,"end":218,"value":"At his friend's place was his uncle Rajendra, a retired businessman in his seventies."}
+{"time":13864,"type":"sentence","start":220,"end":317,"value":"Many years ago, Rajendra used to run a very successful typewriting institute in the neighborhood."}
+{"time":19819,"type":"sentence","start":319,"end":397,"value":"He had trained dozens of youngsters in the now forgotten skill of typewriting."}
+{"time":24587,"type":"sentence","start":399,"end":453,"value":"Rajendra instantly recognized my dad's old typewriter."}
+{"time":28817,"type":"sentence","start":455,"end":522,"value":"Without wasting any time, he went to work repairing the instrument."}
+{"time":33297,"type":"sentence","start":524,"end":678,"value":"As he worked on the typewriter, he recalled to Krish the good old days when he used to work at my Dad's office when he was a 22-year-old on his first job."}
+{"time":41752,"type":"sentence","start":681,"end":725,"value":"Your grandfather was an exceptional teacher."}
+{"time":45032,"type":"sentence","start":727,"end":797,"value":"I learned from him the art of writing grammatically correct sentences."}
+{"time":49537,"type":"sentence","start":799,"end":856,"value":"And how to type a manuscript in one go, with no mistakes!"}

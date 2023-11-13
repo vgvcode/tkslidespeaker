@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":1,"end":37,"value":"That's unfortunate\", remarked Sonya."}
+{"time":2542,"type":"sentence","start":40,"end":80,"value":"Is this a one off or is there a pattern?"}
+{"time":5210,"type":"sentence","start":84,"end":125,"value":"One of many such incidents\", Jay replied."}
+{"time":8065,"type":"sentence","start":128,"end":167,"value":"We are also not innovating fast enough."}
+{"time":10782,"type":"sentence","start":169,"end":241,"value":"One of our customers complained our bicycles were from a 'jurassic era'."}
+{"time":14712,"type":"sentence","start":243,"end":351,"value":"But that may be more of a product issue than a customer service issue, which we need to revisit another day."}

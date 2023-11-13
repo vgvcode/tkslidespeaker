@@ -1,0 +1,1 @@
+{"time":0,"type":"sentence","start":0,"end":56,"value":"Cozmo Bicycles was established in 1945, by Sam Davidson."}

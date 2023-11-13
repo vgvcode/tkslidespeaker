@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":109,"value":"This book would not have been possible without the encouragement given by my high school and college friends."}
+{"time":5705,"type":"sentence","start":111,"end":186,"value":"They urged me to write more when I first published these stories in medium."}
+{"time":10022,"type":"sentence","start":187,"end":191,"value":"com."}
+{"time":11002,"type":"sentence","start":193,"end":302,"value":"I also wish to thank my wife Sreevidya, daughters Shruti and Janani and my extended family for their support."}
+{"time":17232,"type":"sentence","start":304,"end":442,"value":"They provided great suggestions and served as dispassionate critics and proofreaders and caught many a typo and gaffe that went unnoticed."}

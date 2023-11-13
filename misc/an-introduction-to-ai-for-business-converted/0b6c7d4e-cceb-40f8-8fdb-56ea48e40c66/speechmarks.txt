@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":0,"end":56,"value":"Now I'm asking Chat GPT to explain it to Physics majors."}
+{"time":4404,"type":"sentence","start":59,"end":97,"value":"Notice the difference in the language."}
+{"time":6934,"type":"sentence","start":98,"end":128,"value":"It is much more sophisticated."}
+{"time":9302,"type":"sentence","start":129,"end":191,"value":"It uses concepts that a Physics student will be familiar with."}

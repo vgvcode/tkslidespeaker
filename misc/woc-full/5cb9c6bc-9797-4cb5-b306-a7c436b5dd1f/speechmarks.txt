@@ -1,0 +1,3 @@
+{"time":0,"type":"sentence","start":0,"end":92,"value":"Jay, the SVP of Customer Service applauded the team's efforts, and gave the closing remarks."}
+{"time":5817,"type":"sentence","start":96,"end":228,"value":"While the interaction shown in the demo sounds simple, we have just scratched the surface of what we can do with automated chatbots."}
+{"time":12347,"type":"sentence","start":230,"end":275,"value":"There is a lot more to explore in this space."}

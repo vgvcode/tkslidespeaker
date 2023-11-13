@@ -1,0 +1,10 @@
+{"time":0,"type":"sentence","start":0,"end":57,"value":"What are some changes you wish to see inside the company?"}
+{"time":3142,"type":"sentence","start":59,"end":91,"value":"Where do you see inefficiencies?"}
+{"time":5197,"type":"sentence","start":92,"end":139,"value":"Where do you see opportunities for improvement?"}
+{"time":7840,"type":"sentence","start":141,"end":194,"value":"What are some new products \/ markets we can go after?"}
+{"time":10957,"type":"sentence","start":195,"end":239,"value":"Put yourselves in the shoes of our customer."}
+{"time":13500,"type":"sentence","start":241,"end":314,"value":"If you are going to buy a bike from us, what would you like to see in it?"}
+{"time":17117,"type":"sentence","start":316,"end":353,"value":"Talk to your colleagues and managers."}
+{"time":19372,"type":"sentence","start":355,"end":377,"value":"Think outside the box."}
+{"time":21177,"type":"sentence","start":379,"end":404,"value":"Challenge the status quo."}
+{"time":23120,"type":"sentence","start":406,"end":429,"value":"Do some soul searching."}

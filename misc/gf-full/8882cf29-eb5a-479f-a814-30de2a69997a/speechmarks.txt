@@ -1,0 +1,10 @@
+{"time":0,"type":"sentence","start":0,"end":139,"value":"Soon, Vasan became the GO TO person for a wide range of topics that seniors were too embarrassed or afraid to ask their own family members."}
+{"time":7879,"type":"sentence","start":143,"end":178,"value":"'What's the best smartphone to buy?"}
+{"time":10172,"type":"sentence","start":181,"end":236,"value":"'How can I video conference with my daughter in the US?"}
+{"time":13689,"type":"sentence","start":239,"end":275,"value":"'How do I set up a Facebook account?"}
+{"time":16294,"type":"sentence","start":278,"end":318,"value":"'I need to check my bank balance online."}
+{"time":19349,"type":"sentence","start":320,"end":344,"value":"Where is Whatsapp Vasan?"}
+{"time":21354,"type":"sentence","start":347,"end":457,"value":"Within one year of his arrival, Vasan had transformed the sleepy colony into a vibrant and thriving community."}
+{"time":27947,"type":"sentence","start":461,"end":592,"value":"He got the management to install high speed Internet and public WiFi in dining halls, family rooms etc and in all residents' homes."}
+{"time":35864,"type":"sentence","start":594,"end":649,"value":"A coffee shop and a 24 hour pharmacy were in the works."}
+{"time":40044,"type":"sentence","start":651,"end":719,"value":"Soon, he had spawned many 'WhatsApp Vasan' lookalikes in the colony."}

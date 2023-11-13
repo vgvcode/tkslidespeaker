@@ -1,0 +1,3 @@
+{"time":0,"type":"sentence","start":1,"end":22,"value":"Thanks, I get it now."}
+{"time":1805,"type":"sentence","start":24,"end":110,"value":"I will work on the messaging right away - that no one will lose their jobs due to A I."}
+{"time":6535,"type":"sentence","start":113,"end":248,"value":"And I will work with our training department to come up with programs and incentives for employees to reskill themselves\", added Linda."}

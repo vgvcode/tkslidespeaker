@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":0,"end":53,"value":"Sometimes it is better not to seek closure on events."}
+{"time":3630,"type":"sentence","start":55,"end":136,"value":"It may be a blessing in disguise to leave unanswered questions remain unanswered."}
+{"time":8272,"type":"sentence","start":138,"end":237,"value":"One such incident happened to me a few days ago I was on a short visit to Chennai, my native place."}
+{"time":14165,"type":"sentence","start":239,"end":293,"value":"I was planning to leave for the US later that evening."}
+{"time":17632,"type":"sentence","start":295,"end":383,"value":"I had just a few hours before my flight, and I still had one important task to complete."}
+{"time":22950,"type":"sentence","start":385,"end":463,"value":"That was to meet Mr. \nPeriyasamy, my high school teacher and mathematics guru."}

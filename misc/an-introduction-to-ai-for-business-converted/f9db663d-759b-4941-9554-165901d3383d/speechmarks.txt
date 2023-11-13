@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":0,"end":63,"value":"Here's an example of how far we have come in the last 50 years."}
+{"time":4080,"type":"sentence","start":65,"end":127,"value":"In 1970, the microprocessor (Intel 4004) had 2300 transistors."}
+{"time":10547,"type":"sentence","start":128,"end":179,"value":"Today, NVIDIA's AI Chip has 54 Billion transistors."}
+{"time":14827,"type":"sentence","start":181,"end":230,"value":"In 1970, it was impossible to buy 1TB of storage."}
+{"time":19420,"type":"sentence","start":231,"end":276,"value":"Cost was more than $1 Million or Rs 8 crores."}
+{"time":22837,"type":"sentence","start":278,"end":336,"value":"Today, you can buy a 1TB hard drive for less than Rs 5000."}

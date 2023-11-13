@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":0,"end":96,"value":"Simultaneously, on the home front, Cozmo was releasing a new version of their home fitness bike."}
+{"time":5730,"type":"sentence","start":98,"end":172,"value":"The home fitness bike was also equipped with a lot of sensors and gadgets."}
+{"time":9847,"type":"sentence","start":173,"end":206,"value":"It came with a mobile gaming app."}
+{"time":11965,"type":"sentence","start":208,"end":337,"value":"Home fitness bikers could connect their bike to the TV or a tablet and get interactive bike lessons from Cozmo's fitness channel."}
+{"time":18845,"type":"sentence","start":339,"end":476,"value":"They could also buy Cozmo's Virtual Reality goggles and experience a 3D bike ride through various scenic routes along with their buddies."}
+{"time":26200,"type":"sentence","start":478,"end":518,"value":"It was Cozmo's foray into the metaverse."}

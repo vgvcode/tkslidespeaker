@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":56,"value":"It was a day that will go down in infamy in Som's diary."}
+{"time":3992,"type":"sentence","start":58,"end":117,"value":"It was a chance meeting that Som wished had never happened."}
+{"time":7784,"type":"sentence","start":119,"end":221,"value":"His friends never failed to bring this up whenever Som waxed eloquent about yet another crazy startup."}
+{"time":13814,"type":"sentence","start":223,"end":368,"value":"On his way back from a business conference in Silicon Valley, Som had to spend a couple of hours at a transit lounge in a major European airport."}
+{"time":21807,"type":"sentence","start":370,"end":544,"value":"As Som walked through the terminal looking for connecting gate information for his next flight, he wondered how boringly similar all International airports looked these days."}

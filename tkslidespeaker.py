@@ -1,31 +1,91 @@
 from tkinter import *
 from tkinter.font import Font
+from tkinter import messagebox
 import os
 from PIL import ImageTk, Image
 import json
 from playsound import playsound
 from threading import Timer
-import config as cfg
-import readData as rd
-import ui as ui
 from tkinter.ttk import Combobox
 from tkinter import Checkbutton
 from tkinter import IntVar
+import updownload as updown
+from pathlib import Path
+import config as cfg
+import readData as rd
+import ui as ui
 
-cfg.baseFolder = os.path.join('C:\\', 'Users', 'vgvnv', 'Documents', "tkinter-apps", cfg.baseFolderTail)
+cfg.home = Path.home()
+cfg.appFolder = os.path.join(cfg.home, cfg.appName)  #C:\users\vgvnv\tkslidespeaker 
+cfg.stagingFolder = os.path.join(cfg.appFolder, "staging") #C:\users\vgvnv\tkslidespeaker\staging
+cfg.tmpFolder = os.path.join(cfg.appFolder, "tmp") #C:\users\vgvnv\tkslidespeaker\tmp
+cfg.outputFolder = os.path.join(cfg.appFolder, "output") #C:\users\vgvnv\tkslidespeaker\output
 
 def playCallback():
     presoName = cfg.txtPresoName.get()
-    cfg.root_folder = os.path.join(cfg.baseFolder, presoName)
-    if os.path.exists(cfg.root_folder) == False:
-        #ui.modal(cfg.rootWin, path, "Would you like to download this presentation?", yes, no)
-        ui.modalWithOk(cfg.rootWin, "Presentation not found!", ui.okCallback)
+    if rd.validatePresentationName(presoName) == False:
+        messagebox.showerror('error', 'Only lower case alphabets and numbers allowed!')
+        cfg.txtPresoName.delete(0, END)        
+        return False
+
+    presoRootFolder = os.path.join(cfg.outputFolder, presoName)
+    if os.path.exists(presoRootFolder) == False:
+        messagebox.showerror('error', 'Presentation not found!')
     else:       
         cfg.txtPresoName.config(state=DISABLED)
         rd.readPresentation(presoName)
         ui.setupGotoPageCombo()
         #print("PlayCallback: Length of preso {}".format(len(cfg.presentation["pages"])))
         ui.showFirst()
+
+def downloadCallback():
+    presoName = cfg.txtPresoName.get()
+    if rd.validatePresentationName(presoName) == False:
+        messagebox.showerror('error', 'Only lower case alphabets and numbers allowed!')
+        cfg.txtPresoName.delete(0, END)        
+        return False
+
+    result = ui.show_login_dialog()
+    if result is not None:
+        username, password = result
+        updown.downloadPresentation(username, password, presoName)
+
+def uploadCallback():
+    presoName = cfg.txtPresoName.get()
+    if rd.validatePresentationName(presoName) == False:
+        messagebox.showerror('error', 'Only lower case alphabets and numbers allowed!')
+        cfg.txtPresoName.delete(0, END)        
+        return False
+
+    print("presoName: {}".format(presoName))
+
+    #get the speaker
+    speaker = ui.show_speaker_dialog()
+    if speaker is None:
+        print("Speaker not selected")
+        return False
+    
+    print("Speaker selected {}".format(speaker))
+    result = ui.show_login_dialog()
+    if result is None:
+        return False
+
+    username, password = result
+    uploadResult = updown.uploadPresentation(username, password, presoName, speaker)
+    #if upload failed, put a message here
+    if uploadResult is False:
+        messagebox.showerror('error', 'Upload failed!')
+        return False
+
+def createFolders():
+    #create folders needed. It will not raise error if it already exists
+    os.makedirs(cfg.appFolder, exist_ok=True)
+    os.makedirs(cfg.stagingFolder, exist_ok=True)
+    os.makedirs(cfg.tmpFolder, exist_ok=True)
+    os.makedirs(cfg.outputFolder, exist_ok=True)
+
+
+createFolders()
 
 cfg.rootWin = Tk() 
 
@@ -43,8 +103,12 @@ actionFrame = Frame(cfg.rootWin)
 actionFrame.grid(row = 1, column = 0)
 
 # Set Button with callback
-actionBtn = Button(actionFrame, text = "Play", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:playCallback())
-actionBtn.pack(side = TOP, pady = 10)
+uploadBtn = Button(actionFrame, text = "Upload", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:uploadCallback())
+downloadBtn = Button(actionFrame, text = "Download", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:downloadCallback())
+playBtn = Button(actionFrame, text = "Play", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:playCallback())
+uploadBtn.pack(side = LEFT, fill=BOTH, padx=10, pady = 10)
+downloadBtn.pack(side = LEFT, fill=BOTH, padx=10, pady = 10)
+playBtn.pack(side = LEFT, fill=BOTH, padx = 10, pady = 10)
 
 canvasFrame = Frame(cfg.rootWin)
 #canvasFrame.pack(side = TOP)
@@ -108,5 +172,7 @@ copyrightLab = Label(copyrightFrame, text = cfg.copyrightText, fg=cfg.copyrightF
 copyrightLab.pack( side = TOP, fill = BOTH, expand = True)
 
 cfg.rootWin.protocol("WM_DELETE_WINDOW", ui.onClosing)
+
+cfg.rootWin.update_idletasks()
 
 cfg.rootWin.mainloop() 

@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":95,"value":"Ray, forever the skeptic, said, \"The results keep showing us that A I is not as good as humans."}
+{"time":5742,"type":"sentence","start":97,"end":120,"value":"Here are some examples."}
+{"time":7510,"type":"sentence","start":121,"end":201,"value":"Our product recommendation app seems to be biased towards men rather than women."}
+{"time":11952,"type":"sentence","start":203,"end":311,"value":"Many women who participated in the pilot program received recommendations for bike models that were for men."}
+{"time":17857,"type":"sentence","start":313,"end":379,"value":"And on average, women received 50% fewer recommendations than men."}

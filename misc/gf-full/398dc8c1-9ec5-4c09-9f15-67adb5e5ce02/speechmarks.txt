@@ -1,0 +1,18 @@
+{"time":0,"type":"sentence","start":1,"end":49,"value":"Krish got the typewriter fixed through Rajendra."}
+{"time":3167,"type":"sentence","start":51,"end":104,"value":"He was so excited and never stopped talking about it."}
+{"time":6722,"type":"sentence","start":106,"end":193,"value":"He even wrote a blog about it on his High School website,\" My wife completed the story."}
+{"time":12052,"type":"sentence","start":195,"end":291,"value":"I could see Krish's blog already had a bunch of likes and comments from his high school buddies."}
+{"time":17507,"type":"sentence","start":293,"end":369,"value":"I'm sure they had difficulty believing that such a contraption even existed."}
+{"time":22150,"type":"sentence","start":371,"end":406,"value":"You had no way to 'Save' your work."}
+{"time":24517,"type":"sentence","start":408,"end":483,"value":"You couldn't afford to make mistakes as you had no 'Backspace' or 'Delete'."}
+{"time":28672,"type":"sentence","start":485,"end":530,"value":"There were no automatic sentence completions."}
+{"time":31827,"type":"sentence","start":532,"end":568,"value":"There was no dreaded 'auto correct'!"}
+{"time":34245,"type":"sentence","start":570,"end":648,"value":"There were no squiggly red lines under words, to warn you of grammar mistakes."}
+{"time":38937,"type":"sentence","start":650,"end":725,"value":"If you made a mistake, you had to strike out the letters or use a whitener!"}
+{"time":43355,"type":"sentence","start":727,"end":783,"value":"And you made copies of a document by using carbon paper!"}
+{"time":47085,"type":"sentence","start":785,"end":815,"value":"But Krish had written it well."}
+{"time":49277,"type":"sentence","start":817,"end":936,"value":"He had explained how 'cool' the typewriter was in those days, and how much of the technology we take for granted today."}
+{"time":55520,"type":"sentence","start":938,"end":988,"value":"For a moment, I sat in silence and closed my eyes."}
+{"time":59225,"type":"sentence","start":990,"end":1095,"value":"I could hear a faint, rhythmic 'tuk tuk tuk' of the typewriter inside my head, that was music to my ears."}
+{"time":65405,"type":"sentence","start":1097,"end":1185,"value":"I could picture Rajendra typing away furiously at the keyboard without making a mistake."}
+{"time":70572,"type":"sentence","start":1187,"end":1200,"value":"My dad was si"}

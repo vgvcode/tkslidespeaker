@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":1,"end":75,"value":"Data is vital to this organization for a number of reasons\", Olga replied."}
+{"time":4667,"type":"sentence","start":77,"end":157,"value":"In the old days, we used to say, 'If you can't measure it, you can't manage it'."}

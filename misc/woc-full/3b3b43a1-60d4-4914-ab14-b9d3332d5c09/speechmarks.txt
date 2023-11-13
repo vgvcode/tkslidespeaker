@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":1,"end":11,"value":"Wonderful."}
+{"time":1105,"type":"sentence","start":12,"end":53,"value":"I will start working on these right away."}
+{"time":3759,"type":"sentence","start":55,"end":206,"value":"I think we can scout for talent from headhunters for people with experience from top tier consulting companies and innovative startups\", Linda replied."}
+{"time":11864,"type":"sentence","start":209,"end":299,"value":"Yes, and it will help if they have experience in an industry similar to ours\", Olga added."}

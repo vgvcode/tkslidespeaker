@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":0,"end":97,"value":"Today, CFO Ted announced to a stunned audience, that they were no longer the leading brand in US."}
+{"time":5817,"type":"sentence","start":98,"end":168,"value":"In fact, they were not even among the top three choices for consumers."}

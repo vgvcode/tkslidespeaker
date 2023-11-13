@@ -1,0 +1,10 @@
+{"time":0,"type":"sentence","start":0,"end":54,"value":"The doorbell rang and the conversation ended abruptly."}
+{"time":3517,"type":"sentence","start":56,"end":81,"value":"Dev stepped in with Mira."}
+{"time":5497,"type":"sentence","start":83,"end":114,"value":"'Dad, Mom, meet my friend Mira."}
+{"time":8202,"type":"sentence","start":116,"end":179,"value":"She is a fifth generation humanoid from my research lab at MIT."}
+{"time":12495,"type":"sentence","start":181,"end":271,"value":"Equipped with state of the art CCD cameras, advanced sensors and advanced neural networks."}
+{"time":18200,"type":"sentence","start":273,"end":295,"value":"Mira, meet my family'."}
+{"time":20592,"type":"sentence","start":299,"end":341,"value":"'Hello', said Mira in a deep, husky voice."}
+{"time":23934,"type":"sentence","start":343,"end":408,"value":"She glanced at everyone with her big blue eyes and smiled warmly."}
+{"time":27927,"type":"sentence","start":410,"end":459,"value":"One could hardly say that smile looked 'robotic'."}
+{"time":31094,"type":"sentence","start":461,"end":519,"value":"The long awkward silence that ensued seemed like eternity."}

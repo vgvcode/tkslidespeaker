@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":0,"end":44,"value":"An elderly gentleman interrupted the answer."}
+{"time":2730,"type":"sentence","start":46,"end":59,"value":"I'm confused."}
+{"time":4172,"type":"sentence","start":60,"end":107,"value":"We all know machines cannot think on their own."}
+{"time":6827,"type":"sentence","start":108,"end":166,"value":"So how can a machine 'learn' and 'write the rules' itself?"}

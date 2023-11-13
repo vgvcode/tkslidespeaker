@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":45,"value":"Sometimes, you learn something 'intuitively'."}
+{"time":2830,"type":"sentence","start":47,"end":135,"value":"You know if something is not right or if there's danger around you and you need to flee."}
+{"time":7110,"type":"sentence","start":137,"end":160,"value":"Nobody taught you this."}
+{"time":8852,"type":"sentence","start":162,"end":252,"value":"You notice something is different, or you see a pattern that triggers your brain to react."}
+{"time":13320,"type":"sentence","start":254,"end":291,"value":"Machines also use similar techniques."}
+{"time":15950,"type":"sentence","start":293,"end":422,"value":"They use mathematics to recognize patterns from data, such as identify similar groups of customers, or detect anomalous behavior."}
+{"time":23542,"type":"sentence","start":424,"end":461,"value":"This is called unsupervised learning."}

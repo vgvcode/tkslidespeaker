@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":40,"value":"VP, Head of Data Analytics C O E, Olga ."}
+{"time":3755,"type":"sentence","start":42,"end":161,"value":"Olg is a brilliant data scientist with the ability to communicate her ideas clearly at every level in the organization."}
+{"time":10022,"type":"sentence","start":163,"end":218,"value":"She has a very good grasp of Cozmo's business and data."}
+{"time":13540,"type":"sentence","start":220,"end":317,"value":"She is a mathematician by training and also very familiar with A I and Machine Learning concepts."}
+{"time":18932,"type":"sentence","start":319,"end":435,"value":"As you will see later, she is a very key person in implementing Cozmo's vision to become a data driven organization."}

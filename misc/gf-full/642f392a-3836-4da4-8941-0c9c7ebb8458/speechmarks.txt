@@ -1,0 +1,13 @@
+{"time":0,"type":"sentence","start":0,"end":54,"value":"'Are you looking for Mr. \nPeriyasamy or his son, Balu?"}
+{"time":3680,"type":"sentence","start":56,"end":67,"value":", he asked."}
+{"time":5322,"type":"sentence","start":69,"end":86,"value":"'Mr. \nPeriyasamy."}
+{"time":7177,"type":"sentence","start":88,"end":130,"value":"He was my high school teacher', I replied."}
+{"time":10157,"type":"sentence","start":132,"end":143,"value":"'Ah, I see."}
+{"time":11725,"type":"sentence","start":145,"end":194,"value":"Well, my friend, I don't have great news for you."}
+{"time":15142,"type":"sentence","start":196,"end":293,"value":"About six months back, Mr. \nPeriyasamy got very sick due to Covid and was rushed to the hospital."}
+{"time":21085,"type":"sentence","start":295,"end":338,"value":"He was being treated there for a few weeks."}
+{"time":23902,"type":"sentence","start":340,"end":368,"value":"We never knew what happened."}
+{"time":25970,"type":"sentence","start":370,"end":482,"value":"And then, all of a sudden, his wife and son locked their apartment and disappeared overnight without telling us."}
+{"time":32062,"type":"sentence","start":484,"end":523,"value":"We have not heard back from them since."}
+{"time":34717,"type":"sentence","start":525,"end":599,"value":"The landlord says his son Balu is still paying the rent for the apartment."}
+{"time":38985,"type":"sentence","start":601,"end":643,"value":"But we have no news on their whereabouts'."}

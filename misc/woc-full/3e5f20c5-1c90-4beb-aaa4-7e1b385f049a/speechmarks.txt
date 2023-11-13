@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":1,"end":56,"value":"So, what is the grapevine feeding you with, these days?"}
+{"time":3605,"type":"sentence","start":59,"end":100,"value":"Sonya asked Linda in a mock serious tone."}
+{"time":6510,"type":"sentence","start":102,"end":173,"value":"Linda got up and closed the door of the meeting room, before she spoke."}
+{"time":10490,"type":"sentence","start":176,"end":266,"value":"I hear people talking about some kind of a \"inventor dilemma\" at senior leadership levels."}
+{"time":15420,"type":"sentence","start":268,"end":297,"value":"I'm not sure what this means."}
+{"time":17375,"type":"sentence","start":299,"end":402,"value":"Some are expecting that there will be mass layoffs across the board, and many old timers may be let go."}
+{"time":22880,"type":"sentence","start":404,"end":417,"value":"Is this true?"}

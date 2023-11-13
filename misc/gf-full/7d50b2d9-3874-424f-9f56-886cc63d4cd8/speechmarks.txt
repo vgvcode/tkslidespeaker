@@ -1,0 +1,10 @@
+{"time":0,"type":"sentence","start":1,"end":10,"value":"But wait!"}
+{"time":1479,"type":"sentence","start":12,"end":62,"value":"In fact, I believe we might have one in the house."}
+{"time":5072,"type":"sentence","start":64,"end":132,"value":"Your late grandfather (my dad) was a popular journalist in his time."}
+{"time":9927,"type":"sentence","start":134,"end":200,"value":"He used to send typewritten documents to magazines and newspapers."}
+{"time":14544,"type":"sentence","start":202,"end":348,"value":"They would appear in daily \/ weekly columns as short stories or essays ('middles', as they were called, in The Express or The Mail of those days)."}
+{"time":22149,"type":"sentence","start":351,"end":463,"value":"I spent the next few hours in the attic in a frantic search to locate my dad's old typewriter from 50 years ago."}
+{"time":28767,"type":"sentence","start":465,"end":668,"value":"I finally found it, sitting in a pile of dust along with fellow time travelers like a 'Grundig Reel to Reel Tape Recorder' ,'Bell & Howell 8mm Projector' and a bundle of unused carbon paper from 'Kores'."}
+{"time":39709,"type":"sentence","start":670,"end":692,"value":"My dad was a tinkerer."}
+{"time":42039,"type":"sentence","start":694,"end":760,"value":"He had a mini studio at home and used to make his own home videos."}
+{"time":46582,"type":"sentence","start":762,"end":794,"value":"Something unheard of in the 70s!"}

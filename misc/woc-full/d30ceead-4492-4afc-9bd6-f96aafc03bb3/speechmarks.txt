@@ -1,0 +1,9 @@
+{"time":0,"type":"sentence","start":0,"end":54,"value":"I hope the story of Cozmo Bicycles resonated with you."}
+{"time":3480,"type":"sentence","start":55,"end":114,"value":"The field of A I and Machine Learning is advancing rapidly."}
+{"time":7259,"type":"sentence","start":117,"end":186,"value":"Around the time I wrote this book, Chat GPT (version 4) was released."}
+{"time":12189,"type":"sentence","start":187,"end":219,"value":"It has taken the world by storm."}
+{"time":14382,"type":"sentence","start":220,"end":287,"value":"Many are hailing this as one of the greatest inventions of mankind."}
+{"time":18149,"type":"sentence","start":288,"end":391,"value":"It is a promising new technology with exciting possibilities, and we have barely scratched the surface!"}
+{"time":24004,"type":"sentence","start":394,"end":601,"value":"Yet many are also worried about an A I 'arms race' developing and the dangers of unregulated A I. There have been calls to pause the development of A I so governments can put appropriate safeguards in place."}
+{"time":34334,"type":"sentence","start":602,"end":674,"value":"Pausing the development sounds interesting, but it may not be practical."}
+{"time":38314,"type":"sentence","start":675,"end":719,"value":"No one can stop an idea whose time has come."}

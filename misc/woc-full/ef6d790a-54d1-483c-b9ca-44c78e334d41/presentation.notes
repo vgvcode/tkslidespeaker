@@ -1,0 +1,5 @@
+At school, your teacher rewarded you when you did something well, or admonished you when you did not. 
+Through a system of rewards and punishments, you learned what was the right behavior. Machines also learn through this process. 
+During training, humans will provide feedback to the machines on whether they got the results right or not. 
+Machines use this feedback to make their own rules. For example, a self driving car or a robot is often trained this way to recognize obstacles. 
+This is called reinforced learning.

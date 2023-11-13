@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":68,"value":"Sonya and the leadership committee were very impressed by this demo."}
+{"time":3992,"type":"sentence","start":71,"end":89,"value":"This is fantastic."}
+{"time":5684,"type":"sentence","start":90,"end":149,"value":"Can a customer access this app if they don't have an Alexa?"}
+{"time":9214,"type":"sentence","start":152,"end":164,"value":"asked Sonya."}
+{"time":10857,"type":"sentence","start":166,"end":325,"value":"The project engineer replied, \"Customers can access this chatbot from their mobile phones (using Siri, by downloading our Cozmonaut App on Apple, for example)."}
+{"time":20249,"type":"sentence","start":327,"end":408,"value":"Besides Alexa, we are also making this app available on Google's voice assistant."}
+{"time":25404,"type":"sentence","start":410,"end":497,"value":"And customers can also access it by clicking the 'Chat with us' Button on our website\"."}
+{"time":30259,"type":"sentence","start":500,"end":530,"value":"I'm impressed\", remarked Phil."}

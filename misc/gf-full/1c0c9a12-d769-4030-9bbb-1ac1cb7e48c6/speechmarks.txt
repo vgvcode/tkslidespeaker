@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":1,"end":38,"value":"But that is not all\", Ming continued."}
+{"time":2717,"type":"sentence","start":40,"end":118,"value":"The second pattern I see is much more interesting, er, disturbing, I must say."}
+{"time":7760,"type":"sentence","start":121,"end":249,"value":"Take a look at the merchant names and amounts they are all from Science fiction movies, stories or news items from 20 years ago."}
+{"time":14740,"type":"sentence","start":251,"end":385,"value":"HAL was a robot in the movie, '2001 A Space Odyssey', Deep Blue was IBM's machine that beat the Chess Champion Gary Kasparov in 1997\"."}
+{"time":23395,"type":"sentence","start":387,"end":469,"value":"And Eliza was an early chatbot from MIT, the precursor to Siri and Alexa of today!"}
+{"time":29012,"type":"sentence","start":473,"end":480,"value":"I said."}

@@ -1,0 +1,8 @@
+Now coming to your next question, how do machines actually learn? 
+Loosely speaking, they do it much in the same way that we learn as humans. 
+As a kid, you were taught to read by being shown lots of text and pictures. 
+Your parents and teachers read them aloud for you. 
+In the same way, machines are repeatedly shown data with labels on them. 
+The data could be the image of a bicycle part, and the label could be whether the part is defective or not. 
+Computers need to see several thousand such data samples in order to make up their own rules. 
+This is called supervised learning.

@@ -1,0 +1,1 @@
+{"time":0,"type":"sentence","start":0,"end":72,"value":"A relatively unknown player, New Horizon Sports, was eating their lunch!"}

@@ -1,0 +1,1 @@
+{"time":0,"type":"sentence","start":0,"end":115,"value":"At the request of Sonya, Linda and the HR team developed an internal portal within Cozmo called the 'Idea Factory'."}

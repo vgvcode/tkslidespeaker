@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":66,"value":"My team will send out the details of what we are asking you to do."}
+{"time":3705,"type":"sentence","start":68,"end":118,"value":"In two weeks, come back to me with your wish list."}
+{"time":6747,"type":"sentence","start":120,"end":179,"value":"I am here to support you, along with our Senior Leadership."}
+{"time":10177,"type":"sentence","start":181,"end":237,"value":"Together, we shall chart a new course at Cozmo Bicycles."}
+{"time":13807,"type":"sentence","start":239,"end":293,"value":"We will come out of this stronger and more successful."}

@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":92,"value":"Around noon on the second day, one of the engineers approached me to have a word in private."}
+{"time":5080,"type":"sentence","start":95,"end":194,"value":"A few months back, we had a senior software developer by the name Alex, who was in his mid fifties."}
+{"time":11185,"type":"sentence","start":196,"end":295,"value":"He was a science fiction buff, and used to fondly recall names of old sci-fi movies and characters."}
+{"time":17364,"type":"sentence","start":300,"end":325,"value":"What was Alex working on?"}
+{"time":19607,"type":"sentence","start":327,"end":343,"value":"Where is he now?"}
+{"time":21399,"type":"sentence","start":348,"end":390,"value":"Alex worked with the Fraud Detection Team."}
+{"time":24179,"type":"sentence","start":392,"end":472,"value":"He was creating new algorithms that could improve our ability to identify fraud."}
+{"time":29059,"type":"sentence","start":474,"end":504,"value":"He left by the end of summer\"."}

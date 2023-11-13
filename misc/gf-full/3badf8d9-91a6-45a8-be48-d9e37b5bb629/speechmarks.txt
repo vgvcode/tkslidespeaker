@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":1,"end":35,"value":"Hey Alexa, can computers go rogue?"}
+{"time":2562,"type":"sentence","start":39,"end":88,"value":"I asked the diminutive voice assistant in my car."}
+{"time":6292,"type":"sentence","start":90,"end":246,"value":"Alexa replied: \"Here's what I found: Rogue systems are devices which are unknown to system administrators and users, and are engaged in malicious behavior\"."}
+{"time":15209,"type":"sentence","start":250,"end":277,"value":"It was 7 am in the morning."}
+{"time":17877,"type":"sentence","start":279,"end":350,"value":"I was rushing to my office, CyberCard Global, for an emergency meeting."}
+{"time":23144,"type":"sentence","start":352,"end":383,"value":"My mind was racing even faster."}

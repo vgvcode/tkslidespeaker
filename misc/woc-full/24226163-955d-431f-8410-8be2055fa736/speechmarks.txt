@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":1,"end":47,"value":"So how do you think we can fix these problems?"}
+{"time":2692,"type":"sentence","start":50,"end":62,"value":"Sonya asked."}
+{"time":4172,"type":"sentence","start":65,"end":133,"value":"I would start by introducing better technology for Customer Support."}
+{"time":8065,"type":"sentence","start":135,"end":268,"value":"For instance, we can have AI chatbots to resolve some of our basic customer support issues like delayed shipping or missing products."}
+{"time":15145,"type":"sentence","start":270,"end":335,"value":"More than 30% of our customer support calls are in this category."}
+{"time":19187,"type":"sentence","start":337,"end":434,"value":"This will reduce the load in our call centers by deflecting the simple calls to automated agents."}
+{"time":24455,"type":"sentence","start":435,"end":467,"value":"A huge cost savings right there!"}

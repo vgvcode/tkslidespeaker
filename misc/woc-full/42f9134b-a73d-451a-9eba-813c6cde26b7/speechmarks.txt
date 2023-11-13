@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":1,"end":50,"value":"So we have a lot to think about here\", said Phil."}
+{"time":3105,"type":"sentence","start":53,"end":147,"value":"We have false negatives, gender bias, data drift and last but not the least, privacy concerns."}

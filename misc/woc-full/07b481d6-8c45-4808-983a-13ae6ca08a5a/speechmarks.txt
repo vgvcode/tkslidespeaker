@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":1,"end":13,"value":"Really, why?"}
+{"time":1542,"type":"sentence","start":16,"end":58,"value":"Sonya was hearing this for the first time."}
+{"time":4085,"type":"sentence","start":61,"end":124,"value":"We did not think home fitness would be a big thing\", Phil said."}
+{"time":7627,"type":"sentence","start":125,"end":188,"value":"He quickly corrected himself, seeing the frown in Sonya's face."}
+{"time":11769,"type":"sentence","start":192,"end":216,"value":"That was then of course."}
+{"time":13474,"type":"sentence","start":217,"end":313,"value":"We all know how well you foresaw this trend and built this business at Cozmo from the ground up."}
+{"time":18267,"type":"sentence","start":315,"end":404,"value":"I just cannot understand how we missed to see the potential of New Horizon at that point."}
+{"time":23184,"type":"sentence","start":409,"end":510,"value":"Ah, for an answer to this, you need to speak to our Professor, of course\", said Ray, grinning widely."}

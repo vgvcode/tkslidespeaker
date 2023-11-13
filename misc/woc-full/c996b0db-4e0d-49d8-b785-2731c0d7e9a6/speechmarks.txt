@@ -1,0 +1,12 @@
+{"time":0,"type":"sentence","start":1,"end":42,"value":"I was going to come to that\", said Sonya."}
+{"time":2642,"type":"sentence","start":45,"end":129,"value":"We need to spread the message that Cozmo is not letting anyone go because of robots."}
+{"time":7322,"type":"sentence","start":131,"end":170,"value":"This has to be our number one priority."}
+{"time":9827,"type":"sentence","start":172,"end":224,"value":"Simultaneously, we all need to up-skill or re-skill."}
+{"time":13545,"type":"sentence","start":225,"end":298,"value":"We need to equip the line workers you mentioned earlier, with new skills."}
+{"time":17600,"type":"sentence","start":300,"end":407,"value":"Their jobs will not be taken away, but evolve into something more interesting and challenging\", Sonya said."}
+{"time":23717,"type":"sentence","start":411,"end":421,"value":"Like what?"}
+{"time":24847,"type":"sentence","start":422,"end":446,"value":"Can you give an example?"}
+{"time":26577,"type":"sentence","start":449,"end":461,"value":"Linda asked."}
+{"time":27894,"type":"sentence","start":464,"end":557,"value":"The line worker doing quality checks today, might be designing better products in the future."}
+{"time":32837,"type":"sentence","start":559,"end":658,"value":"Or they may monitor the work done by many robots, and perform complex tasks that the robots cannot."}
+{"time":38429,"type":"sentence","start":660,"end":718,"value":"History is full of examples of how jobs evolved over time."}

@@ -1,0 +1,12 @@
+{"time":0,"type":"sentence","start":0,"end":103,"value":"'The rumor is that Dr Chu was very disappointed that the world was not ready to accept his discoveries."}
+{"time":6092,"type":"sentence","start":105,"end":169,"value":"He destroyed all his research and went back to his native China."}
+{"time":10110,"type":"sentence","start":171,"end":223,"value":"If he is alive, he would be a hundred years old now."}
+{"time":13452,"type":"sentence","start":224,"end":304,"value":"I believe a lot of us in the valley were the guinea pigs of Dr. \nChu's research."}
+{"time":18082,"type":"sentence","start":306,"end":389,"value":"In fact, some of us may have received the clinical trials of his universal vaccine."}
+{"time":23424,"type":"sentence","start":392,"end":418,"value":"'I tend to believe it too."}
+{"time":25342,"type":"sentence","start":420,"end":436,"value":", Geraldo added."}
+{"time":27409,"type":"sentence","start":438,"end":541,"value":"'How else would you explain the longevity of people in Mystique valley and the zero incidence of Covid?"}
+{"time":33152,"type":"sentence","start":543,"end":615,"value":"It is certainly more than the fresh air, water, wine and positive vibes."}
+{"time":38032,"type":"sentence","start":618,"end":682,"value":"'Either way, we never heard of Dr Chu again', Ricardo continued."}
+{"time":42449,"type":"sentence","start":684,"end":782,"value":"'There are no records of who were vaccinated and the details of what drugs they were administered."}
+{"time":47917,"type":"sentence","start":785,"end":853,"value":"Ron and Lynda thanked their guests for an enlightening conversation."}

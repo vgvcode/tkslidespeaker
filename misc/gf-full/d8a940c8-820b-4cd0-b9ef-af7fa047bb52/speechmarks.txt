@@ -1,0 +1,17 @@
+{"time":0,"type":"sentence","start":1,"end":49,"value":"It was an important high school Science project."}
+{"time":3155,"type":"sentence","start":51,"end":117,"value":"The students were asked to come up with original ideas on a topic."}
+{"time":7272,"type":"sentence","start":119,"end":183,"value":"Tilak came up with an interesting idea, and got the first prize."}
+{"time":11490,"type":"sentence","start":185,"end":284,"value":"Later on, we realized that Tilak had actually plagiarized the idea of a student from two years ago."}
+{"time":17232,"type":"sentence","start":286,"end":360,"value":"You see, we take the Honor Code very seriously at Srinivasa Matriculation."}
+{"time":22075,"type":"sentence","start":362,"end":438,"value":"I had to summon Tilak and his parents, admonish him and take back his prize."}
+{"time":26817,"type":"sentence","start":440,"end":516,"value":"In fact, I think I even gave Tilak a failing grade in the subject that year."}
+{"time":31497,"type":"sentence","start":518,"end":569,"value":"Tilak was a very good student and was heart-broken."}
+{"time":34952,"type":"sentence","start":571,"end":639,"value":"He faded into obscurity after that and I never heard from him since."}
+{"time":39545,"type":"sentence","start":641,"end":742,"value":"Looking back, I feel the punishment was rather excessive and it caused a setback to him as a student."}
+{"time":45562,"type":"sentence","start":747,"end":765,"value":"Well\", said Raghu."}
+{"time":47429,"type":"sentence","start":768,"end":812,"value":"I think Tilak has certainly done well since."}
+{"time":50472,"type":"sentence","start":814,"end":875,"value":"He has risen to the top position of a major software company."}
+{"time":54439,"type":"sentence","start":877,"end":932,"value":"I think he would have probably forgotten this incident."}
+{"time":57932,"type":"sentence","start":934,"end":1071,"value":"Besides, I don't think Tilak actually made the connection during the JeeVa \"Girlfriend\" and other short stories Page of 55 120 interview."}
+{"time":65999,"type":"sentence","start":1073,"end":1163,"value":"He asked a few questions about my native place and my parents, but I don't think he knows."}
+{"time":71329,"type":"sentence","start":1165,"end":1190,"value":"Let us hope for the best."}

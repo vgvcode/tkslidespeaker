@@ -1,0 +1,13 @@
+{"time":0,"type":"sentence","start":0,"end":32,"value":"'Here, let me demo this to you'."}
+{"time":2629,"type":"sentence","start":34,"end":111,"value":"The man proceeds to wear the spectacles and open up an app on his smartphone."}
+{"time":7447,"type":"sentence","start":113,"end":184,"value":"'Please watch me command my mail application to send a mail to someone."}
+{"time":11989,"type":"sentence","start":186,"end":273,"value":"I will do this without using any voice command and without touching my phone', he says."}
+{"time":17432,"type":"sentence","start":275,"end":340,"value":"Over the next minute or so, the man silently stares at his phone."}
+{"time":21912,"type":"sentence","start":342,"end":451,"value":"Som could see AJ's phone open up a mailer application, automatically type up an email and send it to someone."}
+{"time":28504,"type":"sentence","start":453,"end":467,"value":"'There you go."}
+{"time":30059,"type":"sentence","start":469,"end":526,"value":"I was able to do all that purely by the power of thought."}
+{"time":33864,"type":"sentence","start":528,"end":592,"value":"It is all triggered from here', says AJ, tapping his spectacles."}
+{"time":38607,"type":"sentence","start":594,"end":651,"value":"Noticing that Som seemed visibly impressed, he continues."}
+{"time":42837,"type":"sentence","start":653,"end":731,"value":"'Today, I have just closed a big order from a major European car manufacturer."}
+{"time":48079,"type":"sentence","start":733,"end":792,"value":"They want their employees to use this on the factory floor."}
+{"time":51759,"type":"sentence","start":794,"end":953,"value":"It greatly improves their productivity because the workers can operate hands free and effortlessly control the assembly line using only their thought process'."}

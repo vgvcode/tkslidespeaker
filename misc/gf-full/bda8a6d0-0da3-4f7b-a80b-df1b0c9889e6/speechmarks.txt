@@ -1,0 +1,19 @@
+{"time":0,"type":"sentence","start":0,"end":17,"value":"A week passed by."}
+{"time":1705,"type":"sentence","start":19,"end":116,"value":"Raghu went back home to Chennai and met his aging father, Srinivasa Shastry, now in his eighties."}
+{"time":7797,"type":"sentence","start":118,"end":219,"value":"He had retired several years ago as the Principal of Srinivasa Matriculation Higher Secondary School."}
+{"time":13590,"type":"sentence","start":222,"end":300,"value":"Dad, did you ever have a student by name Tilak Raj about thirty odd years ago?"}
+{"time":18395,"type":"sentence","start":304,"end":332,"value":"Raghu asked his dad eagerly."}
+{"time":20812,"type":"sentence","start":334,"end":403,"value":"His father paused and thought for a moment and said, \"Yes, of course."}
+{"time":25242,"type":"sentence","start":405,"end":428,"value":"How can I forget Tilak?"}
+{"time":27447,"type":"sentence","start":433,"end":505,"value":"Well, he is the MD of SoftEx, a leading software company in India today."}
+{"time":32477,"type":"sentence","start":507,"end":550,"value":"I'm sure you must be proud of your student."}
+{"time":35394,"type":"sentence","start":552,"end":610,"value":"I actually interviewed with them for a position last week."}
+{"time":39337,"type":"sentence","start":614,"end":636,"value":"Raghu's dad continued."}
+{"time":41429,"type":"sentence","start":639,"end":694,"value":"Tilak was a very talented student; one of my favorites."}
+{"time":45334,"type":"sentence","start":696,"end":762,"value":"However, in his 11th grade, I had a very tense encounter with him."}
+{"time":49839,"type":"sentence","start":764,"end":859,"value":"I'm not sure if he remembers this and whether it will have an adverse effect on your interview."}
+{"time":55182,"type":"sentence","start":864,"end":870,"value":"Oh no!"}
+{"time":56312,"type":"sentence","start":872,"end":966,"value":"I was going to follow up with SoftEx after the interview, and mention about you to Mr. \nTilak."}
+{"time":61779,"type":"sentence","start":968,"end":988,"value":"Now I'm not so sure."}
+{"time":63759,"type":"sentence","start":990,"end":1013,"value":"What actually happened?"}
+{"time":65689,"type":"sentence","start":1016,"end":1028,"value":"Raghu asked."}

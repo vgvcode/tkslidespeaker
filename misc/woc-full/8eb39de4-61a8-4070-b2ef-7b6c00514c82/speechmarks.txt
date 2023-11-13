@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":30,"value":"I'll take this one, said Olga."}
+{"time":2292,"type":"sentence","start":33,"end":64,"value":"Yes ML models are very complex."}
+{"time":5010,"type":"sentence","start":66,"end":124,"value":"Fortunately, we have tools today for model explainability."}
+{"time":8615,"type":"sentence","start":126,"end":236,"value":"For example, we will know what features the machine considered as important, in order to arrive at a decision."}
+{"time":14445,"type":"sentence","start":238,"end":335,"value":"This field is rapidly evolving as we speak, with newer and better tools being released every day!"}

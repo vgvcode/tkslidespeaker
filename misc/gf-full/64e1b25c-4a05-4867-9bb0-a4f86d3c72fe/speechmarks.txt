@@ -1,0 +1,17 @@
+{"time":0,"type":"sentence","start":0,"end":53,"value":"WhatsApp Vasan was a household name in Shanthi Vilas."}
+{"time":3680,"type":"sentence","start":55,"end":173,"value":"For many septa, octa and nonagenarians in the colony, Vasan was the harbinger of joy with his daily WhatsApp messages."}
+{"time":11009,"type":"sentence","start":177,"end":215,"value":"Here's a random sampling from one day:"}
+{"time":13927,"type":"sentence","start":218,"end":236,"value":"6am: Good Morning!"}
+{"time":16294,"type":"sentence","start":238,"end":262,"value":"Life is like a painting."}
+{"time":18262,"type":"sentence","start":264,"end":285,"value":"Draw lines with hope."}
+{"time":20042,"type":"sentence","start":287,"end":315,"value":"Erase errors with tolerance."}
+{"time":22409,"type":"sentence","start":317,"end":336,"value":"Color it with love."}
+{"time":24389,"type":"sentence","start":340,"end":396,"value":"9am: Happy B'day to our dear Acharya who turns 89 today."}
+{"time":28907,"type":"sentence","start":398,"end":436,"value":"Age is a question of mind over matter."}
+{"time":31724,"type":"sentence","start":438,"end":475,"value":"If you don't mind, it doesn't matter!"}
+{"time":34404,"type":"sentence","start":477,"end":538,"value":"Everyone at Shanthi Vilas wishes you many more happy returns."}
+{"time":38697,"type":"sentence","start":542,"end":565,"value":"12pm: Devotional songs."}
+{"time":41289,"type":"sentence","start":567,"end":590,"value":"3pm: Gossip of the day."}
+{"time":43969,"type":"sentence","start":594,"end":702,"value":"9pm: Relations shine by shaking hands in best moments but they blossom by holding hands in critical moments."}
+{"time":50449,"type":"sentence","start":704,"end":750,"value":"By the way, remember to wash your hands often!"}
+{"time":53704,"type":"sentence","start":752,"end":763,"value":"Good Night!"}

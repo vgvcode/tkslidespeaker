@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":0,"end":158,"value":"For the next 20 years, Cozmo smartly targeted different sweet spots in North America, Europe and Asia, and rapidly gained market share everywhere it operated."}
+{"time":9342,"type":"sentence","start":159,"end":233,"value":"Cozmo was now the bicycle of choice for customers across three continents!"}
+{"time":13697,"type":"sentence","start":234,"end":278,"value":"However, the last five years had been rough."}
+{"time":16552,"type":"sentence","start":279,"end":328,"value":"Cozmo was facing strong headwinds in many places."}

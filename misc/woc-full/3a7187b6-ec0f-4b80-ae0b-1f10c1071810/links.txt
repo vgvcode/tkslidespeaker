@@ -1,0 +1,1 @@
+[["On the warehouse distribution side, we are using Machine Learning to forecast the demand from various locations to stock our warehouses in those areas.", "pic0.PNG"]]

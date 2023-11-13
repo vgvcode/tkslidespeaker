@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":79,"value":"Newspaper clips started appearing outside meeting rooms and near water coolers."}
+{"time":4480,"type":"sentence","start":82,"end":119,"value":"What happens when robots make errors?"}
+{"time":6960,"type":"sentence","start":123,"end":140,"value":"Is A I overhyped?"}
+{"time":8727,"type":"sentence","start":144,"end":209,"value":"Will many jobs disappear during the Fourth Industrial Revolution?"}
+{"time":12570,"type":"sentence","start":213,"end":260,"value":"Generative A I can get facts confidently wrong!"}
+{"time":15687,"type":"sentence","start":264,"end":285,"value":"Can't trust Chat GPT."}
+{"time":17855,"type":"sentence","start":286,"end":305,"value":"It can hallucinate!"}
+{"time":19410,"type":"sentence","start":309,"end":367,"value":"Bad actors can control A I and drive humans to extinction!"}

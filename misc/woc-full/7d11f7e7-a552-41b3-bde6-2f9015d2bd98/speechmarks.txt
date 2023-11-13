@@ -1,0 +1,3 @@
+{"time":0,"type":"sentence","start":0,"end":93,"value":"Following the result from the first pilot, the C O E released results from additional pilots."}
+{"time":5230,"type":"sentence","start":95,"end":185,"value":"The optimism from the initial demos quickly faded, as additional concerns kept popping up."}
+{"time":10460,"type":"sentence","start":186,"end":226,"value":"It was one step forward, two steps back."}

@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":113,"value":"Bob, the Consulting Partner explained, \"The first industrial revolution was mechanization led by water and steam."}
+{"time":6580,"type":"sentence","start":114,"end":152,"value":"This gave us steam engines and trains."}
+{"time":9097,"type":"sentence","start":153,"end":229,"value":"The second industrial revolution was mass production, led by electric power."}
+{"time":13640,"type":"sentence","start":230,"end":300,"value":"This gave us mass production and huge machinery driven by electricity."}
+{"time":17795,"type":"sentence","start":301,"end":375,"value":"The third industrial revolution was automation, led by electronics and IT."}
+{"time":22637,"type":"sentence","start":376,"end":457,"value":"This gave us the Personal Computer, the Internet, the mobile phone and many more."}
+{"time":27167,"type":"sentence","start":458,"end":590,"value":"The fourth, loosely speaking, is the Age of Artificial Intelligence and associated technologies that drive business transformation\"."}

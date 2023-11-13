@@ -1,0 +1,13 @@
+{"time":0,"type":"sentence","start":1,"end":20,"value":"Quite the opposite."}
+{"time":1442,"type":"sentence","start":21,"end":52,"value":"Change has to come from within."}
+{"time":3510,"type":"sentence","start":53,"end":129,"value":"We have so many experienced people inside our company\", said a line manager."}
+{"time":8077,"type":"sentence","start":132,"end":185,"value":"Everyone thinks data is the panacea for all problems."}
+{"time":11432,"type":"sentence","start":186,"end":218,"value":"There is good data and bad data."}
+{"time":13624,"type":"sentence","start":219,"end":287,"value":"Like lies, damned lies and statistics!\", said a marketing executive."}
+{"time":17992,"type":"sentence","start":290,"end":300,"value":"Very true."}
+{"time":19297,"type":"sentence","start":301,"end":331,"value":"The same goes with AI as well."}
+{"time":21727,"type":"sentence","start":332,"end":378,"value":"AI can be biased if it is fed with wrong data."}
+{"time":24782,"type":"sentence","start":379,"end":403,"value":"Garbage in, garbage out."}
+{"time":26899,"type":"sentence","start":404,"end":509,"value":"There is no way we can remove the human from the shop floor\", said another line manager from the factory."}
+{"time":32817,"type":"sentence","start":512,"end":531,"value":"This is cool stuff."}
+{"time":34459,"type":"sentence","start":532,"end":614,"value":"I'm going to sign up for a class to learn about all this\", said one young employee"}

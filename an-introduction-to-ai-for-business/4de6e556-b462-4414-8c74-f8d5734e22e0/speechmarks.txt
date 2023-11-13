@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":22,"value":"Let me close by saying"}
-{"time":2492,"type":"sentence","start":24,"end":160,"value":"A bright future is ahead of us\nLet us learn to use AI wisely, and work with AI, not against AI\n\nThank you for giving me the opportunity."}

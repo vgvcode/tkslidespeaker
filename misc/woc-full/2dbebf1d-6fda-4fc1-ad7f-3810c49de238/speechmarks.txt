@@ -1,0 +1,10 @@
+{"time":0,"type":"sentence","start":1,"end":58,"value":"The results are in\", said the product manager, excitedly."}
+{"time":3817,"type":"sentence","start":61,"end":118,"value":"We tested our robot on 10,000 parts in the assembly line."}
+{"time":7660,"type":"sentence","start":120,"end":187,"value":"It correctly identified 9400 as not defective and 400 as defective."}
+{"time":12890,"type":"sentence","start":188,"end":231,"value":"So there were 9800 correct classifications."}
+{"time":16632,"type":"sentence","start":232,"end":314,"value":"However, it also identified 50 as not defective when they were actually defective."}
+{"time":21437,"type":"sentence","start":316,"end":366,"value":"And 150 as defective when they were not defective."}
+{"time":24855,"type":"sentence","start":367,"end":405,"value":"So there were 200 misclassifications\"."}
+{"time":27735,"type":"sentence","start":408,"end":430,"value":"That's not bad, is it?"}
+{"time":29590,"type":"sentence","start":431,"end":476,"value":"We had only 200 misclassifications in 10,000!"}
+{"time":33170,"type":"sentence","start":477,"end":501,"value":"That's 2%!\", Said Sonya."}

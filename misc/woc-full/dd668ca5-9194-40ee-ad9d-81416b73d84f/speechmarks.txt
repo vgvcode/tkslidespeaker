@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":1,"end":54,"value":"Let's roll out this out and see how well it performs."}
+{"time":3142,"type":"sentence","start":56,"end":116,"value":"The more information we have from our customers, the better."}
+{"time":6497,"type":"sentence","start":118,"end":142,"value":"What do we have to lose?"}
+{"time":8227,"type":"sentence","start":145,"end":194,"value":"Sonya said, approving the demo for pilot release."}

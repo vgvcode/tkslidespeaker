@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":51,"value":"Is there another Alex \/ Alexa lurking in our midst?"}
+{"time":3542,"type":"sentence","start":53,"end":99,"value":"Or, is AI learning to beat us in our own game?"}
+{"time":6910,"type":"sentence","start":101,"end":192,"value":"As I returned home that night, once again I asked the diminutive voice assistant in my car."}
+{"time":12514,"type":"sentence","start":196,"end":233,"value":"Hey Alexa, can computers go rogue?\n\"."}
+{"time":15732,"type":"sentence","start":235,"end":389,"value":"Alexa replied: Here's what I found: Rogue systems are devices which are unknown to system administrators and users, and are engaged in malicious behavior."}
+{"time":24649,"type":"sentence","start":391,"end":453,"value":"Computer ethics is necessary for the programmers of tomorrow\"."}
+{"time":28854,"type":"sentence","start":455,"end":564,"value":"As I pondered this answer, my car automatically navigated the traffic on the road and switched on some music."}

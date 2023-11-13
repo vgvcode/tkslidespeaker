@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":45,"value":"Rob was hired by Phil more than 20 years ago."}
+{"time":2992,"type":"sentence","start":47,"end":153,"value":"He played a big part in the company's transition from an OEM to a brand with a strong identity of its own."}
+{"time":8685,"type":"sentence","start":154,"end":195,"value":"For many old timers, Rob was 'Mr. Cozmo'."}
+{"time":11852,"type":"sentence","start":197,"end":247,"value":"But to others, Rob was a man from a different era."}
+{"time":15145,"type":"sentence","start":249,"end":321,"value":"He seemed to be out of touch with the current generation of bike riders."}

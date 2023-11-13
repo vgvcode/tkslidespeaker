@@ -1,0 +1,9 @@
+{"time":0,"type":"sentence","start":0,"end":72,"value":"Her mom Vani's eyes filled up with tears when she looked at the picture."}
+{"time":4130,"type":"sentence","start":74,"end":106,"value":"'Good for him you were on board."}
+{"time":6335,"type":"sentence","start":108,"end":176,"value":"The person you attended to is none other than your uncle from India!"}
+{"time":10315,"type":"sentence","start":179,"end":239,"value":"There was a stunned silence in the room, for about a minute."}
+{"time":13920,"type":"sentence","start":241,"end":282,"value":"Her dad Chris Williams broke the silence."}
+{"time":16837,"type":"sentence","start":284,"end":303,"value":"'Great work Anjala."}
+{"time":18692,"type":"sentence","start":305,"end":362,"value":"You said you made new connections in your trip to Mumbai."}
+{"time":22072,"type":"sentence","start":364,"end":411,"value":"This is one connection you never made yourself."}
+{"time":25102,"type":"sentence","start":413,"end":483,"value":"Providence has given an opportunity for our families to connect again!"}

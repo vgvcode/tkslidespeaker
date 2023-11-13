@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":40,"value":"July 1, 2084: But, what are our chances?"}
+{"time":4217,"type":"sentence","start":44,"end":164,"value":"Even if all goes well, scientists do not give more than a 1% chance that The Utopia will reach its intended destination."}
+{"time":11084,"type":"sentence","start":166,"end":262,"value":"It has to survive the harsh realities of outer space and travel for more than 500 million miles!"}
+{"time":17002,"type":"sentence","start":264,"end":321,"value":"A feat of this magnitude has never been attempted before."}
+{"time":20732,"type":"sentence","start":323,"end":395,"value":"And once we reach our destination, no one knows what we will find there."}
+{"time":25099,"type":"sentence","start":397,"end":461,"value":"Would there be some form of hostile life already in that planet?"}
+{"time":28967,"type":"sentence","start":463,"end":580,"value":"This is somewhat like the early explorers who set out to explore other continents by sea over five hundred years ago."}
+{"time":35309,"type":"sentence","start":582,"end":644,"value":"Armed with nothing more than courage and a huge leap of faith!"}

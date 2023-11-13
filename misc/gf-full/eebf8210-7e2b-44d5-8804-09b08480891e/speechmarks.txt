@@ -1,0 +1,10 @@
+{"time":0,"type":"sentence","start":0,"end":110,"value":"They were referring to Ragav's younger sister Srivani, with whom they had no correspondence for several years."}
+{"time":6079,"type":"sentence","start":113,"end":209,"value":"Srivani left for higher studies to the USA almost thirty years ago, and never returned to India."}
+{"time":12034,"type":"sentence","start":212,"end":298,"value":"It was rumored that she married someone by the name Chris, and settled down in Boston."}
+{"time":17202,"type":"sentence","start":302,"end":395,"value":"Ragav was about twenty-seven when this happened, and his sister was about five years younger."}
+{"time":22432,"type":"sentence","start":397,"end":436,"value":"She was a bit of a rebel in the family."}
+{"time":25099,"type":"sentence","start":438,"end":530,"value":"He vividly remembered the day when Vani called home from USA to tell about her fianc, Chris."}
+{"time":30717,"type":"sentence","start":532,"end":636,"value":"Her parents were from a very orthodox, middle class family in India and did not approve of Vani's plans."}
+{"time":36922,"type":"sentence","start":638,"end":751,"value":"There was a lot of shouting and crying over the phone, and after a few days, her parents stopped speaking to her."}
+{"time":42902,"type":"sentence","start":753,"end":784,"value":"Not much was known about Chris."}
+{"time":45307,"type":"sentence","start":786,"end":867,"value":"Perhaps he was a colleague of hers from her University or her work, they assumed."}

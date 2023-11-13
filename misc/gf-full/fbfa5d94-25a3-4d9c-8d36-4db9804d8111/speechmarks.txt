@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":123,"value":"Contrary to popular belief, the use of gadgets and technology was actually increasing the social interaction among seniors."}
+{"time":7417,"type":"sentence","start":125,"end":164,"value":"Many felt a great sense of empowerment."}
+{"time":10559,"type":"sentence","start":166,"end":308,"value":"They seemed to have regained a long lost sense of independence, while still being able to maintain a connection with their family and friends."}
+{"time":17764,"type":"sentence","start":310,"end":426,"value":"YouTube gave them exposure to current affairs and world events and the ability to watch old movies from their youth."}
+{"time":24107,"type":"sentence","start":428,"end":507,"value":"It kindled endless hours of gossip and discussions every day in the club house."}
+{"time":29087,"type":"sentence","start":511,"end":585,"value":"A few months passed, and the news about Shanthi Vilas spread far and wide."}
+{"time":33817,"type":"sentence","start":587,"end":667,"value":"Reporters hungry for a news story made a beeline to the senior citizens' colony."}
+{"time":38947,"type":"sentence","start":669,"end":762,"value":"They were eager to speak to the mastermind of this remarkable transformation, WhatsApp Vasan."}

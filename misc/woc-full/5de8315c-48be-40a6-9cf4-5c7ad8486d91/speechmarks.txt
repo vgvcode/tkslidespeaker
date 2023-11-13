@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":0,"end":88,"value":"Seeing the confused looks in the leadership team, Rob himself came up with a suggestion."}
+{"time":5167,"type":"sentence","start":91,"end":204,"value":"A few months ago, when we launched the Center of Excellence, we wanted to build a suite of experimental products."}
+{"time":11172,"type":"sentence","start":205,"end":300,"value":"We wanted to test the market first, and then gradually move these products into the mainstream."}
+{"time":16489,"type":"sentence","start":302,"end":413,"value":"With that in mind, I propose we create a new family \/ brand of products in Cozmo called The Renaissance Family."}
+{"time":22969,"type":"sentence","start":415,"end":518,"value":"This brand will be introduced in a carefully controlled way in selected markets to see how it performs."}
+{"time":28737,"type":"sentence","start":520,"end":661,"value":"We could have the Renaissance X series for the baby boomers, Renaissance Y series for the millennials and Renaissance Z series for the Gen Z."}

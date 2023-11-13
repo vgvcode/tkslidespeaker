@@ -1,0 +1,12 @@
+{"time":0,"type":"sentence","start":0,"end":28,"value":"Finally the CEO, weighed in."}
+{"time":2592,"type":"sentence","start":31,"end":136,"value":"CyberCard Global's unique selling proposition is safety and ease of use of our cards for online commerce."}
+{"time":8747,"type":"sentence","start":138,"end":170,"value":"Our ads speak highly about this."}
+{"time":11215,"type":"sentence","start":172,"end":231,"value":"Millions of customers are using our cards online every day."}
+{"time":15319,"type":"sentence","start":235,"end":290,"value":"We have a reputation to keep and a business to protect."}
+{"time":18974,"type":"sentence","start":292,"end":356,"value":"Let us do a very thorough analysis over the next couple of days."}
+{"time":23329,"type":"sentence","start":358,"end":517,"value":"I would like to see detailed reports from our Technology, Operations, Security and Fraud Management heads on what they think is the root cause of this problem."}
+{"time":31697,"type":"sentence","start":519,"end":549,"value":"Let us meet again in 48 hours."}
+{"time":34839,"type":"sentence","start":554,"end":647,"value":"Over the next couple of days, the entire company was in a state of great anxiety and urgency."}
+{"time":40769,"type":"sentence","start":649,"end":713,"value":"Rumors started flying around that this might be an 'inside job'."}
+{"time":44799,"type":"sentence","start":715,"end":757,"value":"As the CTO, I came under intense pressure."}
+{"time":48379,"type":"sentence","start":759,"end":882,"value":"Everything we did was questioned every piece of software, hardware or process that we had put in place came under scrutiny."}

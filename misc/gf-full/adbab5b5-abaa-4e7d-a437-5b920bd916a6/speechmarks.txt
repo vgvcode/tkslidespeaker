@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":59,"value":"Day 3 Morning, Return to Normalcy or Calm before the Storm?"}
+{"time":4229,"type":"sentence","start":63,"end":102,"value":"Day 3 was our first return to normalcy."}
+{"time":7184,"type":"sentence","start":104,"end":206,"value":"Our customer complaints dropped precipitously and returned to the old levels of more than a month ago."}
+{"time":12614,"type":"sentence","start":208,"end":261,"value":"Everyone in the company heaved a huge sigh of relief."}
+{"time":16032,"type":"sentence","start":263,"end":314,"value":"We submitted the report of our findings to the CEO."}
+{"time":19512,"type":"sentence","start":316,"end":366,"value":"Everyone was curious about whether Alex was found."}
+{"time":23029,"type":"sentence","start":368,"end":436,"value":"The cops finally tracked down Alex and he was brought to the office."}
+{"time":27159,"type":"sentence","start":438,"end":525,"value":"He was interrogated rigorously for over 8 hours by us and a few experts in Cyber Crime."}

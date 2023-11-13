@@ -1,0 +1,11 @@
+{"time":0,"type":"sentence","start":0,"end":76,"value":"Back in Chennai, Raghu waved the offer letter excitedly in front of his dad."}
+{"time":4730,"type":"sentence","start":79,"end":99,"value":"See dad, I told you."}
+{"time":6847,"type":"sentence","start":101,"end":135,"value":"They probably never knew anything."}
+{"time":9365,"type":"sentence","start":137,"end":172,"value":"I knew I did the interview so well."}
+{"time":11957,"type":"sentence","start":174,"end":231,"value":"I was confident I would get the offer from the beginning!"}
+{"time":15649,"type":"sentence","start":236,"end":252,"value":"Congratulations."}
+{"time":17454,"type":"sentence","start":254,"end":283,"value":"You did well to deserve this."}
+{"time":19709,"type":"sentence","start":285,"end":380,"value":"I did not expect your father's student to remember his lesson on honesty from thirty years ago."}
+{"time":25077,"type":"sentence","start":382,"end":435,"value":"Besides, we don't even know if it was the same Tilak!"}
+{"time":28632,"type":"sentence","start":439,"end":461,"value":"Raghu's mother opined."}
+{"time":30587,"type":"sentence","start":463,"end":553,"value":"Srinivasa Shastry nodded and smiled softly, with a small wink that was hardly perceptible."}

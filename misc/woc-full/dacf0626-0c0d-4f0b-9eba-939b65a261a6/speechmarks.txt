@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":1,"end":23,"value":"Yes, this is possible."}
+{"time":2229,"type":"sentence","start":25,"end":116,"value":"We may be inadvertently collecting PII - personally identifiable information from raw data."}
+{"time":8122,"type":"sentence","start":118,"end":178,"value":"For example, a photograph holds a ton of hidden information."}
+{"time":11864,"type":"sentence","start":179,"end":281,"value":"The comments left by the customer's friends on the original post might have revealed some information."}
+{"time":17057,"type":"sentence","start":282,"end":358,"value":"Our A I should not be using such information to make decisions\", said Swami."}
+{"time":21899,"type":"sentence","start":361,"end":412,"value":"Once again, this calls for better data engineering."}
+{"time":25217,"type":"sentence","start":413,"end":488,"value":"Being able to cleanse the data and scrub it completely of PII\", Olga added."}

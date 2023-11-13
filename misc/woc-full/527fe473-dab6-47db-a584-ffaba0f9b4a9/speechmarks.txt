@@ -1,0 +1,13 @@
+{"time":0,"type":"sentence","start":0,"end":19,"value":"The Connected Bike."}
+{"time":1530,"type":"sentence","start":21,"end":117,"value":"The future bike will be highly connected with the rider, the environment and the service center!"}
+{"time":6347,"type":"sentence","start":118,"end":201,"value":"It will be able to give the rider turn by turn directions and fitness instructions."}
+{"time":10740,"type":"sentence","start":202,"end":297,"value":"It will be able to inform the customer (and the service center) if there's an upcoming service."}
+{"time":15632,"type":"sentence","start":298,"end":376,"value":"It will be able to send alerts to emergency responders if there's an accident."}
+{"time":20162,"type":"sentence","start":379,"end":396,"value":"The Smart helmet."}
+{"time":21892,"type":"sentence","start":398,"end":450,"value":"Do you guys realize the helmet is also a 'wearable'?"}
+{"time":25247,"type":"sentence","start":451,"end":516,"value":"Make helmets that can have a two way conversation with the rider."}
+{"time":28777,"type":"sentence","start":517,"end":573,"value":"It can get information from various sensors on the bike."}
+{"time":31994,"type":"sentence","start":574,"end":703,"value":"It can also connect to wearable devices, to relay any vital health information to the biker such as pulse rate or blood pressure."}
+{"time":39187,"type":"sentence","start":706,"end":735,"value":"'Wearable' socks and anklets."}
+{"time":41442,"type":"sentence","start":737,"end":835,"value":"A bluetooth based smart electronic anklet that can be worn over smart socks equipped with sensors."}
+{"time":46759,"type":"sentence","start":836,"end":907,"value":"It will collect vital data about the rider and transmit to a mobile app"}

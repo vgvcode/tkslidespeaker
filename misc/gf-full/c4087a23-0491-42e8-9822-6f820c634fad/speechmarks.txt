@@ -1,0 +1,9 @@
+{"time":0,"type":"sentence","start":0,"end":90,"value":"Grandmother began to reminisce about the days when grandfather met her for the first time."}
+{"time":5317,"type":"sentence","start":92,"end":205,"value":"It was in her parents' house, in a controlled setting with all the family members from either side being present."}
+{"time":11597,"type":"sentence","start":207,"end":279,"value":"She recollected, half jokingly, that it was almost like a job interview."}
+{"time":16639,"type":"sentence","start":281,"end":480,"value":"First there was the usual song and dance (minus the dance in this case; grandmother wouldn't dance but impressed everyone with her rendition of a classical Carnatic music song popular in those days)."}
+{"time":27007,"type":"sentence","start":482,"end":635,"value":"Then the elders gathered in the family room over sweets and savories, trying to appear casual while asking probing questions of 'the boy' and 'the girl'."}
+{"time":34687,"type":"sentence","start":637,"end":723,"value":"The boy and girl were ushered into a private room for a short face to face discussion."}
+{"time":39929,"type":"sentence","start":725,"end":757,"value":"And that is how Harry met Sally."}
+{"time":42609,"type":"sentence","start":759,"end":794,"value":"And the rest of course, is history."}
+{"time":45477,"type":"sentence","start":796,"end":810,"value":"But I digress."}

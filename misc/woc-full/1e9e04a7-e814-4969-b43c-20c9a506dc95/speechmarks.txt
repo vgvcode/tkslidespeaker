@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":1,"end":9,"value":"Awesome."}
+{"time":1055,"type":"sentence","start":10,"end":102,"value":"This app will help us get the pulse of our digerati\", said Rob, the Chief Marketing Officer."}

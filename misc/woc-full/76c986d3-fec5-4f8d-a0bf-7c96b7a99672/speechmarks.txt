@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":1,"end":134,"value":"We are already seeing upwards of 10% reduction in costs and an improvement in the scale and speed of our operations across the board."}
+{"time":6980,"type":"sentence","start":136,"end":237,"value":"Due to our product recommendation app, we are seeing an increase in the purchase of bike accessories."}
+{"time":12247,"type":"sentence","start":239,"end":369,"value":"Our chatbots have led to better call resolution times, lower operating costs of our call centers and higher customer satisfaction."}
+{"time":19340,"type":"sentence","start":371,"end":481,"value":"Based on the above metrics, I'm happy to say our A I initiatives are starting to bear fruit\", Sonya concluded."}

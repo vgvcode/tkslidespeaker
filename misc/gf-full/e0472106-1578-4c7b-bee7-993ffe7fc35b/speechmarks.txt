@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":0,"end":30,"value":"The effect was quite striking."}
+{"time":2380,"type":"sentence","start":32,"end":162,"value":"The octogenarian Mr. \nFrancis, who was somewhat of a recluse, decided to buy an iPad so he could talk with his family and friends."}
+{"time":9772,"type":"sentence","start":164,"end":286,"value":"The normally reticent Mrs Sheela quickly mastered the art taking selfies and doing WhatsApp forwards on her Android phone."}
+{"time":16652,"type":"sentence","start":290,"end":454,"value":"Ninety year old Srinivasa Reddy was so happy that he could actually purchase a walking stick all by himself from Amazon, without the help of anyone from his family."}
+{"time":25582,"type":"sentence","start":456,"end":580,"value":"There were squeals of delight as many residents discovered their long lost buddies from high school and college on Facebook."}
+{"time":32199,"type":"sentence","start":582,"end":687,"value":"Some picked up pastimes like playing Sudoku and Candy Crush and compared their daily scores with friends."}

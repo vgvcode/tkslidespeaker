@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":1,"end":48,"value":"How are we doing with our new product launches?"}
+{"time":2730,"type":"sentence","start":51,"end":102,"value":"the executive from the investment firm asked Sonya."}

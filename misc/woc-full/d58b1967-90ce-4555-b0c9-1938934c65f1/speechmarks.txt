@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":0,"end":94,"value":"About a month after Sonya and Linda spoke, the initial signs of a C O E had started to emerge."}
+{"time":5692,"type":"sentence","start":96,"end":196,"value":"A small band of techies were working on a novel self service chatbot application for Cozmo Bicycles."}
+{"time":11585,"type":"sentence","start":198,"end":289,"value":"Customers could speak to Cozmo's voice enabled bot to get quick answers to their questions."}
+{"time":16540,"type":"sentence","start":291,"end":363,"value":"The team revealed their prototype to Sonya and the leadership committee."}

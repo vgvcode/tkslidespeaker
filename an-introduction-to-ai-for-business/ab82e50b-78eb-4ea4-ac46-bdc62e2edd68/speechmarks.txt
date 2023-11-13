@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":103,"value":"Next, I ask a Code Generation tool (Amazon CodeWhisperer) to generate code in JavaScript for a problem."}
-{"time":8117,"type":"sentence","start":105,"end":226,"value":"Notice that once you describe what the function should do (in comments), it automatically creates the code in JavaScript."}
-{"time":16547,"type":"sentence","start":227,"end":288,"value":"Of course, you should verify that this code is what you want."}

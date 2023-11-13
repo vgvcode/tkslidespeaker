@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":1,"end":143,"value":"First, we need people with deep experience in handling, analyzing and interpreting data - this would be the data scientists and data analysts."}
+{"time":7642,"type":"sentence","start":145,"end":231,"value":"Second, we need to 'leapfrog' our competition into the Age of Artificial Intelligence."}
+{"time":12872,"type":"sentence","start":233,"end":298,"value":"We need A I \/ ML scientists who can build our A I enabled future."}
+{"time":17239,"type":"sentence","start":299,"end":324,"value":"Like we saw in the demos."}
+{"time":19407,"type":"sentence","start":326,"end":401,"value":"We need data engineers who can design systems to store and manipulate data."}
+{"time":23962,"type":"sentence","start":403,"end":466,"value":"Third, we need domain experts from our core business functions."}
+{"time":27954,"type":"sentence","start":468,"end":582,"value":"People with the latest background in manufacturing and industrial engineering who can help us understand the data."}

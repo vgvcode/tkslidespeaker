@@ -1,0 +1,5 @@
+But, there's another reason why we need Data. 
+It is for Machine Learning. Computers are good at learning rules from data. 
+However, they need lots of data to learn and come up with the rules by themselves. 
+For example, in order for a computer to recognize a defect in a bicycle part, we need to feed it several thousands of images of the part, both defective and non defective. 
+We call this labeling.

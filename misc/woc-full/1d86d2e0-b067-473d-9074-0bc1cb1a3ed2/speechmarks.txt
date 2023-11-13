@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":0,"end":151,"value":"While a lot of changes were happening in the Data and the IT front, Swami and his team were quietly building a prototype of Cozmo's bike of the future."}
+{"time":7917,"type":"sentence","start":152,"end":188,"value":"They called it the 'Connected Bike'."}

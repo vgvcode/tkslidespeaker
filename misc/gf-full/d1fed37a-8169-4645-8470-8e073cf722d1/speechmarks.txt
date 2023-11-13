@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":58,"value":"The typewriter was in a moth-eaten case covered with dust."}
+{"time":3929,"type":"sentence","start":60,"end":171,"value":"Along with it were some typewriter ribbons, a bottle of (dried) ink whitener and even an unfinished manuscript."}
+{"time":10909,"type":"sentence","start":173,"end":226,"value":"I made a mental note to follow up on that manuscript."}
+{"time":14652,"type":"sentence","start":228,"end":291,"value":"I brought down the case from the attic and set it on the table."}
+{"time":18582,"type":"sentence","start":293,"end":393,"value":"As I opened it, a couple of frightened lizards hastily emerged from inside and scrambled for safety."}
+{"time":24849,"type":"sentence","start":395,"end":435,"value":"I glanced at the name of the typewriter."}
+{"time":27904,"type":"sentence","start":437,"end":459,"value":"Brother Valiant, 1962."}
+{"time":30947,"type":"sentence","start":461,"end":624,"value":"In fact, I could fondly recall the names of all these companies, which were quite popular in the 60s and 70s Brother (Japan), Grundig (Germany), Bell & Howell (USA"}

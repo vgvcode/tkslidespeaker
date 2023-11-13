@@ -1,0 +1,10 @@
+{"time":0,"type":"sentence","start":0,"end":30,"value":"'Sure, I will text you a link."}
+{"time":2280,"type":"sentence","start":32,"end":68,"value":"You can download the app from there."}
+{"time":4760,"type":"sentence","start":70,"end":115,"value":"Here is the wearable you need to use with it."}
+{"time":7627,"type":"sentence","start":117,"end":207,"value":"Please bear in mind this is still in beta stage and not officially available for purchase."}
+{"time":12545,"type":"sentence","start":209,"end":276,"value":"Try it out and let me know', AJ handed out the wearable as he left."}
+{"time":16787,"type":"sentence","start":278,"end":324,"value":"Som proceeded to install the app on his phone."}
+{"time":19905,"type":"sentence","start":326,"end":388,"value":"By the time he was done, the young man was nowhere to be seen."}
+{"time":23710,"type":"sentence","start":390,"end":506,"value":"By then, the line in front of the departure gate had become much bigger, so Som joined the line to board his flight."}
+{"time":30040,"type":"sentence","start":508,"end":560,"value":"The next few hours passed by uneventfully in flight."}
+{"time":33632,"type":"sentence","start":562,"end":684,"value":"Som shut off his phone and made a mental note to check out the profile of 'AJ, CTO Think-O-Vate Systems' when he got back."}

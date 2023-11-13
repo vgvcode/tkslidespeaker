@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":0,"end":36,"value":"Ray looked at everyone triumphantly."}
+{"time":2230,"type":"sentence","start":39,"end":76,"value":"Ladies and gentlemen, I rest my case."}
+{"time":4960,"type":"sentence","start":78,"end":112,"value":"This A I technology is over-hyped."}
+{"time":7540,"type":"sentence","start":114,"end":142,"value":"The risks are far too great."}
+{"time":9595,"type":"sentence","start":144,"end":233,"value":"Bad recommendations or privacy violations can damage our reputation, or land us in court."}
+{"time":15100,"type":"sentence","start":235,"end":270,"value":"Cozmo bicycles is not ready for AI."}

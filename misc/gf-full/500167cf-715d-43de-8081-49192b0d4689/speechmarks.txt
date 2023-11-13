@@ -1,0 +1,10 @@
+{"time":0,"type":"sentence","start":0,"end":58,"value":"Everywhere you looked, the city oozed history and culture."}
+{"time":3630,"type":"sentence","start":60,"end":147,"value":"The corridors of the temple sang paeans to the ancient kings from a thousand years ago."}
+{"time":8435,"type":"sentence","start":149,"end":232,"value":"Vedantic discourses, devotional songs and bhajans wafted from the temple precincts."}
+{"time":13665,"type":"sentence","start":233,"end":357,"value":"Kittu was returning to sell a small piece of his ancestral land, one of the last vestiges of his ties to his place of birth."}
+{"time":20582,"type":"sentence","start":359,"end":453,"value":"Accompanying him on the bus ride was a young real estate broker who was helping with the sale."}
+{"time":25600,"type":"sentence","start":454,"end":503,"value":"The bus ride from Chennai was a breezy two hours."}
+{"time":29042,"type":"sentence","start":505,"end":610,"value":"Kittu sat by the window, soaking in all the sights and sounds as the bus sped along the National Highway."}
+{"time":34897,"type":"sentence","start":612,"end":688,"value":"He couldn't recognize most of the new buildings and landmarks along the way."}
+{"time":39277,"type":"sentence","start":690,"end":746,"value":"He wondered how much would have changed in his hometown."}
+{"time":42720,"type":"sentence","start":748,"end":807,"value":"His mind was already preparing for serendipitous discovery."}

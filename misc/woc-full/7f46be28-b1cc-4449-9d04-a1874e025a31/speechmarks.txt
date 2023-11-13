@@ -1,0 +1,5 @@
+{"time":0,"type":"sentence","start":0,"end":91,"value":"Phil, Sonya and Rob were sitting in silence in the meeting room after the consultants left."}
+{"time":5142,"type":"sentence","start":93,"end":146,"value":"Phil was leaning forward, with his hands on his head."}
+{"time":8260,"type":"sentence","start":149,"end":169,"value":"How did we get here?"}
+{"time":9852,"type":"sentence","start":170,"end":258,"value":"Ten years ago, New Horizon Sports was a very small player making home fitness equipment."}
+{"time":15170,"type":"sentence","start":260,"end":340,"value":"They even offered to sell their business to us and we passed up the opportunity."}

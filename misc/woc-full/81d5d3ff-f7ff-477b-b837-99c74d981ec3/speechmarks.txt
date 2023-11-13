@@ -1,0 +1,3 @@
+{"time":0,"type":"sentence","start":1,"end":31,"value":"Well, not so fast.\", Ray said."}
+{"time":2767,"type":"sentence","start":33,"end":154,"value":"For us, the cost of shipping a defective bike is much more expensive than the cost of rejecting a good bike as defective."}
+{"time":9559,"type":"sentence","start":156,"end":260,"value":"The former can result in injuries for customers and even hurt our reputation in the long run\", said Ray."}

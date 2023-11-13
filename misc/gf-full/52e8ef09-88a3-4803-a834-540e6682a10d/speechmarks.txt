@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":38,"value":"June 15, 2084: A technological marvel!"}
+{"time":4092,"type":"sentence","start":42,"end":179,"value":"Almost a hundred years ago, around 1980 if I'm right, our ancestors wrote epic stories such as Star Wars describing intergalactic travel."}
+{"time":12084,"type":"sentence","start":181,"end":207,"value":"Today, we're almost there."}
+{"time":14277,"type":"sentence","start":209,"end":292,"value":"The SS Utopia has been developed by a World Consortium of engineers and scientists."}
+{"time":19557,"type":"sentence","start":294,"end":343,"value":"The giant space ship was built entirely in space."}
+{"time":22999,"type":"sentence","start":345,"end":483,"value":"It needed more than a hundred docking stations and a hundred thousand round trips from earth to transport the raw materials and engineers."}
+{"time":29992,"type":"sentence","start":485,"end":572,"value":"It took over a decade of hard work by engineers and scientists from all over the world."}
+{"time":34984,"type":"sentence","start":574,"end":602,"value":"A true technological marvel!"}

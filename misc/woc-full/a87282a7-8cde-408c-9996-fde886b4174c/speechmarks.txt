@@ -1,0 +1,3 @@
+{"time":0,"type":"sentence","start":0,"end":30,"value":"There was a pause in the room."}
+{"time":1917,"type":"sentence","start":32,"end":117,"value":"Rob was famous for bringing up a contrarian point of view whenever he got the chance."}
+{"time":6410,"type":"sentence","start":119,"end":144,"value":"But usually, he was right"}

@@ -1,0 +1,3 @@
+{"time":0,"type":"sentence","start":0,"end":147,"value":"On Dec 31, 2084, the SS Utopia left earth on a space odyssey that could span several hundred years, in search of a planet that can host human life."}
+{"time":9354,"type":"sentence","start":149,"end":277,"value":"The following excerpts are from the diary of a remarkable young man, one of the brave travelers who was picked for this mission."}
+{"time":16097,"type":"sentence","start":279,"end":346,"value":"He leaves behind his wife Sara and his two children Sam and Shiela."}

@@ -1,0 +1,1 @@
+[["Alex claimed he was working on a new approach to improve Fraud detection, based on a principle of Machine Learning.", "pic0.PNG"]]

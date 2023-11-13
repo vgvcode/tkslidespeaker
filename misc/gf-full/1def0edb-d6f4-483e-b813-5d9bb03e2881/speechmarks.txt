@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":39,"value":"But Mom was getting a little concerned."}
+{"time":2692,"type":"sentence","start":41,"end":74,"value":"'I would like to meet her family."}
+{"time":4935,"type":"sentence","start":76,"end":123,"value":"We need to get to know more about them as well."}
+{"time":7802,"type":"sentence","start":125,"end":156,"value":"What part of India is she from?"}
+{"time":10257,"type":"sentence","start":158,"end":218,"value":". \nAnd grandmother was already checking out Dev's horoscope."}
+{"time":14112,"type":"sentence","start":220,"end":268,"value":"'Let us not get ahead of ourselves', Dad warned."}
+{"time":17592,"type":"sentence","start":270,"end":295,"value":"'Let us meet Mira first'."}

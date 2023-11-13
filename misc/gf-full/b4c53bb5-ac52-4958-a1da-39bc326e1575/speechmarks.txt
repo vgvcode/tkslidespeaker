@@ -1,0 +1,10 @@
+{"time":0,"type":"sentence","start":0,"end":13,"value":"Meet Kesav 2."}
+{"time":1680,"type":"sentence","start":14,"end":16,"value":"0."}
+{"time":3059,"type":"sentence","start":18,"end":32,"value":"Weddings-R-Us."}
+{"time":4727,"type":"sentence","start":33,"end":37,"value":"com."}
+{"time":5957,"type":"sentence","start":39,"end":188,"value":"With a newly launched website, Kesav's old wedding planning business acquired a face lift and gamely took on the new world order created by COVID-19."}
+{"time":14287,"type":"sentence","start":190,"end":234,"value":"So, what services would his website provide?"}
+{"time":17704,"type":"sentence","start":236,"end":331,"value":"Here's an excerpt from the site itself: Conduct your weddings online, without fear of COVID-19."}
+{"time":23947,"type":"sentence","start":333,"end":462,"value":"Perform religious ceremonies, take your vows, invite your family and friends, and get married, all from the comfort of your home."}
+{"time":31377,"type":"sentence","start":464,"end":475,"value":"Interested?"}
+{"time":32932,"type":"sentence","start":477,"end":520,"value":"Take a look at our virtual wedding package."}

@@ -1,0 +1,1 @@
+[["We can add features like get missing parts, place a service request, get product features and so on.", "pic0.PNG"]]

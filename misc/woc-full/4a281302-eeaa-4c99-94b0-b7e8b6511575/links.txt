@@ -1,0 +1,1 @@
+[["One of the engineers replied, \"It uses a technique in Machine Learning called Natural Language Processing (NLP).", "pic0.PNG"]]

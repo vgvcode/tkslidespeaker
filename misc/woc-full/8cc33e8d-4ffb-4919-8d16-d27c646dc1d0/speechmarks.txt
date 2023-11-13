@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":88,"value":"Finally, Swami agreed to be the bad customer and shot out an angry email from his phone."}
+{"time":5342,"type":"sentence","start":91,"end":150,"value":"Hey Cozmo, I received the Road Warrior Model 365 yesterday."}
+{"time":10172,"type":"sentence","start":152,"end":208,"value":"The chain kept slipping off the jockey wheel frequently."}
+{"time":13352,"type":"sentence","start":210,"end":240,"value":"Feels like shoddy workmanship."}
+{"time":15470,"type":"sentence","start":242,"end":272,"value":"The handle bar is very wobbly."}
+{"time":17737,"type":"sentence","start":274,"end":309,"value":"The ride is not at all comfortable."}
+{"time":20030,"type":"sentence","start":311,"end":380,"value":"On the whole, I'm not impressed and would like to return the product."}

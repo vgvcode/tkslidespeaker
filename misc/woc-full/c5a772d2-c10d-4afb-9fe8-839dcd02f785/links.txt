@@ -1,0 +1,1 @@
+[["Now coming to your next question, how do machines actually learn?", "pic0.PNG"]]

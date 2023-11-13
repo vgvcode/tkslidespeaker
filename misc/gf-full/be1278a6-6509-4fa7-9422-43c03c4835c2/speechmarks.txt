@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":0,"end":58,"value":"They were greeted by the receptionist at the front office."}
+{"time":3542,"type":"sentence","start":60,"end":117,"value":"She pointed them to a smiling photo of Vasan in the hall."}
+{"time":7197,"type":"sentence","start":119,"end":155,"value":"'Vasan left us all a few months ago."}
+{"time":9877,"type":"sentence","start":157,"end":252,"value":"We did not make a public announcement of his passing away, but a few residents know about this."}
+{"time":15282,"type":"sentence","start":254,"end":321,"value":"However, we wanted the wonderful movement that he started to go on."}
+{"time":19562,"type":"sentence","start":323,"end":358,"value":"So we quietly continued his legacy."}
+{"time":22667,"type":"sentence","start":363,"end":429,"value":"'So who's sending those wonderful daily messages instead of Vasan?"}

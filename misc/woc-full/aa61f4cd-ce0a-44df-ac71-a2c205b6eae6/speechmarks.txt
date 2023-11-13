@@ -1,0 +1,4 @@
+{"time":0,"type":"sentence","start":0,"end":35,"value":"Swami replied, \"That is quite true."}
+{"time":2917,"type":"sentence","start":37,"end":159,"value":"Many of the concepts and theories in A I, such as machine learning, pattern recognition etc. have been around for decades."}
+{"time":9797,"type":"sentence","start":160,"end":223,"value":"The real breakthrough in recent years has come from technology."}
+{"time":13477,"type":"sentence","start":225,"end":315,"value":"Computers have become more and more powerful, often by orders of magnitude over the years."}

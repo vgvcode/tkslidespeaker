@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":0,"end":30,"value":"June: A I needs a lot of data."}
+{"time":2492,"type":"sentence","start":31,"end":61,"value":"Without data, there is no A I."}

@@ -1,0 +1,1 @@
+[["If this sample were checked by our staff, we would have fewer than 5 misclassifications out of 450.", "pic0.PNG"]]

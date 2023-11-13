@@ -1,0 +1,6 @@
+{"time":0,"type":"sentence","start":0,"end":100,"value":"We can add features like get missing parts, place a service request, get product features and so on."}
+{"time":5805,"type":"sentence","start":102,"end":186,"value":"Statistically, over a third of the calls from customers are for enquiries like this."}
+{"time":10735,"type":"sentence","start":188,"end":304,"value":"By deflecting these calls to a chatbot, we human agents will be able to use their time to answer more complex calls."}
+{"time":16915,"type":"sentence","start":306,"end":338,"value":"Our cost per call will decrease."}
+{"time":19095,"type":"sentence","start":340,"end":391,"value":"Our first time call resolution times will decrease."}
+{"time":22350,"type":"sentence","start":393,"end":452,"value":"All in all, a huge improvement over what we have currently."}

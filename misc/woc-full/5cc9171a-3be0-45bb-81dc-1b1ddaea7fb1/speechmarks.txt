@@ -1,0 +1,7 @@
+{"time":0,"type":"sentence","start":1,"end":42,"value":"I think he is right\", acknowledged Swami."}
+{"time":2705,"type":"sentence","start":44,"end":89,"value":"I wonder why we never thought of this before."}
+{"time":5372,"type":"sentence","start":91,"end":187,"value":"It is one of the classic problems that incumbents face, as mentioned in the Innovator's dilemma."}
+{"time":10477,"type":"sentence","start":189,"end":293,"value":"In fact, the risk of cannibalization is why many incumbents fail to act, and are overtaken by newcomers."}
+{"time":16807,"type":"sentence","start":295,"end":378,"value":"Our market studies have indicated that we have a bimodal distribution of customers."}
+{"time":21462,"type":"sentence","start":380,"end":489,"value":"We need to keep our old customers happy, while at the same time build products that appeal to the newer crop."}
+{"time":26942,"type":"sentence","start":491,"end":559,"value":"The old base for the cash flow and the new segments for the growth\"."}

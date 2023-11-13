@@ -1,0 +1,16 @@
+{"time":0,"type":"sentence","start":0,"end":13,"value":"Back to Mira."}
+{"time":1417,"type":"sentence","start":15,"end":66,"value":"Grandmother was keen to know what her hobbies were."}
+{"time":4497,"type":"sentence","start":68,"end":94,"value":"Would she be able to sing?"}
+{"time":6527,"type":"sentence","start":96,"end":122,"value":"Does she know how to cook?"}
+{"time":8432,"type":"sentence","start":124,"end":157,"value":"What were her likes and dislikes?"}
+{"time":10812,"type":"sentence","start":159,"end":239,"value":"'I don't think Mira sings; Dev would have told me about it', Aparna interjected."}
+{"time":15717,"type":"sentence","start":241,"end":294,"value":"'I heard her speak on the phone to Dev the other day."}
+{"time":18897,"type":"sentence","start":296,"end":342,"value":"She has a deep voice and spoke rather slowly'."}
+{"time":22264,"type":"sentence","start":346,"end":419,"value":"By now the family realized that Aparna was friends with Mira on Facebook."}
+{"time":26619,"type":"sentence","start":421,"end":489,"value":"They started picking her brain to find out what else she might know."}
+{"time":30362,"type":"sentence","start":491,"end":526,"value":"Mira wrote poems in her spare time."}
+{"time":32942,"type":"sentence","start":528,"end":593,"value":"Aparna was privy to a few of these that Dev had left in his room."}
+{"time":36984,"type":"sentence","start":595,"end":703,"value":"After some bribery and non disclosure agreements from the family, Aparna read out one of Mira's short poems."}
+{"time":43352,"type":"sentence","start":705,"end":862,"value":"I battle wild demons in Harry Potter land, With Google glasses and my magic wand, \nI run for cover from the zombie outbreak, \nAnd meet Pikachu near the lake."}
+{"time":51819,"type":"sentence","start":863,"end":893,"value":"What is real and what is fake?"}
+{"time":54349,"type":"sentence","start":896,"end":942,"value":"Hey Alexa, can you laugh at the joke you make?"}

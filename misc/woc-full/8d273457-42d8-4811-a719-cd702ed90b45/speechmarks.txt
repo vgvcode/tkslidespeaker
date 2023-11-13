@@ -1,0 +1,2 @@
+{"time":0,"type":"sentence","start":0,"end":17,"value":"Chapter Thirteen."}
+{"time":1592,"type":"sentence","start":18,"end":32,"value":"#Stop The A I."}

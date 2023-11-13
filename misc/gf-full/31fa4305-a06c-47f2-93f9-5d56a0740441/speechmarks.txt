@@ -1,0 +1,8 @@
+{"time":0,"type":"sentence","start":0,"end":31,"value":"'I'm AJ, software entrepreneur."}
+{"time":2867,"type":"sentence","start":33,"end":86,"value":"I run a software company called Think-O-Vate Systems."}
+{"time":6535,"type":"sentence","start":88,"end":99,"value":"We build A."}
+{"time":7952,"type":"sentence","start":100,"end":136,"value":"I software', AJ handed out his card."}
+{"time":11057,"type":"sentence","start":138,"end":244,"value":"After a few minutes of introductions, the man started talking excitedly about what they were trying to do."}
+{"time":17000,"type":"sentence","start":246,"end":353,"value":"'We are building a revolutionary product that will help people control machines using the power of thought."}
+{"time":22542,"type":"sentence","start":355,"end":427,"value":"Our app called 'Open Sesame' works on smartphones and desktop computers."}
+{"time":27160,"type":"sentence","start":429,"end":537,"value":"It needs this accessory to work with', he holds out a wearable device that looked like a pair of spectacles."}

@@ -1,0 +1,13 @@
+{"time":0,"type":"sentence","start":0,"end":13,"value":"June 3, 2084:"}
+{"time":2392,"type":"sentence","start":16,"end":100,"value":"The Earth reaches a point of no return It is a hot, dusty summer day in Los Angeles."}
+{"time":7722,"type":"sentence","start":102,"end":131,"value":"The average temperature in L."}
+{"time":10127,"type":"sentence","start":132,"end":184,"value":"A this summer has consistently hovered around 120 C."}
+{"time":14282,"type":"sentence","start":186,"end":278,"value":"Over the last three months alone, there have been over twenty major fires across California."}
+{"time":19624,"type":"sentence","start":280,"end":355,"value":"In the eastern US, over major storms have ravaged the gulf coast this year."}
+{"time":24242,"type":"sentence","start":357,"end":462,"value":"Intense hurricanes and cyclones all over the world have caused enormous loss to life, crops and property."}
+{"time":30209,"type":"sentence","start":464,"end":543,"value":"Globally, the average temperature has increased by over 4 degrees C since 2000."}
+{"time":35702,"type":"sentence","start":545,"end":598,"value":"Many coastal cities are experiencing frequent floods."}
+{"time":39332,"type":"sentence","start":600,"end":660,"value":"In fact, some islands and beaches have disappeared entirely!"}
+{"time":43337,"type":"sentence","start":662,"end":707,"value":"The world population has exceeded 10 billion."}
+{"time":46542,"type":"sentence","start":709,"end":789,"value":"Famine and poverty are ubiquitous and global pandemics are a regular occurrence."}
+{"time":51522,"type":"sentence","start":791,"end":849,"value":"There is great suffering and injustice all over the world."}

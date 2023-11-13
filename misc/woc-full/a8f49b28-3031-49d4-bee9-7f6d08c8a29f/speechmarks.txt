@@ -1,0 +1,12 @@
+{"time":0,"type":"sentence","start":1,"end":48,"value":"Well, to begin with, the model can be improved."}
+{"time":3442,"type":"sentence","start":50,"end":100,"value":"It needs to be trained to identify defects better."}
+{"time":6734,"type":"sentence","start":102,"end":185,"value":"What we see is a common problem in A I caused by an imbalance in the training data."}
+{"time":11489,"type":"sentence","start":187,"end":304,"value":"Our model was trained on far too many 'good cases', that is, no defects and far too few 'bad cases', that is defects."}
+{"time":18832,"type":"sentence","start":306,"end":342,"value":"In other words, our data was skewed."}
+{"time":21699,"type":"sentence","start":344,"end":400,"value":"So our A I could not learn well to identify the defects."}
+{"time":25592,"type":"sentence","start":402,"end":500,"value":"If we correct this imbalance in our training data, we may be able to achieve much better accuracy."}
+{"time":30897,"type":"sentence","start":501,"end":565,"value":"In fact, accuracy rates of 98-99% are not uncommon\", said Swami."}
+{"time":36752,"type":"sentence","start":568,"end":588,"value":"And that is not all."}
+{"time":38357,"type":"sentence","start":589,"end":724,"value":"When the A I system is not confident about its prediction (as measured by a confidence score), we can route that case to a human agent."}
+{"time":45449,"type":"sentence","start":725,"end":776,"value":"So in our case, we can augment the A I with humans."}
+{"time":48817,"type":"sentence","start":777,"end":842,"value":"With this method, we may achieve even better results than humans!"}
