@@ -52,6 +52,10 @@ def showPrevious():
         
 def showFirst():
     if not cfg.isPlaying:
+        cfg.firstButton["state"]="normal"
+        cfg.lastButton["state"]="normal"
+        cfg.nextButton["state"]="normal"
+        cfg.previousButton["state"]="normal"
         cfg.pageNum = 1
         #print("ShowFirst: PageNum: {}, Presentation Length:{}".format(cfg.pageNum, len(cfg.presentation["pages"])))
         show()

@@ -21,21 +21,27 @@ textHightlightColor = "OliveDrab1"
 autoAdvanceDelay = 3    #3 second delay before advancing to next page
 isPlaying = False
 
-#widgets
 home = None
 appName = "tkslidespeaker"
+friendlyAppName = "SlideSpeaker"
 appFolder = None
 stagingFolder = None
 tmpFolder = None
 outputFolder = None
-rootWin = None
 txtPresoName = None
 pageNum = 1
 presentation = {"pages" : []}
+autoAdvance = 0
+speakerList = ["Joanna", "Amy", "Kajal", "Stephen", "Brian"]
+
+#widgets
+rootWin = None
 can = None
 can_image_container = None
 txtNotes = None
 lblPageNum = None
-autoAdvance = 0
 goToPageCombo = None
-speakerList = ["Joanna", "Amy", "Kajal", "Stephen", "Brian"]
+firstButton = None
+lastButton = None
+nextButton = None
+previousButton = None

@@ -24,16 +24,16 @@ cfg.outputFolder = os.path.join(cfg.appFolder, "output") #C:\users\vgvnv\tkslide
 def playCallback():
     presoName = cfg.txtPresoName.get()
     if rd.validatePresentationName(presoName) == False:
-        messagebox.showerror('error', 'Only lower case alphabets and numbers allowed!')
-        cfg.txtPresoName.delete(0, END)        
+        messagebox.showerror('error', 'Make sure that\n1. Your file ends in ppt or pptx.\n2. Your file name has only lower-case alphabets, numbers, - or .')
         return False
 
-    presoRootFolder = os.path.join(cfg.outputFolder, presoName)
+    presoWithoutExt = presoName.split(".")[0]
+    presoRootFolder = os.path.join(cfg.outputFolder, presoWithoutExt)
     if os.path.exists(presoRootFolder) == False:
         messagebox.showerror('error', 'Presentation not found!')
     else:       
         cfg.txtPresoName.config(state=DISABLED)
-        rd.readPresentation(presoName)
+        rd.readPresentation(presoWithoutExt)
         ui.setupGotoPageCombo()
         #print("PlayCallback: Length of preso {}".format(len(cfg.presentation["pages"])))
         ui.showFirst()
@@ -41,22 +41,35 @@ def playCallback():
 def downloadCallback():
     presoName = cfg.txtPresoName.get()
     if rd.validatePresentationName(presoName) == False:
-        messagebox.showerror('error', 'Only lower case alphabets and numbers allowed!')
+        messagebox.showerror('error', 'Make sure that\n1. Your file ends in ppt or pptx.\n2. Your file name has only lower-case alphabets, numbers, - or .')
         cfg.txtPresoName.delete(0, END)        
         return False
 
+    presoWithoutExt = presoName.split(".")[0]
     result = ui.show_login_dialog()
-    if result is not None:
-        username, password = result
-        updown.downloadPresentation(username, password, presoName)
+    if result is None:
+        messagebox.showerror('error', 'Login failed!')
+        return False
+
+    username, password = result
+    result = updown.downloadPresentation(username, password, presoWithoutExt)
+    if result is False:
+        messagebox.showerror('error', 'Download of AI voice enabled presentation failed!')
+        return False
+
+    messagebox.showinfo('info', 'Added AI voice to presentation!')
 
 def uploadCallback():
     presoName = cfg.txtPresoName.get()
     if rd.validatePresentationName(presoName) == False:
-        messagebox.showerror('error', 'Only lower case alphabets and numbers allowed!')
-        cfg.txtPresoName.delete(0, END)        
+        messagebox.showerror('error', 'Make sure that\n1. Your file ends in ppt or pptx.\n2. Your file name has only lower-case alphabets, numbers, - or .')
         return False
-
+    
+    uploadPath = os.path.join(cfg.stagingFolder, presoName)
+    if not os.path.exists(uploadPath):
+        messagebox.showerror('error', 'Presentation not found in {}'.format(cfg.stagingFolder))
+        return False
+    
     print("presoName: {}".format(presoName))
 
     #get the speaker
@@ -76,6 +89,8 @@ def uploadCallback():
     if uploadResult is False:
         messagebox.showerror('error', 'Upload failed!')
         return False
+    
+    messagebox.showinfo('info', 'Presentation uploaded!')
 
 def createFolders():
     #create folders needed. It will not raise error if it already exists
@@ -87,7 +102,8 @@ def createFolders():
 
 createFolders()
 
-cfg.rootWin = Tk() 
+cfg.rootWin = Tk()
+cfg.rootWin.title(cfg.friendlyAppName) 
 
 topMostFrame = Frame(cfg.rootWin)
 topMostFrame.grid(row = 0, column = 0)
@@ -103,9 +119,9 @@ actionFrame = Frame(cfg.rootWin)
 actionFrame.grid(row = 1, column = 0)
 
 # Set Button with callback
-uploadBtn = Button(actionFrame, text = "Upload", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:uploadCallback())
-downloadBtn = Button(actionFrame, text = "Download", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:downloadCallback())
-playBtn = Button(actionFrame, text = "Play", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:playCallback())
+uploadBtn = Button(actionFrame, text = "1. Upload a Powerpoint presentation.", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:uploadCallback())
+downloadBtn = Button(actionFrame, text = "2. Voice enable it, using AI!", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:downloadCallback())
+playBtn = Button(actionFrame, text = "3. Play it!", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:playCallback())
 uploadBtn.pack(side = LEFT, fill=BOTH, padx=10, pady = 10)
 downloadBtn.pack(side = LEFT, fill=BOTH, padx=10, pady = 10)
 playBtn.pack(side = LEFT, fill=BOTH, padx = 10, pady = 10)
@@ -132,14 +148,18 @@ cfg.txtNotes = Text(buttonsFrame, height=cfg.notesHeight, width=cfg.notesWidth, 
 cfg.txtNotes.config(state=DISABLED)
 cfg.txtNotes.pack( side = TOP)
 
-firstButton = Button(buttonsFrame, text ='First', fg ='white', bg = cfg.outerButtonBgColor, command=lambda:ui.showFirst()) 
-firstButton.pack( side = LEFT, fill = BOTH, expand = True) 
-previousButton = Button(buttonsFrame, text = 'Previous', fg ='white', bg = cfg.innerButtonBgColor, command=lambda:ui.showPrevious()) 
-previousButton.pack( side = LEFT, fill = BOTH, expand = True) 
-nextButton = Button(buttonsFrame, text = 'Next', fg ='white', bg = cfg.innerButtonBgColor, command=lambda:ui.showNext()) 
-nextButton.pack(side = LEFT, fill = BOTH, expand = True) 
-lastButton = Button(buttonsFrame, text ='Last', fg ='white', bg = cfg.outerButtonBgColor, command=lambda:ui.showLast()) 
-lastButton.pack( side = LEFT, fill = BOTH, expand = True)
+cfg.firstButton = Button(buttonsFrame, text ='First', fg ='white', bg = cfg.outerButtonBgColor, command=lambda:ui.showFirst()) 
+cfg.firstButton.pack( side = LEFT, fill = BOTH, expand = True)
+cfg.firstButton["state"]="disabled"
+cfg.previousButton = Button(buttonsFrame, text = 'Previous', fg ='white', bg = cfg.innerButtonBgColor, command=lambda:ui.showPrevious()) 
+cfg.previousButton.pack( side = LEFT, fill = BOTH, expand = True) 
+cfg.previousButton["state"]="disabled"
+cfg.nextButton = Button(buttonsFrame, text = 'Next', fg ='white', bg = cfg.innerButtonBgColor, command=lambda:ui.showNext()) 
+cfg.nextButton.pack(side = LEFT, fill = BOTH, expand = True) 
+cfg.nextButton["state"]="disabled"
+cfg.lastButton = Button(buttonsFrame, text ='Last', fg ='white', bg = cfg.outerButtonBgColor, command=lambda:ui.showLast()) 
+cfg.lastButton.pack( side = LEFT, fill = BOTH, expand = True)
+cfg.lastButton["state"]="disabled"
 
 fillerFrame = Frame(cfg.rootWin)
 fillerFrame.grid(row = 5, column = 0)

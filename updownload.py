@@ -8,7 +8,8 @@ import ppt2converted as ppt2conv
 
 def downloadPresoFile(url, filename):
     r = requests.get(url, allow_redirects=True)
-    f = open(filename, 'wb').write(r.content)
+    f = open(filename, 'wb')
+    f.write(r.content)
     f.close()
     return True
     #print("Downloaded: {}".format(filename))
@@ -48,13 +49,13 @@ def getClientId(username, password):
     #   return None
     return "234"
 
-def downloadPresentation(username, password, preso):
+def downloadPresentation(username, password, presoWithoutExt):
     print("Signing in...")
     clientId = getClientId(username, password)
     if clientId is None:
         return False
 
-    prefix = clientId + "/" + preso
+    prefix = clientId + "/" + presoWithoutExt
 
     payload = json.dumps({
         "prefix": prefix

@@ -4,6 +4,7 @@ from playsound import playsound
 import config as cfg
 import ui as ui
 from threading import Timer
+import re
 
 def readFile(path):
     f = open(path, "r")
@@ -46,16 +47,7 @@ def findIndexInManifest(manifest, d):
             return i
     return -1
 
-def checkPresentation(path):
-    cfg.root_folder = os.path.join(cfg.baseFolder, path)
-
-    if os.path.exists(cfg.root_folder) == False:
-        #ui.modal(cfg.rootWin, path, "Would you like to download this presentation?", yes, no)
-        ui.modalWithOk(cfg.rootWin, "Presentation not found!", ui.okCallback)
-    else:       
-        readPresentation(path)
-
-def readPresentation(path):
+def readPresentation(presoWithoutExt):
     # # {
     # #     "title" : "shapes-and-pictures",
     # #     "manifest.json" : "",
@@ -77,10 +69,11 @@ def readPresentation(path):
     # # }
 
     #at this point the folder exists locally
-    preso = {"title" : path}
+    presoRootFolder = os.path.join(cfg.outputFolder, presoWithoutExt)
+    preso = {"title" : presoWithoutExt}
 
     #read the manifest file
-    manifest_path = os.path.join(cfg.root_folder, "manifest.json")
+    manifest_path = os.path.join(presoRootFolder, "manifest.json")
     manifest = json.loads(readFile(manifest_path))
     #print("Manifest:{}".format(manifest))
     preso["manifest.json"] = manifest
@@ -91,12 +84,17 @@ def readPresentation(path):
         preso["pages"].append({})
 
     #read the speaker file
-    speaker_path = os.path.join(cfg.root_folder, "speaker.json")
-    speaker = json.loads(readFile(speaker_path))
-    preso["speaker.json"] = speaker
+    speaker_path = os.path.join(presoRootFolder, "speaker.json")
+    #if speaker file is not available, ok to proceed as a default voice was used for synthesis
+    if os.path.exists(speaker_path):
+        speaker = json.loads(readFile(speaker_path))
+        preso["speaker.json"] = speaker
+    else:
+        #set a default speaker
+        preso["speaker.json"] = {"speaker" : "Stephen"}
 
     lev=0
-    for root, dirs, files in os.walk(cfg.root_folder):
+    for root, dirs, files in os.walk(presoRootFolder):
         #print("Level:{}, root:{}".format(lev, root))
         if lev == 0:
             parent = root
@@ -122,17 +120,35 @@ def readPresentation(path):
                 if (pg == -1):
                     print("Page not found for:{}".format(dir))
                     return None 
-                preso["pages"][pg][f] = readWrapper(os.path.join(cfg.root_folder, root, f))
+                preso["pages"][pg][f] = readWrapper(os.path.join(presoRootFolder, root, f))
     #print("{} preso read".format(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
     cfg.presentation = preso
 
 def validatePresentationName(presoName):
-    #if name contains any non alphanumeric character return false
-    if not presoName.isalnum():
+    #if name contains any non alphanumeric character other than period, - return false
+    match = re.search(r'[^a-zA-Z0-9\.\-]', presoName)
+    if match:
         return False
     
     #if name contains any uppercase character return false
     res = any(c.isupper() for c in presoName)
     if res == True:
         return False
+
+    #if name does not end with .ppt or .pptx return false    
+    res = presoName.endswith(".ppt") or presoName.endswith(".pptx")
+    if res == False:
+        return False
+    
+    return True
+
+# def checkPresentation(path):
+#     cfg.root_folder = os.path.join(cfg.baseFolder, path)
+
+#     if os.path.exists(cfg.root_folder) == False:
+#         #ui.modal(cfg.rootWin, path, "Would you like to download this presentation?", yes, no)
+#         ui.modalWithOk(cfg.rootWin, "Presentation not found!", ui.okCallback)
+#     else:       
+#         readPresentation(path)
+
 
