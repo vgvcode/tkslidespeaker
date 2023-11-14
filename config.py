@@ -33,6 +33,7 @@ pageNum = 1
 presentation = {"pages" : []}
 autoAdvance = 0
 speakerList = ["Joanna", "Amy", "Kajal", "Stephen", "Brian"]
+threadReturnValue = None
 
 #widgets
 rootWin = None

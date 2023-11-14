@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter.font import Font
 from tkinter import messagebox
+from tkinter.ttk import Progressbar
 import os
 from PIL import ImageTk, Image
 import json
@@ -99,11 +100,11 @@ def uploadCallback():
         messagebox.showerror('error', 'Upload failed!')
         return False
     
-    time.sleep(15)
+    ui.show_progress_sync(15, bar)
     result = messagebox.askquestion('Play it?', 'Adding AI voice to the presentation...\nWould you like to play it when completed?')
     if result == "no":
         return False
-    time.sleep(45)
+    ui.show_progress_sync(45, bar)
 
     #delete the previous presentation folder in output folder
     presoWithoutExt = presoName.split(".")[0]
@@ -156,22 +157,27 @@ uploadBtn.pack(side = LEFT, fill=BOTH, padx=10, pady = 10)
 downloadBtn.pack(side = LEFT, fill=BOTH, padx=10, pady = 10)
 playBtn.pack(side = LEFT, fill=BOTH, padx = 10, pady = 10)
 
+progressFrame = Frame(cfg.rootWin)
+progressFrame.grid(row = 2, column = 0)
+bar = Progressbar(progressFrame, orient=HORIZONTAL, length=500)
+bar.pack(pady=10)
+
 canvasFrame = Frame(cfg.rootWin)
 #canvasFrame.pack(side = TOP)
-canvasFrame.grid(row = 2, column = 0)
+canvasFrame.grid(row = 3, column = 0)
 
 cfg.can = Canvas(canvasFrame, width=cfg.canvasWidth, height=cfg.canvasHeight) 
 cfg.can.pack(padx = cfg.canvasPadX) 
 cfg.can_image_container = cfg.can.create_image(0,0, anchor="nw",image=None)
 
 pageNumFrame = Frame(cfg.rootWin)
-pageNumFrame.grid(row = 3, column = 0)
+pageNumFrame.grid(row = 4, column = 0)
 cfg.lblPageNum = Label(pageNumFrame, text = "", font=Font(size=cfg.pageNumFontSize))
 cfg.lblPageNum.pack(side = LEFT, fill=BOTH, expand=True)
 
 buttonsFrame = Frame(cfg.rootWin) 
 #buttonsFrame.pack( side = BOTTOM ) 
-buttonsFrame.grid(row = 4, column = 0)
+buttonsFrame.grid(row = 5, column = 0)
 
 fontObj = Font(size=cfg.notesFontSize)
 cfg.txtNotes = Text(buttonsFrame, height=cfg.notesHeight, width=cfg.notesWidth, wrap='word', padx = cfg.notesPadX, font=fontObj)
@@ -192,12 +198,12 @@ cfg.lastButton.pack( side = LEFT, fill = BOTH, expand = True)
 cfg.lastButton["state"]="disabled"
 
 fillerFrame = Frame(cfg.rootWin)
-fillerFrame.grid(row = 5, column = 0)
+fillerFrame.grid(row = 6, column = 0)
 fillerLabel = Label(fillerFrame, text = " ", font=Font(size=cfg.fillerFontSize))
 fillerLabel.pack(side = LEFT, fill=BOTH, expand=True)
 
 gotoPageFrame = Frame(cfg.rootWin)
-gotoPageFrame.grid(row = 6, column = 0)
+gotoPageFrame.grid(row = 7, column = 0)
 
 #Auto Advance checkbox
 cfg.autoAdvance = IntVar()
@@ -217,7 +223,7 @@ cfg.goToPageCombo.current()
 cfg.goToPageCombo.bind("<<ComboboxSelected>>", ui.goToPage)
 
 copyrightFrame = Frame(cfg.rootWin)
-copyrightFrame.grid(row = 7, column = 0)
+copyrightFrame.grid(row = 8, column = 0)
 copyrightLab = Label(copyrightFrame, text = cfg.copyrightText, fg=cfg.copyrightFgColor, pady = cfg.copyrightPadY)
 copyrightLab.pack( side = TOP, fill = BOTH, expand = True)
 

@@ -209,57 +209,20 @@ def show_speaker_dialog():
     dialog = ComboBoxModalBox(cfg.rootWin, title="Select your speaker")
     return dialog.result
 
-# class ProgressDialog(simpledialog.Dialog):
-#     def body(self, master, totalTime, tstep, value=100):
-#         self.progressbar = Progressbar(master, orient=HORIZONTAL, length=value, mode='determinate')
-#         self.totalTime = totalTime
-#         self.tstep = tstep
-#         self.pgstep = 100*tstep/totalTime
-#         for t in range(0, self.totalTime, self.step):
-#             time.sleep(self.tstep)
-#             self.update_progressbar(self.pgstep)
+def show_progress_sync(seconds, bar):
+    step = 100/seconds
+    bar["value"] = 0
+    for t in range(seconds):
+        time.sleep(1)
+        bar["value"] = bar["value"] + step
+        cfg.rootWin.update_idletasks()
 
-#     def apply(self):
-#         self.progressBar.destroy()
-
-#     def update_progressbar(self, value):
-#         self.progressBar["value"] = self.progressBar["value"] + value
-#         if self.progressBar["value"] < 100:
-#             self.progressBar.update()
-
-# def modalWithYesNo(win, path, message, yesCallback, noCallback):
-#    pop = Toplevel(win)
-#    pop.title("Confirmation")
-#    pop.geometry("300x150")
-#    pop.config(bg="white")
-#    # Create a Label Text
-#    label = Label(pop, text=message, font=('Aerial', 12))
-#    label.pack(pady=20)
-#    # Add a Frame
-#    frame = Frame(pop, bg="white")
-#    frame.pack(pady=10)
-#    # Add Button for making selection
-#    button1 = Button(frame, text="Yes", command=lambda: choiceYesNo(pop, "yes", path, yesCallback, noCallback), bg="blue", fg="white")
-#    button1.grid(row=0, column=1)
-#    button2 = Button(frame, text="No", command=lambda: choiceYesNo(pop, "no", path, yesCallback, noCallback), bg="blue", fg="white")
-#    button2.grid(row=0, column=2)
-
-# def modalWithOk(win, message, okCallback):
-#    pop = Toplevel(win)
-#    pop.title("Confirmation")
-#    geom = str(cfg.modalWidth) + "x" + str(cfg.modalHeight)
-#    pop.geometry(geom)
-#    pop.config(bg="white")
-#    # Create a Label Text
-#    label = Label(pop, text=message, font=('Aerial', cfg.modalFontSize), bg="white")
-#    label.pack(pady=20)
-#    # Add a Frame
-#    frame = Frame(pop, bg="white")
-#    frame.pack(pady=10)
-#    # Add Button for making selection
-#    button1 = Button(frame, text="OK", command=lambda: okCallback(pop), bg=cfg.errorButtonBgColor, fg="white")
-#    button1.grid(row=0, column=1)
-
-# def okCallback(pop):
-#     pop.destroy()
-#     cfg.txtPresoName.delete(0, END)
+def show_progress_async(x, step, delay, bar):
+    bar["value"] = 0
+    while x.is_alive():
+        bar["value"] = bar["value"] + step
+        if bar["value"] > 100:
+            bar["value"] = 0
+        cfg.rootWin.update_idletasks()
+        time.sleep(delay)
+    bar["value"] = 100

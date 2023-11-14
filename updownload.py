@@ -110,6 +110,7 @@ def downloadPresentation(username, password, presoWithoutExt):
     return True
 
 def uploadPresentation(username, password, preso, speaker):
+    cfg.threadReturnValue = False
     print("Signing in...")
     clientId = getClientId(username, password)
     #if sign in failed, exit here
@@ -120,7 +121,7 @@ def uploadPresentation(username, password, preso, speaker):
     print("Converted presentation: {}".format(presoFilePath))
 
     key = clientId + "/" + preso
-    result = uploadFileOrDataToPresignedUrl(key, localFilePath=presoFilePath, contents = None)
+    result = uploadFileOrDataToPresignedUrl(key, localFilePath=presoFilePath)
     if result is False:
         print("Upload failed")
         return False
@@ -139,10 +140,11 @@ def uploadPresentation(username, password, preso, speaker):
     #use presoWithoutExt as a folder prefix in S3
     speakerFileName = "speaker.json"
     key = clientId + "/" + presoWithoutExt + "/" + speakerFileName
-    result = uploadFileOrDataToPresignedUrl(key, localFilePath=speakerFilePath, contents = None)
+    result = uploadFileOrDataToPresignedUrl(key, localFilePath=speakerFilePath)
+    cfg.threadReturnValue = result
     return result    
 
-def uploadFileOrDataToPresignedUrl(key, localFilePath, contents):
+def uploadFileOrDataToPresignedUrl(key, localFilePath):
     print("Obtaining upload url")
     url = "https://mw238rzarl.execute-api.ap-south-1.amazonaws.com/dev/slidespeaker/get-upload-url"
     payload = json.dumps({"key": key})
@@ -163,18 +165,6 @@ def uploadFileOrDataToPresignedUrl(key, localFilePath, contents):
         print("Uploading file to S3")
         files = {'file': open(localFilePath, 'rb')}
         r = requests.post(psurl, data=fields, files=files)
-        if (r.status_code != 204):
-            return False
-        else:
-            print("Uploaded file: {}".format(key))
-            return True
-    elif contents is not None:
-        #headers = {'Authorization' : ‘(some auth code)’, 'Accept' : 'application/json', 'Content-Type' : 'application/json'}
-        headers = {'Accept' : 'application/json', 'Content-Type' : 'application/json'}
-
-        #Upload file to S3 using presigned URL
-        print("Uploading file to S3")
-        r = requests.post(psurl, data=contents, headers=headers)
         if (r.status_code != 204):
             return False
         else:
