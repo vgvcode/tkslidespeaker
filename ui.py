@@ -23,18 +23,25 @@ def show():
     cfg.can.itemconfig(cfg.can_image_container, image=img2)
     #print("Rendered image") 
     text2 = rd.getText(cfg.presentation, cfg.pageNum)
+    if text2 is None:
+        text2 = ""
     cfg.lblPageNum.config(text="Page {} of {}".format(cfg.pageNum, lg))
     cfg.txtNotes.config(state=NORMAL)
     cfg.txtNotes.delete("1.0", END)
     cfg.txtNotes.insert(END, text2.replace("\n", " "))
     cfg.txtNotes.config(state=DISABLED)
     #print("Rendered text")
-    sound = cfg.presentation["pages"][cfg.pageNum]["speech.mp3"]
+    #play sound only if speechmarks.txt was present. Otherwise you have an empty sound file which causes an error
+    if "speechmarks.txt" in cfg.presentation["pages"][cfg.pageNum]:
+        sound = cfg.presentation["pages"][cfg.pageNum]["speech.mp3"]
+    else:
+        sound = None
     #set the highlight timers
     highlightTimers = setTimersForSentenceHighlighting()
     #start the sound timer
-    soundTimer = Timer(0, rd.readSound, [sound])
-    soundTimer.start()
+    if sound is not None:
+        soundTimer = Timer(0, rd.readSound, [sound])
+        soundTimer.start()
     #start the highlight timers
     for timer in highlightTimers:
         timer.start()
@@ -77,6 +84,10 @@ def choiceYesNo(pop, option, path, yesCallback, noCallback):
        noCallback()
 
 def setTimersForSentenceHighlighting():
+    #if no speechmarks are present return an empty array of timers
+    if "speechmarks.txt" not in cfg.presentation["pages"][cfg.pageNum]:
+        return []
+
     #loop through speechmarks, set timers to highlight sentences
     speechmarksStr = cfg.presentation["pages"][cfg.pageNum]["speechmarks.txt"]
     delimiter = "}"

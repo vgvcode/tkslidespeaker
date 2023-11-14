@@ -16,14 +16,17 @@ def readSound(path):
     #prevent goto page selection
     cfg.goToPageCombo.config(state = "disabled")
     cfg.isPlaying = True
-    playsound(path)
-    cfg.isPlaying = False
-    #print("Finished playing sound")
-    cfg.goToPageCombo.config(state = "readonly")
-    if cfg.autoAdvance.get() == 1:
-        #print("Auto advance is on")
-        timerShowNext = Timer(cfg.autoAdvanceDelay, ui.showNext)
-        timerShowNext.start()
+    try:
+        playsound(path)
+        cfg.isPlaying = False
+        #print("Finished playing sound")
+        cfg.goToPageCombo.config(state = "readonly")
+        if cfg.autoAdvance.get() == 1:
+            #print("Auto advance is on")
+            timerShowNext = Timer(cfg.autoAdvanceDelay, ui.showNext)
+            timerShowNext.start()
+    except playsound.PlaysoundException as e:
+        print("Error playing sound: {}".format(e))
 
 def getText(preso, pg):
     if "presentation.txt" in preso["pages"][pg]:
