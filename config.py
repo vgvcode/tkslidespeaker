@@ -45,3 +45,4 @@ firstButton = None
 lastButton = None
 nextButton = None
 previousButton = None
+progressBar = None

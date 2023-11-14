@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter.font import Font
 import os
+from typing import Any
 from PIL import ImageTk, Image
 import json
 from threading import Timer
@@ -9,6 +10,8 @@ import readData as rd
 from tkinter import simpledialog
 from tkinter import ttk
 from tkinter import messagebox
+from tkinter.ttk import Progressbar
+import time
 
 def readImage(path):
     return PhotoImage(file=path)
@@ -194,6 +197,24 @@ class ComboBoxModalBox(simpledialog.Dialog):
 def show_speaker_dialog():
     dialog = ComboBoxModalBox(cfg.rootWin, title="Select your speaker")
     return dialog.result
+
+# class ProgressDialog(simpledialog.Dialog):
+#     def body(self, master, totalTime, tstep, value=100):
+#         self.progressbar = Progressbar(master, orient=HORIZONTAL, length=value, mode='determinate')
+#         self.totalTime = totalTime
+#         self.tstep = tstep
+#         self.pgstep = 100*tstep/totalTime
+#         for t in range(0, self.totalTime, self.step):
+#             time.sleep(self.tstep)
+#             self.update_progressbar(self.pgstep)
+
+#     def apply(self):
+#         self.progressBar.destroy()
+
+#     def update_progressbar(self, value):
+#         self.progressBar["value"] = self.progressBar["value"] + value
+#         if self.progressBar["value"] < 100:
+#             self.progressBar.update()
 
 # def modalWithYesNo(win, path, message, yesCallback, noCallback):
 #    pop = Toplevel(win)

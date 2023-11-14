@@ -128,13 +128,16 @@ def uploadPresentation(username, password, preso, speaker):
     #Upload speaker.json
     presentationElements = preso.split(".")
     presoWithoutExt = presentationElements[0]
-    speakerFileName = presoWithoutExt + "-" + "speaker.json"
-    speakerFilePath = os.path.join(cfg.stagingFolder, speakerFileName)
-    f = open(speakerFilePath, "a")
+    #use the presoWithoutExt as a prefix with a - to distinguish from multiple speaker.json files
+    longSpeakerFileName = presoWithoutExt + "-" + "speaker.json"
+    speakerFilePath = os.path.join(cfg.stagingFolder, longSpeakerFileName)
+    f = open(speakerFilePath, "w")
     data = {"speaker": speaker}
     f.write(json.dumps(data))
     f.close()
 
+    #use presoWithoutExt as a folder prefix in S3
+    speakerFileName = "speaker.json"
     key = clientId + "/" + presoWithoutExt + "/" + speakerFileName
     result = uploadFileOrDataToPresignedUrl(key, localFilePath=speakerFilePath, contents = None)
     return result    

@@ -5,7 +5,7 @@ import os
 from PIL import ImageTk, Image
 import json
 from playsound import playsound
-from threading import Timer
+import threading
 from tkinter.ttk import Combobox
 from tkinter import Checkbutton
 from tkinter import IntVar
@@ -14,6 +14,8 @@ from pathlib import Path
 import config as cfg
 import readData as rd
 import ui as ui
+import time
+import shutil
 
 cfg.home = Path.home()
 cfg.appFolder = os.path.join(cfg.home, cfg.appName)  #C:\users\vgvnv\tkslidespeaker 
@@ -46,9 +48,14 @@ def downloadCallback():
         return False
 
     presoWithoutExt = presoName.split(".")[0]
+    presoRootFolder = os.path.join(cfg.outputFolder, presoWithoutExt)
+    if os.path.exists(presoRootFolder) == True:
+        result = messagebox.askquestion('Action', 'Presentation already exists. Overwrite?')
+        if result == "no":
+            return False
+
     result = ui.show_login_dialog()
     if result is None:
-        messagebox.showerror('error', 'Login failed!')
         return False
 
     username, password = result
@@ -57,7 +64,7 @@ def downloadCallback():
         messagebox.showerror('error', 'Download of AI voice enabled presentation failed!')
         return False
 
-    messagebox.showinfo('info', 'Added AI voice to presentation!')
+    messagebox.showinfo('info', 'Downloaded voice enabled presentation!')
 
 def uploadCallback():
     presoName = cfg.txtPresoName.get()
@@ -79,18 +86,41 @@ def uploadCallback():
         return False
     
     print("Speaker selected {}".format(speaker))
+
     result = ui.show_login_dialog()
     if result is None:
         return False
 
     username, password = result
+
     uploadResult = updown.uploadPresentation(username, password, presoName, speaker)
     #if upload failed, put a message here
     if uploadResult is False:
         messagebox.showerror('error', 'Upload failed!')
         return False
     
-    messagebox.showinfo('info', 'Presentation uploaded!')
+    time.sleep(15)
+    result = messagebox.askquestion('Play it?', 'Adding AI voice to the presentation...\nWould you like to play it when completed?')
+    if result == "no":
+        return False
+    time.sleep(45)
+
+    #delete the previous presentation folder in output folder
+    presoWithoutExt = presoName.split(".")[0]
+    presoRootFolder = os.path.join(cfg.outputFolder, presoWithoutExt)
+    if os.path.exists(presoRootFolder) == True:
+        shutil.rmtree(presoRootFolder)
+        print("Deleted previous presentation folder")
+
+    result = updown.downloadPresentation(username, password, presoWithoutExt)
+    if result is False:
+        messagebox.showerror('error', 'Download of AI voice enabled presentation failed!')
+        return False
+    
+    cfg.txtPresoName.config(state=DISABLED)
+    rd.readPresentation(presoWithoutExt)
+    ui.setupGotoPageCombo()
+    ui.showFirst()
 
 def createFolders():
     #create folders needed. It will not raise error if it already exists
@@ -99,7 +129,7 @@ def createFolders():
     os.makedirs(cfg.tmpFolder, exist_ok=True)
     os.makedirs(cfg.outputFolder, exist_ok=True)
 
-
+#################################################################################
 createFolders()
 
 cfg.rootWin = Tk()
@@ -120,7 +150,7 @@ actionFrame.grid(row = 1, column = 0)
 
 # Set Button with callback
 uploadBtn = Button(actionFrame, text = "1. Upload a Powerpoint presentation.", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:uploadCallback())
-downloadBtn = Button(actionFrame, text = "2. Voice enable it, using AI!", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:downloadCallback())
+downloadBtn = Button(actionFrame, text = "2. Download a voice enabled presentation.", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:downloadCallback())
 playBtn = Button(actionFrame, text = "3. Play it!", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:playCallback())
 uploadBtn.pack(side = LEFT, fill=BOTH, padx=10, pady = 10)
 downloadBtn.pack(side = LEFT, fill=BOTH, padx=10, pady = 10)
