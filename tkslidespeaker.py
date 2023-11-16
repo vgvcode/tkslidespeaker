@@ -17,6 +17,7 @@ import readData as rd
 import ui as ui
 import time
 import shutil
+import math
 
 cfg.home = Path.home()
 cfg.appFolder = os.path.join(cfg.home, cfg.appName)  #C:\users\vgvnv\tkslidespeaker 
@@ -66,6 +67,7 @@ def downloadCallback():
         return False
 
     messagebox.showinfo('info', 'Downloaded voice enabled presentation!')
+    return True
 
 def uploadCallback():
     presoName = cfg.txtPresoName.get()
@@ -94,17 +96,20 @@ def uploadCallback():
 
     username, password = result
 
-    uploadResult = updown.uploadPresentation(username, password, presoName, speaker)
+    uploadResult, size, numSlides = updown.uploadPresentation(username, password, presoName, speaker)
     #if upload failed, put a message here
     if uploadResult is False:
         messagebox.showerror('error', 'Upload failed!')
         return False
     
-    ui.show_progress_sync(15, bar)
     result = messagebox.askquestion('Play it?', 'Adding AI voice to the presentation...\nWould you like to play it when completed?')
     if result == "no":
         return False
-    ui.show_progress_sync(45, bar)
+
+    #min 30, then add 3 seconds delay for every slide
+    delay = int(30 + numSlides * 3)
+    print("Delay in seconds: {}".format(delay))
+    ui.show_progress_sync(delay, bar)
 
     #delete the previous presentation folder in output folder
     presoWithoutExt = presoName.split(".")[0]

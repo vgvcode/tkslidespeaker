@@ -35,6 +35,7 @@ def create_images_with_notes_presentation(images_folder, notes_folder, output_pp
         slide.notes_slide.notes_text_frame.text = notes
 
     prs.save(output_pptx)
+    return n
 
 def extract_and_save_notes(input_pptx, output_folder):
     if not os.path.exists(output_folder):
@@ -49,6 +50,8 @@ def extract_and_save_notes(input_pptx, output_folder):
         
         with open(slide_notes_file, 'w', encoding='utf-8') as notes_file:
             notes_file.write(notes)
+
+    return len(prs.slides)
 
 def count_files(folder_path):
     file_count = 0
@@ -88,7 +91,7 @@ def convert(preso):
 
     #extract all notes one per slide
     print("Extracting all notes one per slide...")
-    extract_and_save_notes(inputFilePath, notesFolder)
+    n = extract_and_save_notes(inputFilePath, notesFolder)
 
     #create a new pptx with images and notes
     print("Creating a new pptx with images and notes...")
@@ -99,4 +102,4 @@ def convert(preso):
     #delete presentation base folder
     shutil.rmtree(presentationBaseFolder)
 
-    return outputFilePath
+    return (outputFilePath, n)

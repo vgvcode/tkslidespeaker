@@ -5,6 +5,7 @@ import shutil
 import threading
 import config as cfg
 import ppt2converted as ppt2conv
+from tkinter import messagebox
 
 def downloadPresoFile(url, filename):
     r = requests.get(url, allow_redirects=True)
@@ -45,9 +46,9 @@ def getClientId(username, password):
     body = rj["body"]
     if body is not None:
         return body
-    #else:
-    #   return None
-    return "234"
+    else:
+        return None
+        #return "234"
 
 def downloadPresentation(username, password, presoWithoutExt):
     print("Signing in...")
@@ -56,6 +57,7 @@ def downloadPresentation(username, password, presoWithoutExt):
         return False
 
     prefix = clientId + "/" + presoWithoutExt
+    print("Prefix: {}".format(prefix))
 
     payload = json.dumps({
         "prefix": prefix
@@ -110,23 +112,23 @@ def downloadPresentation(username, password, presoWithoutExt):
     return True
 
 def uploadPresentation(username, password, preso, speaker):
+    #return (upload result, size of file) -- eg (True, 12345), (False, 0)
     cfg.threadReturnValue = False
     print("Signing in...")
     clientId = getClientId(username, password)
-    #if sign in failed, exit here
-
-    print("Converting presentation")
-    presoFilePath = ppt2conv.convert(preso)
-    #if conversion failed, exit here
-    print("Converted presentation: {}".format(presoFilePath))
-
-    key = clientId + "/" + preso
-    result = uploadFileOrDataToPresignedUrl(key, localFilePath=presoFilePath)
-    if result is False:
-        print("Upload failed")
+    if clientId is None:
         return False
 
-    #Upload speaker.json
+    print("Converting presentation")
+    presoFilePath, numSlides = ppt2conv.convert(preso)
+    #if conversion failed, exit here
+    if numSlides > cfg.maxSlides:
+        messagebox.showerror('error', 'Your presentation has {} slides. Please reduce the number of slides to 300 or less.'.format(numSlides))
+        return False
+
+    print("Converted presentation: {}".format(presoFilePath))
+
+    #Create a local speaker.json file
     presentationElements = preso.split(".")
     presoWithoutExt = presentationElements[0]
     #use the presoWithoutExt as a prefix with a - to distinguish from multiple speaker.json files
@@ -137,14 +139,28 @@ def uploadPresentation(username, password, preso, speaker):
     f.write(json.dumps(data))
     f.close()
 
+    #upload speaker.json to s3
     #use presoWithoutExt as a folder prefix in S3
     speakerFileName = "speaker.json"
     key = clientId + "/" + presoWithoutExt + "/" + speakerFileName
-    result = uploadFileOrDataToPresignedUrl(key, localFilePath=speakerFilePath)
-    cfg.threadReturnValue = result
-    return result    
+    result, size = uploadFileToPresignedUrl(key, localFilePath=speakerFilePath)
+    if result is False:
+        print("Upload of speaker.json to S3 failed")
+        return (False, 0)
 
-def uploadFileOrDataToPresignedUrl(key, localFilePath):
+    #Upload presentation to s3
+    key = clientId + "/" + preso
+    result, size = uploadFileToPresignedUrl(key, localFilePath=presoFilePath)
+    if result is False:
+        print("Upload of {} to S3 failed".format(presoFilePath))
+        return (False, 0)
+
+    print("Result: {}, size: {}, numSlides:{}".format(result, size, numSlides))
+
+    return (result, size, numSlides)    
+
+def uploadFileToPresignedUrl(key, localFilePath):
+    #return (upload result, size of file) -- eg (True, 12345), (False, 0)
     print("Obtaining upload url")
     url = "https://mw238rzarl.execute-api.ap-south-1.amazonaws.com/dev/slidespeaker/get-upload-url"
     payload = json.dumps({"key": key})
@@ -166,9 +182,10 @@ def uploadFileOrDataToPresignedUrl(key, localFilePath):
         files = {'file': open(localFilePath, 'rb')}
         r = requests.post(psurl, data=fields, files=files)
         if (r.status_code != 204):
-            return False
+            return (False, 0)
         else:
             print("Uploaded file: {}".format(key))
-            return True
+            size = os.path.getsize(localFilePath)
+            return (True, size)
     else:
-        return False
+        return (False, 0)

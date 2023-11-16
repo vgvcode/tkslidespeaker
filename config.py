@@ -34,6 +34,7 @@ presentation = {"pages" : []}
 autoAdvance = 0
 speakerList = ["Joanna", "Amy", "Kajal", "Stephen", "Brian"]
 threadReturnValue = None
+maxSlides = 300
 
 #widgets
 rootWin = None
