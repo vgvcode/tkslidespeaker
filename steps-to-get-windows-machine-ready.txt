@@ -1,0 +1,29 @@
+Steps to get Windows machine ready to run SlideSpeaker
+
+Install Python for windows
+https://www.python.org/downloads/windows/
+
+Install Chrome for Windows
+//www.google.com/chrome/next-steps.html?installdataindex=empty&statcb=1&defaultbrowser=0&brand=IMSH
+
+Install Pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+Install aws cli
+
+Install vs code
+https://code.visualstudio.com/download
+
+Go to the tkslidespeaker directory
+pip install -r requirements.txt
+(set pillow version <=9.5.0)
+
+Set up Remote Machine to Play Audio
+Map Audio of Remote Machine to Local Speakers
+https://repost.aws/questions/QUEoBCShRbRS6eQgBPqCwmHA/map-local-microphone-to-ec2-instance
+
+
+
+
+
+
