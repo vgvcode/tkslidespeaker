@@ -3,10 +3,7 @@ from tkinter.font import Font
 from tkinter import messagebox
 from tkinter.ttk import Progressbar
 import os
-from PIL import ImageTk, Image
-import json
 from playsound import playsound
-import threading
 from tkinter.ttk import Combobox
 from tkinter import Checkbutton
 from tkinter import IntVar
@@ -15,9 +12,7 @@ from pathlib import Path
 import config as cfg
 import readData as rd
 import ui as ui
-import time
 import shutil
-import math
 
 cfg.home = Path.home()
 cfg.appFolder = os.path.join(cfg.home, cfg.appName)  #C:\users\vgvnv\tkslidespeaker 
@@ -28,13 +23,13 @@ cfg.outputFolder = os.path.join(cfg.appFolder, "output") #C:\users\vgvnv\tkslide
 def playCallback():
     presoName = cfg.txtPresoName.get()
     if rd.validatePresentationName(presoName) == False:
-        messagebox.showerror('error', 'Make sure that\n1. Your file ends in ppt or pptx.\n2. Your file name has only lower-case alphabets, numbers, - or .')
+        messagebox.showerror('Error', 'Make sure that\n1. Your file ends in ppt or pptx.\n2. Your file name has only lower-case alphabets, numbers, - or .')
         return False
 
     presoWithoutExt = presoName.split(".")[0]
     presoRootFolder = os.path.join(cfg.outputFolder, presoWithoutExt)
     if os.path.exists(presoRootFolder) == False:
-        messagebox.showerror('error', 'Presentation not found!')
+        messagebox.showerror('Error', 'Presentation not found!')
     else:       
         cfg.txtPresoName.config(state=DISABLED)
         rd.readPresentation(presoWithoutExt)
@@ -45,7 +40,7 @@ def playCallback():
 def downloadCallback():
     presoName = cfg.txtPresoName.get()
     if rd.validatePresentationName(presoName) == False:
-        messagebox.showerror('error', 'Make sure that\n1. Your file ends in ppt or pptx.\n2. Your file name has only lower-case alphabets, numbers, - or .')
+        messagebox.showerror('Error', 'Make sure that\n1. Your file ends in ppt or pptx.\n2. Your file name has only lower-case alphabets, numbers, - or .')
         cfg.txtPresoName.delete(0, END)        
         return False
 
@@ -63,21 +58,20 @@ def downloadCallback():
     username, password = result
     result = updown.downloadPresentation(username, password, presoWithoutExt)
     if result is False:
-        messagebox.showerror('error', 'Download of AI voice enabled presentation failed!')
         return False
 
-    messagebox.showinfo('info', 'Downloaded voice enabled presentation!')
+    messagebox.showinfo('Information', 'Downloaded voice enabled presentation!')
     return True
 
 def uploadCallback():
     presoName = cfg.txtPresoName.get()
     if rd.validatePresentationName(presoName) == False:
-        messagebox.showerror('error', 'Make sure that\n1. Your file ends in ppt or pptx.\n2. Your file name has only lower-case alphabets, numbers, - or .')
+        messagebox.showerror('Error', 'Make sure that\n1. Your file ends in ppt or pptx.\n2. Your file name has only lower-case alphabets, numbers, - or .')
         return False
     
     uploadPath = os.path.join(cfg.stagingFolder, presoName)
     if not os.path.exists(uploadPath):
-        messagebox.showerror('error', 'Presentation not found in {}'.format(cfg.stagingFolder))
+        messagebox.showerror('Error', 'Presentation not found in {}'.format(cfg.stagingFolder))
         return False
     
     print("presoName: {}".format(presoName))
@@ -99,7 +93,6 @@ def uploadCallback():
     uploadResult, size, numSlides = updown.uploadPresentation(username, password, presoName, speaker)
     #if upload failed, put a message here
     if uploadResult is False:
-        messagebox.showerror('error', 'Upload failed!')
         return False
     
     result = messagebox.askquestion('Play it?', 'Adding AI voice to the presentation...\nWould you like to play it when completed?')
@@ -120,7 +113,6 @@ def uploadCallback():
 
     result = updown.downloadPresentation(username, password, presoWithoutExt)
     if result is False:
-        messagebox.showerror('error', 'Download of AI voice enabled presentation failed!')
         return False
     
     cfg.txtPresoName.config(state=DISABLED)

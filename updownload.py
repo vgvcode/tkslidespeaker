@@ -7,6 +7,7 @@ import config as cfg
 import ppt2converted as ppt2conv
 from tkinter import messagebox
 import platform
+from datetime import date
 
 def downloadPresoFile(url, filename):
     r = requests.get(url, allow_redirects=True)
@@ -44,18 +45,86 @@ def getClientId(username, password):
     #print("r:{}".format(r))
     rj = json.loads(r)
     #print("rj:{}".format(rj))
+    if "body" not in rj:
+        messagebox.showerror("error", "Login failed!")
+        return None
+
+    body = rj["body"]
+    if body is not None:
+        return body
+    else:
+        messagebox.showerror("error", "Invalid client id!")
+        return None
+        #return "234"
+
+def getUsage(clientId, mmyyyy):
+    #get the usage for this month
+    #this is modeled as a GET method, so supply query params
+    apiurl = "https://aecwdu6fhe.execute-api.ap-south-1.amazonaws.com/dev/tenant-usage"
+    params = "client_id="+clientId+"&mmyyyy="+mmyyyy
+    apiurlWithParams = apiurl + "?" + params
+    print("apiurlWithParams:{}".format(apiurlWithParams))
+
+    response = requests.request("GET", apiurlWithParams)
+    r = response.text
+    #print("r:{}".format(r))
+    rj = json.loads(r)
+    #print("rj:{}".format(rj))
+    
+    if "errorMessage" in rj:
+        print("Error: {}".format(rj))
+        return None 
+    
     body = rj["body"]
     if body is not None:
         return body
     else:
         return None
-        #return "234"
+
+def updateUsage(clientId, mmyyyy, operation, delta):
+    #get the usage for this month
+    apiurl = "https://aecwdu6fhe.execute-api.ap-south-1.amazonaws.com/dev/tenant-usage"
+
+    payload = json.dumps({
+        "client_id": clientId,
+        "mmyyyy": mmyyyy,
+        "operation": operation, 
+        "delta": delta
+    })
+    headers = {
+        'Content-Type': 'application/json'
+    }
+
+    response = requests.request("POST", apiurl, headers=headers, data=payload)
+    r = response.text
+    #print("r:{}".format(r))
+    rj = json.loads(r)
+    #print("rj:{}".format(rj))
+    body = rj["body"]
+    if body is not None:
+        return body
+    else:
+        return None
 
 def downloadPresentation(username, password, presoWithoutExt):
     print("Signing in...")
     clientId = getClientId(username, password)
     if clientId is None:
         return False
+    
+    today = date.today()
+    mmyyyy = today.strftime("%m%Y") 
+    usage = getUsage(clientId, mmyyyy)
+    if usage is None:
+        print("No usage for client for {}. Adding a new entry for download".format(mmyyyy))
+        usage = {"downloads" : 0}
+
+    downloads = usage["downloads"]
+    if downloads >= cfg.maxDownloads:
+        messagebox.showerror("Error", "You have exceeded your download limit! Your downloads: {}, Limit: {}".format(downloads, cfg.maxDownloads))
+        return False
+
+    print("Your downloads:{}".format(downloads))
 
     prefix = clientId + "/" + presoWithoutExt
     print("Prefix: {}".format(prefix))
@@ -110,6 +179,13 @@ def downloadPresentation(username, password, presoWithoutExt):
     for t in threads:
         t.join()
     print("All threads finished")
+
+    result = updateUsage(clientId, mmyyyy, "download", 1)
+    if result is None:
+        messagebox.error("Error", "Usage update failed for {},{},{},{}".format(clientId, mmyyyy, "download", 1))
+        return False
+    
+    print("Updated usage")
     return True
 
 def uploadPresentation(username, password, preso, speaker):
@@ -118,14 +194,29 @@ def uploadPresentation(username, password, preso, speaker):
     print("Signing in...")
     clientId = getClientId(username, password)
     if clientId is None:
-        return False
+        messagebox.showerror('Error', 'Invalid client id!')
+        return (False, 0, 0)
+
+    today = date.today()
+    mmyyyy = today.strftime("%m%Y") 
+    usage = getUsage(clientId, mmyyyy)
+    if usage is None:
+        print("No usage for client for {}".format(mmyyyy))
+        usage = {"uploads" : 0}
+
+    uploads = usage["uploads"]
+    if uploads >= cfg.maxUploads:
+        messagebox.showerror("Error", "You have exceeded your upload limit! Your uploads: {}, Limit: {}".format(uploads, cfg.maxUploads))
+        return (False, 0, 0)
+
+    print("Your uploads:{}".format(uploads))
 
     print("Converting presentation")
     presoFilePath, numSlides = ppt2conv.convert(preso)
     #if conversion failed, exit here
     if numSlides > cfg.maxSlides:
-        messagebox.showerror('error', 'Your presentation has {} slides. Please reduce the number of slides to 300 or less.'.format(numSlides))
-        return False
+        messagebox.showerror('Error', 'Your presentation has {} slides. Please reduce the number of slides to 300 or less.'.format(numSlides))
+        return (False, 0, 0)
 
     print("Converted presentation: {}".format(presoFilePath))
 
@@ -146,19 +237,25 @@ def uploadPresentation(username, password, preso, speaker):
     key = clientId + "/" + presoWithoutExt + "/" + speakerFileName
     result, size = uploadFileToPresignedUrl(key, localFilePath=speakerFilePath)
     if result is False:
-        print("Upload of speaker.json to S3 failed")
-        return (False, 0)
+        messagebox.showerror("Error", "Upload of speaker data to S3 failed")
+        return (False, 0, 0)
 
     #Upload presentation to s3
     key = clientId + "/" + preso
     result, size = uploadFileToPresignedUrl(key, localFilePath=presoFilePath)
     if result is False:
-        print("Upload of {} to S3 failed".format(presoFilePath))
-        return (False, 0)
+        messagebox.showerror("Error", "Upload of {} to S3 failed".format(presoFilePath))
+        return (False, 0, 0)
 
     print("Result: {}, size: {}, numSlides:{}".format(result, size, numSlides))
 
-    return (result, size, numSlides)    
+    updateUsage(clientId, mmyyyy, "upload", 1)
+    if result is None:
+        messagebox.showerror("Error", "Usage update failed for {},{},{},{}".format(clientId, mmyyyy, "upload", 1))
+        return (False, 0, 0)
+    
+    print("Updated usage")
+    return (True, size, numSlides)
 
 def uploadFileToPresignedUrl(key, localFilePath):
     #return (upload result, size of file) -- eg (True, 12345), (False, 0)

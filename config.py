@@ -35,6 +35,8 @@ autoAdvance = 0
 speakerList = ["Joanna", "Amy", "Kajal", "Stephen", "Brian"]
 threadReturnValue = None
 maxSlides = 300
+maxDownloads = 100
+maxUploads = 30
 
 #widgets
 rootWin = None
