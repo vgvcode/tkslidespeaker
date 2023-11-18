@@ -60,7 +60,7 @@ def getClientId(username, password):
 def getUsage(clientId, mmyyyy):
     #get the usage for this month
     #this is modeled as a GET method, so supply query params
-    apiurl = "https://aecwdu6fhe.execute-api.ap-south-1.amazonaws.com/dev/tenant-usage"
+    apiurl = "https://mw238rzarl.execute-api.ap-south-1.amazonaws.com/dev/slidespeaker/tenant-usage"
     params = "client_id="+clientId+"&mmyyyy="+mmyyyy
     apiurlWithParams = apiurl + "?" + params
     print("apiurlWithParams:{}".format(apiurlWithParams))
@@ -83,7 +83,7 @@ def getUsage(clientId, mmyyyy):
 
 def updateUsage(clientId, mmyyyy, operation, delta):
     #get the usage for this month
-    apiurl = "https://aecwdu6fhe.execute-api.ap-south-1.amazonaws.com/dev/tenant-usage"
+    apiurl = "https://mw238rzarl.execute-api.ap-south-1.amazonaws.com/dev/slidespeaker/tenant-usage"
 
     payload = json.dumps({
         "client_id": clientId,
