@@ -5,6 +5,7 @@ import shutil
 import os
 import sys
 import config as cfg
+import platform
 
 def create_images_with_notes_presentation(images_folder, notes_folder, output_pptx):
     n = count_files(images_folder)  # Replace 'n' with the number of images you have
@@ -82,24 +83,36 @@ def convert(preso):
     #print("Input file: " + inputFilePath)
     #print("Output file: " + outputFilePath)
 
-    #extract all images one per slide
-    if not os.path.exists(imagesFolder):
-        os.makedirs(imagesFolder)
+    plat = platform.system()
 
-    print("Extracting all images one per slide...")
-    utils.save_pptx_as_png(imagesFolder, inputFilePath, overwrite_folder=True)  # additional optional parameter overwrite_folder
+    #do this only on windows platform
+    if plat == "Windows":
+        #extract all images one per slide
+        if not os.path.exists(imagesFolder):
+            os.makedirs(imagesFolder)
 
-    #extract all notes one per slide
-    print("Extracting all notes one per slide...")
-    n = extract_and_save_notes(inputFilePath, notesFolder)
+        print("Extracting all images one per slide...")
+        utils.save_pptx_as_png(imagesFolder, inputFilePath, overwrite_folder=True)  # additional optional parameter overwrite_folder
 
-    #create a new pptx with images and notes
-    print("Creating a new pptx with images and notes...")
-    create_images_with_notes_presentation(imagesFolder, notesFolder, outputFilePath)
+        #extract all notes one per slide
+        print("Extracting all notes one per slide...")
+        n = extract_and_save_notes(inputFilePath, notesFolder)
 
-    print("Cleaning up...")
+        #create a new pptx with images and notes
+        print("Creating a new pptx with images and notes...")
+        create_images_with_notes_presentation(imagesFolder, notesFolder, outputFilePath)
 
-    #delete presentation base folder
-    shutil.rmtree(presentationBaseFolder)
+        print("Cleaning up...")
+
+        #delete presentation base folder
+        shutil.rmtree(presentationBaseFolder)
+    else:
+        #if platform is not windows, just count the number of slides
+        #and copy the input file to the output file
+        print("Platform is not Windows. Skipping file conversion")
+        prs = Presentation(inputFilePath)
+        n = len(prs.slides)
+        shutil.copyfile(inputFilePath, outputFilePath)
+
 
     return (outputFilePath, n)

@@ -33,6 +33,8 @@ def getText(preso, pg):
         return preso["pages"][pg]["presentation.txt"]
     elif "presentation.notes" in preso["pages"][pg]:
         return preso["pages"][pg]["presentation.notes"]
+    else:
+        return ""
 
 def readWrapper(path):
     if path.endswith(".txt") or path.endswith(".notes") or path.endswith("json"):

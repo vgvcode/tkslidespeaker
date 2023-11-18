@@ -14,3 +14,8 @@ Type:
     python3 ./tkslidespeaker.py
 to run the application
 For presentation name, enter: woc-full
+
+
+
+
+

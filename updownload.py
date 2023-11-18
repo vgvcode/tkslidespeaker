@@ -6,6 +6,7 @@ import threading
 import config as cfg
 import ppt2converted as ppt2conv
 from tkinter import messagebox
+import platform
 
 def downloadPresoFile(url, filename):
     r = requests.get(url, allow_redirects=True)

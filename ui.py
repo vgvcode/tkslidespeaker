@@ -19,16 +19,22 @@ def readImage(path):
 def show():
     #print("Opening {}".format(cfg.presentation["pages"][cfg.pageNum]["pic0.PNG"]))
     lg = len(cfg.presentation["pages"])-1 #example: a 5 page book will have pages 0,1,2,3,4,5. So len = 6. 0th page is not counted
-    img2 = cfg.presentation["pages"][cfg.pageNum]["pic0.PNG"]
-    cfg.can.itemconfig(cfg.can_image_container, image=img2)
-    #print("Rendered image") 
-    text2 = rd.getText(cfg.presentation, cfg.pageNum)
-    if text2 is None:
-        text2 = ""
+
+    #if there was an error in conversion or platform was not windows, pic0 will not be there
+    if "pic0.PNG" in cfg.presentation["pages"][cfg.pageNum]:
+        img = cfg.presentation["pages"][cfg.pageNum]["pic0.PNG"]
+        cfg.can.itemconfig(cfg.can_image_container, image=img)
+        #print("Rendered image")
+    else:
+        img = None
+
+    txt = rd.getText(cfg.presentation, cfg.pageNum)
+    if txt is None:
+        txt = ""
     cfg.lblPageNum.config(text="Page {} of {}".format(cfg.pageNum, lg))
     cfg.txtNotes.config(state=NORMAL)
     cfg.txtNotes.delete("1.0", END)
-    cfg.txtNotes.insert(END, text2.replace("\n", " "))
+    cfg.txtNotes.insert(END, txt.replace("\n", " "))
     cfg.txtNotes.config(state=DISABLED)
     #print("Rendered text")
     #play sound only if speechmarks.txt was present. Otherwise you have an empty sound file which causes an error
