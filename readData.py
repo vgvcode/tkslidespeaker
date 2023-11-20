@@ -7,10 +7,11 @@ from threading import Timer
 import re
 
 def readFile(path):
-    f = open(path, "r")
+    #rb is used to read text in non english.  It is decoded at the end. This works with English text also
+    f = open(path, "rb")
     txt = f.read()
     f.close()
-    return txt
+    return txt.decode()
 
 def readSound(path):
     #prevent goto page selection

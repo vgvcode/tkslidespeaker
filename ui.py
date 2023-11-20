@@ -37,10 +37,10 @@ def show():
     cfg.txtNotes.insert(END, txt.replace("\n", " "))
     cfg.txtNotes.config(state=DISABLED)
     #print("Rendered text")
-    #play sound only if speechmarks.txt was present. Otherwise you have an empty sound file which causes an error
-    if "speechmarks.txt" in cfg.presentation["pages"][cfg.pageNum]:
-        sound = cfg.presentation["pages"][cfg.pageNum]["speech.mp3"]
-    else:
+    sound = cfg.presentation["pages"][cfg.pageNum]["speech.mp3"]
+    #check if sound file is empty. It can cause problems with playsound
+    file_stats = os.stat(sound)
+    if file_stats.st_size == 0:
         sound = None
     #set the highlight timers
     highlightTimers = setTimersForSentenceHighlighting()
