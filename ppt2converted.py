@@ -20,7 +20,7 @@ def create_images_with_notes_presentation(images_folder, notes_folder, output_pp
 
         left = Inches(0.5)
         top = Inches(0.5)
-        width = Inches(9)  # Adjust the width as needed
+        width = Inches(9)  # Adjust the width as needed old width 9
         height = Inches(6)  # Adjust the height as needed
 
         img_path = f"{images_folder}/Slide{i}.PNG"  # Replace 'PNG' with the actual image file format

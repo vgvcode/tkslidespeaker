@@ -37,6 +37,8 @@ threadReturnValue = None
 maxSlides = 300
 maxDownloads = 100
 maxUploads = 30
+threadResult = None
+threadMessage = None
 
 #widgets
 rootWin = None
@@ -45,8 +47,13 @@ can_image_container = None
 txtNotes = None
 lblPageNum = None
 goToPageCombo = None
+uploadButton = None
+downloadButton = None
+playButton = None
 firstButton = None
 lastButton = None
 nextButton = None
 previousButton = None
+replayButton = None
+stopButton = None
 progressBar = None

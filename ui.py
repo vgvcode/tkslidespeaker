@@ -14,7 +14,9 @@ from tkinter.ttk import Progressbar
 import time
 
 def readImage(path):
-    return PhotoImage(file=path)
+    img = Image.open(path).resize((cfg.canvasWidth, cfg.canvasHeight))
+    return ImageTk.PhotoImage(img)
+    #return PhotoImage(file=path)
 
 def show():
     #print("Opening {}".format(cfg.presentation["pages"][cfg.pageNum]["pic0.PNG"]))
@@ -42,7 +44,7 @@ def show():
     file_stats = os.stat(sound)
     if file_stats.st_size == 0:
         sound = None
-    #set the highlight timers
+    #set the highlight timerstime
     highlightTimers = setTimersForSentenceHighlighting()
     #start the sound timer
     if sound is not None:
@@ -81,6 +83,29 @@ def showLast():
         cfg.pageNum = len(cfg.presentation["pages"]) - 1
         #print("ShowLast: PageNum: {}, Presentation Length:{}".format(cfg.pageNum, len(cfg.presentation["pages"])))
         show()
+
+def showCurrent():
+    if not cfg.isPlaying:
+        show()
+
+def clearPlaying():
+    if cfg.isPlaying:
+        return False
+    
+    result = messagebox.askquestion('Stop?', 'Stop playing current presentation?')
+    if result == "no":
+        return False
+    
+    uploadDownloadPlayControls(nextState = "normal")
+    clearScreen()
+    
+def clearScreen():
+    cfg.can.delete("all")
+    cfg.txtPresoName.delete("0", END)
+    cfg.txtNotes.config(state=NORMAL)
+    cfg.txtNotes.delete("1.0", END)
+    cfg.lblPageNum.config(text="")
+    cfg.rootWin.update_idletasks()
 
 def choiceYesNo(pop, option, path, yesCallback, noCallback):
    pop.destroy()
@@ -217,11 +242,10 @@ def show_speaker_dialog():
 
 def show_progress_sync(seconds, bar):
     step = 100/seconds
-    bar["value"] = 0
+    clearProgressBar(bar)
     for t in range(seconds):
         time.sleep(1)
-        bar["value"] = bar["value"] + step
-        cfg.rootWin.update_idletasks()
+        updateProgressBar(bar, step)
 
 def show_progress_async(x, step, delay, bar):
     bar["value"] = 0
@@ -232,3 +256,27 @@ def show_progress_async(x, step, delay, bar):
         cfg.rootWin.update_idletasks()
         time.sleep(delay)
     bar["value"] = 100
+
+def updateProgressBar(bar, value):
+    bar["value"] = (bar["value"] + value) % 100
+    cfg.rootWin.update_idletasks()
+
+def clearProgressBar(bar):
+    bar["value"] = 0
+    cfg.rootWin.update_idletasks()
+
+def uploadDownloadPlayControls(nextState):
+    cfg.txtPresoName["state"] = nextState
+    cfg.uploadButton["state"] = nextState
+    cfg.downloadButton["state"] = nextState
+    cfg.playButton["state"] = nextState
+
+def setPlayControls(nextState):
+    cfg.firstButton["state"] = nextState
+    cfg.lastButton["state"] = nextState
+    cfg.nextButton["state"] = nextState
+    cfg.previousButton["state"] = nextState
+    cfg.goToPageCombo["state"] = nextState
+    cfg.replayButton["state"] = nextState
+    cfg.stopButton["state"] = nextState
+

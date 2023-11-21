@@ -5,6 +5,7 @@ import config as cfg
 import ui as ui
 from threading import Timer
 import re
+import sys
 
 def readFile(path):
     #rb is used to read text in non english.  It is decoded at the end. This works with English text also
@@ -14,10 +15,9 @@ def readFile(path):
     return txt.decode()
 
 def readSound(path):
-    #prevent goto page selection
-    cfg.goToPageCombo.config(state = "disabled")
-    cfg.isPlaying = True
     try:
+        cfg.isPlaying = True
+        ui.setPlayControls(nextState="disabled")
         playsound(path)
         cfg.isPlaying = False
         #print("Finished playing sound")
@@ -28,6 +28,11 @@ def readSound(path):
             timerShowNext.start()
     except playsound.PlaysoundException as e:
         print("Error playing sound: {}".format(e))
+    except:
+        print(repr(sys.exception()))        
+    finally:
+        cfg.isPlaying = False
+        ui.setPlayControls(nextState="normal")
 
 def getText(preso, pg):
     if "presentation.txt" in preso["pages"][pg]:
