@@ -1,6 +1,0 @@
-"The results are in", said the product manager, excitedly. 
-"We tested our robot on 10,000 parts in the assembly line. 
-It correctly identified 9400 as not defective and 400 as defective. So there were 9800 correct classifications.
-However, it also identified 50 as not defective when they were actually defective. 
-And 150 as defective when they were not defective. So there were 200 misclassifications".
- "That's not bad, is it? We had only 200 misclassifications in 10,000! That's 2%!", Said Sonya.

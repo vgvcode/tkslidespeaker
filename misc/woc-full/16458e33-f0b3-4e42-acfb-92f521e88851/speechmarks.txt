@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":30,"value":"Ray went on to the next topic."}
-{"time":2067,"type":"sentence","start":32,"end":53,"value":"Here's another issue."}
-{"time":3947,"type":"sentence","start":55,"end":139,"value":"We received complaints that our social media sentiment app may be violating privacy."}
-{"time":8652,"type":"sentence","start":140,"end":238,"value":"For example, during our trials, a customer had posted some pictures of a bicycle race on Facebook."}
-{"time":14632,"type":"sentence","start":240,"end":357,"value":"Our app seemed to have figured out the date, location and other details about the customer without them revealing it."}
-{"time":20787,"type":"sentence","start":359,"end":421,"value":"The customer felt their privacy was violated!\", Ray continued."}

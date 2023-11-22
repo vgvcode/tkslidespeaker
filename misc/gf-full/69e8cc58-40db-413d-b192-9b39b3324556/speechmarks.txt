@@ -1,8 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":74,"value":"It was already past 8pm. \nI had only another three hours before my flight."}
-{"time":4867,"type":"sentence","start":76,"end":131,"value":"So I decided to take the address and check on it later."}
-{"time":8447,"type":"sentence","start":133,"end":187,"value":"The neighbor noticed the small package I was carrying."}
-{"time":11815,"type":"sentence","start":189,"end":259,"value":"'You can leave the package at the management office, on your way back."}
-{"time":15857,"type":"sentence","start":261,"end":334,"value":"They may have left for the day, but you can drop it off in their mailbox."}
-{"time":20025,"type":"sentence","start":336,"end":383,"value":"They might be able to forward it to Mr. \nBalu'."}
-{"time":23092,"type":"sentence","start":385,"end":454,"value":"I dropped the package at the office with a note and my email address."}
-{"time":27185,"type":"sentence","start":456,"end":557,"value":"I spent an agonizing 24 hours flying back to the US, trying to cheer myself with happy reminiscences."}

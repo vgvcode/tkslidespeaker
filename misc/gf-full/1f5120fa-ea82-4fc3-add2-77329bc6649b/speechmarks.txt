@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":173,"value":"Som obviously couldn't hear the voice(s) from the other side, but from the corner of his eye he could make out there were at least two other persons in the video conference."}
-{"time":8392,"type":"sentence","start":175,"end":251,"value":"Som presumed that these guys were building some innovative software product."}
-{"time":13134,"type":"sentence","start":255,"end":322,"value":"Over the next few minutes, the conversation got a little inaudible."}
-{"time":17614,"type":"sentence","start":324,"end":398,"value":"But Som was able to make out that they were talking about a factory floor."}
-{"time":22032,"type":"sentence","start":400,"end":478,"value":"The young man was animatedly describing a series of steps in an assembly line."}
-{"time":27199,"type":"sentence","start":480,"end":564,"value":"Once in a while, he heard the words 'camera' and 'voice' thrown in for good measure."}
-{"time":32067,"type":"sentence","start":566,"end":678,"value":"After about thirty minutes of animated discussion, the young man hung up, sighed to himself and closed his eyes."}

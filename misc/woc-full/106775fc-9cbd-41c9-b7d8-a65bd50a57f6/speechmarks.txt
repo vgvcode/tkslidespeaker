@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":15,"value":"I like it too."}
-{"time":1417,"type":"sentence","start":16,"end":68,"value":"And more importantly, I like the name - Renaissance."}
-{"time":4860,"type":"sentence","start":70,"end":107,"value":"It captures what we are trying to do."}
-{"time":7215,"type":"sentence","start":108,"end":157,"value":"And notice that A I is at the center of the word."}
-{"time":10195,"type":"sentence","start":158,"end":188,"value":"How appropriate!\", said Sonya."}

@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":86,"value":"October: A I systems need to be monitored continuously and have guard rails in place."}
-{"time":5267,"type":"sentence","start":87,"end":132,"value":"They also need to be re-trained periodically."}

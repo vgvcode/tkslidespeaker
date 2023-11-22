@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":151,"value":"On the warehouse distribution side, we are using Machine Learning to forecast the demand from various locations to stock our warehouses in those areas."}
-{"time":8454,"type":"sentence","start":153,"end":244,"value":"This is already leading to avoidance of stockouts and reduction in inventory storage costs."}
-{"time":13784,"type":"sentence","start":245,"end":298,"value":"We are moving towards just in time inventory (J I T)."}

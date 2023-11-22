@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":40,"value":"Day 1 Afternoon, The First Breakthrough."}
-{"time":2980,"type":"sentence","start":43,"end":98,"value":"These are happening all over the world at random times."}
-{"time":6410,"type":"sentence","start":100,"end":182,"value":"There is no coordinated pattern\", that was our CFO, sounding dismissive, as usual."}
-{"time":11840,"type":"sentence","start":185,"end":241,"value":"Well not really\", said Ming, one of our Data Scientists."}
-{"time":15745,"type":"sentence","start":243,"end":269,"value":"Everyone sat up to listen."}

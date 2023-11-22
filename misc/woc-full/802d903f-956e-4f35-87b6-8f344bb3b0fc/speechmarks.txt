@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":40,"value":"I wouldn't go that far\", quipped Swami."}
-{"time":2592,"type":"sentence","start":43,"end":92,"value":"A I has been successfully used in many companies."}
-{"time":5710,"type":"sentence","start":94,"end":159,"value":"The important point to keep in mind is that A I is not foolproof."}
-{"time":9565,"type":"sentence","start":161,"end":211,"value":"But a well designed A I system can be quite close."}
-{"time":12969,"type":"sentence","start":216,"end":266,"value":"Humor me, Swami\", said Ray, appearing unconvinced."}

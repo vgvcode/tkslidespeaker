@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":31,"value":"At this point, Olga stepped in."}
-{"time":2517,"type":"sentence","start":34,"end":67,"value":"Machines cannot think, of course."}
-{"time":4972,"type":"sentence","start":68,"end":180,"value":"Under the hood, a machine uses calculus (yes, the one you learned in college), to find the best possible answer."}

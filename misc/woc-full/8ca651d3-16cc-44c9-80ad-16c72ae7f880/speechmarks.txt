@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":21,"value":"This is fascinating."}
-{"time":1642,"type":"sentence","start":22,"end":49,"value":"I can't wait.\", Sonya said."}

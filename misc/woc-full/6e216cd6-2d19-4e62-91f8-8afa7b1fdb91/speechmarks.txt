@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":48,"value":"Forecast sales, predict stock-outs and go J I T!"}
-{"time":3954,"type":"sentence","start":51,"end":177,"value":"We regularly get emails from our distribution centers on excess inventory in some location and stock-outs in another location."}
-{"time":11134,"type":"sentence","start":179,"end":192,"value":"Bad planning!"}
-{"time":12389,"type":"sentence","start":193,"end":239,"value":"Every stock-out is a missed sales opportunity!"}
-{"time":15294,"type":"sentence","start":240,"end":367,"value":"Use AI to forecast product sales, and use the information to avoid stock outs in some locations and excess inventory in others."}
-{"time":22999,"type":"sentence","start":370,"end":488,"value":"Follow Just In Time inventory management (minimizes cost) instead of Just In Case (leads to overstocking and wastage)."}

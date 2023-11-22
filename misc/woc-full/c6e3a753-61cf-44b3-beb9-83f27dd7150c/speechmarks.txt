@@ -1,8 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":116,"value":"Phil's epiphany came several months ago, when he wanted to give a bike as a present to his son on his 16th birthday."}
-{"time":6167,"type":"sentence","start":119,"end":154,"value":"No, I don't want a Cozmo bike, dad."}
-{"time":8960,"type":"sentence","start":155,"end":180,"value":"Your bikes are so boring!"}
-{"time":10815,"type":"sentence","start":184,"end":252,"value":"But, Jon, we make some of the best quality bicycles in the industry."}
-{"time":15120,"type":"sentence","start":253,"end":284,"value":"And they will last a long time."}
-{"time":17200,"type":"sentence","start":288,"end":356,"value":"If you really want to gift me a bike, pick the one from New Horizon."}
-{"time":20955,"type":"sentence","start":358,"end":383,"value":"Their models are so cool."}
-{"time":22922,"type":"sentence","start":384,"end":459,"value":"And they come with the HorizonTell app to connect with all my bike buddies."}

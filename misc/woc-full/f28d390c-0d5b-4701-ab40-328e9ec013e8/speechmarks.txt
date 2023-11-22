@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":11,"value":"Brilliant."}
-{"time":1329,"type":"sentence","start":13,"end":51,"value":"X, Y and Z for Gen X, Gen Y and Gen Z."}
-{"time":5109,"type":"sentence","start":52,"end":169,"value":"In addition, we can do A\/B testing before we release different products for different customer segments\", said Swami."}

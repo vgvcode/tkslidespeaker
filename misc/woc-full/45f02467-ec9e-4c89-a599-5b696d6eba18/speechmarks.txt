@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":139,"value":"The bike had wifi and bluetooth to relay information to the rider either via their mobile phone or via earphones attached to their helmets."}
-{"time":7542,"type":"sentence","start":141,"end":294,"value":"The bike was also able to seamlessly connect with a lot of wearables attached to the rider, such as a wrist watch, socks with wearable devices and so on."}
-{"time":16122,"type":"sentence","start":296,"end":402,"value":"It also had an electric rechargeable battery (available as an accessory) that could be fitted to the bike."}
-{"time":22164,"type":"sentence","start":404,"end":484,"value":"This would allow the bike to go for about 80 miles, without a human pedaling it."}
-{"time":26644,"type":"sentence","start":485,"end":515,"value":"It was great for urban bikers."}
-{"time":29037,"type":"sentence","start":517,"end":617,"value":"And most important of all, the bikes had a sleek, new look that would appeal to young and old alike."}

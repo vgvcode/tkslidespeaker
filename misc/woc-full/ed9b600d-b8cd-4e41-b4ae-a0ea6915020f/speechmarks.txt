@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":64,"value":"Another area that is rapidly becoming popular is Generative A I."}
-{"time":4230,"type":"sentence","start":66,"end":126,"value":"This helps computers generate text, images, video and audio."}
-{"time":8572,"type":"sentence","start":128,"end":238,"value":"For example a chatbot that engages in a very human like conversation with you is an example of Generative A I."}

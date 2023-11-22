@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":29,"value":"Chief Marketing Officer, Rob."}
-{"time":2667,"type":"sentence","start":32,"end":69,"value":"Rob is very communicative and visual."}
-{"time":5222,"type":"sentence","start":71,"end":92,"value":"He is not tech savvy."}
-{"time":6989,"type":"sentence","start":94,"end":161,"value":"He feels new technology can introduce more problems than it solves."}

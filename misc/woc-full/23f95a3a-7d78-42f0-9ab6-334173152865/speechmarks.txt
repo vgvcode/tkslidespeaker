@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":25,"value":"Really, how can that be?"}
-{"time":2042,"type":"sentence","start":26,"end":130,"value":"I thought A I would be smart to figure out the gender and recommend the right products\", remarked Sonya."}
-{"time":7322,"type":"sentence","start":133,"end":198,"value":"We probably have used a biased data set with more men than women."}
-{"time":11052,"type":"sentence","start":200,"end":254,"value":"Our A I is only as good as the data it was trained on."}
-{"time":14332,"type":"sentence","start":256,"end":351,"value":"Or, it is possible that the A I is incorrectly inferring gender from the features in the data\"."}
-{"time":19512,"type":"sentence","start":354,"end":372,"value":"How can we fix it?"}
-{"time":21030,"type":"sentence","start":375,"end":387,"value":"Sonya asked."}

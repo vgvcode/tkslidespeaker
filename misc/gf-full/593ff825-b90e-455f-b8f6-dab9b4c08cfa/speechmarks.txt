@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":17,"value":"Some Terminology."}
-{"time":1730,"type":"sentence","start":19,"end":169,"value":"ChatGPT is a natural language processing tool driven by AI technology that allows you to have human-like conversations and much more with the chatbot."}
-{"time":10209,"type":"sentence","start":171,"end":325,"value":"Generative AI is a type of artificial intelligence technology that can produce various types of content including text, imagery, audio and synthetic data."}

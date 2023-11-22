@@ -1,9 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":21,"value":"Was it even worth it?"}
-{"time":1905,"type":"sentence","start":23,"end":86,"value":"As I pondered over this question, one thing became clear to me."}
-{"time":5785,"type":"sentence","start":88,"end":172,"value":"A lot of things have changed over the years, yet some things really haven't changed."}
-{"time":10465,"type":"sentence","start":174,"end":242,"value":"People still love a good story, in whichever medium it is published."}
-{"time":14632,"type":"sentence","start":244,"end":315,"value":"If the content is interesting and palatable, I may still have a chance."}
-{"time":19100,"type":"sentence","start":317,"end":364,"value":"In fact, people read more these days, not less."}
-{"time":22630,"type":"sentence","start":366,"end":479,"value":"The channels have increased, from traditional paper books to digital, audio, blogs and social networks and so on."}
-{"time":29285,"type":"sentence","start":481,"end":506,"value":"But people are selective."}
-{"time":31365,"type":"sentence","start":508,"end":524,"value":"Content is King!"}

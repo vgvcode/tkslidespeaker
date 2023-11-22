@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":34,"value":"The company auditorium was packed."}
-{"time":2355,"type":"sentence","start":36,"end":116,"value":"Managers and line workers from the factory floor had turned up in large numbers."}

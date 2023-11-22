@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":132,"value":"A few years back, when Aadhar card was rolled out across the country, WhatsApp Vasan ensured that the colony residents got it early."}
-{"time":7242,"type":"sentence","start":134,"end":258,"value":"Within a few months, everyone in the colony knew how to access the government site and download a copy of their Aadhar card."}
-{"time":13847,"type":"sentence","start":260,"end":316,"value":"Indeed, Shanthi Vilas was the exemplar of Digital India!"}
-{"time":18089,"type":"sentence","start":320,"end":403,"value":"The early morning walker group was another great example of Vasan's transformation."}
-{"time":23332,"type":"sentence","start":405,"end":491,"value":"He formed a peer group of septuagenarians who did a morning round through the village."}
-{"time":28187,"type":"sentence","start":493,"end":588,"value":"Using his wearable device, Vasan was able to show everyone how many steps they walked each day."}
-{"time":33992,"type":"sentence","start":590,"end":767,"value":"The friendly pressure coupled with an hour or two of socializing aroused many seniors to abandon their state of indefinite rest on the couch and join Vasan on his daily routine."}

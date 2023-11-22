@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":82,"value":"We need to build a data driven culture and mindset around here\", Olga told Linda."}
-{"time":4717,"type":"sentence","start":85,"end":130,"value":"What exactly does it mean, to be data driven?"}
-{"time":7635,"type":"sentence","start":131,"end":216,"value":"To lay persons like us, it sounds like a buzzword; yet another fancy management term."}
-{"time":12702,"type":"sentence","start":217,"end":233,"value":"Can you clarify?"}
-{"time":14307,"type":"sentence","start":236,"end":248,"value":"Linda asked."}

@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":64,"value":"We have had great reviews about our 'Cozmonaut, where's my bike?"}
-{"time":3580,"type":"sentence","start":66,"end":70,"value":"app."}
-{"time":4722,"type":"sentence","start":72,"end":171,"value":"This app is available on mobile phones and popular voice assistants such as Alexa, Siri and Google."}
-{"time":10889,"type":"sentence","start":172,"end":298,"value":"Using this app, our customers could check on their order, get estimated delivery dates, add more items to the order and so on."}
-{"time":18344,"type":"sentence","start":300,"end":361,"value":"Needless to say, it has reduced the load in our call centers."}
-{"time":22212,"type":"sentence","start":363,"end":389,"value":"Our customers are excited."}
-{"time":24442,"type":"sentence","start":391,"end":462,"value":"And it has given us a digital identity that our competitors don't have."}

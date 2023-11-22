@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":34,"value":"Yes, but this is no time to stop."}
-{"time":2492,"type":"sentence","start":35,"end":88,"value":"We must continue to innovate by trying out new ideas."}
-{"time":6197,"type":"sentence","start":90,"end":245,"value":"But I also request our Data Analytics team to get better quality data, improve the training of our A I systems, and build better safeguards on top of them."}
-{"time":14877,"type":"sentence","start":247,"end":328,"value":"Only when we are 100% sure, we will roll this out to production\", Sonya concluded"}

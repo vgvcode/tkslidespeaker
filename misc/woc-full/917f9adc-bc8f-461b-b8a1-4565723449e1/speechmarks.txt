@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":90,"value":"We are a little overwhelmed with this report\", Ray said, as he flipped through the pages."}
-{"time":5179,"type":"sentence","start":93,"end":111,"value":"Where do we start?"}
-{"time":6622,"type":"sentence","start":112,"end":128,"value":"How do we start?"}
-{"time":8014,"type":"sentence","start":131,"end":238,"value":"We suggest that you start by establishing a Center Of Excellence (C O E) to review all our recommendations."}
-{"time":14719,"type":"sentence","start":240,"end":324,"value":"You can build this team by drawing upon the leaders from various business functions."}
-{"time":19387,"type":"sentence","start":326,"end":396,"value":"You may need to bring a few experts from outside your company as well."}

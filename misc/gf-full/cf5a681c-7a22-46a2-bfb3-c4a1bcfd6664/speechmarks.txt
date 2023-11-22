@@ -1,8 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":104,"value":"People avoided going to public places for shopping or dining, as they could get all of this done online."}
-{"time":5805,"type":"sentence","start":106,"end":231,"value":"Businesses were reopening cautiously, and many non-essential workers were planning to work from home for as long as possible."}
-{"time":12497,"type":"sentence","start":233,"end":314,"value":"Movies were being released directly on Amazon and Netflix instead of in theaters."}
-{"time":17377,"type":"sentence","start":316,"end":415,"value":"Even social and family gatherings took a new twist with virtual meetings held on Facebook and Zoom."}
-{"time":22845,"type":"sentence","start":417,"end":496,"value":"For years, Kesav had shunned requests to build a website or do anything online."}
-{"time":27712,"type":"sentence","start":498,"end":553,"value":"Now, he had abruptly come to face his day of reckoning."}
-{"time":31430,"type":"sentence","start":555,"end":630,"value":"He had to think long and hard about pivoting his wedding planning business."}
-{"time":35660,"type":"sentence","start":632,"end":732,"value":"How could he stay relevant at a time when people were shunning large gatherings, parties and events?"}

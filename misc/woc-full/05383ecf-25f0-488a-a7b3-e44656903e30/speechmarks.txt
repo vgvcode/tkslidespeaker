@@ -1,8 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":119,"value":"You may find it hard to believe, but a lot of companies are incorporating this into their Marketing and PR activities."}
-{"time":6217,"type":"sentence","start":121,"end":166,"value":"Popular software packages offer this feature."}
-{"time":9235,"type":"sentence","start":167,"end":224,"value":"It is ideal for product companies launching new products."}
-{"time":12602,"type":"sentence","start":226,"end":271,"value":"The product manager gave his closing remarks."}
-{"time":15495,"type":"sentence","start":274,"end":337,"value":"Social networks are where the millennials and Gen Z live today."}
-{"time":19087,"type":"sentence","start":339,"end":427,"value":"Research shows that people spend, on average, up to two hours on social media every day!"}
-{"time":24367,"type":"sentence","start":428,"end":445,"value":"Think about this."}
-{"time":25835,"type":"sentence","start":447,"end":512,"value":"Companies can get early indicators of feedback on these channels."}

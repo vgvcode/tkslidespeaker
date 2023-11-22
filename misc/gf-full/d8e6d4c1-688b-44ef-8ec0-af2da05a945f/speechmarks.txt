@@ -1,8 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":78,"value":"My visits to his place were agenda less with no expectations from either side."}
-{"time":5054,"type":"sentence","start":80,"end":180,"value":"Call it a pupil stopping by to see his guru, or a younger friend dropping by to see an older friend."}
-{"time":10884,"type":"sentence","start":182,"end":318,"value":"We would engage in thought provoking discussions on a variety of topics Literature, Music, Religion, Politics, Sports and what have you."}
-{"time":18939,"type":"sentence","start":320,"end":482,"value":"With his breadth of knowledge, wit and wisdom, he had the unique ability to connect with his guests at any level, and strike up a conversation on almost anything."}
-{"time":27682,"type":"sentence","start":484,"end":516,"value":"And with the delicious food Mrs."}
-{"time":30387,"type":"sentence","start":518,"end":603,"value":"Periyasamy would prepare for us, we would barely notice the hours that would pass by."}
-{"time":35492,"type":"sentence","start":605,"end":647,"value":"This time, I had a small gift to give him."}
-{"time":38722,"type":"sentence","start":649,"end":657,"value":"An iPad."}

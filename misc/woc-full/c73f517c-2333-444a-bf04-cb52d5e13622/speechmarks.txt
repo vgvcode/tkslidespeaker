@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":26,"value":"It was the summer of 2024."}
-{"time":2692,"type":"sentence","start":28,"end":113,"value":"Swami, Olga and Sonya were participating in the Five Boro Bike Tour held in New York."}
-{"time":8022,"type":"sentence","start":115,"end":237,"value":"Every May, around 32,000 cyclists gear up and traverse all five of New York's boroughs and up and over five major bridges."}
-{"time":15464,"type":"sentence","start":239,"end":284,"value":"The entire course would be closed to traffic."}
-{"time":18357,"type":"sentence","start":286,"end":327,"value":"It would be nothing short of spectacular."}
-{"time":21049,"type":"sentence","start":329,"end":511,"value":"Sonya and Swami felt there was no better way to launch their Renaissance bikes, than in a popular bicycle tour as this one, with three members from the leadership team participating."}

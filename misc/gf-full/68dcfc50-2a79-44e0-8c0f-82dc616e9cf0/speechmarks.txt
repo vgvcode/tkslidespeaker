@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":10,"value":"Story One."}
-{"time":1430,"type":"sentence","start":11,"end":24,"value":"Trojan Horse."}

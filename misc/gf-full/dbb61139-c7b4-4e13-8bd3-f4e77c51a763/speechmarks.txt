@@ -1,9 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":63,"value":"For that, we need to take a stroll through the temple grounds."}
-{"time":3717,"type":"sentence","start":65,"end":82,"value":"Do you have time?"}
-{"time":5197,"type":"sentence","start":86,"end":97,"value":"Mani asked."}
-{"time":6690,"type":"sentence","start":98,"end":139,"value":"Kittu could hardly contain his curiosity."}
-{"time":9770,"type":"sentence","start":141,"end":211,"value":"The bus ride back to Chennai can wait, he decided, and gladly obliged."}
-{"time":14525,"type":"sentence","start":212,"end":298,"value":"Mani took Kittu through the familiar corridors of the temple and to the ground nearby."}
-{"time":19292,"type":"sentence","start":299,"end":336,"value":"There was a big crowd gathered there."}
-{"time":21660,"type":"sentence","start":338,"end":386,"value":"They were waiting for a famous Swami to show up."}
-{"time":24640,"type":"sentence","start":388,"end":479,"value":"He was going to speak on Saint Ramanuja on the occasion of his centenary birth anniversary."}

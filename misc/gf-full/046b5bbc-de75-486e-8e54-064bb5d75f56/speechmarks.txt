@@ -1,8 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":137,"value":"And Marvin was the android in the book, 'The Hitchhiker's Guide to the Galaxy', where the answer to the ultimate question of life is 42!"}
-{"time":7405,"type":"sentence","start":141,"end":159,"value":"the CFO exclaimed."}
-{"time":9622,"type":"sentence","start":163,"end":199,"value":"Someone whistled softly in the room."}
-{"time":12089,"type":"sentence","start":202,"end":242,"value":"This is definitely the work of a hacker."}
-{"time":14819,"type":"sentence","start":244,"end":279,"value":"He has left a clue to challenge us."}
-{"time":17424,"type":"sentence","start":281,"end":328,"value":"Like all the proud hackers usually do\", I said."}
-{"time":20854,"type":"sentence","start":330,"end":372,"value":"But who could possibly be behind all this?"}
-{"time":23759,"type":"sentence","start":374,"end":417,"value":"Where could the attack be originating from?"}

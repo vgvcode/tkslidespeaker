@@ -1,1 +1,0 @@
-[["Next, I ask a Code Generation tool (Amazon CodeWhisperer) to generate code in JavaScript for a problem.", "pic0.PNG"]]

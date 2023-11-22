@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":75,"value":"However, transforming a traditional business to the age of A I is not easy."}
-{"time":4592,"type":"sentence","start":76,"end":188,"value":"These companies have people, processes and systems equipped to solve problems differently, from a different era."}
-{"time":10822,"type":"sentence","start":191,"end":295,"value":"Business processes have to be changed, employees have to be retrained, systems have to be re engineered."}
-{"time":17064,"type":"sentence","start":296,"end":396,"value":"In almost all these cases, the key driver is automation, which improves efficiency and reduces cost."}
-{"time":22982,"type":"sentence","start":397,"end":579,"value":"In other cases, companies may have to redesign their products or services, to take advantage of A I. This helps them differentiate their products from competitors and increase sales."}

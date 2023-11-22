@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":28,"value":"Chief People Officer, Linda."}
-{"time":2542,"type":"sentence","start":31,"end":70,"value":"Linda is a very people oriented person."}
-{"time":5397,"type":"sentence","start":72,"end":140,"value":"She is keen to take Cozmo to great heights under Sonya's leadership."}

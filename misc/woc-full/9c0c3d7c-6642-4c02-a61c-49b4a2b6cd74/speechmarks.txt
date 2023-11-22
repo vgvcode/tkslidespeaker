@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":159,"value":"We are witnessing a classic innovator's dilemma situation here, ladies and gentlemen\", Swami said after looking at the report from the Management Consultants."}
-{"time":8480,"type":"sentence","start":161,"end":234,"value":"I'm well aware of what the Management Consultant report is talking about."}
-{"time":12584,"type":"sentence","start":236,"end":282,"value":"I have seen it play out in other companies.\". "}
-{"time":15102,"type":"sentence","start":283,"end":354,"value":"He went up to the whiteboard and started drawing something as he spoke."}
-{"time":19019,"type":"sentence","start":357,"end":436,"value":"For several years, Cozmo was the leader in almost all areas we did business in."}
-{"time":24287,"type":"sentence","start":438,"end":525,"value":"Our systems and processes were customized and fine tuned to produce excellent products."}
-{"time":29454,"type":"sentence","start":527,"end":596,"value":"We were adept at using the sustaining technologies of our generation."}

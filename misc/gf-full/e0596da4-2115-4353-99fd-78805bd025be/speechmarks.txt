@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":37,"value":"Girlfriend\" and other short stories."}
-{"time":2580,"type":"sentence","start":38,"end":44,"value":"Jee Va"}

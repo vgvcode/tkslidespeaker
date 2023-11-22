@@ -1,1 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":76,"value":"The board members applauded and thanked Sonya for her vision and leadership."}

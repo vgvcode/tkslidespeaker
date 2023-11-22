@@ -1,8 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":138,"value":"When Som reached home, his wife informed him that his credit card company had called many times about a few transactions he made recently."}
-{"time":7405,"type":"sentence","start":140,"end":264,"value":"JeeVa \"Girlfriend\" and other short stories Page of 49 120 Concerned, Som tried to check if he had any messages on his phone."}
-{"time":15047,"type":"sentence","start":266,"end":308,"value":"Needless to say, his phone was locked out."}
-{"time":18027,"type":"sentence","start":310,"end":424,"value":"He was greeted by a grinning avatar that looked eerily similar to AJ, wearing a hoodie: 'Your phone is now locked."}
-{"time":24370,"type":"sentence","start":426,"end":491,"value":"Please be prepared to pay us using bitcoins to unlock your phone."}
-{"time":28287,"type":"sentence","start":493,"end":525,"value":"We will call you in a few hours."}
-{"time":30705,"type":"sentence","start":527,"end":597,"value":"Remember, if you try to contact the police, your phone will be erased."}
-{"time":35210,"type":"sentence","start":599,"end":609,"value":"Take care!"}

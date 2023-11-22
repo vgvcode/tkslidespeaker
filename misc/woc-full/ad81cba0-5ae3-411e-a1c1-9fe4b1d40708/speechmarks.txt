@@ -1,9 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":104,"value":"Alarmed by the latest trend, Linda, the Chief People Officer, requested an emergency meeting with Sonya."}
-{"time":6267,"type":"sentence","start":107,"end":170,"value":"I'm not surprised\", said Sonya, after hearing the developments."}
-{"time":10185,"type":"sentence","start":173,"end":208,"value":"We need to look at this positively."}
-{"time":12340,"type":"sentence","start":209,"end":244,"value":"Let us encourage these discussions."}
-{"time":14695,"type":"sentence","start":246,"end":292,"value":"We should aim for more transparency, not less."}
-{"time":17850,"type":"sentence","start":294,"end":414,"value":"At the same time, let us also conduct seminars and awareness sessions on how technology can create more jobs for people."}
-{"time":24742,"type":"sentence","start":418,"end":436,"value":"Sure\", said Linda."}
-{"time":26585,"type":"sentence","start":439,"end":503,"value":"But we need to give some more confidence to those on the ground."}
-{"time":29915,"type":"sentence","start":505,"end":611,"value":"For example, what can we tell the line workers who feel their job can be replaced by a much cheaper robot?"}

@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":94,"value":"As Raghu skimmed through the article, a small black and white photograph caught his attention."}
-{"time":5080,"type":"sentence","start":97,"end":163,"value":"Mr. \nTilak Raj, a graduate of Carnegie Mellon University in the U."}
-{"time":9647,"type":"sentence","start":164,"end":287,"value":"S, fondly remembers his formative days in Chennai at Srinivasa Matriculation Higher Secondary School\" Could it possibly be?"}
-{"time":16552,"type":"sentence","start":290,"end":304,"value":"Mr. \nRaghuram!"}
-{"time":18170,"type":"sentence","start":307,"end":386,"value":"Raghu's thoughts were rudely interrupted by the secretary calling out his name."}
-{"time":22662,"type":"sentence","start":388,"end":456,"value":"He hurriedly got up and was ushered into the plush offices of the M."}
-{"time":26830,"type":"sentence","start":457,"end":459,"value":"D."}

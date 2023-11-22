@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":80,"value":"It gave me a lot of satisfaction and joy to narrate this in the form of a story."}
-{"time":4542,"type":"sentence","start":81,"end":139,"value":"I hope you, the reader, will find it enjoyable and useful."}
-{"time":8384,"type":"sentence","start":142,"end":147,"value":"JeeVa"}
-{"time":8947,"type":"sentence","start":142,"end":162,"value":"JeeVa March 31, 2023"}

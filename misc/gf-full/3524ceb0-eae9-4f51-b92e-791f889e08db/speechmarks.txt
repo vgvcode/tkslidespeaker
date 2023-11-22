@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":40,"value":"He was greeted by a slightly balding Mr."}
-{"time":3267,"type":"sentence","start":42,"end":105,"value":"Tilak Raj and a couple of senior executives seated next to him."}
-{"time":7634,"type":"sentence","start":107,"end":162,"value":"The interviewers were very courteous and mild mannered."}
-{"time":11302,"type":"sentence","start":164,"end":301,"value":"After a few pleasantries and general questions about Raghu's background, education and interests, the interview took off at a brisk pace."}
-{"time":19132,"type":"sentence","start":303,"end":401,"value":"The senior executives asked most of the probing questions, with Tilak Raj jumping in occasionally."}
-{"time":25024,"type":"sentence","start":403,"end":599,"value":"Raghu was so consumed by their questions and how he answered them, that when his time came to ask questions, he completely forgot to ask about the small detail he saw in the magazine at the lobby."}

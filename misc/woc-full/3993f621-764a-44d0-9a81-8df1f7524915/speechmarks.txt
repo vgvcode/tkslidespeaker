@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":36,"value":"Why do we call it Machine Learning?"}
-{"time":2105,"type":"sentence","start":37,"end":68,"value":"How do machines actually learn?"}
-{"time":4322,"type":"sentence","start":71,"end":103,"value":"asked someone from the audience."}

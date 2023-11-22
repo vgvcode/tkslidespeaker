@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":17,"value":"Chapter Eighteen."}
-{"time":1592,"type":"sentence","start":18,"end":43,"value":"Who will babysit the A I?"}

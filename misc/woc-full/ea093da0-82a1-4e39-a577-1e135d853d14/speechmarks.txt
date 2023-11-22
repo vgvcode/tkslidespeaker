@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":64,"value":"Ray interrupted him, \"So what technologies are we talking about?"}
-{"time":3730,"type":"sentence","start":65,"end":182,"value":"Only a few years ago we went through a digital revolution driven by the rise of the Internet and Mobile technologies."}
-{"time":9810,"type":"sentence","start":183,"end":205,"value":"How is this different?"}
-{"time":11352,"type":"sentence","start":207,"end":432,"value":"Bob clarified, \"We're looking at artificial intelligence, robotics, the Internet of Things, autonomous vehicles, 3D printing, nanotechnology, biotechnology, materials science, energy storage, quantum computing, to name a few."}
-{"time":25894,"type":"sentence","start":434,"end":581,"value":"These have far reaching implications in fields like manufacturing, supply chain, marketing, customer service, human computer interaction and so on."}
-{"time":34849,"type":"sentence","start":583,"end":701,"value":"Our report provides detailed, actionable recommendations in all these areas that specifically apply to Cozmo Bicycles."}

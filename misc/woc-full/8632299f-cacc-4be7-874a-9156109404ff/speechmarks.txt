@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":30,"value":"You are correct\", said Swami."}
-{"time":2180,"type":"sentence","start":33,"end":162,"value":"While the model appears to be doing very well, it missed 50 defective parts even though it correctly identified 400 as defective."}
-{"time":9285,"type":"sentence","start":164,"end":228,"value":"So out of 450 defective parts, it missed 50, which is about 11%!"}

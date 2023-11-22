@@ -1,8 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":40,"value":"Olga, the head of Data Analytics, spoke."}
-{"time":3105,"type":"sentence","start":43,"end":143,"value":"Our data scientists need to do a much better job of eliminating bias from creeping in with our data."}
-{"time":8572,"type":"sentence","start":145,"end":240,"value":"Bias can occur when our data sample is not well distributed to represent the population fairly."}
-{"time":14102,"type":"sentence","start":243,"end":349,"value":"Or, as Swami said, our A I may be inferring gender incorrectly based on the features in the training data."}
-{"time":20132,"type":"sentence","start":351,"end":421,"value":"For example, 'Sports played' might be highly correlated with 'Gender'."}
-{"time":24024,"type":"sentence","start":423,"end":553,"value":"We need to review our training data to see if the A I is picking up unintended correlations like this and making wrong inferences."}
-{"time":30679,"type":"sentence","start":555,"end":627,"value":"Secondly, AI provides us with a lot of tools and metrics to detect bias."}
-{"time":35384,"type":"sentence","start":629,"end":727,"value":"We should incorporate these and track how well our A I is doing on a continuous basis\", Olga said."}

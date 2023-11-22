@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":51,"value":"What you described are the cost of false negatives."}
-{"time":2867,"type":"sentence","start":52,"end":119,"value":"We need to make sure our A I minimizes this number\", Swami went on."}
-{"time":7072,"type":"sentence","start":121,"end":195,"value":"He went to the white board and drew what is known as the Confusion Matrix."}

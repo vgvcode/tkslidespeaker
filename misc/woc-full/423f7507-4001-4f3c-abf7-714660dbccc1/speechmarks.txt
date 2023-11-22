@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":10,"value":"Chapter 4."}
-{"time":1380,"type":"sentence","start":12,"end":56,"value":"Mr. Cozmo, do you really know your customer?"}

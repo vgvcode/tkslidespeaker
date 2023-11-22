@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":78,"value":"Second, we don't have technology that can predict if a customer will leave us."}
-{"time":4392,"type":"sentence","start":79,"end":127,"value":"We can incorporate AI to predict customer churn."}
-{"time":7560,"type":"sentence","start":129,"end":215,"value":"We can run this analysis on our customer data and find out who is likely to jump ship."}
-{"time":12302,"type":"sentence","start":217,"end":265,"value":"And work on strategies to retain such customers."}

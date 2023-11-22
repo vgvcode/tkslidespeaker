@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":9,"value":"Story 12."}
-{"time":1542,"type":"sentence","start":10,"end":29,"value":"The elusive elixir."}

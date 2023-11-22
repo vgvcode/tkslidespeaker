@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":33,"value":"June 20, 2084: A sight to behold."}
-{"time":3742,"type":"sentence","start":37,"end":79,"value":"It is currently on orbit around the earth."}
-{"time":6847,"type":"sentence","start":81,"end":222,"value":"On a clear, cloudless night, you may be able to spot it a small white dot moving very slowly among the backdrop of distant stars and planets."}
-{"time":14764,"type":"sentence","start":226,"end":275,"value":"It will soon be the home for about 100,000 of us."}
-{"time":18307,"type":"sentence","start":277,"end":375,"value":"It can host a small town with its own air, water, plants and other natural resources for survival."}
-{"time":24474,"type":"sentence","start":377,"end":458,"value":"It can travel for several hundred years using nuclear fuel and energy from space."}
-{"time":29704,"type":"sentence","start":460,"end":518,"value":"It is designed to be selfsustaining for hundreds of years!"}

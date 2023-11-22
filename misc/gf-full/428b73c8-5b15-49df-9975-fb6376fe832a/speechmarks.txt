@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":39,"value":"Aug 3, 2084: Training for space travel."}
-{"time":3655,"type":"sentence","start":40,"end":100,"value":"We are undergoing extensive training to survive outer space."}
-{"time":7759,"type":"sentence","start":102,"end":248,"value":"We are being taken on a trial ride to outer space and back, to see how well we can cope up with the artificial environment inside the space craft."}
-{"time":15439,"type":"sentence","start":250,"end":337,"value":"A backup list of 300,000 was created, in case there are fallouts from the initial list."}

@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":31,"value":"Chief Technology Officer Steve."}
-{"time":2629,"type":"sentence","start":34,"end":67,"value":"Steve is a little bit old school."}
-{"time":4872,"type":"sentence","start":69,"end":136,"value":"He is not very familiar with Cloud, A I and other new technologies."}
-{"time":9152,"type":"sentence","start":138,"end":181,"value":"But he is willing to hire new people in IT."}

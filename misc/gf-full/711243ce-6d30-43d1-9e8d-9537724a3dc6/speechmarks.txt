@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":120,"value":"Nikhil did not respond directly, but handed out a few sheets that looked like computer printouts of recent transactions."}
-{"time":6842,"type":"sentence","start":123,"end":180,"value":"These are some complaints received in the last 24 hours\"."}
-{"time":10685,"type":"sentence","start":182,"end":248,"value":"Customer from New York @7 pm: HAL Logistics UK, $200 and 10 cents."}
-{"time":16402,"type":"sentence","start":250,"end":322,"value":"Customer from Shangai @8 am: Deep Blue Ocean Cruises, $199 and 70 cents."}
-{"time":23344,"type":"sentence","start":326,"end":395,"value":"Customer from Shangai @8 am:Eliza Home Furnishings,$197 and 70 cents."}
-{"time":30599,"type":"sentence","start":399,"end":464,"value":"Customer from Sao Paolo @9 pm: Marvin eTailers, $42 and 42 cents."}
-{"time":36417,"type":"sentence","start":466,"end":507,"value":"And the list went on, for about 10 pages."}

@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":114,"value":"Shortly after this incident, Phil stepped down as CEO and the board chose Sonya Davis, an insider, to replace him."}
-{"time":6792,"type":"sentence","start":116,"end":175,"value":"Phil moved on to become Chairman of the board of directors."}
-{"time":10060,"type":"sentence","start":177,"end":303,"value":"Many in the leadership committee felt that Sonya instinctively felt the pulse of the current generation of customers at Cozmo."}
-{"time":16515,"type":"sentence","start":305,"end":362,"value":"She was much more connected with them than the old guard."}
-{"time":19495,"type":"sentence","start":364,"end":388,"value":"But who was Sonya Davis?"}

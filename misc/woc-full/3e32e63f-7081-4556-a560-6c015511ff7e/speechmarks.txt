@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":58,"value":"At this point, the COO, Ray interrupted, somewhat angrily."}
-{"time":4255,"type":"sentence","start":61,"end":113,"value":"May be I'm not getting all this sentimental baloney."}
-{"time":7172,"type":"sentence","start":115,"end":204,"value":"What's the big deal in knowing what some Joe Schmoe or Jane Doe said about us on Twitter?"}

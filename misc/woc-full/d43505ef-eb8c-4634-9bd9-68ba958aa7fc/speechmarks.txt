@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":137,"value":"Even three months before the event, Swami and Linda were busy working the PR machine to make sure they got all the publicity they needed."}
-{"time":7304,"type":"sentence","start":139,"end":313,"value":"A month before the tour, there were advertisements and paid commercials on TV, extolling the virtues of Cozmo's Renaissance Family - The Connected Bike of the New Generation."}
-{"time":16884,"type":"sentence","start":315,"end":402,"value":"Right before the tour, Linda did a live interview on National TV with the three bikers."}
-{"time":22214,"type":"sentence","start":404,"end":533,"value":"They were all proudly seated on their gleaming Renaissance bikes, sporting Cozmo smart helmets and other Cozmo branded wearables."}

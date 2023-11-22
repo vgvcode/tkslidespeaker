@@ -1,1 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":8,"value":"The End."}

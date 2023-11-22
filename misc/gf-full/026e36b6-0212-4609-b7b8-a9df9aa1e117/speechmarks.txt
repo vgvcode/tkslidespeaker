@@ -1,8 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":74,"value":"First, I see that all these transactions happened around 12 midnight GMT."}
-{"time":4792,"type":"sentence","start":76,"end":136,"value":"It is just that they come from different parts of the world."}
-{"time":8172,"type":"sentence","start":138,"end":174,"value":"7 pm in New York is 12 midnight GMT."}
-{"time":11602,"type":"sentence","start":176,"end":220,"value":"So is 9 pm in Sao Paulo and 8 am in Shangai."}
-{"time":15407,"type":"sentence","start":222,"end":267,"value":"All transactions happened at 12 midnight GMT!"}
-{"time":19124,"type":"sentence","start":273,"end":277,"value":"Wow."}
-{"time":20167,"type":"sentence","start":279,"end":299,"value":"That is interesting."}
-{"time":21934,"type":"sentence","start":301,"end":374,"value":"This indicates some kind of a coordinated attack using software\", I said."}

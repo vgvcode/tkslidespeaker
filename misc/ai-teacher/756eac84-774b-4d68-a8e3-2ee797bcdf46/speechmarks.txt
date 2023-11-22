@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":21,"value":"That's all for today."}
-{"time":1805,"type":"sentence","start":22,"end":61,"value":"I will see you again in the next class."}
-{"time":4597,"type":"sentence","start":62,"end":86,"value":"Thank you for listening."}

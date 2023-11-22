@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":155,"value":"While the Idea factory and the C O E were gaining acceptance across some areas of the company, another storm was brewing among the company's rank and file."}
-{"time":8304,"type":"sentence","start":158,"end":272,"value":"A new movement to stop the introduction of A I was quietly gathering steam among the workers in the factory floor."}
-{"time":14434,"type":"sentence","start":274,"end":365,"value":"An internal email with the title '#Stop The A I' was making its rounds among the employees."}
-{"time":19914,"type":"sentence","start":366,"end":413,"value":"It had already collected about 1500 signatures."}

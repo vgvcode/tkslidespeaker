@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":56,"value":"We need to set up guard rails to keep the A I in check."}
-{"time":3242,"type":"sentence","start":58,"end":195,"value":"Our Data Scientists need to train the A I to make sure its responses are polite at all times, and relevant to our business.\", Swami said."}
-{"time":10859,"type":"sentence","start":199,"end":309,"value":"Sure, we have a technique called Reinforcement Learning Through Human Feedback (RLHF) that may be useful here."}
-{"time":17227,"type":"sentence","start":310,"end":433,"value":"We also need to fine tune the A I model with data from our companies' products, so it knows what to recommend.\", Olga added"}

@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":99,"value":"If this sample were checked by our staff, we would have fewer than 5 misclassifications out of 450."}
-{"time":6342,"type":"sentence","start":101,"end":130,"value":"So the A I is 10 TIMES WORSE!"}
-{"time":8859,"type":"sentence","start":131,"end":173,"value":"A I can never replace humans doing checks."}
-{"time":11664,"type":"sentence","start":174,"end":257,"value":"I always knew it\", Ray looked at everyone triumphantly, with an I told you so look."}

@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":25,"value":"Dec 31, 2084: Bon Voyage."}
-{"time":3692,"type":"sentence","start":27,"end":76,"value":"I'm sending this email from aboard the SS Utopia."}
-{"time":7235,"type":"sentence","start":78,"end":103,"value":"All 100,000 are on board!"}
-{"time":9302,"type":"sentence","start":105,"end":165,"value":"We are ready for the grand voyage to discover a second home."}
-{"time":13232,"type":"sentence","start":169,"end":297,"value":"It is an emotional moment for all of us as the giant space ship untethers itself from its docking station and steers into space."}
-{"time":20262,"type":"sentence","start":299,"end":370,"value":"As we drift off into the abyss, we pay one last homage to Mother Earth."}

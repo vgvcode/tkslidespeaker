@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":103,"value":"On that note, we observed some problems with our Recommendation system too\", said Rob, from Marketing."}
-{"time":5842,"type":"sentence","start":105,"end":195,"value":"Our testers noticed that it was not suggesting our newly introduced products to customers."}

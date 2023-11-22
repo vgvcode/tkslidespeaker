@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":55,"value":"On his way back, he stopped at the village coffee shop."}
-{"time":3717,"type":"sentence","start":57,"end":199,"value":"They were selling 'Mystique Chai the perfect antidote for COVID (and all types of flu) using herbs handpicked from the foothills of Mystique'."}
-{"time":11009,"type":"sentence","start":201,"end":315,"value":"The perfect antidote, I'm sure\", Ron chuckled to himself, as he bought a packet of Mystique Chai to show to Lynda."}
-{"time":17664,"type":"sentence","start":316,"end":382,"value":"What he did not know was that it held clues to the elusive elixir!"}

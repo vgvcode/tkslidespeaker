@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":26,"value":"Aug 1, 2084: I'm selected!"}
-{"time":3467,"type":"sentence","start":30,"end":77,"value":"The initial batch of 100,000 have been drafted."}
-{"time":6647,"type":"sentence","start":79,"end":120,"value":"I'm one of the few who has been selected."}
-{"time":9427,"type":"sentence","start":122,"end":180,"value":"I will be an engineer in charge of the on-board computers."}
-{"time":13244,"type":"sentence","start":182,"end":228,"value":"I have decided to go, but leave family behind."}
-{"time":16599,"type":"sentence","start":230,"end":285,"value":"It is a tearful moment as I announce this to my family."}
-{"time":20204,"type":"sentence","start":287,"end":357,"value":"I sign up bravely, inspired by the mission to protect our way of life."}

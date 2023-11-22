@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":88,"value":"Kittu alias Krishnamurthy, was going back to his native place, after almost forty years."}
-{"time":5904,"type":"sentence","start":90,"end":262,"value":"For Kittu, memories of his home town were circa 1980 the verdant countryside, the large artificial lake, the majestic temple by the lake and of course, street side cricket."}
-{"time":15834,"type":"sentence","start":264,"end":330,"value":"Madurantakam is a small town in Chengalpattu district, Tamil Nadu."}
-{"time":20602,"type":"sentence","start":332,"end":449,"value":"The main temple and the lake were built during the Pallava and Chola periods respectively, several hundred years ago."}
-{"time":27194,"type":"sentence","start":451,"end":592,"value":"It was home to the great Hindu saint and social reformer, Sri Ramanuja, the exponent of Vishistadvaitam, a famous branch of Hindu Philosophy."}

@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":39,"value":"Day 2 Morning, The Second Breakthrough."}
-{"time":2730,"type":"sentence","start":41,"end":112,"value":"We started early on Day 2, and went through all the transactions again."}
-{"time":7334,"type":"sentence","start":114,"end":178,"value":"Why was our fraud detection software not catching these attacks?"}
-{"time":11452,"type":"sentence","start":180,"end":225,"value":"Did anything change in the software recently?"}
-{"time":14669,"type":"sentence","start":227,"end":331,"value":"I asked our software team to get me a list of all code deployments to production in the last few months."}
-{"time":20762,"type":"sentence","start":333,"end":483,"value":"For the next few hours, we were frantically looking for clues on who this mysterious hacker could be, being fully aware that it could be ONE AMONG us!"}

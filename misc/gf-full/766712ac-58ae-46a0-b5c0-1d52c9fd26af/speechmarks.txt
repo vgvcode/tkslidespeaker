@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":63,"value":"I switched off the lights in my room and retired for the night."}
-{"time":3717,"type":"sentence","start":65,"end":143,"value":"Brother Valiant sat there on the table, valiant as ever, gleaming in the dark."}
-{"time":8522,"type":"sentence","start":145,"end":181,"value":"Quiet, sturdy, sleek and impressive."}
-{"time":11565,"type":"sentence","start":183,"end":264,"value":"An anachronism seated incongruously beside a laptop, a tablet and a wifi printer."}
-{"time":17057,"type":"sentence","start":266,"end":301,"value":"A forlorn reminder of a bygone era!"}

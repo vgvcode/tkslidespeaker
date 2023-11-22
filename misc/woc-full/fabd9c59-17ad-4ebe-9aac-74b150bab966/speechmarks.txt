@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":103,"value":"We have deployed chatbots to converse with customers in 16 different languages across three continents."}
-{"time":5742,"type":"sentence","start":105,"end":228,"value":"These chatbots handle about 20-30% of the routine requests and route the remaining ones to skilled agents across the globe."}

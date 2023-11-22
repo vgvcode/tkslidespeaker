@@ -1,1 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":80,"value":"The referee blew the whistle and waved the flag to signal the start of the tour."}

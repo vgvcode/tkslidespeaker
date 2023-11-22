@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":18,"value":"Chapter Seventeen."}
-{"time":1717,"type":"sentence","start":19,"end":52,"value":"One step forward, two steps back."}

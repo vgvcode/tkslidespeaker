@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":15,"value":"Chapter Twenty."}
-{"time":1392,"type":"sentence","start":16,"end":39,"value":"The Renaissance family."}

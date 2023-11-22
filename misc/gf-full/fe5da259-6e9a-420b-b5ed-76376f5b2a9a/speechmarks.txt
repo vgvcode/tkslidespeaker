@@ -1,9 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":23,"value":"Aug 15, 2084: Lift Off."}
-{"time":3230,"type":"sentence","start":25,"end":77,"value":"It was a clear, blue sky at Cape Canaveral, Florida."}
-{"time":6785,"type":"sentence","start":79,"end":142,"value":"The first lift off happened precisely at 10:04 am Eastern time."}
-{"time":11090,"type":"sentence","start":144,"end":201,"value":"Needless to say, a huge crowd had gathered for the event."}
-{"time":14857,"type":"sentence","start":203,"end":285,"value":"It was televised around the world and watched live by more than a billion viewers."}
-{"time":19487,"type":"sentence","start":287,"end":372,"value":"After about 4 hours, the rocket that left Cape Canaveral docked with its mother ship."}
-{"time":24530,"type":"sentence","start":374,"end":472,"value":"The first few voyagers entered The Utopia and the rocket reentered the earth for its next mission."}
-{"time":29960,"type":"sentence","start":474,"end":555,"value":"For the next four months from Aug 15 Dec 15, there were multiple rocket launches."}
-{"time":35702,"type":"sentence","start":557,"end":594,"value":"Each launch carried about 500 people."}

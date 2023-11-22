@@ -1,1 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":75,"value":"September: Well trained A I systems can reduce errors to acceptable levels."}

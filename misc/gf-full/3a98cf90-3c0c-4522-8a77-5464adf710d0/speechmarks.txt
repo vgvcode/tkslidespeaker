@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":148,"value":"Tailpiece Three weeks later: Based on a tip, police arrested a man at Mumbai International Airport, in the business class lounge of a major airline."}
-{"time":8067,"type":"sentence","start":150,"end":276,"value":"The man, in his early forties, was carrying with him a small bag full of designer eyeglasses, several smartphones and tablets."}
-{"time":15672,"type":"sentence","start":278,"end":412,"value":"SIM cards found in his possession were later traced to customers who had lodged complaints about 'ransomware' attacks on their phones."}

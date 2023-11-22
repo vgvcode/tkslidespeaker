@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":31,"value":"Why is Phil no longer the CEO?"}
-{"time":2480,"type":"sentence","start":35,"end":116,"value":"What can you do differently, that has not been tried before by Phil and his team?"}
-{"time":6735,"type":"sentence","start":120,"end":189,"value":"What is our long term strategy to compete against New Horizon Sports?"}
-{"time":10902,"type":"sentence","start":193,"end":241,"value":"Are we likely to get acquired by our competitor?"}

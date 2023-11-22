@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":17,"value":"Chapter Nineteen."}
-{"time":1630,"type":"sentence","start":18,"end":37,"value":"The Connected Bike."}

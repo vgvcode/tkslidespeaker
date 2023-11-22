@@ -1,1 +1,0 @@
-[["\"And if a customer has a negative review, our app can sense it and trigger workflows based on it.", "pic0.PNG"]]

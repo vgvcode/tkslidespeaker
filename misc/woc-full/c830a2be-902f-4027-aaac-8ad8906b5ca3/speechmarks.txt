@@ -1,9 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":28,"value":"So where is this all going?"}
-{"time":1917,"type":"sentence","start":29,"end":87,"value":"If computers are so smart, then will our jobs be replaced?"}
-{"time":5610,"type":"sentence","start":90,"end":106,"value":"a manager asked."}
-{"time":7464,"type":"sentence","start":109,"end":264,"value":"Computers are definitely getting smarter, but humans are still needed to verify what the computer does or step in when the computer cannot make a decision."}
-{"time":15469,"type":"sentence","start":266,"end":455,"value":"For example, a robot in the factory floor may be able to perform basic quality checks and inspections, but we will still need a human to verify the results (if the confidence score is low)."}
-{"time":25774,"type":"sentence","start":457,"end":521,"value":"At other times, humans are needed to do the more complex checks."}
-{"time":29829,"type":"sentence","start":523,"end":653,"value":"This is especially true if the cost of errors is very high (imagine a part being certified as defect free, when it actually isn't."}
-{"time":37197,"type":"sentence","start":654,"end":689,"value":"This is known as a false negative)."}
-{"time":39689,"type":"sentence","start":691,"end":733,"value":"We call these human-in-the-loop processes."}

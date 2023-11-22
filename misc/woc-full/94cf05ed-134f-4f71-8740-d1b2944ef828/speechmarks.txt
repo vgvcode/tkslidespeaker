@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":43,"value":"We have always been a data driven company."}
-{"time":2779,"type":"sentence","start":45,"end":110,"value":"This is not going to change anything one bit\", said an old timer."}
-{"time":6797,"type":"sentence","start":113,"end":163,"value":"I don't think we can bring change from the inside."}
-{"time":9589,"type":"sentence","start":164,"end":261,"value":"We need to bring new AI and Data Science Leaders from outside to drive the change\", said another."}

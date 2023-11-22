@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":40,"value":"There was a stunned silence in the room."}
-{"time":2317,"type":"sentence","start":41,"end":112,"value":"Phil seemed to acknowledge the reality of the situation, \"I understand."}
-{"time":6435,"type":"sentence","start":114,"end":163,"value":"In some ways, we are a victim of our own success!"}
-{"time":9777,"type":"sentence","start":167,"end":210,"value":"However, all is not lost\", Swami continued."}
-{"time":13232,"type":"sentence","start":213,"end":307,"value":"I believe we are already taking all the right steps to fight back\", he said, looking at Sonya."}
-{"time":18525,"type":"sentence","start":310,"end":429,"value":"Professor Clayton Christensen of Harvard, the proponent of this theory, has provided some ideas to tackle this as well."}
-{"time":25092,"type":"sentence","start":431,"end":494,"value":"I will be happy to discuss these with you, at your convenience."}

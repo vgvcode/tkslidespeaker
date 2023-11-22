@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":51,"value":"So I decide to give it a try and publish an e-book."}
-{"time":3530,"type":"sentence","start":53,"end":102,"value":"Thus was born Girlfriend and other short stories."}
-{"time":6785,"type":"sentence","start":104,"end":157,"value":"Needless to say, I got a lot of satisfaction from it."}
-{"time":10552,"type":"sentence","start":159,"end":179,"value":"I hope you will too."}
-{"time":12207,"type":"sentence","start":181,"end":280,"value":"Each story should be a five to ten minute read and not take too much time from your busy schedules."}
-{"time":17537,"type":"sentence","start":282,"end":294,"value":"Enough said."}
-{"time":18917,"type":"sentence","start":296,"end":347,"value":"I will get out of the way and let you be the judge."}

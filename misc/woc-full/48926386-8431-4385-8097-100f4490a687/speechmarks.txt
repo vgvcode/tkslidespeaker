@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":22,"value":"Ray interrupted Swami."}
-{"time":1905,"type":"sentence","start":24,"end":120,"value":"In other words, you are telling me that if we use the A I, we will get it wrong 11% of the time."}
-{"time":7547,"type":"sentence","start":122,"end":166,"value":"Our human auditors are way better than this."}
-{"time":10277,"type":"sentence","start":167,"end":218,"value":"On average, they miss only about 1% of the defects."}

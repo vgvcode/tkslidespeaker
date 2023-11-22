@@ -1,9 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":14,"value":"Good Morning!"}
-{"time":1180,"type":"sentence","start":15,"end":106,"value":"I hear a lot of exciting changes are in the offing\", she said, greeting Sonya with a smile."}
-{"time":6535,"type":"sentence","start":109,"end":113,"value":"Yes."}
-{"time":7565,"type":"sentence","start":114,"end":171,"value":"I have been brainstorming various ideas with the C suite."}
-{"time":10907,"type":"sentence","start":173,"end":232,"value":"I need to sit down with you to discuss how to move forward."}
-{"time":14137,"type":"sentence","start":233,"end":270,"value":"Can you put something on my calendar?"}
-{"time":16380,"type":"sentence","start":273,"end":285,"value":"asked Sonya."}
-{"time":17772,"type":"sentence","start":288,"end":304,"value":"I would love to."}
-{"time":19240,"type":"sentence","start":305,"end":386,"value":"Thank you\", Linda decided to move fast so she could get ahead of the rumor mills."}

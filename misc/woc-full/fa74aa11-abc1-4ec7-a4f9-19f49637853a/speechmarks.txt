@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":82,"value":"He stepped out of the room and returned with Swami, a tall bespectacled gentleman."}
-{"time":4430,"type":"sentence","start":84,"end":180,"value":"Affectionately nicknamed 'The Professor', Swami was the Chief Product Officer at Cozmo Bicycles."}
-{"time":9947,"type":"sentence","start":182,"end":296,"value":"Prior to joining Cozmo about three years ago, Swami was managing a business unit at a large manufacturing company."}
-{"time":16665,"type":"sentence","start":298,"end":359,"value":"He was also an adjunct professor at a nearby Business School."}

@@ -1,1 +1,0 @@
-[["A common trait you will see in all machine learning approaches above, is that programmers do not explicitly code the rules.", "pic0.PNG"]]

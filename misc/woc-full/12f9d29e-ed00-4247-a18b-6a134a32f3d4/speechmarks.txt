@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":29,"value":"Chief Operating Officer, Ray."}
-{"time":2430,"type":"sentence","start":31,"end":76,"value":"Ray is very process oriented and disciplined."}
-{"time":5322,"type":"sentence","start":78,"end":106,"value":"Employees call him as X-Ray."}
-{"time":7540,"type":"sentence","start":108,"end":167,"value":"He is a great believer in Lean manufacturing and Six Sigma."}
-{"time":11082,"type":"sentence","start":169,"end":233,"value":"He is technology agnostic, and often plays the devil's advocate."}
-{"time":15025,"type":"sentence","start":235,"end":296,"value":"But always, he has the best interest of the company at heart."}
-{"time":18555,"type":"sentence","start":298,"end":336,"value":"And, he is not very familiar with A I."}

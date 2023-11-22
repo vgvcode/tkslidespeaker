@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":11,"value":"Thank you."}
-{"time":1080,"type":"sentence","start":13,"end":67,"value":"Remember, nobody can stop an idea whose time has come."}
-{"time":4785,"type":"sentence","start":69,"end":103,"value":"Humans will not be replaced by AI."}
-{"time":7452,"type":"sentence","start":104,"end":154,"value":"But, humans can be replaced by humans who use A I."}
-{"time":11057,"type":"sentence","start":156,"end":202,"value":"So, we cannot sit still and watch this happen."}
-{"time":14112,"type":"sentence","start":203,"end":274,"value":"We have to re-skill ourselves and be ready for the change\", Sonya said."}

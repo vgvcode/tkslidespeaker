@@ -1,8 +1,0 @@
-"Well, to begin with, the model can be improved. 
-It needs to be trained to identify defects better. 
-What we see is a common problem in A I caused by an imbalance in the training data. 
-Our model was trained on far too many 'good cases', that is, no defects and far too few 'bad cases', that is defects. 
-In other words, our data was skewed. 
-So our A I could not learn well to identify the defects. 
-If we correct this imbalance in our training data, we may be able to achieve much better accuracy. In fact, accuracy rates of 98-99% are not uncommon", said Swami. 
-"And that is not all. When the A I system is not confident about its prediction (as measured by a confidence score), we can route that case to a human agent. So in our case, we can augment the A I with humans. With this method, we may achieve even better results than humans!"

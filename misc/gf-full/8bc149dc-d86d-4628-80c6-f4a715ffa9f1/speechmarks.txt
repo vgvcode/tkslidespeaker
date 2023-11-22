@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":8,"value":"Story 9."}
-{"time":1492,"type":"sentence","start":9,"end":29,"value":"The quick brown fox."}

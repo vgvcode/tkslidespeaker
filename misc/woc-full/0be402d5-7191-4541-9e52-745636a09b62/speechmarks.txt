@@ -1,1 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":163,"value":"A few weeks before the Go Live date, Jay from Customer Service, called to attention an interesting conversation a pilot user had with Ask Cozmo, their A I chatbot,"}

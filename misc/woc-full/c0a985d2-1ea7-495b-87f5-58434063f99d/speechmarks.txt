@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":45,"value":"But, there's another reason why we need Data."}
-{"time":3067,"type":"sentence","start":47,"end":74,"value":"It is for Machine Learning."}
-{"time":4859,"type":"sentence","start":75,"end":122,"value":"Computers are good at learning rules from data."}
-{"time":7889,"type":"sentence","start":124,"end":206,"value":"However, they need lots of data to learn and come up with the rules by themselves."}
-{"time":12632,"type":"sentence","start":208,"end":379,"value":"For example, in order for a computer to recognize a defect in a bicycle part, we need to feed it several thousands of images of the part, both defective and non defective."}
-{"time":22062,"type":"sentence","start":381,"end":403,"value":"We call this labeling."}

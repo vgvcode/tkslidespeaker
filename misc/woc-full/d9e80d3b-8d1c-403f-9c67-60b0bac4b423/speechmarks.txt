@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":55,"value":"Cozmo's call centers will soon be replaced by Chatbots."}
-{"time":3605,"type":"sentence","start":57,"end":112,"value":"Are the Wheels of Change moving in the wrong direction?"}
-{"time":6585,"type":"sentence","start":114,"end":200,"value":"Water cooler conversations were trending on topics like AI, Robots, Layoffs and so on!"}

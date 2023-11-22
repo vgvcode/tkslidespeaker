@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":75,"value":"Cozmo has a solid customer base who still prefer our traditional bicycles."}
-{"time":4854,"type":"sentence","start":77,"end":158,"value":"We have millions of users in Europe and Asia who still like our utility bicycles."}
-{"time":9747,"type":"sentence","start":160,"end":300,"value":"And we have loyal customers in US who are so used to our current sports bikes, that they keep buying the same model from us again and again."}
-{"time":17164,"type":"sentence","start":302,"end":408,"value":"It seems to me that with the new product launch, we may risk alienating our established base of customers."}
-{"time":23032,"type":"sentence","start":410,"end":500,"value":"Do we really want to cannibalize our own products, which have been our cash cow for years?"}

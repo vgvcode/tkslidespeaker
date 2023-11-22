@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":242,"value":"On the day of the wedding, our customer gets a second package, which contains all they need for the wedding ceremony, including the mangalsutra or the wedding ring, the wedding dresses and even matching designer masks for the bride and groom!"}
-{"time":11854,"type":"sentence","start":244,"end":310,"value":"At the appointed hour, our priests will begin the ceremony online."}
-{"time":16259,"type":"sentence","start":312,"end":391,"value":"The bride and groom can interact with the priest via the built-in camera on TV."}
-{"time":21227,"type":"sentence","start":393,"end":508,"value":"Our installed software will guide them through the various steps and make the whole experience fun and interactive."}
-{"time":27219,"type":"sentence","start":510,"end":591,"value":"The entire function will be streamed online to the customer's friends and family."}
-{"time":32024,"type":"sentence","start":593,"end":742,"value":"In fact, all participants the bride \/ groom, the priests and the guests will feel like they are in the same room going through the function together."}

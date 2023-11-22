@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":125,"value":"A few weeks after the initial demos, Phil (Chairman), Ray (COO), Sonya (CEO) and Swami (CPO) were huddled in a room together."}
-{"time":9742,"type":"sentence","start":127,"end":256,"value":"They were reviewing the initial results of the pilot program built by the C O E to identify defective parts in the assembly line."}

@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":130,"value":"While all this is going on in the home front, the A I revolution has been happening at a much bigger scale in the corporate world."}
-{"time":6380,"type":"sentence","start":131,"end":348,"value":"Examples are bots that can automate workflows, software that can analyze customer sentiment, intelligent robots that can do quality inspections in a factory, smart sensors that can predict equipment failure and so on."}
-{"time":18084,"type":"sentence","start":351,"end":460,"value":"With A I going mainstream, many companies are actively looking at how to incorporate A I into their business."}
-{"time":24164,"type":"sentence","start":461,"end":502,"value":"Today it has become a key differentiator."}
-{"time":26794,"type":"sentence","start":503,"end":549,"value":"Soon, it will become a necessity for survival."}

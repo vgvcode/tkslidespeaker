@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":108,"value":"Inside the village, a fitness studio beckoned him to\n'Awaken your inner energy through Mystique Vibrations'."}
-{"time":5905,"type":"sentence","start":110,"end":212,"value":"Dr Ricardo's house was nowhere to be seen and a senior living community had sprung up in the vicinity."}
-{"time":11835,"type":"sentence","start":213,"end":293,"value":"The entire village seemed to have got a face lift with tourist money pouring in."}
-{"time":16202,"type":"sentence","start":295,"end":324,"value":"The gold diggers had arrived!"}
-{"time":18470,"type":"sentence","start":325,"end":342,"value":"Ron was dismayed."}
-{"time":20212,"type":"sentence","start":344,"end":407,"value":"His well intentioned plan of raising awareness had gone astray."}
-{"time":24017,"type":"sentence","start":409,"end":453,"value":"He was angry with himself for his own navet."}

@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":18,"value":"How does it work?"}
-{"time":1355,"type":"sentence","start":19,"end":72,"value":"I always thought computers never understood emotions."}
-{"time":4497,"type":"sentence","start":74,"end":128,"value":"How can they figure out the sentiment of the customer?"}
-{"time":7602,"type":"sentence","start":132,"end":146,"value":"Phil wondered."}

@@ -1,1 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":66,"value":"May: A I can help in reducing costs as well as increasing revenue."}

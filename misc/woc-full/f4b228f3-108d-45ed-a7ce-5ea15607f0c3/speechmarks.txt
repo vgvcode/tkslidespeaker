@@ -1,9 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":37,"value":"Yes, I'm well aware of this problem."}
-{"time":2467,"type":"sentence","start":38,"end":69,"value":"How do you propose to solve it?"}
-{"time":4410,"type":"sentence","start":72,"end":88,"value":"Ray interjected."}
-{"time":5902,"type":"sentence","start":89,"end":178,"value":"The partner continued, \"One way we can improve this is by automating your quality checks."}
-{"time":10807,"type":"sentence","start":179,"end":315,"value":"You can apply Artificial Intelligence, devices equipped with sensors and cameras to identify defective parts and take corrective action."}
-{"time":18262,"type":"sentence","start":317,"end":382,"value":"Machines can do most of the basic checks quickly and efficiently."}
-{"time":22104,"type":"sentence","start":384,"end":435,"value":"Human intervention can be used only when necessary."}
-{"time":25659,"type":"sentence","start":437,"end":489,"value":"This way you can go through your checks much faster."}
-{"time":28852,"type":"sentence","start":492,"end":540,"value":"He paused, anxiously waiting for Ray to respond."}

@@ -1,9 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":25,"value":"'Why don't you come home?"}
-{"time":1780,"type":"sentence","start":27,"end":193,"value":"My son Ricardo is a doctor and he will tell you a lot more about Dr. \nBarnard and his discovery'\nAt his house, a 70 year old Dr. \nRicardo showed them a picture album."}
-{"time":10685,"type":"sentence","start":195,"end":285,"value":"There were pictures of Dr Barnard and his clinic, taken about a hundred years ago in 1922."}
-{"time":16677,"type":"sentence","start":286,"end":348,"value":"'Barnard passed away in 1980, when he was around 90 years old."}
-{"time":21032,"type":"sentence","start":350,"end":420,"value":"But his apprentice, Dr. \nChu went on to make the medicine more potent."}
-{"time":25450,"type":"sentence","start":421,"end":497,"value":"Chu is said to have enhanced Barnard's vaccine into a universal flu vaccine."}
-{"time":30205,"type":"sentence","start":499,"end":593,"value":"He did a lot of clinical trials with the people in the valley during the period from 19801990."}
-{"time":37447,"type":"sentence","start":594,"end":622,"value":"'Were the trials successful?"}
-{"time":39627,"type":"sentence","start":624,"end":638,"value":", Lynda asked."}

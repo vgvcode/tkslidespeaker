@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":53,"value":"The new CEO wants to use data to drive all decisions."}
-{"time":3655,"type":"sentence","start":55,"end":107,"value":"Robots will replace humans in bicycle manufacturing."}

@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":91,"value":"The prototype for the Connected bike from Swami and his product team was approved by Sonya."}
-{"time":5079,"type":"sentence","start":93,"end":277,"value":"Along with the Connected bike, Swami's team was planning to launch a whole range of accessories such as smart helmets, wearables and even a new bike model for the home fitness segment."}
-{"time":14597,"type":"sentence","start":279,"end":343,"value":"Preparations for the product launch were going on in full swing."}
-{"time":18502,"type":"sentence","start":345,"end":389,"value":"The launch was expected to happen very soon."}

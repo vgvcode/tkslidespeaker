@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":31,"value":"Chief Executive Officer, Sonya."}
-{"time":2854,"type":"sentence","start":34,"end":62,"value":"Sonya is a Visionary leader."}
-{"time":5022,"type":"sentence","start":64,"end":160,"value":"She is worried that her company is losing market share because it is not innovating fast enough."}
-{"time":10039,"type":"sentence","start":162,"end":230,"value":"She is keen to bring about an A I led transformation in her company."}

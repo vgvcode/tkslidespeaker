@@ -1,1 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":102,"value":"November: The most successful systems have humans and A I working together to complement one another."}

@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":21,"value":"Another hand went up."}
-{"time":1692,"type":"sentence","start":23,"end":175,"value":"I hear that the machine learning systems are very complex, and it is often not possible to find out (that is, explain) how a machine came to a decision."}
-{"time":10584,"type":"sentence","start":177,"end":223,"value":"How can these systems pass a compliance audit?"}
-{"time":13377,"type":"sentence","start":226,"end":283,"value":"asked a manager from the audit and compliance department."}

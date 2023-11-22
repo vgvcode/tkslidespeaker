@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":13,"value":"Chapter Five."}
-{"time":1442,"type":"sentence","start":14,"end":44,"value":"Why are our customers leaving?"}

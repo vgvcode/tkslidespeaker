@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":97,"value":"You may remember from college days, that using calculus you can find the lowest point of a curve."}
-{"time":5542,"type":"sentence","start":99,"end":264,"value":"In Machine learning that curve is the error function (the difference between the actual result and what the computer predicts, expressed as a function of the input)."}
-{"time":13684,"type":"sentence","start":266,"end":379,"value":"During training, the computer uses the principles of calculus to arrive at the lowest point of an error function."}
-{"time":19914,"type":"sentence","start":381,"end":466,"value":"Think of this like tuning the various knobs in a device, to find the best adjustment."}
-{"time":24519,"type":"sentence","start":467,"end":596,"value":"When a computer 'learns' and 'writes the rules' it is actually solving a giant problem which has hundreds of variables, or knobs."}
-{"time":31399,"type":"sentence","start":598,"end":714,"value":"Training refers to the tuning of the knobs to find the solution with the lowest error (stochastic gradient descent)."}

@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":85,"value":"Thus, machines today are more powerful, they can store more data and learn from them."}
-{"time":4805,"type":"sentence","start":87,"end":201,"value":"This has led to the popularity of Machine Learning and the creation of many new algorithms to help machines learn."}

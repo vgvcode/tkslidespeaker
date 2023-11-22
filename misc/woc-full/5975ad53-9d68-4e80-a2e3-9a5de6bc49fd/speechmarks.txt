@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":11,"value":"April 2024."}
-{"time":2167,"type":"sentence","start":13,"end":105,"value":"It was exactly 24 months since Sonya had taken over the reins from Phil as the CEO of Cozmo."}
-{"time":8322,"type":"sentence","start":107,"end":207,"value":"Today, she was presenting to the Board of Directors the initial results from the A I transformation."}
-{"time":14102,"type":"sentence","start":209,"end":285,"value":"In the audience were Phil, the chairman of the board and many board members."}
-{"time":18182,"type":"sentence","start":286,"end":375,"value":"Also present were executives from the investment group that had a stake in Cozmo Bicycles"}

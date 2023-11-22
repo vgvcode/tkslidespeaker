@@ -1,9 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":53,"value":"He shared with Sonya, a recent email from a customer."}
-{"time":3430,"type":"sentence","start":56,"end":76,"value":"Dear Cozmo Bicycles."}
-{"time":5372,"type":"sentence","start":78,"end":122,"value":"I ordered a DIY bicycle from you last month."}
-{"time":8440,"type":"sentence","start":124,"end":160,"value":"I was not happy with the experience."}
-{"time":10782,"type":"sentence","start":162,"end":210,"value":"First, not all the parts arrived in one package."}
-{"time":13975,"type":"sentence","start":212,"end":276,"value":"I had to call customer service multiple times to get everything."}
-{"time":17605,"type":"sentence","start":278,"end":331,"value":"Second, the instructions to set it up were very poor."}
-{"time":20997,"type":"sentence","start":333,"end":417,"value":"I gave up after trying for two days and went to a bicycle shop to get my bike fixed."}
-{"time":25790,"type":"sentence","start":419,"end":482,"value":"I'm probably not going to order another bicycle from you again!"}

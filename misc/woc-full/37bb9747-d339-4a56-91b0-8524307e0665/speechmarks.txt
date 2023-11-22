@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":54,"value":"The last quarter was not very good for Cozmo Bicycles."}
-{"time":3417,"type":"sentence","start":55,"end":93,"value":"Sales were down by 10% from last year."}
-{"time":6335,"type":"sentence","start":94,"end":170,"value":"More importantly, they were losing to their competitors in almost all areas."}

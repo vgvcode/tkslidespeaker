@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":67,"value":"Jay, the SVP of Customer Service, was a very tech savvy individual."}
-{"time":4830,"type":"sentence","start":69,"end":158,"value":"Prior to coming to Cozmo, he was leading customer support for a software product startup."}
-{"time":9935,"type":"sentence","start":160,"end":283,"value":"He was quite familiar with the features of the latest Customer Relationship Management (CRM) software used in the industry."}
-{"time":16952,"type":"sentence","start":285,"end":406,"value":"Being a bit of a data geek himself, he had already done some research on the problems in the Customer Service department."}

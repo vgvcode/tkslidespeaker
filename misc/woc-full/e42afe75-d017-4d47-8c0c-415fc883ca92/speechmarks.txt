@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":54,"value":"We will take leave of our Cozmo friends at this point."}
-{"time":3055,"type":"sentence","start":56,"end":158,"value":"Let us wish them the very best in the tour and in their journey to the age of Artificial Intelligence."}
-{"time":8135,"type":"sentence","start":160,"end":196,"value":"The Wheels of Change were in motion!"}

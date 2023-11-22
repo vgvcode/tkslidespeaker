@@ -1,8 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":41,"value":"This C O E will be our agent for change."}
-{"time":2855,"type":"sentence","start":43,"end":178,"value":"The team will brainstorm new ideas, build proof of concept solutions and even take one or two ideas to the market within twelve months."}
-{"time":10135,"type":"sentence","start":180,"end":272,"value":"In some ways, the C O E will be a 'mini company' inside Cozmo with a different set of goals."}
-{"time":15652,"type":"sentence","start":274,"end":382,"value":"Its purpose is to provide us the vision and take bold steps without being worried about the risk of failure."}
-{"time":21007,"type":"sentence","start":384,"end":477,"value":"Over the course of time, the ideas from the C O E will permeate the rest of the organization."}
-{"time":26275,"type":"sentence","start":479,"end":572,"value":"We believe this will be the least disruptive way to take Cozmo Bicycles forward to a new era."}
-{"time":31230,"type":"sentence","start":574,"end":615,"value":"Linda left the room, pleased and excited."}
-{"time":33947,"type":"sentence","start":617,"end":689,"value":"She believed that the initial seeds of change were sown in that meeting!"}

@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":83,"value":"The workers union was meeting after work hours to draft new articles of resolution."}
-{"time":4880,"type":"sentence","start":85,"end":201,"value":"It included measures to safeguard jobs, increase benefits and provide employment guarantees for blue collar workers."}
-{"time":11335,"type":"sentence","start":203,"end":293,"value":"Steps were being taken to prevent the introduction of new technology in the factory floor."}

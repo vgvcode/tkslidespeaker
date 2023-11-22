@@ -1,9 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":53,"value":"'We already agreed that will be part of this release."}
-{"time":3330,"type":"sentence","start":55,"end":106,"value":"It is a core piece that will make or break our MVP."}
-{"time":6760,"type":"sentence","start":109,"end":151,"value":"It sounded like a software product launch."}
-{"time":9802,"type":"sentence","start":153,"end":272,"value":"Being someone from the same industry, Som could catch most of the technical jargon and business speak without guessing."}
-{"time":16107,"type":"sentence","start":274,"end":344,"value":"He closed his eyes, pretending to be asleep, but listened attentively."}
-{"time":20725,"type":"sentence","start":346,"end":369,"value":"'No that will not work."}
-{"time":22580,"type":"sentence","start":371,"end":400,"value":"July 30th is a hard deadline."}
-{"time":25222,"type":"sentence","start":402,"end":512,"value":"I have committed to the customer that this release will have all of the features we discussed a few weeks ago."}
-{"time":30852,"type":"sentence","start":514,"end":535,"value":"It is non negotiable."}

@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":123,"value":"A common trait you will see in all machine learning approaches above, is that programmers do not explicitly code the rules."}
-{"time":6704,"type":"sentence","start":126,"end":230,"value":"By going through the millions of data samples, computers actually 'learn' to write the rules themselves."}
-{"time":12272,"type":"sentence","start":232,"end":278,"value":"Machines are very good at writing these rules."}
-{"time":15214,"type":"sentence","start":280,"end":420,"value":"Imagine how many rules one has to write to recognize a person's face - rules for the shape of eyes, length of nose, color of skin and so on."}
-{"time":23482,"type":"sentence","start":421,"end":440,"value":"Humanly impossible!"}
-{"time":25399,"type":"sentence","start":442,"end":514,"value":"But machines can do this very easily, if properly trained!\", said Swami."}

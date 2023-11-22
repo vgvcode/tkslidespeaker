@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":30,"value":"Sonya agreed with the summary."}
-{"time":2105,"type":"sentence","start":32,"end":51,"value":"And that's not all."}
-{"time":3610,"type":"sentence","start":53,"end":143,"value":"The Cozmonaut app will give us a digital brand identity, that our competitors do not have."}
-{"time":8727,"type":"sentence","start":145,"end":204,"value":"I will approve this as one of the pilot projects for Cozmo."}
-{"time":12207,"type":"sentence","start":205,"end":267,"value":"Please start thinking about releasing this to production soon."}

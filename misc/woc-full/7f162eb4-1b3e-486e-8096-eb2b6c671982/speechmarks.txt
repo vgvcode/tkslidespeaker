@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":77,"value":"Swami and Olga were on stage, giving a talk on What is A I and why do I care?"}
-{"time":4930,"type":"sentence","start":78,"end":161,"value":"It appeared that Linda had wasted no time in unleashing the messaging inside Cozmo."}

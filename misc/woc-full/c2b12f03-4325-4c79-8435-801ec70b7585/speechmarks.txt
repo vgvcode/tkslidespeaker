@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":43,"value":"Employ smart robots and IOT in the factory."}
-{"time":3192,"type":"sentence","start":44,"end":147,"value":"Deploy smart robots with cameras and AI capabilities to perform simple quality checks of bicycle parts."}
-{"time":9372,"type":"sentence","start":149,"end":249,"value":"Reassign humans to perform more complex checks and value added tasks rather than simple inspections."}
-{"time":15339,"type":"sentence","start":252,"end":325,"value":"Use sensors (IOT) on the factory floor to capture machine operating data."}
-{"time":20707,"type":"sentence","start":327,"end":420,"value":"Analyze this data using AI to see if a machine needs to be serviced (predictive maintenance)."}
-{"time":26049,"type":"sentence","start":421,"end":474,"value":"Predicting failures early will avoid costly downtime."}

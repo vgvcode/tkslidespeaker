@@ -1,8 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":65,"value":"Now coming to your next question, how do machines actually learn?"}
-{"time":3817,"type":"sentence","start":67,"end":141,"value":"Loosely speaking, they do it much in the same way that we learn as humans."}
-{"time":8110,"type":"sentence","start":143,"end":218,"value":"As a kid, you were taught to read by being shown lots of text and pictures."}
-{"time":12340,"type":"sentence","start":220,"end":270,"value":"Your parents and teachers read them aloud for you."}
-{"time":15182,"type":"sentence","start":272,"end":344,"value":"In the same way, machines are repeatedly shown data with labels on them."}
-{"time":19362,"type":"sentence","start":346,"end":453,"value":"The data could be the image of a bicycle part, and the label could be whether the part is defective or not."}
-{"time":24880,"type":"sentence","start":455,"end":548,"value":"Computers need to see several thousand such data samples in order to make up their own rules."}
-{"time":30110,"type":"sentence","start":550,"end":585,"value":"This is called supervised learning."}

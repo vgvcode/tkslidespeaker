@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":101,"value":"At school, your teacher rewarded you when you did something well, or admonished you when you did not."}
-{"time":5617,"type":"sentence","start":103,"end":188,"value":"Through a system of rewards and punishments, you learned what was the right behavior."}
-{"time":9972,"type":"sentence","start":189,"end":230,"value":"Machines also learn through this process."}
-{"time":12939,"type":"sentence","start":232,"end":339,"value":"During training, humans will provide feedback to the machines on whether they got the results right or not."}
-{"time":18769,"type":"sentence","start":341,"end":392,"value":"Machines use this feedback to make their own rules."}
-{"time":21874,"type":"sentence","start":393,"end":485,"value":"For example, a self driving car or a robot is often trained this way to recognize obstacles."}
-{"time":27842,"type":"sentence","start":487,"end":522,"value":"This is called reinforced learning."}

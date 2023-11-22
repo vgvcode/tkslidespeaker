@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":23,"value":"Here are a few of them."}
-{"time":1954,"type":"sentence","start":26,"end":71,"value":"Deploy Chat GPT exclusively trained on Cozmo."}
-{"time":5559,"type":"sentence","start":72,"end":168,"value":"Deploy a conversational bot trained to answer various questions about our products and services."}
-{"time":11164,"type":"sentence","start":170,"end":267,"value":"It should implicitly understand what a customer wants, based on their profile and past purchases."}
-{"time":16644,"type":"sentence","start":269,"end":541,"value":"For example, if a customer is shopping for a hybrid bike, the bot must be able to have an intelligent conversation with the customer on hybrid bikes, know what customers commonly look for in hybrid bikes, be able to recommend the right products and accessories, and so on."}
-{"time":30449,"type":"sentence","start":543,"end":636,"value":"It should be able to converse with customers in a very realistic way (Think GPT 4 and beyond."}
-{"time":35954,"type":"sentence","start":637,"end":697,"value":"We are not talking about the current crop of chatbots here)."}

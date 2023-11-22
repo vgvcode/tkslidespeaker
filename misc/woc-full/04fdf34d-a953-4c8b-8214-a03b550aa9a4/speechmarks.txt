@@ -1,1 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":98,"value":"August: A I systems are not infallible - they can have false positives, negatives, bias and so on."}

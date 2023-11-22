@@ -1,1 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":44,"value":"July: Not all problems are suitable for A I."}

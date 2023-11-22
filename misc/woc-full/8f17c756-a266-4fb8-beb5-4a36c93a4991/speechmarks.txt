@@ -1,9 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":42,"value":"Design innovative ads using Generative AI."}
-{"time":3130,"type":"sentence","start":44,"end":135,"value":"When a prospective customer shops on our website, automatically learn about them, using AI."}
-{"time":8735,"type":"sentence","start":136,"end":232,"value":"Serve highly personalized ads to this customer by creating them on the fly, using Generative AI."}
-{"time":14852,"type":"sentence","start":235,"end":288,"value":"Cross sell and up sell using a recommendation system."}
-{"time":18419,"type":"sentence","start":290,"end":452,"value":"Use AI to recommend products to customers, when they shop online at our e-commerce store, based on their purchase history, profile or what other customers bought."}
-{"time":27212,"type":"sentence","start":453,"end":575,"value":"If I'm purchasing a sports bike, I should get intelligent recommendations for better and newer models available (up sell)."}
-{"time":33992,"type":"sentence","start":577,"end":700,"value":"Or if I'm purchasing a home fitness bike, I should get a free trial subscription to the Cozmo fitness channel (cross sell)."}
-{"time":40897,"type":"sentence","start":702,"end":763,"value":"These features are standard fare for most of our competitors."}
-{"time":44602,"type":"sentence","start":765,"end":813,"value":"I'm surprised we still don't have this at Cozmo."}

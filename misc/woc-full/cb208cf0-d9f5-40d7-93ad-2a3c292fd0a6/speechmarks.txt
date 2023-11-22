@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":26,"value":"SVP Customer Service, Jay."}
-{"time":2917,"type":"sentence","start":29,"end":61,"value":"Jay is a very tech savvy person."}
-{"time":5334,"type":"sentence","start":63,"end":147,"value":"He has familiarity with a number of leading CRM platforms and Call Center solutions."}
-{"time":10502,"type":"sentence","start":149,"end":206,"value":"He is a champion for introducing A I in Customer Service."}

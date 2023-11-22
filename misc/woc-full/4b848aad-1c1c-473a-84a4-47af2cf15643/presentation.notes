@@ -1,6 +1,0 @@
-"That brings me to my next objection", Ray said. 
-"Sometimes, people's preferences may change over time. In the case of bicycles, what was popular with men once might get more popular with women over a period of time. 
-How can your A I possibly detect this change?", Ray asked. 
-
-"A valid objection. We call this data drift. We have tools to detect this. 
-The solution is to set up a system of continuous monitoring and training on fresh data, to eliminate any drift", Olga added.

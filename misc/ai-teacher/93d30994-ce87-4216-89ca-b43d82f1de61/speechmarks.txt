@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":15,"value":"Hello students!"}
-{"time":1605,"type":"sentence","start":16,"end":25,"value":"Namaskar."}
-{"time":2947,"type":"sentence","start":27,"end":49,"value":"How are you all doing?"}
-{"time":4939,"type":"sentence","start":52,"end":69,"value":"My name is Kajal."}
-{"time":6707,"type":"sentence","start":71,"end":152,"value":"Today I'm going to give you a lecture on Introduction to Artificial Intelligence."}

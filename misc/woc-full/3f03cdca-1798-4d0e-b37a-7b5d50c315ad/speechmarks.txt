@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":56,"value":"Ray, the Chief Operating Officer was a little skeptical."}
-{"time":3605,"type":"sentence","start":57,"end":158,"value":"He was a veteran at Cozmo who had made this company a giant in bicycle manufacturing, over the years."}
-{"time":9722,"type":"sentence","start":160,"end":266,"value":"Nicknamed 'X-Ray' by his colleagues, he was known to dive deep into any problem and ask probing questions."}
-{"time":15702,"type":"sentence","start":269,"end":318,"value":"What exactly is the Fourth Industrial Revolution?"}
-{"time":18782,"type":"sentence","start":321,"end":331,"value":"Ray asked."}

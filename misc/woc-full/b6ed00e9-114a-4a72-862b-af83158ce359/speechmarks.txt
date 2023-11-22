@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":24,"value":"Rob paused for a moment."}
-{"time":1817,"type":"sentence","start":27,"end":93,"value":"I'm afraid we no longer know our customer very well\", he admitted."}

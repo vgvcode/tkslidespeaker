@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":69,"value":"We have had very encouraging results across the board\", Sonya began."}
-{"time":4392,"type":"sentence","start":72,"end":108,"value":"Let's start with the customer front."}
-{"time":6747,"type":"sentence","start":110,"end":237,"value":"Customers who shop online from our E Commerce site, now get product recommendations delivered to them through Machine Learning."}
-{"time":13714,"type":"sentence","start":239,"end":304,"value":"This is leading to a lot of cross sell and up sell opportunities."}
-{"time":17557,"type":"sentence","start":305,"end":392,"value":"We regularly serve over a million product recommendations per day on our shopping site."}

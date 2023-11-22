@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":27,"value":"The product manager nodded."}
-{"time":1917,"type":"sentence","start":30,"end":91,"value":"In our next demo, we will get a significantly improved model."}
-{"time":5597,"type":"sentence","start":92,"end":165,"value":"We will aim to beat the error rate we have with human auditors currently!"}

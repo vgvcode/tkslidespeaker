@@ -1,7 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":69,"value":"Back in the office, Qing was keenly monitoring their e Commerce site."}
-{"time":4217,"type":"sentence","start":71,"end":223,"value":"His team had given the site a major overhaul, added a lot of stunning visual effects and made the whole process of ordering a bike very smooth and easy."}
-{"time":12384,"type":"sentence","start":225,"end":339,"value":"In the days leading up to the bike tour, Qing noticed a slight uptick in the pre-orders for the Renaissance bikes."}
-{"time":18452,"type":"sentence","start":341,"end":362,"value":"That was a good sign."}
-{"time":20357,"type":"sentence","start":364,"end":420,"value":"Also, hashtag Cozmo Renaissance was trending on Twitter."}
-{"time":24462,"type":"sentence","start":422,"end":483,"value":"The next few weeks were going to be a crucial test for Cozmo."}
-{"time":28004,"type":"sentence","start":484,"end":558,"value":"It will tell them how well their Renaissance brand performs in the market."}

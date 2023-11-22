@@ -1,1 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":41,"value":"Let's look at the characters in the story"}

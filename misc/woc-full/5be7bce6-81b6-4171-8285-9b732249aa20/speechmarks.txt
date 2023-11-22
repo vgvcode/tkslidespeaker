@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":11,"value":"Thank you."}
-{"time":1080,"type":"sentence","start":12,"end":29,"value":"I understand now."}
-{"time":2622,"type":"sentence","start":30,"end":82,"value":"So how do we want to build our Analytics department?"}
-{"time":5602,"type":"sentence","start":85,"end":97,"value":"Linda asked."}

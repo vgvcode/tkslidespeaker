@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":123,"value":"But irrespective of how things go from here, Cozmo had already made great strides in incorporating A I into their business."}
-{"time":6792,"type":"sentence","start":125,"end":235,"value":"They had succeeded in making their biggest leap yet, which was to create the mindset shift inside the company."}
-{"time":12347,"type":"sentence","start":237,"end":292,"value":"Sure, they lost a few old timers who refused to change."}
-{"time":16015,"type":"sentence","start":294,"end":366,"value":"But they also picked some new employees who brought a fresh perspective."}
-{"time":19707,"type":"sentence","start":368,"end":445,"value":"They made many changes internally, some of which were starting to bear fruit."}
-{"time":23875,"type":"sentence","start":447,"end":517,"value":"Most importantly, the Cozmo brand was not perceived as boring anymore!"}

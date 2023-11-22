@@ -1,8 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":76,"value":"With a twinkle in her eye, the receptionist showed them an app on her phone."}
-{"time":4417,"type":"sentence","start":78,"end":148,"value":"It was an AI (Artificial Intelligence) based app built using ChatGPT*!"}
-{"time":9435,"type":"sentence","start":150,"end":157,"value":"Indeed!"}
-{"time":10540,"type":"sentence","start":159,"end":258,"value":"We could see ChatGPT had silently stepped into the role of 'Whatsapp Vasan' without missing a beat."}
-{"time":16532,"type":"sentence","start":262,"end":271,"value":"'WhatsApp"}
-{"time":17219,"type":"sentence","start":262,"end":436,"value":"'WhatsApp Vasan aka Whatsapp GPT' was still actively courting the residents of Shanthi Vilas, with its daily regimen of motivational one-liners, homilies and words of wisdom."}
-{"time":27074,"type":"sentence","start":438,"end":542,"value":"Seniors continued to ask 'him' questions on WhatsApp and 'he' promptly replied to all of them, as usual."}
-{"time":33317,"type":"sentence","start":544,"end":671,"value":"In the club house, a few seniors were busy discussing the latest current affairs with 'WhatsApp Vasan' over Facebook Messenger."}

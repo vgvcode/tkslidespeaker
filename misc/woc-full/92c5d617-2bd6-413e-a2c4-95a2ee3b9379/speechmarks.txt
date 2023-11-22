@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":98,"value":"Meanwhile at the factory, we have deployed robots to perform quality inspections on bicycle parts."}
-{"time":5917,"type":"sentence","start":100,"end":172,"value":"This has greatly reduced the labor costs involved in quality inspection."}
-{"time":10334,"type":"sentence","start":174,"end":254,"value":"Our robots are able to achieve 98% accuracy on the inspection in the first pass."}
-{"time":15439,"type":"sentence","start":255,"end":332,"value":"We have added humans in the loop to improve the quality of inspection to 99%."}

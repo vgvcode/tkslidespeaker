@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":87,"value":"Linda, the Chief People Officer, was silently observing these conversations around her."}
-{"time":5067,"type":"sentence","start":88,"end":175,"value":"Next morning, she happened to meet the CEO, Sonya casually at the cafeteria for coffee."}

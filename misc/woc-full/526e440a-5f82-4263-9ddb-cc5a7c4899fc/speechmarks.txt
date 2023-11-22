@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":16,"value":"Chapter Fifteen."}
-{"time":1605,"type":"sentence","start":17,"end":82,"value":"Everything you wanted to know about A I (but were afraid to ask)."}

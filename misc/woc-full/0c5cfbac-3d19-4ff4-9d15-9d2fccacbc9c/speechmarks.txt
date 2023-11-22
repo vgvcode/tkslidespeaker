@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":92,"value":"Then they innovate by using disruptive technologies and enter the mainstream bicycle market."}
-{"time":5042,"type":"sentence","start":94,"end":165,"value":"They introduce many new products, like sleek bicycles with modern gear."}
-{"time":9297,"type":"sentence","start":167,"end":277,"value":"They throw in gadgets, fitness trackers, apps and various new features to appeal to the millennials and Gen Z."}
-{"time":15715,"type":"sentence","start":279,"end":348,"value":"Before we know it, their bicycles capture the attention of customers."}
-{"time":19695,"type":"sentence","start":350,"end":458,"value":"In a short span of ten years, they move from a relatively obscure company to the number one in the industry."}

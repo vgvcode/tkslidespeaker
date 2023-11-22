@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":103,"value":"Shanthi Vilas was a senior living community, nestled in a quiet village about three hours from Chennai."}
-{"time":6167,"type":"sentence","start":105,"end":240,"value":"Set up in a sprawling area over 10 acres in the rustic heartland, the colony was well isolated from the hustle and bustle of city life."}
-{"time":13922,"type":"sentence","start":242,"end":389,"value":"It was home to about a hundred senior families from all over India, many of whom had their sons and daughters living in various parts of the world."}

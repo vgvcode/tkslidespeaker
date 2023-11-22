@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":26,"value":"This is very interesting."}
-{"time":1842,"type":"sentence","start":28,"end":85,"value":"It will be a godsend for our Customer Service department."}
-{"time":5072,"type":"sentence","start":87,"end":147,"value":"They can respond to such emails within seconds\", Sonya said."}

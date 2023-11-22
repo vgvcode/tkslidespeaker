@@ -1,5 +1,0 @@
-In the past, engineers had to code the rules for machines using software. 
-For example a rule could be like, Before crossing the road, look to your left and right to see if there are vehicles approaching. 
-If there are vehicles approaching, stop. 
-Otherwise, proceed to cross the road. 
-Today, computers can learn these rules without being explicitly programmed. I will come to this shortly.

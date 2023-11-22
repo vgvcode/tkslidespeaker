@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":54,"value":"So how much time will the company give me to retrain?"}
-{"time":3167,"type":"sentence","start":55,"end":81,"value":"Will the training be free?"}
-{"time":4935,"type":"sentence","start":84,"end":105,"value":"quipped one employee."}

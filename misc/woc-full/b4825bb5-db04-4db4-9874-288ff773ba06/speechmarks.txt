@@ -1,6 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":120,"value":"All employees, from the worker at the factory floor to the CEO, could submit their innovative ideas through this portal."}
-{"time":6854,"type":"sentence","start":122,"end":210,"value":"It could be as simple as a back of the envelope drawing, a note, or a detailed proposal."}
-{"time":11784,"type":"sentence","start":211,"end":286,"value":"All ideas will be curated, reviewed and ranked by the leadership committee."}
-{"time":15952,"type":"sentence","start":287,"end":410,"value":"Every quarter, the winning ideas will be rewarded and the winner's name will be recognized in internal emails and websites."}
-{"time":22969,"type":"sentence","start":412,"end":506,"value":"Within three months of its roll out, the Idea factory had garnered a lot of interest at Cozmo."}
-{"time":28312,"type":"sentence","start":507,"end":576,"value":"There were many cool ideas (and some frivolous suggestions, as well)."}

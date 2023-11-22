@@ -1,5 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":58,"value":"Here's another example of why you see AI everywhere today."}
-{"time":3780,"type":"sentence","start":60,"end":199,"value":"Today's iPhone or Android phone is several times more powerful than the computer that was used for the first Apollo 11 landing on the moon."}
-{"time":11185,"type":"sentence","start":201,"end":255,"value":"Imagine what you can do with such power in your hands."}
-{"time":14602,"type":"sentence","start":256,"end":320,"value":"This is why we see so many interesting apps in our phones today."}
-{"time":18532,"type":"sentence","start":321,"end":409,"value":"Some of these can do complex things like Facial recognition, Speech Synthesis and so on."}

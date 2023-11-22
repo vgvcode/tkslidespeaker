@@ -1,2 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":14,"value":"Chapter Eight."}
-{"time":1292,"type":"sentence","start":15,"end":39,"value":"The innovator's dilemma."}

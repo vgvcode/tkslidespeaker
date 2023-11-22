@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":92,"value":"One area that has benefited from this is deep learning, which is a part of machine learning."}
-{"time":4730,"type":"sentence","start":94,"end":229,"value":"It allows computers to build millions of rules using layers of nodes, somewhat similar to how our brains work with billions of neurons."}
-{"time":11847,"type":"sentence","start":231,"end":264,"value":"These are called neural networks."}
-{"time":13977,"type":"sentence","start":266,"end":345,"value":"A computer that recognizes your image is an example of deep learning in action."}

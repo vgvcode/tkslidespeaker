@@ -1,4 +1,0 @@
-{"time":0,"type":"sentence","start":1,"end":18,"value":"Wheels of Change."}
-{"time":1455,"type":"sentence","start":19,"end":28,"value":"By JeeVa."}
-{"time":2810,"type":"sentence","start":29,"end":138,"value":"A venerable, 75 year old bicycle manufacturer tries to reinvent itself in the age of Artificial Intelligence."}
-{"time":9765,"type":"sentence","start":139,"end":157,"value":"Was it successful?"}

@@ -1,1 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":110,"value":"After playing email and phone tags with Sonya for a week, Linda finally got time from her for a lunch meeting."}

@@ -1,3 +1,0 @@
-{"time":0,"type":"sentence","start":0,"end":37,"value":"Let me start with a polling question."}
-{"time":2517,"type":"sentence","start":39,"end":108,"value":"In the last month, how many of you used one or more of the following:"}
-{"time":6897,"type":"sentence","start":110,"end":309,"value":"Used Google Translate\nWatched AI generated art or video (or 'Deep Fake' video)\nUsed Alexa, Siri or Google Voice\nOpened your phone using facial recognition\nAsked a question to Chat GPT or similar tool"}
