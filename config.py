@@ -18,6 +18,7 @@ outerButtonBgColor = "#004d00"
 innerButtonBgColor = "green"
 errorButtonBgColor = "red"
 textHightlightColor = "OliveDrab1"
+disabledForegroundColor = "gainsboro"
 autoAdvanceDelay = 3    #3 second delay before advancing to next page
 isPlaying = False
 
@@ -37,8 +38,6 @@ threadReturnValue = None
 maxSlides = 300
 maxDownloads = 100
 maxUploads = 30
-threadResult = None
-threadMessage = None
 
 #widgets
 rootWin = None

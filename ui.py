@@ -96,7 +96,8 @@ def clearPlaying():
     if result == "no":
         return False
     
-    uploadDownloadPlayControls(nextState = "normal")
+    setUploadDownloadPlayControls(nextState = "normal")
+    setPlayControls(nextState = "disabled")
     clearScreen()
     
 def clearScreen():
@@ -244,8 +245,8 @@ def show_progress_sync(seconds, bar):
     step = 100/seconds
     clearProgressBar(bar)
     for t in range(seconds):
-        time.sleep(1)
-        updateProgressBar(bar, step)
+        time.sleep(3)
+        updateProgressBar(bar, 3 * step)
 
 def show_progress_async(x, step, delay, bar):
     bar["value"] = 0
@@ -265,7 +266,7 @@ def clearProgressBar(bar):
     bar["value"] = 0
     cfg.rootWin.update_idletasks()
 
-def uploadDownloadPlayControls(nextState):
+def setUploadDownloadPlayControls(nextState):
     cfg.txtPresoName["state"] = nextState
     cfg.uploadButton["state"] = nextState
     cfg.downloadButton["state"] = nextState

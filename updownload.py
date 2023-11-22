@@ -120,10 +120,9 @@ def downloadPresentation(username, password, presoWithoutExt, progressBar):
     print("Client Id: {}".format(clientId))
     if clientId is None:
         #message set in getClientId
-        #cfg.threadResult = False
         return False
     
-    ui.updateProgressBar(progressBar, 10)
+    ui.updateProgressBar(progressBar, 5)
 
     print("Signed in, getting usage")
     today = date.today()
@@ -134,14 +133,12 @@ def downloadPresentation(username, password, presoWithoutExt, progressBar):
         print("No usage for client for {}. Creating a new entry".format(mmyyyy))
         usage = {"downloads" : 0}
 
-    ui.updateProgressBar(progressBar, 10)
+    ui.updateProgressBar(progressBar, 5)
 
     print("Checking download value")
     downloads = usage["downloads"]
     if downloads >= cfg.maxDownloads:
         messagebox.showerror("Error", "You have exceeded your download limit! Your downloads: {}, Limit: {}".format(downloads, cfg.maxDownloads))
-        #cfg.threadMessage = "You have exceeded your download limit! Your downloads: {}, Limit: {}".format(downloads, cfg.maxDownloads)
-        #cfg.threadResult = False
         return False
 
     print("Your downloads:{}".format(downloads))
@@ -161,7 +158,7 @@ def downloadPresentation(username, password, presoWithoutExt, progressBar):
     response = requests.request("GET", apiurl, headers=headers, data=payload)
     print("Completed.")
 
-    ui.updateProgressBar(progressBar, 30)
+    ui.updateProgressBar(progressBar, 5)
 
     #if download url failed exit here
 
@@ -171,8 +168,6 @@ def downloadPresentation(username, password, presoWithoutExt, progressBar):
 
     if len(body) == 0:
         messagebox.showerror("Error", "No data present for: {}".format(presoWithoutExt))
-        #cfg.threadMessage = "No data present for: {}".format(presoWithoutExt)
-        #cfg.threadResult = False
         return False
 
     print("Downloading files...")
@@ -202,27 +197,24 @@ def downloadPresentation(username, password, presoWithoutExt, progressBar):
         x = threading.Thread(target=downloadPresoFile, args=(psurl, file))
         x.start()
         threads.append(x)
-        ui.updateProgressBar(progressBar, 1)
+        ui.updateProgressBar(progressBar, 0.05)
 
-    ui.updateProgressBar(progressBar, 10)
+    ui.updateProgressBar(progressBar, 5)
 
     print("Waiting for all threads to finish")
     for t in threads:
         t.join()
     print("All threads finished")
 
-    ui.updateProgressBar(progressBar, 10)
+    ui.updateProgressBar(progressBar, 5)
 
     print("Updating usage")
     result = updateUsage(clientId, mmyyyy, "download", 1)
     if result is None:
         messagebox.error("Error", "Usage update failed for {},{},{},{}".format(clientId, mmyyyy, "download", 1))
-        #cfg.threadMessage = "Usage update failed for {},{},{},{}".format(clientId, mmyyyy, "download", 1)
-        #cfg.threadResult = False
         return False
     
     print("Updated usage")
-    #cfg.threadResult = True
     return True
 
 def uploadPresentation(username, password, preso, speaker, progressBar):
@@ -230,10 +222,6 @@ def uploadPresentation(username, password, preso, speaker, progressBar):
     print("Signing in...")
     clientId = getClientId(username, password)
     if clientId is None:
-        #messagebox.showerror('Error', 'Invalid client id!')
-        #message set in getClientId
-        #print("Client ID is None")
-        #cfg.threadResult = (False, 0, 0)
         return (False, 0, 0)
 
     ui.updateProgressBar(progressBar, 10)
@@ -248,8 +236,6 @@ def uploadPresentation(username, password, preso, speaker, progressBar):
     uploads = usage["uploads"]
     if uploads >= cfg.maxUploads:
         messagebox.showerror("Error", "You have exceeded your upload limit! Your uploads: {}, Limit: {}".format(uploads, cfg.maxUploads))
-        #cfg.threadMessage = "You have exceeded your upload limit! Your uploads: {}, Limit: {}".format(uploads, cfg.maxUploads)
-        #cfg.threadResult = (False, 0, 0)
         return (False, 0, 0)
 
     print("Your uploads:{}".format(uploads))
@@ -259,8 +245,6 @@ def uploadPresentation(username, password, preso, speaker, progressBar):
     #if conversion failed, exit here
     if numSlides > cfg.maxSlides:
         messagebox.showerror('Error', 'Your presentation has {} slides. Please reduce the number of slides to 300 or less.'.format(numSlides))
-        #cfg.threadMessage = "Your presentation has {} slides. Please reduce the number of slides to 300 or less.".format(numSlides)
-        #cfg.threadResult = (False, 0, 0)
         return (False, 0, 0)
 
     print("Converted presentation: {}".format(presoFilePath))
@@ -284,8 +268,6 @@ def uploadPresentation(username, password, preso, speaker, progressBar):
     result, size = uploadFileToPresignedUrl(key, localFilePath=speakerFilePath)
     if result is False:
         messagebox.showerror("Error", "Upload of speaker data to S3 failed")
-        #cfg.threadMessage = "Upload of speaker data to S3 failed"
-        #cfg.threadResult = (False, 0, 0)
         return (False, 0, 0)
     ui.updateProgressBar(progressBar, 10)
 
@@ -294,8 +276,6 @@ def uploadPresentation(username, password, preso, speaker, progressBar):
     result, size = uploadFileToPresignedUrl(key, localFilePath=presoFilePath)
     if result is False:
         messagebox.showerror("Error", "Upload of {} to S3 failed".format(presoFilePath))
-        #cfg.threadMessage = "Upload of {} to S3 failed".format(presoFilePath)
-        #cfg.threadResult = (False, 0, 0)
         return (False, 0, 0)
     ui.updateProgressBar(progressBar, 10)
 
@@ -304,13 +284,10 @@ def uploadPresentation(username, password, preso, speaker, progressBar):
     updateUsage(clientId, mmyyyy, "upload", 1)
     if result is None:
         messagebox.showerror("Error", "Usage update failed for {},{},{},{}".format(clientId, mmyyyy, "upload", 1))
-        #cfg.threadResult = (False, 0, 0)
-        #cfg.threadMessage = "Usage update failed for {},{},{},{}".format(clientId, mmyyyy, "upload", 1)
         return (False, 0, 0)
     ui.updateProgressBar(progressBar, 10)
     
     print("Updated usage")
-    #cfg.threadResult = (True, size, numSlides)
     return (True, size, numSlides)
 
 def uploadFileToPresignedUrl(key, localFilePath):

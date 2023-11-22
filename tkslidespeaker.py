@@ -35,7 +35,7 @@ def playCallback():
     else:       
         cfg.can_image_container = cfg.can.create_image(0,0, anchor="nw",image=None)
         rd.readPresentation(presoWithoutExt)
-        ui.uploadDownloadPlayControls("disabled")
+        ui.setUploadDownloadPlayControls("disabled")
         ui.setupGotoPageCombo()
         #print("PlayCallback: Length of preso {}".format(len(cfg.presentation["pages"])))
         ui.showFirst()
@@ -60,20 +60,9 @@ def downloadCallback():
     
     username, password = result
 
-    #bar.pack_forget()
-    #bar_indet.pack()
-    #t = threading.Thread(target=updown.downloadPresentation, args=(result[0], result[1], presoWithoutExt))
-    #t.start()
-    #while t.is_alive():
-    #    bar_indet['value'] = (bar_indet['value'] + 10) % 100
-    #    cfg.rootWin.update_idletasks()
-    #    time.sleep(0.5)
-    #result = cfg.threadResult
-
     result = updown.downloadPresentation(username, password, presoWithoutExt, bar)
     ui.clearProgressBar(bar)
     if result is False:
-        #messagebox.showerror('Error', cfg.threadMessage)        
         return False
 
     messagebox.showinfo('Information', 'Downloaded voice enabled presentation!')
@@ -105,22 +94,11 @@ def uploadCallback():
         return False
 
     username, password = result
-
-    #bar.pack_forget()
-    #bar_indet.pack()
-    #t = threading.Thread(target=updown.uploadPresentation, args=(username, password, presoName, speaker))
-    #t.start()
-    #while t.is_alive():
-    #    bar_indet['value'] = (bar_indet['value'] + 10) % 100
-    #    cfg.rootWin.update_idletasks()
-    #    time.sleep(0.1)
-    #uploadResult, size, numSlides = cfg.threadResult
         
     uploadResult, size, numSlides = updown.uploadPresentation(username, password, presoName, speaker, bar)
     ui.clearProgressBar(bar)
-    #if upload failed, put a message here
+    #if upload failed exit
     if uploadResult is False:
-        #messagebox.showerror('Error', cfg.threadMessage)
         return False
     
     result = messagebox.askquestion('Play it?', 'Adding AI voice to the presentation...\nWould you like to play it when completed?')
@@ -128,8 +106,6 @@ def uploadCallback():
         return False
 
     #min 30, then add 3 seconds delay for every slide
-    #bar_indet.pack_forget()
-    #bar.pack()
     delay = int(30 + numSlides * 3)
     print("Delay in seconds: {}".format(delay))
     ui.show_progress_sync(delay, bar)
@@ -141,8 +117,6 @@ def uploadCallback():
         shutil.rmtree(presoRootFolder)
         print("Deleted previous presentation folder")
 
-    #bar.pack_forget()
-    #bar_indet.pack()
     result = updown.downloadPresentation(username, password, presoWithoutExt, bar)
     ui.clearProgressBar(bar)
     if result is False:
@@ -150,7 +124,7 @@ def uploadCallback():
     
     cfg.txtPresoName.config(state=DISABLED)
     rd.readPresentation(presoWithoutExt)
-    ui.uploadDownloadPlayControls("disabled")
+    ui.setUploadDownloadPlayControls("disabled")
     ui.setupGotoPageCombo()
     ui.showFirst()
 
@@ -181,11 +155,13 @@ actionFrame = Frame(cfg.rootWin)
 actionFrame.grid(row = 1, column = 0)
 
 # Set Button with callback
-cfg.uploadButton = Button(actionFrame, text = "1. Upload a Powerpoint presentation.", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:uploadCallback())
-cfg.downloadButton = Button(actionFrame, text = "2. Download a voice enabled presentation.", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:downloadCallback())
-cfg.playButton = Button(actionFrame, text = "3. Play it!", fg ='white', bg = cfg.innerButtonBgColor, command=lambda:playCallback())
+cfg.uploadButton = Button(actionFrame, text = "1. Upload a Powerpoint presentation.", fg ='white', bg = cfg.innerButtonBgColor, disabledforeground=cfg.disabledForegroundColor, command=lambda:uploadCallback())
 cfg.uploadButton.pack(side = LEFT, fill=BOTH, padx=10, pady = 10)
+
+cfg.downloadButton = Button(actionFrame, text = "2. Download an AI voice enabled presentation.", fg ='white', bg = cfg.innerButtonBgColor, disabledforeground=cfg.disabledForegroundColor, command=lambda:downloadCallback())
 cfg.downloadButton.pack(side = LEFT, fill=BOTH, padx=10, pady = 10)
+
+cfg.playButton = Button(actionFrame, text = "3. Play it!", fg ='white', bg = cfg.innerButtonBgColor, disabledforeground=cfg.disabledForegroundColor, command=lambda:playCallback())
 cfg.playButton.pack(side = LEFT, fill=BOTH, padx = 10, pady = 10)
 
 progressFrame = Frame(cfg.rootWin)
@@ -217,22 +193,22 @@ cfg.txtNotes = Text(buttonsFrame, height=cfg.notesHeight, width=cfg.notesWidth, 
 cfg.txtNotes.config(state=DISABLED)
 cfg.txtNotes.pack( side = TOP)
 
-cfg.firstButton = Button(buttonsFrame, text ='First', fg ='white', bg = cfg.outerButtonBgColor, command=lambda:ui.showFirst()) 
+cfg.firstButton = Button(buttonsFrame, text ='First', fg ='white', bg = cfg.outerButtonBgColor, disabledforeground=cfg.disabledForegroundColor, command=lambda:ui.showFirst()) 
 cfg.firstButton.pack( side = LEFT, fill = BOTH, expand = True)
-cfg.replayButton = Button(buttonsFrame, text ='Replay', fg ='white', bg = cfg.innerButtonBgColor, command=lambda:ui.showCurrent()) 
+cfg.firstButton["state"]="disabled"
+cfg.replayButton = Button(buttonsFrame, text ='Replay', fg ='white', bg = cfg.innerButtonBgColor, disabledforeground=cfg.disabledForegroundColor, command=lambda:ui.showCurrent()) 
 cfg.replayButton.pack( side = LEFT, fill = BOTH, expand = True)
 cfg.replayButton["state"]="disabled"
-cfg.firstButton["state"]="disabled"
-cfg.previousButton = Button(buttonsFrame, text = 'Previous', fg ='white', bg = cfg.innerButtonBgColor, command=lambda:ui.showPrevious()) 
+cfg.previousButton = Button(buttonsFrame, text = 'Previous', fg ='white', bg = cfg.innerButtonBgColor, disabledforeground=cfg.disabledForegroundColor, command=lambda:ui.showPrevious()) 
 cfg.previousButton.pack( side = LEFT, fill = BOTH, expand = True) 
 cfg.previousButton["state"]="disabled"
-cfg.nextButton = Button(buttonsFrame, text = 'Next', fg ='white', bg = cfg.innerButtonBgColor, command=lambda:ui.showNext()) 
+cfg.nextButton = Button(buttonsFrame, text = 'Next', fg ='white', bg = cfg.innerButtonBgColor, disabledforeground=cfg.disabledForegroundColor, command=lambda:ui.showNext()) 
 cfg.nextButton.pack(side = LEFT, fill = BOTH, expand = True) 
 cfg.nextButton["state"]="disabled"
-cfg.lastButton = Button(buttonsFrame, text ='Last', fg ='white', bg = cfg.outerButtonBgColor, command=lambda:ui.showLast()) 
+cfg.lastButton = Button(buttonsFrame, text ='Last', fg ='white', bg = cfg.outerButtonBgColor, disabledforeground=cfg.disabledForegroundColor, command=lambda:ui.showLast()) 
 cfg.lastButton.pack( side = LEFT, fill = BOTH, expand = True)
 cfg.lastButton["state"]="disabled"
-cfg.stopButton = Button(buttonsFrame, text ='Stop', fg ='white', bg = cfg.errorButtonBgColor, command=lambda:ui.clearPlaying()) 
+cfg.stopButton = Button(buttonsFrame, text ='Stop', fg ='white', bg = cfg.errorButtonBgColor, disabledforeground=cfg.disabledForegroundColor, command=lambda:ui.clearPlaying()) 
 cfg.stopButton.pack( side = LEFT, fill = BOTH, expand = True)
 cfg.stopButton["state"]="disabled"
 
