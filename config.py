@@ -36,8 +36,6 @@ autoAdvance = 0
 speakerList = ["Joanna", "Amy", "Kajal", "Stephen", "Brian", "Kumar", "Malar"]
 threadReturnValue = None
 maxSlides = 300
-maxDownloads = 100
-maxUploads = 30
 
 #widgets
 rootWin = None
@@ -55,4 +53,5 @@ nextButton = None
 previousButton = None
 replayButton = None
 stopButton = None
+autoAdvanceCheckBox = None
 progressBar = None

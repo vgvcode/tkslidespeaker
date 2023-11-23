@@ -222,8 +222,8 @@ gotoPageFrame.grid(row = 7, column = 0)
 
 #Auto Advance checkbox
 cfg.autoAdvance = IntVar()
-autoAdvanceCheckBox = Checkbutton(gotoPageFrame, variable = cfg.autoAdvance, text="Auto advance", onvalue=1, offvalue=0, command=ui.toggleAutoAdvance)
-autoAdvanceCheckBox.pack(side = LEFT, fill=BOTH, expand=True)
+cfg.autoAdvanceCheckBox = Checkbutton(gotoPageFrame, variable = cfg.autoAdvance, text="Auto advance", onvalue=1, offvalue=0, command=ui.toggleAutoAdvance)
+cfg.autoAdvanceCheckBox.pack(side = LEFT, fill=BOTH, expand=True)
 
 # Label creation
 goToPageLabel = Label(gotoPageFrame, text = "Go to page:")

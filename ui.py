@@ -242,11 +242,13 @@ def show_speaker_dialog():
     return dialog.result
 
 def show_progress_sync(seconds, bar):
-    step = 100/seconds
+    sleepInterval = 3
+    barStep = sleepInterval * 100/seconds
+    timeSteps = int(seconds/sleepInterval)
     clearProgressBar(bar)
-    for t in range(seconds):
-        time.sleep(3)
-        updateProgressBar(bar, 3 * step)
+    for t in range(timeSteps):
+        time.sleep(sleepInterval)
+        updateProgressBar(bar, barStep)
 
 def show_progress_async(x, step, delay, bar):
     bar["value"] = 0

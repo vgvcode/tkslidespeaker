@@ -11,6 +11,8 @@ def create_images_with_notes_presentation(images_folder, notes_folder, output_pp
     n = count_files(images_folder)  # Replace 'n' with the number of images you have
     print(f"Creating a presentation with {n} image slides and notes...")
 
+    #defaultPptxPath = os.path.join(os.getcwd(), "default.pptx")
+    #prs = Presentation(defaultPptxPath)
     prs = Presentation()
 
     for i in range(1, n + 1):  # Replace 'n' with the number of images you have
