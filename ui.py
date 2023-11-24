@@ -84,6 +84,12 @@ def showLast():
         #print("ShowLast: PageNum: {}, Presentation Length:{}".format(cfg.pageNum, len(cfg.presentation["pages"])))
         show()
 
+def showLastPageRead():
+    if not cfg.isPlaying:
+        cfg.pageNum = cfg.presentation["lastread"]
+        #print("ShowLast: PageNum: {}, Presentation Length:{}".format(cfg.pageNum, len(cfg.presentation["pages"])))
+        show()
+
 def showCurrent():
     if not cfg.isPlaying:
         show()
@@ -92,13 +98,19 @@ def clearPlaying():
     if cfg.isPlaying:
         return False
     
-    result = messagebox.askquestion('Stop?', 'Stop playing current presentation?')
-    if result == "no":
-        return False
+    #is there a valid presentation?>
+    if len(cfg.presentation["pages"]) > 0:
+        result = messagebox.askquestion('Stop?', 'Stop playing current presentation?')
+        if result == "no":
+            return False
     
-    setUploadDownloadPlayControls(nextState = "normal")
-    setPlayControls(nextState = "disabled")
-    clearScreen()
+        cfg.presentation["lastread"] = cfg.pageNum
+        print("Last read page: {}".format(cfg.presentation["lastread"]))
+        setUploadDownloadPlayControls(nextState = "normal")
+        setPlayControls(nextState = "disabled")
+        clearScreen()
+        saveLastRead(cfg.presentation)
+    return True
     
 def clearScreen():
     cfg.can.delete("all")
@@ -199,10 +211,12 @@ def toggleAutoAdvance():
     pass
 
 def onClosing():
+    cfg.autoAdvance.set(0)
     if cfg.isPlaying:
         messagebox.showwarning("Warning", "Please wait for the current sound to finish playing")
     else:
-        cfg.rootWin.destroy()
+        if clearPlaying():
+            cfg.rootWin.destroy()
 
 class LoginDialog(simpledialog.Dialog):
     def body(self, master):
@@ -222,26 +236,30 @@ class LoginDialog(simpledialog.Dialog):
         password = self.password_entry.get()
         self.result = (username, password)
 
-def show_login_dialog():
+def showLoginDialog():
     dialog = LoginDialog(cfg.rootWin, title="Login")
     return dialog.result
 
 class ComboBoxModalBox(simpledialog.Dialog):
     def body(self, master):
         self.combo_var = StringVar()
-        self.combo_box = ttk.Combobox(master, textvariable=self.combo_var, values=cfg.speakerList)
-        self.combo_box.grid(row=0, column=0, padx=10, pady=10)
+        values = [elem[0] for elem in cfg.speakerList]
+        self.combo_box = ttk.Combobox(master, textvariable=self.combo_var, width = cfg.speakerComboBoxWidth, values=values)
+        self.combo_box.grid(row=0, column=0, columnspan = 2, padx=10, pady=10)
 
         return self.combo_box  # Focus on the combo box initially
 
     def apply(self):
-        self.result = self.combo_var.get()
+        value = self.combo_var.get()
+        speakerElements = [elem for elem in cfg.speakerList if elem[0] == value]
+        speaker = speakerElements[0][1]
+        self.result = speaker
 
-def show_speaker_dialog():
+def showSpeakerDialog():
     dialog = ComboBoxModalBox(cfg.rootWin, title="Select your speaker")
     return dialog.result
 
-def show_progress_sync(seconds, bar):
+def showProgressSync(seconds, bar):
     sleepInterval = 3
     barStep = sleepInterval * 100/seconds
     timeSteps = int(seconds/sleepInterval)
@@ -250,7 +268,7 @@ def show_progress_sync(seconds, bar):
         time.sleep(sleepInterval)
         updateProgressBar(bar, barStep)
 
-def show_progress_async(x, step, delay, bar):
+def showProgressAsync(x, step, delay, bar):
     bar["value"] = 0
     while x.is_alive():
         bar["value"] = bar["value"] + step
@@ -283,3 +301,13 @@ def setPlayControls(nextState):
     cfg.replayButton["state"] = nextState
     cfg.stopButton["state"] = nextState
 
+def saveLastRead(presentation):
+    presoWithoutExt = presentation["title"]
+    presoRootFolder = os.path.join(cfg.outputFolder, presoWithoutExt)
+
+    fileName = os.path.join(presoRootFolder, presoWithoutExt + ".lastread.json")
+    data = {
+        "lastread" : presentation["lastread"]
+    }
+    with open(fileName, "w") as f:
+        f.write(str(json.dumps(data)))

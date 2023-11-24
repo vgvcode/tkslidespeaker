@@ -21,6 +21,7 @@ textHightlightColor = "OliveDrab1"
 disabledForegroundColor = "gainsboro"
 autoAdvanceDelay = 3    #3 second delay before advancing to next page
 isPlaying = False
+speakerComboBoxWidth = 50 
 
 home = None
 appName = "tkslidespeaker"
@@ -30,10 +31,10 @@ stagingFolder = None
 tmpFolder = None
 outputFolder = None
 txtPresoName = None
-pageNum = 1
+pageNum = 0
 presentation = {"pages" : []}
 autoAdvance = 0
-speakerList = ["Joanna", "Amy", "Kajal", "Stephen", "Brian", "Kumar", "Malar"]
+speakerList = [("US English, Female, Joanna", "Joanna"), ("British English, Female, Amy", "Amy"), ("Indian English, Female, Kajal", "Kajal"), ("US English, Male, Stephen", "Stephen"), ("British English, Male, Brian", "Brian"), ("Tamil, Male, Kumar", "Kumar"), ("Tamil, Female, Malar", "Malar")]
 threadReturnValue = None
 maxSlides = 300
 

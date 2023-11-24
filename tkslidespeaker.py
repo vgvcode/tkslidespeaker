@@ -37,8 +37,12 @@ def playCallback():
         rd.readPresentation(presoWithoutExt)
         ui.setUploadDownloadPlayControls("disabled")
         ui.setupGotoPageCombo()
-        #print("PlayCallback: Length of preso {}".format(len(cfg.presentation["pages"])))
-        ui.showFirst()
+        #print("PlayCallback: Length of preso {}".format(len(cfg.presentation["pages"])))no
+        if cfg.presentation["lastread"] > 1:
+            result = messagebox.askquestion('Go to last page?', 'Go to page {}, the last page read?'.format(cfg.presentation["lastread"]))
+            if result == "no":
+                ui.showFirst()
+        ui.showLastPageRead()
 
 def downloadCallback():
     presoName = cfg.txtPresoName.get()
@@ -54,7 +58,7 @@ def downloadCallback():
         if result == "no":
             return False
 
-    result = ui.show_login_dialog()
+    result = ui.showLoginDialog()
     if result is None:
         return False
     
@@ -89,7 +93,7 @@ def uploadCallback():
     
     print("Speaker selected {}".format(speaker))
 
-    result = ui.show_login_dialog()
+    result = ui.showLoginDialog()
     if result is None:
         return False
 

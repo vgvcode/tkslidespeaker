@@ -139,7 +139,7 @@ def downloadPresentation(username, password, presoWithoutExt, progressBar):
     downloads = usage["downloads"]
     allow_downloads = usage["allow_downloads"]
     if allow_downloads == 0:
-        messagebox.showerror("Error", "You have exceeded your download limit! Your downloads: {}, Limit: {}".format(downloads, cfg.maxDownloads))
+        messagebox.showerror("Error", "You have exceeded your download limit! Your downloads: {}".format(downloads))
         return False
 
     print("Your downloads:{}".format(downloads))
@@ -237,7 +237,7 @@ def uploadPresentation(username, password, preso, speaker, progressBar):
     uploads = usage["uploads"]
     allow_uploads = usage["allow_uploads"]
     if allow_uploads == 0:
-        messagebox.showerror("Error", "You have exceeded your upload limit! Your uploads: {}, Limit: {}".format(uploads, cfg.maxUploads))
+        messagebox.showerror("Error", "You have exceeded your upload limit! Your uploads: {}".format(uploads))
         return (False, 0, 0)
 
     print("Your uploads:{}".format(uploads))

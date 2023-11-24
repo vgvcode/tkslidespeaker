@@ -21,11 +21,6 @@ def readSound(path):
         playsound(path)
         cfg.isPlaying = False
         #print("Finished playing sound")
-        cfg.goToPageCombo.config(state = "readonly")
-        if cfg.autoAdvance.get() == 1:
-            #print("Auto advance is on")
-            timerShowNext = Timer(cfg.autoAdvanceDelay, ui.showNext)
-            timerShowNext.start()
     except playsound.PlaysoundException as e:
         print("Error playing sound: {}".format(e))
     except:
@@ -33,6 +28,11 @@ def readSound(path):
     finally:
         cfg.isPlaying = False
         ui.setPlayControls(nextState="normal")
+        if cfg.autoAdvance.get() == 1:
+            #print("Auto advance is on")
+            timerShowNext = Timer(cfg.autoAdvanceDelay, ui.showNext)
+            timerShowNext.start()
+
 
 def getText(preso, pg):
     if "presentation.txt" in preso["pages"][pg]:
@@ -63,6 +63,7 @@ def readPresentation(presoWithoutExt):
     # #     "title" : "shapes-and-pictures",
     # #     "manifest.json" : "",
     # #     "speaker.json" : "",
+    # #     "lastread" : x,
     # #     "pages" :
     # #     [
     # #         {
@@ -134,6 +135,15 @@ def readPresentation(presoWithoutExt):
                 preso["pages"][pg][f] = readWrapper(os.path.join(presoRootFolder, root, f))
     #print("{} preso read".format(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
     cfg.presentation = preso
+
+    #check if last page read is present
+    lastPageReadFileName =  os.path.join(presoRootFolder, presoWithoutExt + ".lastread.json")
+    if os.path.exists(lastPageReadFileName):
+        lastPageRead = json.loads(readFile(lastPageReadFileName))
+        print("Last page read:{}".format(lastPageRead))
+        cfg.presentation['lastread'] = lastPageRead["lastread"]
+    else:
+        cfg.presentation['lastread'] = 1        
 
 def validatePresentationName(presoName):
     #if name contains any non alphanumeric character other than period, - return false
