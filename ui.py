@@ -1,7 +1,5 @@
 from tkinter import *
-from tkinter.font import Font
 import os
-from typing import Any
 from PIL import ImageTk, Image
 import json
 from threading import Timer
@@ -10,8 +8,10 @@ import readData as rd
 from tkinter import simpledialog
 from tkinter import ttk
 from tkinter import messagebox
-from tkinter.ttk import Progressbar
+import shutil
 import time
+import updownload as updown
+import threading
 
 def readImage(path):
     img = Image.open(path).resize((cfg.canvasWidth, cfg.canvasHeight))
@@ -252,38 +252,86 @@ class ComboBoxModalBox(simpledialog.Dialog):
     def apply(self):
         value = self.combo_var.get()
         speakerElements = [elem for elem in cfg.speakerList if elem[0] == value]
+        print(speakerElements)
         speaker = speakerElements[0][1]
-        self.result = speaker
+        languageCode = speakerElements[0][2]
+        print("Selected speaker, languageCode: {} {}".format(speaker, languageCode))
+        self.result = (speaker, languageCode)
 
 def showSpeakerDialog():
     dialog = ComboBoxModalBox(cfg.rootWin, title="Select your speaker")
     return dialog.result
 
-def showProgressSync(seconds, bar):
-    sleepInterval = 3
-    barStep = sleepInterval * 100/seconds
-    timeSteps = int(seconds/sleepInterval)
-    clearProgressBar(bar)
-    for t in range(timeSteps):
-        time.sleep(sleepInterval)
-        updateProgressBar(bar, barStep)
-
-def showProgressAsync(x, step, delay, bar):
-    bar["value"] = 0
-    while x.is_alive():
-        bar["value"] = bar["value"] + step
-        if bar["value"] > 100:
-            bar["value"] = 0
+def showProgress(step, args):
+    #print("showProgress step: {}, args: {} progress bar value: {}".format(step, args, cfg.progressBar["value"]))
+    nextVal = cfg.progressBar["value"] + step
+    if nextVal > 100:
+        clearProgressBar()
+        postUploadCallback(args)
+        setUploadDownloadPlayControls(nextState = "normal")
+        setPlayControls(nextState = "disabled")
+    else:
+        #repeat timer
+        cfg.progressBar["value"] = nextVal
         cfg.rootWin.update_idletasks()
-        time.sleep(delay)
-    bar["value"] = 100
+        threading.Timer(1, showProgress, args = (step, args)).start()
+    
+def postUploadCallback(args):
+    result = messagebox.askquestion('Play it?', 'Adding AI voice to the presentation...\nWould you like to play it when completed?')
+    if result == "no":
+        return False
 
-def updateProgressBar(bar, value):
-    bar["value"] = (bar["value"] + value) % 100
+    #delete the previous presentation folder in output folder
+    presoWithoutExt = args["presentation"].split(".")[0]
+    presoRootFolder = os.path.join(cfg.outputFolder, presoWithoutExt)
+    if os.path.exists(presoRootFolder) == True:
+        shutil.rmtree(presoRootFolder)
+        print("Deleted previous presentation folder")
+
+    result = updown.downloadPresentation(args["username"], args["password"], presoWithoutExt)
+    clearProgressBar()
+    if result is False:
+        return False
+
+    playIt(presoWithoutExt)
+    return True
+
+def playIt(presoWithoutExt):
+    cfg.can_image_container = cfg.can.create_image(0,0, anchor="nw",image=None)
+    rd.readPresentation(presoWithoutExt)
+    setUploadDownloadPlayControls("disabled")
+    setupGotoPageCombo()
+    if cfg.presentation["lastread"] > 1:
+        result = messagebox.askquestion('Go to last page?', 'Go to page {}, the last page read?'.format(cfg.presentation["lastread"]))
+        if result == "no":
+            showFirst()
+    showLastPageRead()
+
+# def showProgressSync(seconds, bar):
+#     sleepInterval = 3
+#     barStep = sleepInterval * 100/seconds
+#     timeSteps = int(seconds/sleepInterval)
+#     clearProgressBar(bar)
+#     for t in range(timeSteps):
+#         time.sleep(sleepInterval)
+#         updateProgressBar(bar, barStep)
+
+# def showProgressAsync(x, step, delay, bar):
+#     bar["value"] = 0
+#     while x.is_alive():
+#         bar["value"] = bar["value"] + step
+#         if bar["value"] > 100:
+#             bar["value"] = 0
+#         cfg.rootWin.update_idletasks()
+#         time.sleep(delay)
+#     bar["value"] = 100
+
+def updateProgressBar(step):
+    cfg.progressBar["value"] = (cfg.progressBar["value"] + step) % 100
     cfg.rootWin.update_idletasks()
 
-def clearProgressBar(bar):
-    bar["value"] = 0
+def clearProgressBar():
+    cfg.progressBar["value"] = 0
     cfg.rootWin.update_idletasks()
 
 def setUploadDownloadPlayControls(nextState):

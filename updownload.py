@@ -7,7 +7,7 @@ import config as cfg
 import ppt2converted as ppt2conv
 from tkinter import messagebox
 import platform
-from datetime import date
+from datetime import datetime
 import ui as ui
 
 def downloadPresoFile(url, filename):
@@ -38,6 +38,7 @@ def getClientId(username, password):
         "password": password
     })
     headers = {
+        'authorizationHeader': cfg.apiKey,
         'Content-Type': 'application/json'
     }
 
@@ -49,9 +50,6 @@ def getClientId(username, password):
     #print("rj:{}".format(rj))
     if "body" not in rj:
         messagebox.showerror("error", "Login failed!")
-        #print("Login failed!")
-        #cfg.threadMessage = "Login failed!"
-        #cfg.threadResult = False
         return None
 
     body = rj["body"]
@@ -59,21 +57,20 @@ def getClientId(username, password):
         return body
     else:
         messagebox.showerror("error", "Invalid client id!")
-        #print("Invalid client id!")
-        #cfg.threadMessage = "Invalid client id!"
-        #cfg.threadResult = False
         return None
-        #return "234"
 
-def getUsage(clientId, mmyyyy):
+def getUsage(idToken, clientId, email):
     #get the usage for this month
     #this is modeled as a GET method, so supply query params
     apiurl = "https://mw238rzarl.execute-api.ap-south-1.amazonaws.com/dev/slidespeaker/tenant-usage"
-    params = "client_id="+clientId+"&mmyyyy="+mmyyyy
+    params = "client_id="+clientId+"&email="+email    
     apiurlWithParams = apiurl + "?" + params
     print("apiurlWithParams:{}".format(apiurlWithParams))
+    headers = {
+        'Authorization': idToken
+    }
 
-    response = requests.request("GET", apiurlWithParams)
+    response = requests.request("GET", apiurlWithParams,headers=headers)
     r = response.text
     #print("r:{}".format(r))
     rj = json.loads(r)
@@ -81,26 +78,29 @@ def getUsage(clientId, mmyyyy):
     
     if "errorMessage" in rj:
         print("Error: {}".format(rj))
+        messagebox.showerror("Error", rj["errorMessage"])
         return None 
     
     body = rj["body"]
     if body is not None:
         return body
     else:
+        print("No usage for {}".format(email))
+        messagebox.showerror("Error", "No usage for {}".format(email))
         return None
 
-def updateUsage(clientId, mmyyyy, operation, delta):
+def updateUsage(idToken, clientId, email, operation, delta):
     #get the usage for this month
     apiurl = "https://mw238rzarl.execute-api.ap-south-1.amazonaws.com/dev/slidespeaker/tenant-usage"
 
     payload = json.dumps({
         "client_id": clientId,
-        "mmyyyy": mmyyyy,
+        "email": email,
         "operation": operation, 
         "delta": delta
     })
     headers = {
-        'Content-Type': 'application/json'
+        'Authorization': idToken
     }
 
     response = requests.request("POST", apiurl, headers=headers, data=payload)
@@ -112,37 +112,47 @@ def updateUsage(clientId, mmyyyy, operation, delta):
     if body is not None:
         return body
     else:
+        messagebox.showerror("Error", "Usage update failed for {}".format(email))
         return None
 
-def downloadPresentation(username, password, presoWithoutExt, progressBar):
+def downloadPresentation(username, password, presoWithoutExt):
     print("Signing in...")
-    clientId = getClientId(username, password)
-    print("Client Id: {}".format(clientId))
-    if clientId is None:
-        #message set in getClientId
+    result = getClientId(username, password)
+    if result is None:
         return False
+    clientId, accessToken, idToken = result
+    print("Client Id: {}".format(clientId))
     
-    ui.updateProgressBar(progressBar, 5)
+    ui.updateProgressBar(5)
 
-    print("Signed in, getting usage")
-    today = date.today()
-    mmyyyy = today.strftime("%m%Y") 
-    usage = getUsage(clientId, mmyyyy)
+    # print("Signed in, getting usage")
+    # today = date.today()
+    # mmyyyy = today.strftime("%m%Y")
+
+    #username is the email
+    email = username  
+    usage = getUsage(idToken, clientId, email)
     print("Usage: {}".format(usage))
     if usage is None:
-        print("No usage for client for {}. Creating a new entry".format(mmyyyy))
-        usage = {"downloads" : 0}
-
-    ui.updateProgressBar(progressBar, 5)
-
-    print("Checking download value")
-    downloads = usage["downloads"]
-    allow_downloads = usage["allow_downloads"]
-    if allow_downloads == 0:
-        messagebox.showerror("Error", "You have exceeded your download limit! Your downloads: {}".format(downloads))
         return False
 
-    print("Your downloads:{}".format(downloads))
+    ui.updateProgressBar(5)
+
+    print("Checking subscription end date")
+    end_date_str = usage["subscription_end_date"]
+    end_date =  datetime.strptime(end_date_str, '%d%m%Y')
+    today = datetime.now()
+    if end_date < today:
+        messagebox.showerror("Error", "Your subscription has expired! Your subscription end date: {}".format(end_date_str))
+        return False
+
+    print("Checking download value")
+    downloads_remaining = usage["downloads_remaining"]
+    if downloads_remaining <= 0:
+        messagebox.showerror("Error", "You have exceeded your download limit! Downloads left: {}".format(downloads_remaining))
+        return False
+
+    print("Your downloads:{}".format(downloads_remaining))
 
     prefix = clientId + "/" + presoWithoutExt
     print("Prefix: {}".format(prefix))
@@ -151,7 +161,8 @@ def downloadPresentation(username, password, presoWithoutExt, progressBar):
         "prefix": prefix
     })
     headers = {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Authorization': idToken
     }
     apiurl = "https://mw238rzarl.execute-api.ap-south-1.amazonaws.com/dev/slidespeaker/get-download-urls"
 
@@ -159,7 +170,7 @@ def downloadPresentation(username, password, presoWithoutExt, progressBar):
     response = requests.request("GET", apiurl, headers=headers, data=payload)
     print("Completed.")
 
-    ui.updateProgressBar(progressBar, 5)
+    ui.updateProgressBar(5)
 
     #if download url failed exit here
 
@@ -198,49 +209,61 @@ def downloadPresentation(username, password, presoWithoutExt, progressBar):
         x = threading.Thread(target=downloadPresoFile, args=(psurl, file))
         x.start()
         threads.append(x)
-        ui.updateProgressBar(progressBar, 0.05)
+        ui.updateProgressBar(0.05)
 
-    ui.updateProgressBar(progressBar, 5)
+    ui.updateProgressBar(5)
 
     print("Waiting for all threads to finish")
     for t in threads:
         t.join()
     print("All threads finished")
 
-    ui.updateProgressBar(progressBar, 5)
+    ui.updateProgressBar(5)
 
     print("Updating usage")
-    result = updateUsage(clientId, mmyyyy, "download", 1)
+    result = updateUsage(idToken, clientId, email, "download", 1)
     if result is None:
-        messagebox.error("Error", "Usage update failed for {},{},{},{}".format(clientId, mmyyyy, "download", 1))
         return False
     
     print("Updated usage")
     return True
 
-def uploadPresentation(username, password, preso, speaker, progressBar):
+def uploadPresentation(username, password, preso, speaker, languageCode = ""):
     #return (upload result, size of file) -- eg (True, 12345), (False, 0)
     print("Signing in...")
-    clientId = getClientId(username, password)
-    if clientId is None:
+    result = getClientId(username, password)
+    if result is None:
         return (False, 0, 0)
+    
+    clientId, accessToken, idToken = result
+    print("Client Id: {}".format(clientId)) 
 
-    ui.updateProgressBar(progressBar, 10)
-    today = date.today()
-    mmyyyy = today.strftime("%m%Y") 
-    usage = getUsage(clientId, mmyyyy)
+    ui.updateProgressBar(10)
+    # today = date.today()
+    # mmyyyy = today.strftime("%m%Y") 
+    #username is the email
+    email = username  
+    usage = getUsage(idToken, clientId, email)
     if usage is None:
-        print("No usage for client for {}".format(mmyyyy))
-        usage = {"uploads" : 0}
-
-    ui.updateProgressBar(progressBar, 10)
-    uploads = usage["uploads"]
-    allow_uploads = usage["allow_uploads"]
-    if allow_uploads == 0:
-        messagebox.showerror("Error", "You have exceeded your upload limit! Your uploads: {}".format(uploads))
         return (False, 0, 0)
 
-    print("Your uploads:{}".format(uploads))
+    ui.updateProgressBar(10)
+
+    print("Checking subscription end date")
+    end_date_str = usage["subscription_end_date"]
+    end_date =  datetime.strptime(end_date_str, '%d%m%Y')
+    today = datetime.now()
+    if end_date < today:
+        messagebox.showerror("Error", "Your subscription has expired! Your subscription end date: {}".format(end_date_str))
+        return (False, 0, 0)
+
+    print("Checking upload value")
+    uploads_remaining = usage["uploads_remaining"]
+    if uploads_remaining <= 0:
+        messagebox.showerror("Error", "You have exceeded your upload limit! Uploads left: {}".format(uploads_remaining))
+        return (False, 0, 0)
+
+    print("Your uploads:{}".format(uploads_remaining))
 
     print("Converting presentation")
     presoFilePath, numSlides = ppt2conv.convert(preso)
@@ -250,7 +273,7 @@ def uploadPresentation(username, password, preso, speaker, progressBar):
         return (False, 0, 0)
 
     print("Converted presentation: {}".format(presoFilePath))
-    ui.updateProgressBar(progressBar, 30)
+    ui.updateProgressBar(30)
 
     #Create a local speaker.json file
     presentationElements = preso.split(".")
@@ -259,7 +282,7 @@ def uploadPresentation(username, password, preso, speaker, progressBar):
     longSpeakerFileName = presoWithoutExt + "-" + "speaker.json"
     speakerFilePath = os.path.join(cfg.stagingFolder, longSpeakerFileName)
     f = open(speakerFilePath, "w")
-    data = {"speaker": speaker}
+    data = {"speaker": speaker, "languageCode": languageCode}
     f.write(json.dumps(data))
     f.close()
 
@@ -267,37 +290,40 @@ def uploadPresentation(username, password, preso, speaker, progressBar):
     #use presoWithoutExt as a folder prefix in S3
     speakerFileName = "speaker.json"
     key = clientId + "/" + presoWithoutExt + "/" + speakerFileName
-    result, size = uploadFileToPresignedUrl(key, localFilePath=speakerFilePath)
+    result, size = uploadFileToPresignedUrl(idToken, key, localFilePath=speakerFilePath)
     if result is False:
         messagebox.showerror("Error", "Upload of speaker data to S3 failed")
         return (False, 0, 0)
-    ui.updateProgressBar(progressBar, 10)
+    ui.updateProgressBar(10)
 
     #Upload presentation to s3
     key = clientId + "/" + preso
-    result, size = uploadFileToPresignedUrl(key, localFilePath=presoFilePath)
+    result, size = uploadFileToPresignedUrl(idToken, key, localFilePath=presoFilePath)
     if result is False:
-        messagebox.showerror("Error", "Upload of {} to S3 failed".format(presoFilePath))
         return (False, 0, 0)
-    ui.updateProgressBar(progressBar, 10)
+    ui.updateProgressBar(10)
 
     print("Result: {}, size: {}, numSlides:{}".format(result, size, numSlides))
 
-    updateUsage(clientId, mmyyyy, "upload", 1)
+    #username is the email
+    email = username
+    result = updateUsage(idToken, clientId, email, "upload", 1)
     if result is None:
-        messagebox.showerror("Error", "Usage update failed for {},{},{},{}".format(clientId, mmyyyy, "upload", 1))
         return (False, 0, 0)
-    ui.updateProgressBar(progressBar, 10)
+    ui.updateProgressBar(10)
     
     print("Updated usage")
     return (True, size, numSlides)
 
-def uploadFileToPresignedUrl(key, localFilePath):
+def uploadFileToPresignedUrl(idToken, key, localFilePath):
     #return (upload result, size of file) -- eg (True, 12345), (False, 0)
     print("Obtaining upload url")
     url = "https://mw238rzarl.execute-api.ap-south-1.amazonaws.com/dev/slidespeaker/get-upload-url"
     payload = json.dumps({"key": key})
-    headers = {'Content-Type': 'application/json'}
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': idToken
+    }
     response = requests.request("GET", url, headers=headers, data=payload)
 
     #if url was not obtained, exit here
@@ -321,4 +347,5 @@ def uploadFileToPresignedUrl(key, localFilePath):
             size = os.path.getsize(localFilePath)
             return (True, size)
     else:
+        messagebox.showerror("Error", "Upload of {} to S3 failed".format(localFilePath))
         return (False, 0)

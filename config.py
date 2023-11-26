@@ -34,9 +34,20 @@ txtPresoName = None
 pageNum = 0
 presentation = {"pages" : []}
 autoAdvance = 0
-speakerList = [("US English, Female, Joanna", "Joanna"), ("British English, Female, Amy", "Amy"), ("Indian English, Female, Kajal", "Kajal"), ("US English, Male, Stephen", "Stephen"), ("British English, Male, Brian", "Brian"), ("Tamil, Male, Kumar", "Kumar"), ("Tamil, Female, Malar", "Malar")]
+speakerList = [
+    ("US English, Female, Joanna", "Joanna", ""), 
+    ("British English, Female, Amy", "Amy", ""), 
+    ("Indian English, Female, Kajal", "Kajal", ""), 
+    ("US English, Male, Stephen", "Stephen", ""), 
+    ("British English, Male, Brian", "Brian", ""), 
+    ("Tamil, Male, Kumar", "Kumar", ""), 
+    ("Tamil, Female, Malar", "Malar", ""),
+    ("Hindi, Female, Kajal", "Kajal", "hi-IN")
+    ]
 threadReturnValue = None
 maxSlides = 300
+apiKey = 'maistrosoft.connectedworldtech'
+intervalTimer = None
 
 #widgets
 rootWin = None

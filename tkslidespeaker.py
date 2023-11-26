@@ -12,12 +12,11 @@ from pathlib import Path
 import config as cfg
 import readData as rd
 import ui as ui
-import shutil
 import threading
 import time
 
 cfg.home = Path.home()
-cfg.appFolder = os.path.join(cfg.home, cfg.appName)  #C:\users\vgvnv\tkslidespeaker 
+cfg.appFolder = os.path.join(cfg.home, "." + cfg.appName)  #C:\users\vgvnv\.tkslidespeaker 
 cfg.stagingFolder = os.path.join(cfg.appFolder, "staging") #C:\users\vgvnv\tkslidespeaker\staging
 cfg.tmpFolder = os.path.join(cfg.appFolder, "tmp") #C:\users\vgvnv\tkslidespeaker\tmp
 cfg.outputFolder = os.path.join(cfg.appFolder, "output") #C:\users\vgvnv\tkslidespeaker\output
@@ -33,16 +32,7 @@ def playCallback():
     if os.path.exists(presoRootFolder) == False:
         messagebox.showerror('Error', 'Presentation not found!')
     else:       
-        cfg.can_image_container = cfg.can.create_image(0,0, anchor="nw",image=None)
-        rd.readPresentation(presoWithoutExt)
-        ui.setUploadDownloadPlayControls("disabled")
-        ui.setupGotoPageCombo()
-        #print("PlayCallback: Length of preso {}".format(len(cfg.presentation["pages"])))no
-        if cfg.presentation["lastread"] > 1:
-            result = messagebox.askquestion('Go to last page?', 'Go to page {}, the last page read?'.format(cfg.presentation["lastread"]))
-            if result == "no":
-                ui.showFirst()
-        ui.showLastPageRead()
+        ui.playIt()
 
 def downloadCallback():
     presoName = cfg.txtPresoName.get()
@@ -64,8 +54,8 @@ def downloadCallback():
     
     username, password = result
 
-    result = updown.downloadPresentation(username, password, presoWithoutExt, bar)
-    ui.clearProgressBar(bar)
+    result = updown.downloadPresentation(username, password, presoWithoutExt)
+    ui.clearProgressBar()
     if result is False:
         return False
 
@@ -86,12 +76,14 @@ def uploadCallback():
     print("presoName: {}".format(presoName))
 
     #get the speaker
-    speaker = ui.show_speaker_dialog()
-    if speaker is None:
+    result = ui.showSpeakerDialog()
+    if result is not None:
+        speaker, languageCode = result
+    else:
         print("Speaker not selected")
         return False
     
-    print("Speaker selected {}".format(speaker))
+    print("Speaker, languageCode: {}, {}".format(speaker, languageCode))
 
     result = ui.showLoginDialog()
     if result is None:
@@ -99,38 +91,29 @@ def uploadCallback():
 
     username, password = result
         
-    uploadResult, size, numSlides = updown.uploadPresentation(username, password, presoName, speaker, bar)
-    ui.clearProgressBar(bar)
+    uploadResult, size, numSlides = updown.uploadPresentation(username, password, presoName, speaker, languageCode)
+    ui.clearProgressBar()
     #if upload failed exit
     if uploadResult is False:
         return False
-    
-    result = messagebox.askquestion('Play it?', 'Adding AI voice to the presentation...\nWould you like to play it when completed?')
-    if result == "no":
-        return False
+
+    #prevent user from clicking any play controls till upload is done
+    ui.setUploadDownloadPlayControls(nextState = "disabled")
+    ui.setPlayControls(nextState = "disabled")
 
     #min 30, then add 3 seconds delay for every slide
     delay = int(30 + numSlides * 3)
-    print("Delay in seconds: {}".format(delay))
-    ui.show_progress_sync(delay, bar)
-
-    #delete the previous presentation folder in output folder
-    presoWithoutExt = presoName.split(".")[0]
-    presoRootFolder = os.path.join(cfg.outputFolder, presoWithoutExt)
-    if os.path.exists(presoRootFolder) == True:
-        shutil.rmtree(presoRootFolder)
-        print("Deleted previous presentation folder")
-
-    result = updown.downloadPresentation(username, password, presoWithoutExt, bar)
-    ui.clearProgressBar(bar)
-    if result is False:
-        return False
+    step = 100/delay
+    print("Delay: {}, Interval: {}".format(delay, step))
+    cbargs = {"presentation" : presoName, "username" : username, "password" : password}
+    threading.Timer(1, ui.showProgress, args = (step, cbargs)).start()
+    return True
     
-    cfg.txtPresoName.config(state=DISABLED)
-    rd.readPresentation(presoWithoutExt)
-    ui.setUploadDownloadPlayControls("disabled")
-    ui.setupGotoPageCombo()
-    ui.showFirst()
+    #cfg.txtPresoName.config(state=DISABLED)
+    #rd.readPresentation(presoWithoutExt)
+    #i.setUploadDownloadPlayControls("disabled")
+    #ui.setupGotoPageCombo()
+    #ui.showFirst()
 
 def createFolders():
     #create folders needed. It will not raise error if it already exists
@@ -170,8 +153,8 @@ cfg.playButton.pack(side = LEFT, fill=BOTH, padx = 10, pady = 10)
 
 progressFrame = Frame(cfg.rootWin)
 progressFrame.grid(row = 2, column = 0)
-bar = Progressbar(progressFrame, orient=HORIZONTAL, length=500)
-bar.pack()
+cfg.progressBar = Progressbar(progressFrame, orient=HORIZONTAL, length=500)
+cfg.progressBar.pack()
 #bar_indet = Progressbar(progressFrame, orient=HORIZONTAL, length=500, mode = "indeterminate")
 #bar_indet.pack()
 
