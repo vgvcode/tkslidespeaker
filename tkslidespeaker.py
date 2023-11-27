@@ -32,7 +32,7 @@ def playCallback():
     if os.path.exists(presoRootFolder) == False:
         messagebox.showerror('Error', 'Presentation not found!')
     else:       
-        ui.playIt()
+        ui.playIt(presoWithoutExt)
 
 def downloadCallback():
     presoName = cfg.txtPresoName.get()
