@@ -143,13 +143,13 @@ actionFrame.grid(row = 1, column = 0)
 
 # Set Button with callback
 cfg.uploadButton = Button(actionFrame, text = "1. Upload a Powerpoint presentation.", fg ='white', bg = cfg.innerButtonBgColor, disabledforeground=cfg.disabledForegroundColor, command=lambda:uploadCallback())
-cfg.uploadButton.pack(side = LEFT, fill=BOTH, padx=10, pady = 10)
+cfg.uploadButton.pack(side = LEFT, fill=BOTH, padx=10, pady = 3)
 
 cfg.downloadButton = Button(actionFrame, text = "2. Download an AI voice enabled presentation.", fg ='white', bg = cfg.innerButtonBgColor, disabledforeground=cfg.disabledForegroundColor, command=lambda:downloadCallback())
-cfg.downloadButton.pack(side = LEFT, fill=BOTH, padx=10, pady = 10)
+cfg.downloadButton.pack(side = LEFT, fill=BOTH, padx=10, pady = 3)
 
 cfg.playButton = Button(actionFrame, text = "3. Play it!", fg ='white', bg = cfg.innerButtonBgColor, disabledforeground=cfg.disabledForegroundColor, command=lambda:playCallback())
-cfg.playButton.pack(side = LEFT, fill=BOTH, padx = 10, pady = 10)
+cfg.playButton.pack(side = LEFT, fill=BOTH, padx = 10, pady = 3)
 
 progressFrame = Frame(cfg.rootWin)
 progressFrame.grid(row = 2, column = 0)
@@ -178,6 +178,9 @@ buttonsFrame.grid(row = 5, column = 0)
 fontObj = Font(size=cfg.notesFontSize)
 cfg.txtNotes = Text(buttonsFrame, height=cfg.notesHeight, width=cfg.notesWidth, wrap='word', padx = cfg.notesPadX, font=fontObj)
 cfg.txtNotes.config(state=DISABLED)
+sbar=Scrollbar(buttonsFrame, orient='vertical')
+sbar.pack(side=RIGHT, fill='y')
+sbar.config(command=cfg.txtNotes.yview)
 cfg.txtNotes.pack( side = TOP)
 
 cfg.firstButton = Button(buttonsFrame, text ='First', fg ='white', bg = cfg.outerButtonBgColor, disabledforeground=cfg.disabledForegroundColor, command=lambda:ui.showFirst()) 
@@ -218,7 +221,7 @@ goToPageLabel.pack(side = LEFT, fill=BOTH, expand=True)
 
 # Combobox creation 
 pg = StringVar() 
-cfg.goToPageCombo = Combobox(gotoPageFrame, width = 10, height = 10, textvariable = pg)
+cfg.goToPageCombo = Combobox(gotoPageFrame, width = 10, height = 6, textvariable = pg)
 cfg.goToPageCombo.pack(side = LEFT, fill=BOTH, expand=True)
 cfg.goToPageCombo.config(state = "readonly")
 cfg.goToPageCombo.current()
